@@ -9111,8 +9111,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "7% K2HPO4solution"@en ,
                         "7¥% K$_2$HPO$_4$ solution"@en ,
                         "7¥% K$_2$HPO$_4$solution"@en ,
-                        "7¥% KH$_2$PO$_4$ solution"@en ,
-                        "7¥% KH$_2$PO$_4$solution"@en ,
                         "K$_2$HPO$_4$ solution (609 mM)"@en ,
                         "K2HPO4 solution (609 mM)"@en ;
             :GMO_000113 :GMO_000040 ,
@@ -9147,6 +9145,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "5¥% KH$_2$PO$_4$ solution"@en ,
                         "7% KH2PO4 solution"@en ,
                         "7% KH2PO4solution"@en ,
+                        "7¥% KH$_2$PO$_4$ solution"@en ,
+                        "7¥% KH$_2$PO$_4$solution"@en ,
                         "KH$_2$PO$_4$ (dissolve first, adjust pH to 7.0)"@en ,
                         "KH2PO4 (dissolve first, adjust pH to 7.0)"@en ;
             :GMO_000113 :GMO_000040 ,
