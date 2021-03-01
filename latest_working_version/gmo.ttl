@@ -9112,6 +9112,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "7¥% K$_2$HPO$_4$ solution"@en ,
                         "7¥% K$_2$HPO$_4$solution"@en ,
                         "7¥% KH$_2$PO$_4$ solution"@en ,
+                        "7¥% KH$_2$PO$_4$solution"@en ,
                         "K$_2$HPO$_4$ solution (609 mM)"@en ,
                         "K2HPO4 solution (609 mM)"@en ;
             :GMO_000113 :GMO_000040 ,
@@ -9146,7 +9147,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "5¥% KH$_2$PO$_4$ solution"@en ,
                         "7% KH2PO4 solution"@en ,
                         "7% KH2PO4solution"@en ,
-                        "7¥% KH$_2$PO$_4$solution"@en ,
                         "KH$_2$PO$_4$ (dissolve first, adjust pH to 7.0)"@en ,
                         "KH2PO4 (dissolve first, adjust pH to 7.0)"@en ;
             :GMO_000113 :GMO_000040 ,
@@ -16191,7 +16191,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001977 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001134 ;
             :GMO_000110 "Oatmeal (Quaker White Oats)"@en ,
-                        "Oatmeal, powdered (Quaker White Oats)"@en ;
+                        "Oatmeal, powdered (Quaker White Oats)"@en ,
+                        "Oatmeal (powder, Quaker White Oats)"@en ;
             dcterms:identifier "GMO_001977" ;
             rdfs:label "Quaker White Oats"@en ,
                        "クエーカーホワイトオーツ"@ja ;
