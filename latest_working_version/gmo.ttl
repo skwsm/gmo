@@ -16191,8 +16191,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001977 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001134 ;
             :GMO_000110 "Oatmeal (Quaker White Oats)"@en ,
-                        "Oatmeal, powdered (Quaker White Oats)"@en ,
-                        "Oatmeal (powder, Quaker White Oats)"@en ;
+                        "Oatmeal (powder, Quaker White Oats)"@en ,
+                        "Oatmeal, powdered (Quaker White Oats)"@en ;
             dcterms:identifier "GMO_001977" ;
             rdfs:label "Quaker White Oats"@en ,
                        "クエーカーホワイトオーツ"@ja ;
@@ -16600,7 +16600,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002008
 :GMO_002008 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001401 ;
-            dcterms:identifier <GMO_002008> ;
+            dcterms:identifier :GMO_002008 ;
             rdfs:label :GMO_000047 ,
                        "Xylan from oat spelts"@en ,
                        "キシラン カラスムギ由来"@ja ;
@@ -16648,6 +16648,43 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "ローカストビーンガム"@ja ;
             skos:definition "A galactomannan derived from locust bean seeds."@en ;
             skos:prefLabel "Locust bean gum"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002013
+:GMO_002013 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002013" ;
+            rdfs:label "Mannan from yeast"@en ;
+            skos:altLabel "Mannan (Saccharomyces cerevisiae)"@en ;
+            skos:prefLabel "Mannan from yeast"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002014
+:GMO_002014 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002014" ;
+            rdfs:label "Arabinan from sugar beet"@en ;
+            skos:prefLabel "Arabinan from sugar beet"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002015
+:GMO_002015 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002015" ;
+            rdfs:label "Arabinogalactan"@en ;
+            skos:definition "A biopolymer consisting of arabinose and galactose monosaccharides."@en ,
+                            "アラビノガラクタン"@ja ;
+            skos:prefLabel "Arabinogalactan"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002016
+:GMO_002016 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002015 ;
+            dcterms:identifier "GMO_002016"@ja ;
+            rdfs:label "Arabinogalactan from Larch"@en ;
+            skos:definition "A biopolymer frmo Larch woods, which consists of arabinose and galactose monosaccharides."@en ,
+                            "A biopolymer from Larch woods, which consists of arabinose and galactose monosaccharides."@en ;
+            skos:prefLabel "Arabinogalactan from Larch"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
