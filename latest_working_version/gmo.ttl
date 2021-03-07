@@ -1610,8 +1610,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001034
 :GMO_001034 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Cyanocobalamin"@en ,
-                        "Vitamin B$_1$$_2$"@en ,
+            :GMO_000110 "Vitamin B$_1$$_2$"@en ,
                         "Vitamin B$_12$"@en ,
                         "Vitamin B12"@en ,
                         "Vitamin B<sub>12</sub>"@en ,
@@ -1850,6 +1849,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "*P IV Metals: FeCl<sub>3</sub>&middot;6H<sub>2</sub>O"@en ,
                         "FeCl$_3$$¥cdot$6H$_2$O"@en ,
                         "FeCl3 6H2O"@en ,
+                        "FeCl3 x 6 H2O"@en ,
                         "FeCl<sub>3</sub>&middot;6H<sub>2</sub>O"@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -2028,10 +2028,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium pyruvate"@en ,
                        "ピルビン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_pyruvate ,
-                         chebi:CHEBI_50144 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23662274> ,
+                         chebi:CHEBI_50144 ;
             skos:altLabel "Pyruvic acid sodium salt"@en ;
-            skos:prefLabel "Sodium pyruvate"@en .
+            skos:prefLabel ""@en ,
+                           "Sodium pyruvate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001056
@@ -2540,8 +2541,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001084" ;
             rdfs:label "Diammonium hydrogen citrate"@en ;
-            rdfs:seeAlso chebi:CHEBI_63076 ,
-                         pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/18171> ,
+                         chebi:CHEBI_63076 ;
+            skos:altLabel "Diammonium citrate"@en ;
             skos:prefLabel "Diammonium hydrogen citrate"@en .
 
 
@@ -2708,11 +2710,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium selenite"@en ,
                        "亜セレン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_selenite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24934> ,
                          <http://purl.bioontology.org/ontology/MSH/D018038> ,
                          ndf:N0000148373 ,
                          snomed: ,
-                         chebi:CHEBI_48843 ,
-                         pubchem: ;
+                         chebi:CHEBI_48843 ;
             skos:prefLabel "Sodium selenite"@en .
 
 
@@ -3581,11 +3583,14 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001139" ;
-            rdfs:label "Fe(III)-EDTA"@en ;
-            rdfs:seeAlso wikipedia:EDTA ,
-                         <http://purl.bioontology.org/ontology/MSH/C019179> ,
-                         pubchem: ;
-            skos:prefLabel "Fe(III)-EDTA"@en .
+            rdfs:label "Fe(III)-EDTA"@en ,
+                       "エチレンジアミン四酢酸ー鉄(Ⅲ)"@ja ;
+            rdfs:seeAlso wikipedia:Ferric_EDTA ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/197149> ,
+                         <http://purl.bioontology.org/ontology/MSH/C019179> ;
+            skos:prefLabel <http://pubchem.ncbi.nlm.nih.gov/compound/28283> ,
+                           "Fe(III)-EDTA"@en ,
+                           "Iron(III)-EDTA"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001140
@@ -4793,9 +4798,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001208" ;
             rdfs:label "Ammonium citrate"@en ,
                        "クエン酸アンモニウム"@ja ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C481046> ,
-                         chebi:CHEBI_63037 ,
-                         pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/18954> ,
+                         <http://purl.bioontology.org/ontology/MSH/C481046> ,
+                         chebi:CHEBI_63037 ;
             skos:definition "Ammonium citrate"@en ;
             skos:prefLabel "Ammonium citrate"@en .
 
@@ -4874,12 +4879,14 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001213 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "R2A Broth \"DAIGO\""@en ,
+                        "R2A Broth \"DAIGO\" (Wako)"@en ,
                         "R2A Broth (DAIGO)"@en ,
                         "R2A broth (DAIGO) (Nihon Pharmaceutical Co.)"@en ,
                         "R2A broth DAIGO (Nihon seiyaku)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001213" ;
             rdfs:label "R2A broth DAIGO (Nihon seiyaku)"@en ;
+            skos:altLabel "R2A Broth DAIGO (Wako)"@en ;
             skos:prefLabel "R2A broth DAIGO (Nihon seiyaku)"@en .
 
 
@@ -5411,6 +5418,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "ダイゴIMK培地 (日本製薬)"@ja ;
             rdfs:seeAlso <http://www.nihon-pharm.co.jp/products/lifetech/product/youran/seihin_youran_04.pdf> ,
                          <http://www.siyaku.com/uh/Shs.do?dspCode=W01N0139-0133> ;
+            skos:altLabel "Daigo's IMK medium (Wako)"@en ;
             skos:definition "ダイゴIMK培地, 海産微細藻類培養用 (日本製薬)"@ja ;
             skos:prefLabel "Daigo's IMK medium (Nihon seiyaku)"@en .
 
@@ -5848,9 +5856,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "チミン"@ja ;
             rdfs:seeAlso wikipedia:Thymine ,
                          ncit:Thymine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1135> ,
                          <http://purl.bioontology.org/ontology/MSH/D013941> ,
-                         chebi:CHEBI_17821 ,
-                         pubchem: ;
+                         chebi:CHEBI_17821 ;
             skos:prefLabel "Thymine"@en .
 
 
@@ -5865,11 +5873,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Rhamnose"@en ;
             rdfs:seeAlso wikipedia:Rhamnose ,
                          ncit:Rhamnose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25310> ,
                          <http://purl.bioontology.org/ontology/MSH/D012210> ,
                          ndf:N0000168560 ,
                          snomed: ,
-                         chebi:CHEBI_26546 ,
-                         pubchem: ;
+                         chebi:CHEBI_26546 ;
             skos:prefLabel "Rhamnose"@en .
 
 
@@ -6060,10 +6068,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Carboxymethyl cellulose"@en ,
                        "カルボキシメチルセルロース"@ja ;
             rdfs:seeAlso wikipedia:Carboxymethyl_cellulose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24748> ,
                          <http://purl.bioontology.org/ontology/MSH/D002266> ,
                          ndf:N0000178973 ;
             skos:altLabel "CMC"@en ,
                           "Carmellose"@en ,
+                          "Croscarmellose"@en ,
                           "カルメロース"@ja ;
             skos:prefLabel "Carboxymethyl cellulose"@en .
 
@@ -6132,11 +6142,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "プロピオン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_propionate ,
                          ncit:Sodium_Propionate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8724> ,
                          <http://purl.bioontology.org/ontology/MSH/C514135> ,
                          ndf:N0000147294 ,
                          rxnorm: ,
-                         snomed:N0000147294 ,
-                         pubchem: ;
+                         snomed:N0000147294 ;
             skos:prefLabel "Sodium propionate"@en .
 
 
@@ -6233,8 +6243,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Crotonic acid"@en ,
                        "クロトン酸"@ja ;
             rdfs:seeAlso wikipedia:Crotonic_acid ,
-                         chebi:CHEBI_41131 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/637090> ,
+                         chebi:CHEBI_41131 ;
             skos:prefLabel "Crotonic acid"@en .
 
 
@@ -6685,7 +6695,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001322
 :GMO_001322 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001615 ;
-            :GMO_000110 "Polypepetone (Nihon seiyaku)"@en ,
+            :GMO_000110 "Hipolypeptone (Wako)"@en ,
+                        "Polypepetone (Nihon seiyaku)"@en ,
                         "Polypepton"@en ,
                         "Polypepton (Nihon Pharmaceutical Co.)"@en ,
                         "Polypepton (Nihon Seiyaku)"@en ,
@@ -6699,7 +6710,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
                          ndf:N0000005859 ,
                          rxnorm: ;
-            skos:altLabel "Polypepton"@en ;
+            skos:altLabel "Hipolypeptone (Wako)"@en ,
+                          "Polypepton"@en ,
+                          "Polypepton (Wako)"@en ;
             skos:prefLabel "Hipolypepton (Nihon seiyaku)"@en .
 
 
@@ -8011,7 +8024,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001397
 :GMO_001397 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001964 ;
+            rdfs:subClassOf :GMO_001552 ;
             :GMO_000110 "Fetal bovine serum (heat-inactivated)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001397" ;
@@ -8412,10 +8425,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "シチジン"@ja ;
             rdfs:seeAlso wikipedia:Cytidine ,
                          ncit:Cytidine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6175> ,
                          <http://purl.bioontology.org/ontology/MSH/D003562> ,
                          ndf:N0000007916 ,
-                         chebi:CHEBI_17562 ,
-                         pubchem: ;
+                         chebi:CHEBI_17562 ;
             skos:prefLabel "Cytidine"@en .
 
 
@@ -8734,11 +8747,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "ラクトース"@ja ;
             rdfs:seeAlso wikipedia:Lactose ,
                          ncit:Lactose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6134> ,
                          <http://purl.bioontology.org/ontology/MSH/D007785> ,
                          ndf:N0000146181 ,
                          rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         snomed: ;
             skos:altLabel "乳糖"@ja ;
             skos:prefLabel "Lactose"@en .
 
@@ -9346,8 +9359,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:label "Sodium pyruvate solution"@en ,
                        "ピルビン酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_pyruvate ,
-                         chebi:CHEBI_50144 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23662274> ,
+                         chebi:CHEBI_50144 ;
             skos:altLabel "Pyruvic acid sodium salt solution"@en ;
             skos:prefLabel "Sodium pyruvate solution"@en .
 
@@ -11295,7 +11308,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001598
 :GMO_001598 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002332 ;
             :GMO_000110 "Na$_2$B$_4$O$_7$$¥cdot$10H$_2$O"@en ,
                         "Na$_2$B$_4$O$_7$$¥cdot$10H$_2$O {@en}"@en ,
                         "Na$_2$B4O$_7$$¥cdot$10H$_2$O"@en ,
@@ -11310,6 +11323,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "ホウ砂"@ja ;
             rdfs:seeAlso wikipedia:Borax ,
                          ncit:C77496 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11954323> ,
                          <http://purl.bioontology.org/ontology/MSH/C018851> ,
                          rxnorm: ,
                          snomed: ,
@@ -12988,17 +13002,17 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001712
 :GMO_001712 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002312 ;
+            :GMO_000110 "1 M TES solution (pH 8.0)"@en ;
             :GMO_000112 :GMO_000038 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001712" ;
-            rdfs:comment "TAPSO is one of the Good's buffers"@en ;
-            rdfs:label "TES"@en ;
-            rdfs:seeAlso wikipedia: ,
-                         pubchem: ;
-            skos:prefLabel "TES"@en .
+            rdfs:comment "TES is one of the Good's buffers"@en ;
+            rdfs:label "TES buffer"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ;
+            skos:prefLabel "TES buffer"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001713
@@ -17383,6 +17397,597 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Phenylpropanoic_acid ;
             skos:altLabel "Hydrocinnamic acid"@en ;
             skos:prefLabel "Phenylpropanoic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002077
+:GMO_002077 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002077" ;
+            rdfs:label "Phenylacetic acid"@en ;
+            rdfs:seeAlso wikipedia:Phenylacetic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/999> ;
+            skos:altLabel "Phenylacetic acid"@en ,
+                          "フェニル酢酸"@ja ;
+            skos:prefLabel "Phenylacetic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002078
+:GMO_002078 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002078" ;
+            rdfs:label "Potassium fluorure"@en ;
+            rdfs:seeAlso wikipedia:Potassium_fluoride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/522689> ,
+                         "KF"@en ,
+                         "フッ化カリウム"@ja ;
+            skos:prefLabel "Potassium fluorure"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002079
+:GMO_002079 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002079" ;
+            rdfs:label "Ferrihydrite"@en ;
+            rdfs:seeAlso wikipedia:Ferrihydrite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/substance/135302383> ;
+            skos:prefLabel "Ferrihydrite"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002080
+:GMO_002080 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001047 ;
+            :GMO_000110 "FeCl3 x 6 H2O"@en ,
+                        "FeCl3・6H2O solution (0.03%)"@en ;
+            dcterms:identifier "GMO_002080" ;
+            rdfs:label "Iron(III) chloride hexahydrate solution"@en ;
+            skos:prefLabel "Iron(III) chloride hexahydrate solution"@en ,
+                           "塩化鉄(III)六水和物溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002081
+:GMO_002081 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "CrK(SO4)2・12H2O"@en ;
+            dcterms:identifier "GMO_002081" ;
+            rdfs:label "Chromium(III) potassium sulfate"@en ,
+                       "硫酸カリウムクロム(III)"@ja ;
+            rdfs:seeAlso wikipedia:Chrome_alum ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61489> ;
+            skos:altLabel "Chrome alum"@en ,
+                          "クロムミョウバン"@ja ;
+            skos:prefLabel "Chromium(III) potassium sulfate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002082
+:GMO_002082 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Cr2(SO4)3・xH2O"@en ;
+            dcterms:identifier "GMO_002082" ;
+            rdfs:label "Chromium(III) sulfate"@en ,
+                       "硫酸クロム(III)"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ;
+            skos:prefLabel "Chromium(III) sulfate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002083
+:GMO_002083 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001284 ;
+            dcterms:identifier "GMO_002083" ;
+            rdfs:label "Carboxymethyl cellulose, sodium salt"@en ,
+                       "カルボキシメチルセルロース ナトリウム塩"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23706213> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6328154> ;
+            skos:prefLabel "Carboxymethyl cellulose, sodium salt"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002084
+:GMO_002084 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001193 ;
+            :GMO_000110 "Ca(NO3)2・6H2O"@en ;
+            dcterms:identifier "GMO_002084" ;
+            rdfs:label "Calcium nitrate hexahydrate"@en ;
+            skos:prefLabel "Calcium nitrate hexahydrate"@en ,
+                           "硝酸カルシウム六水和物"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002085
+:GMO_002085 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001964 ;
+            dcterms:identifier "GMO_002085" ;
+            rdfs:label "Bovine calf serum (heat-inactivated)"@en ;
+            skos:prefLabel "Bovine calf serum (heat-inactivated)"@en ,
+                           "子牛血清 (熱不活化）"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002086
+:GMO_002086 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002086" ;
+            rdfs:label "Amphotericin B"@en ,
+                       "アムホテリシンB"@ja ;
+            rdfs:seeAlso wikipedia:Amphotericin_B ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14956> ;
+            skos:prefLabel "Amphotericin B"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002087
+:GMO_002087 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002087" ;
+            rdfs:label "Manganese dioxide"@en ,
+                       "二酸化マンガン"@ja ;
+            rdfs:seeAlso wikipedia:Manganese_dioxide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14801> ;
+            skos:prefLabel "Manganese dioxide"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002088
+:GMO_002088 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002087 ;
+            dcterms:identifier "GMO_002088" ;
+            rdfs:label "Manganese dioxide solution"@en ;
+            skos:altLabel "Manganese(IV) oxide"@en ,
+                          "酸化マンガン(IV)"@ja ;
+            skos:prefLabel "Manganese dioxide solution"@en ,
+                           "二酸化マンガン溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002089
+:GMO_002089 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002088" ;
+            rdfs:label "Xylitol"@en ,
+                       "キシリトール"@ja ;
+            rdfs:seeAlso wikipedia:Xylitol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6912> ;
+            skos:prefLabel "Xylitol"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002090
+:GMO_002090 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002089 ;
+            dcterms:identifier "GMO_002090" ;
+            rdfs:label "Xylitol solution"@en ,
+                       "キシリトール溶液"@ja ;
+            owl:backwardCompatibleWith "5% Xylitol solution"@en ;
+            skos:prefLabel "Xylitol solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002091
+:GMO_002091 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002091" ;
+            rdfs:label "Fucose"@en ,
+                       "フコース"@ja ;
+            rdfs:seeAlso wikipedia:Fucose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/17106> ;
+            skos:prefLabel "Fucose"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002092
+:GMO_002092 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002091 ;
+            :GMO_000110 "5% Fucose solution"@en ;
+            dcterms:identifier "GMO_002092" ;
+            rdfs:label "Fucose solution"@en ;
+            skos:prefLabel "Fucose solution"@en ,
+                           "フコース溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002093
+:GMO_002093 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002093" ;
+            rdfs:label "Indole-3-acetic acid"@en ,
+                       "インドール-3-酢酸"@ja ;
+            rdfs:seeAlso wikipedia:Indole-3-acetic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/802> ;
+            skos:altLabel "3-Indolyl acetic acid"@en ,
+                          "IAA"@en ;
+            skos:prefLabel "Indole-3-acetic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002094
+:GMO_002094 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001828 ;
+            :GMO_000110 "25 mM L-Cysteine・HCl solution" ;
+            dcterms:identifier "GMO_002094" ;
+            rdfs:label "L-Cysteine hydrochloride solution"@en ;
+            skos:prefLabel "L-Cysteine hydrochloride solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002095
+:GMO_002095 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001379 ;
+            :GMO_000110 "20 mM (NH4)2HPO4 solution"@en ;
+            dcterms:identifier "GMO_002095" ;
+            rdfs:label "Ammonium hydrogen phosphate solution"@en ,
+                       "リン酸二アンモニウム溶液"@ja ;
+            skos:prefLabel "Ammonium hydrogen phosphate solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002096
+:GMO_002096 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002096" ;
+            rdfs:label "Sodium crotonate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23665426> ;
+            skos:prefLabel "Sodium crotonate"@en ,
+                           "クロトン酸ナトリウム"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002097
+:GMO_002097 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002096 ;
+            dcterms:identifier "GMO_002097" ;
+            rdfs:label "Sodium crotonate solutionen"@en ;
+            skos:prefLabel "Sodium crotonate solutionen"@en ,
+                           "クロトン酸ナトリウム溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002098
+:GMO_002098 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002098" ;
+            rdfs:label "Isocetane"@en ,
+                       "イソセタン"@ja ;
+            rdfs:seeAlso wikipedia:Isocetane ;
+            skos:altLabel "2,2,4,4,6,8,8-Heptamethylnonane"@en ;
+            skos:prefLabel "Isocetane"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002099
+:GMO_002099 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001195 ;
+            :GMO_000110 "0.5 M Maltose solution"@en ,
+                        "1 M Maltose solution"@en ,
+                        "1.0 M Maltose solution"@en ,
+                        "10% (w/v) Maltose solution"@en ;
+            dcterms:identifier "GMO_002099" ;
+            rdfs:label "Maltose solution"@en ,
+                       "マルトース溶液"@ja ;
+            skos:prefLabel "Maltose solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002300
+:GMO_002300 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002300" ;
+            rdfs:label "Adenine"@en ;
+            rdfs:seeAlso wikipedia:Adenine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/190> ;
+            skos:prefLabel "Adenine"@en ,
+                           "アデニン"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002301
+:GMO_002301 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Fe(NO3)3"@en ;
+            dcterms:identifier "GMO_002301" ;
+            rdfs:label "Iron(III) nitrate"@en ,
+                       "硝酸鉄(III)"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_nitrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25251> ;
+            skos:altLabel "Ferric nitrate"@en ;
+            skos:prefLabel "Iron(III) nitrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002302
+:GMO_002302 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001837 ;
+            :GMO_000110 "10% Soluble starch solution"@en ;
+            dcterms:identifier "GMO_002302" ;
+            rdfs:label "Soluble starch solution"@en ;
+            skos:prefLabel "Soluble starch solution"@en ,
+                           "可溶性でんぷん溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002303
+:GMO_002303 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001211 ;
+            :GMO_000110 "10% Fe2(SO4)3 solution (in 0.01 N H2SO4 solution)"@en ;
+            dcterms:identifier "GMO_002303" ;
+            rdfs:label "Iron(III) sulfate solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002304
+:GMO_002304 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001239 ;
+            :GMO_000110 "10% (w/v) Xylose solution"@en ;
+            dcterms:identifier "GMO_002304" ;
+            rdfs:label "Xylose solution"@en ;
+            skos:prefLabel "Xylose solution"@en ,
+                           "キシロース溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002305
+:GMO_002305 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002019 ;
+            :GMO_000110 "10% (w/v) Colloidal chitin solution"@ja ;
+            rdfs:label "Colloidal chitin solution"@en ;
+            skos:prefLabel "Colloidal chitin solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002306
+:GMO_002306 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001139 ;
+            :GMO_000110 "10 mM Fe(III)・EDTA solution"@en ;
+            dcterms:identifier "GMO_002306" ;
+            rdfs:label "Fe(III)-EDTA solution"@en ,
+                       "エチレンジアミン四酢酸ー鉄(Ⅲ) 溶液"@ja ;
+            skos:prefLabel "Fe(III)-EDTA solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002307
+:GMO_002307 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001542 ;
+            :GMO_000110 "10 mM CuCl2 solution"@en ;
+            dcterms:identifier "GMO_002307" ;
+            rdfs:label "Copper(II) chloride solution"@en ;
+            skos:prefLabel "Copper(II) chloride solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002308
+:GMO_002308 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "CeCl3"@ja ;
+            dcterms:identifier "GMO_002308" ;
+            rdfs:label "Cerium(III) chloride"@en ,
+                       "塩化セリウム"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cerium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ;
+            skos:prefLabel "Cerium(III) chloride"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002309
+:GMO_002309 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002308 ;
+            :GMO_000110 "0.2 M CeCl3 solution"@en ,
+                        "10 mM CeCl3 solution" ;
+            dcterms:identifier "GMO_002309" ;
+            rdfs:label "Cerium(III) chloride solution"@en ;
+            skos:prefLabel "Cerium(III) chloride solution"@en ,
+                           "塩化セリウム溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002310
+:GMO_002310 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001288 ;
+            :GMO_000110 "1 M Sodium propionate solution"@en ,
+                        "1.0 M Sodium propionate solution"@en ;
+            dcterms:identifier "GMO_002310" ;
+            rdfs:label "Sodium propionate solution"@en ;
+            skos:prefLabel "Sodium propionate solution"@en ,
+                           "プロピオン酸ナトリウム溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002311
+:GMO_002311 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002311" ;
+            rdfs:label "1,4-Naphthoquinone"@en ,
+                       "1,4-ナフトキノン"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/1,4-Naphthoquinone> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8530> ;
+            skos:prefLabel "1,4-Naphthoquinone"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002312
+:GMO_002312 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002311" ;
+            rdfs:label "TES"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6992013> ;
+            skos:prefLabel "TES"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002313
+:GMO_002313 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002004 ;
+            :GMO_000110 "0.5 M L-Rhamnose solution"@en ;
+            dcterms:identifier "GMO_002313" ;
+            rdfs:label "L-Rhamnose solution"@en ;
+            skos:prefLabel "L-Rhamnose solution"@en ,
+                           "L-ラムノース溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002314
+:GMO_002314 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001445 ;
+            :GMO_000110 "0.25 M Lactose solution"@en ;
+            dcterms:identifier "GMO_002314" ;
+            rdfs:label "Lactose solution"@en ,
+                       "乳糖溶液"@ja ;
+            skos:prefLabel "Lactose solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002315
+:GMO_002315 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001093 ;
+            :GMO_000110 "0.1% Na2SeO3 solution"@en ;
+            dcterms:identifier "GMO_002315" ;
+            rdfs:label "Sodium selenite solution"@en ;
+            skos:prefLabel "Sodium selenite solution"@en ,
+                           "亜セレン酸ナトリウム溶液"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002316
+:GMO_002316 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001055 ;
+            dcterms:identifier "GMO_002316" ;
+            rdfs:label "Sodium pyruvate (Sigma)"@en ;
+            skos:prefLabel "Sodium pyruvate (Sigma)"@en ,
+                           "ピルビン酸ナトリウム(Sigma)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002317
+:GMO_002317 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002317" ;
+            rdfs:label "Sodium hydrogen phosphite"@en ;
+            rdfs:seeAlso wikipedia:Disodium_hydrogen_phosphite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16211071> ,
+                         "亜リン酸水素二ナトリウム"@ja ;
+            skos:prefLabel "Sodium hydrogen phosphite"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002318
+:GMO_002318 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "K2HPO3"@en ;
+            dcterms:identifier "GMO_002318" ;
+            rdfs:label "Dipotassium hydrogenphosphite"@en ,
+                       "亜リン酸水素二カリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/21270569> ;
+            skos:prefLabel "Dipotassium hydrogenphosphite"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002319
+:GMO_002319 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002319" ;
+            rdfs:label "Nissui olate sheep blood agar"@en ,
+                       "羊血液寒天培地（ニッスイ）"@ja ;
+            rdfs:seeAlso <http://www.nissui-pharm.co.jp/pdf/products/500/50001.pdf> ;
+            skos:prefLabel "Nissui plate sheep blood agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002320
+:GMO_002320 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002320" ;
+            rdfs:label "Vancomycin"@en ,
+                       "バンコマイシン"@ja ;
+            rdfs:seeAlso wikipedia:Vancomycin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14969> ;
+            skos:prefLabel "Vancomycin"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002321
+:GMO_002321 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002321" ;
+            dcterms:references <http://rdf.pubmed.ncbi.nlm.nih.gov/pubmed/871765> ;
+            rdfs:label "Campylobacter selective supplement (Skirrow)"@en ;
+            skos:prefLabel "Campylobacter selective supplement (Skirrow)"@en ,
+                           "スキロー選択サプリメント"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002322
+:GMO_002322 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002322" ;
+            rdfs:label "Trimethoprim"@en ;
+            rdfs:seeAlso wikipedia:Trimethoprim ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5578> ;
+            skos:prefLabel "Trimethoprim"@en ,
+                           "トリメトプリム"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002323
+:GMO_002323 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002323" ;
+            rdfs:label "Polymyxin B"@en ,
+                       "ポリミキシンB"@ja ;
+            rdfs:seeAlso wikipedia:Polymyxin_B ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5702105> ;
+            skos:prefLabel "Polymyxin B"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002324
+:GMO_002324 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002324" ;
+            rdfs:label "Kao and Michayluk vitamin solution"@en ,
+                       "Kao, Michayluk ビタミン溶液"@ja ;
+            skos:prefLabel "Kao and Michayluk vitamin solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002325
+:GMO_002325 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002325" ;
+            rdfs:label "Retinol"@en ;
+            rdfs:seeAlso wikipedia:Retinol ,
+                         wikipedia:Vitamin_A ;
+            skos:prefLabel "Retinol"@en ,
+                           "レチノール"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002326
+:GMO_002326 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002326" ;
+            rdfs:label "Cholecalciferol"@en ;
+            rdfs:seeAlso wikipedia:Cholecalciferol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5280795> ;
+            skos:altLabel "Vitamin D3"@en ,
+                          "コレカシフェロール"@ja ,
+                          "ビタミンD3"@ja ;
+            skos:prefLabel "Cholecalciferol"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002327
+:GMO_002327 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002327" ;
+            rdfs:label "Polypropylene glycol"@en ;
+            skos:prefLabel "Polypropylene glycol"@en ,
+                           "ポリプロピレングリコール"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002328
+:GMO_002328 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001034 ;
+            dcterms:identifier "GMO_002328" ;
+            rdfs:label "Cyanocobalamin"@en ;
+            rdfs:seeAlso wikipedia:Cyanocobalamin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16212801> ;
+            skos:altLabel "Vitamin B12"@en ;
+            skos:definition "A manufactured form of vitamin B 12"@en ;
+            skos:prefLabel "Cyanocobalamin"@en ,
+                           "シアノコバラミン"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002329
+:GMO_002329 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002329" ;
+            rdfs:label "Difco &trade; Leptospira Enrichment EMJH"@en ;
+            skos:prefLabel ""@en ,
+                           "Difco &trade; Leptospira Enrichment EMJH"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002330
+:GMO_002330 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001080 ;
+            dcterms:identifier "GMO_002330" ;
+            rdfs:label "Universal peptone M 66 (Merck)"@en ;
+            skos:definition "A mixture of casein peptone and meat peptone."@en ;
+            skos:prefLabel "Universal peptone M 66 (Merck)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002331
+:GMO_002331 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002331" ;
+            rdfs:label "Difco &trande; Bordet gengou agar base"@en ;
+            skos:prefLabel "Difco &trande; Bordet gengou agar base"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002332
+:GMO_002332 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na2B4O7"@en ;
+            dcterms:identifier "GMO_002332" ;
+            rdfs:label "Sodium Tetraborate"@en ,
+                       "テトラホウ酸ナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/10219853> ;
+            skos:prefLabel "Sodium Tetraborate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
