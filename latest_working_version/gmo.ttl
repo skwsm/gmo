@@ -1236,12 +1236,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Yeast extract (Difco)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001018" ;
-            rdfs:label "Bacto Yeast extract"@en ;
+            rdfs:label "Bacto &trade; Yeast extract"@en ;
             rdfs:seeAlso wikipedia:Yeast_extract ,
                          ndf:N0000023404 ;
             skos:altLabel "Bacto &trade; Yeast extract"@en ,
                           "Yeast Extract, Bacto &trade;"@en ;
-            skos:prefLabel "Bacto Yeast extract"@en .
+            skos:prefLabel "Bacto &trade; Yeast extract"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001019
@@ -1649,11 +1649,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "塩化亜鉛"@ja ;
             rdfs:seeAlso wikipedia:Zinc_chloride ,
                          ncit:Zinc_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3007855> ,
                          ndf:N0000146854 ,
                          rxnorm: ,
                          snomed: ,
-                         chebi:CHEBI_49976 ,
-                         pubchem: ;
+                         chebi:CHEBI_49976 ;
             skos:prefLabel "Zinc chloride"@en .
 
 
@@ -1955,6 +1955,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Na2SO4"@en ,
                         "Na<sub>2</sub>SO<sub>4</sub>"@en ,
                         "NaSO$_4$"@en ,
+                        "NaSO4"@en ,
                         "Sodium sulfate"@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -2126,11 +2127,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Polysorbate 80"@en ;
             rdfs:seeAlso wikipedia:Polysorbate_80 ,
                          ncit:Polysorbate_80 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5284448> ,
                          <http://purl.bioontology.org/ontology/MSH/D011136> ,
                          ndf:N0000146298 ,
-                         rxnorm: ,
-                         chebi:CHEBI_9785 ,
-                         pubchem: ;
+                         chebi:CHEBI_9785 ;
             skos:altLabel "Tween 80"@en ;
             skos:prefLabel "Polysorbate 80"@en .
 
@@ -2350,7 +2350,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "Beef extract"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001072" ;
-            rdfs:label "Beef extract"@en ;
+            rdfs:label "Beef extract"@en ,
+                       "牛肉の浸出液"@ja ;
             skos:prefLabel "Beef extract"@en .
 
 
@@ -2682,18 +2683,18 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001092
 :GMO_001092 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_001859 ;
             :GMO_000110 "Potato"@en ,
                         "Potato, peeled and cut"@en ,
                         "ポテトエキス"@ja ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001092" ;
-            rdfs:label "Potato"@en ;
+            rdfs:label "Potato extract"@en ;
             rdfs:seeAlso wikipedia:Potato ,
                          ncit:C72045 ,
                          <http://purl.bioontology.org/ontology/MSH/D011198> ,
                          snomed: ;
-            skos:prefLabel "Potato"@en .
+            skos:prefLabel "Potato extract"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001093
@@ -2811,7 +2812,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001099
 :GMO_001099 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Choline chloride"@en ;
+            :GMO_000110 "Choline chloride"@en ,
+                        "cholinchloride"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -2819,6 +2821,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Choline chloride"@en ,
                        "塩化コリン"@ja ;
             rdfs:seeAlso wikipedia:Choline_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/522265> ,
                          ndf:N0000022653 ,
                          rxnorm: ,
                          snomed: ,
@@ -3040,7 +3043,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "Co(NO$_3$)$_2$$¥cdot$6H$_2$O"@en ,
                         "Co(NO3)2 6H2O"@en ,
                         "Co(NO<sub>3</sub>)<sub>2</sub>&middot;6H<sub>2</sub>0"@en ,
-                        "Co(NO<sub>3</sub>)<sub>2</sub>&middot;6H<sub>2</sub>O"@en ;
+                        "Co(NO<sub>3</sub>)<sub>2</sub>&middot;6H<sub>2</sub>O"@en ,
+                        "CoNO3 · 6H2O"@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -3048,7 +3052,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Cobalt(II) nitrate hexahydrate"@en ,
                        "硝酸コバルト(II)六水和物"@ja ;
             rdfs:seeAlso wikipedia:_nitrate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24821> ;
             skos:altLabel "Cobalt nitrate hexahydrate"@en ;
             skos:prefLabel "Cobalt(II) nitrate hexahydrate"@en .
 
@@ -3641,7 +3645,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001142" ;
             rdfs:comment "HEPES is one of the Good's buffers"@en ;
-            rdfs:label "HEPES"@en ;
+            rdfs:label "4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid"@en ,
+                       "HEPES"@en ;
             rdfs:seeAlso wikipedia:HEPES ,
                          ncit:HEPES ,
                          <http://purl.bioontology.org/ontology/MSH/D006531> ,
@@ -5132,11 +5137,15 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001227
 :GMO_001227 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001220 ;
+            :GMO_000110 "Thioglycolate medium dehydrated (Wako)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001227" ;
-            rdfs:label "Thioglycolate medium dehydrated (Wako)"@en ;
+            rdfs:label "Fluid thioglycollate medium \"Daigo\" for JP general test (Wako)"@en ,
+                       "液状チオグリコール酸培地「ダイゴ」, 日局試験用(粉末)"@ja ;
             rdfs:seeAlso wikipedia:Thioglycollate_broth ;
-            skos:prefLabel "Thioglycolate medium dehydrated (Wako)"@en .
+            skos:altLabel "Fluid thioglycollate medium \"Daigo\" for JP general test (Nihon Pharmaceutical)"@en ,
+                          "液状チオグリコール酸培地「ダイゴ」日局試験用"@ja ;
+            skos:prefLabel "Fluid thioglycollate medium \"Daigo\" for JP general test (Wako)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001228
@@ -5173,7 +5182,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001229" ;
-            rdfs:label "Difco &trade; tryptic soy agar"@en ;
+            rdfs:label "Difco &trade; Tryptic soy agar"@en ;
             skos:prefLabel "Difco tryptic soy agar"@en .
 
 
@@ -5603,13 +5612,15 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001254 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "Bacto Todd Hewitt Broth (Difco)"@en ,
-                        "Todd Hewitt Broth (Difco)"@en ;
+                        "Todd Hewitt Broth (Difco)"@en ,
+                        "Todd Hewitt broth (Becton, Dickinson and Company, Franklin Lakes, NJ, USA)"@en ,
+                        "Todd-Hewitt broth (Difco)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001254" ;
-            rdfs:label "Bacto todd hewitt broth"@en ;
+            rdfs:label "Bacto &trade; Todd Hewitt broth"@en ;
             skos:definition "Todd Hewitt Broth is a general-purpose medium, which primarily is used for the cultivation of beta-hemolytic strepto- cocci, especially for serological studies"@en ;
-            skos:prefLabel "Bacto todd hewitt broth"@en .
+            skos:prefLabel "Bacto &trade; Todd Hewitt broth"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001255
@@ -7649,7 +7660,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001376
 :GMO_001376 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002107 ;
             :GMO_000110 "M17 Broth (OXOID)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001376" ;
@@ -8653,8 +8664,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001438" ;
-            rdfs:label "BBL Trypticase soy broth"@en ;
-            skos:prefLabel "BBL Trypticase soy broth"@en .
+            rdfs:label "BBL &trade; Trypticase &trade; soy broth"@en ;
+            skos:prefLabel "BBL &trade; Trypticase &trade; soy broth"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001439
@@ -8697,8 +8708,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "Beef extract (Difco)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001442" ;
-            rdfs:label "Beef extract (BD)"@en ;
-            skos:prefLabel "Beef extract (BD)"@en .
+            rdfs:label "Bacto &trade; Beef extract, dessicated (BD)"@en ;
+            skos:prefLabel "Bacto &trade; Beef extract, dessicated (BD)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001443
@@ -10835,7 +10846,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001562
 :GMO_001562 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001893 ;
-            :GMO_000110 "Horse blood"@en ;
+            :GMO_000110 "Horse blood"@en ,
+                        "calf blood"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001562" ;
             rdfs:label "Horse blood"@en ;
@@ -11290,8 +11302,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "Mueller Hinton II agar (BBL)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001595" ;
-            rdfs:label "Mueller hinton II agar (BBL)"@en ;
-            skos:prefLabel "Mueller hinton II agar (BBL)"@en .
+            rdfs:label "BBL &trade; Mueller Hinton II agar"@en ;
+            skos:prefLabel "BBL &trade; Mueller Hinton II agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001597
@@ -11551,7 +11563,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_001611" ;
             rdfs:label "Nickel chloride"@en ,
                        "塩化ニッケル(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Nickel(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://purl.bioontology.org/ontology/MSH/C022838> ,
                          chebi:CHEBI_34887 ,
                          pubchem: ;
@@ -11626,7 +11638,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001616
 :GMO_001616 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Pantothenic acid"@en ;
+            :GMO_000110 "Pantothenic acid"@en ,
+                        "p-amino-benzoate"@en ;
             :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
@@ -11636,13 +11649,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "パントテン酸"@ja ;
             rdfs:seeAlso wikipedia:Pantothenic_acid ,
                          ncit:C47783 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/988> ,
                          <http://purl.bioontology.org/ontology/MSH/D010205> ,
                          ndf:N0000146048 ,
                          rxnorm: ,
                          snomed: ,
-                         chebi:CHEBI_7916 ,
-                         pubchem: ;
-            skos:altLabel "Pantothenate"@en ,
+                         chebi:CHEBI_7916 ;
+            skos:altLabel "PABA"@en ,
+                          "Pantothenate"@en ,
                           "Vitamin B5"@en ,
                           "ビタミンB5"@ja ;
             skos:prefLabel "Pantothenic acid"@en .
@@ -11973,7 +11987,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001640
 :GMO_001640 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000011 ;
+            rdfs:subClassOf :GMO_001859 ;
             :GMO_000110 "Rye--bran extract"@en ,
                         "Rye-bran extract"@en ;
             :GMO_000113 :GMO_000047 ;
@@ -12648,12 +12662,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001690 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001217 ;
             :GMO_000110 "Lab--lemco powder (Oxoid)"@en ,
+                        "Lab-Lemco (Oxoid)"@en ,
                         "Lab-Lemco powder (Oxoid)"@en ,
                         "Lab-lemco meat extract (Oxoid)"@en ,
                         "`Lab--Lemco' powder (Oxoid)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001690" ;
-            rdfs:label "Oxoid Lab-lemco beef extract powder"@en ;
+            rdfs:label "Oxoid &trade; Lab-Lemco 牛肉エキス末"@ja ,
+                       "Oxoid &trade; Lab-lemco beef extract powder"@en ;
             rdfs:seeAlso wikipedia:Lab_Lemco ;
             skos:prefLabel "Oxoid Lab-lemco beef extract powder"@en .
 
@@ -13011,7 +13027,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_001712" ;
             rdfs:comment "TES is one of the Good's buffers"@en ;
             rdfs:label "TES buffer"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ;
+            rdfs:seeAlso wikipedia: ;
             skos:prefLabel "TES buffer"@en .
 
 
@@ -13717,12 +13733,15 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001763" ;
-            rdfs:label "Manganese sulfate"@en ;
+            rdfs:label "Manganese sulfate"@en ,
+                       "硫酸マンガン(II)"@ja ;
             rdfs:seeAlso wikipedia:_sulfate ,
                          ncit:C66054 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24580> ,
                          mesh:C039798 ,
                          ndf:N0000146056 ,
                          snomed: ;
+            skos:altLabel "Manganese(II) sulfate"@en ;
             skos:prefLabel "Manganese sulfate"@en .
 
 
@@ -15776,6 +15795,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001931" ;
             rdfs:label "Magnesium chloride anhydrous"@en ,
                        "塩化マグネシウム無水物"@ja ;
             skos:prefLabel "Magnesium chloride anhydrous"@en .
@@ -15787,6 +15807,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001932" ;
             rdfs:label "Iron(II) disulfide"@en ;
             rdfs:seeAlso <https://en.wikipedia.org/wiki/Pyrite> ;
             skos:altLabel "Fool's gold"@en ,
@@ -15800,6 +15821,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001933" ;
             rdfs:label "Sulfide mineral"@en ;
             skos:altLabel "Sulfide ore"@en ;
             skos:prefLabel "Sulfide mineral"@en .
@@ -15812,6 +15834,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001934" ;
             rdfs:label "Cobalt(II) sulfate"@en ,
                        "硫酸コバルト(II)"@ja ;
             rdfs:seeAlso pubchem: ,
@@ -15825,10 +15848,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "Yeast extract (OXOID)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            rdfs:label "Oxoid Yeast Extract Powder"@en ;
+            dcterms:identifier "GMO_001935" ;
+            rdfs:label "Oxoid &trade; Yeast extract powder"@en ;
             rdfs:seeAlso <https://www.thermofisher.com/order/catalog/product/LP0021B> ;
             skos:altLabel "Oxoid &trade; Yeast Extract Powder"@en ;
-            skos:prefLabel "Oxoid Yeast Extract Powder"@en .
+            skos:prefLabel "Oxoid &trade; Yeast extract powder"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001936
@@ -15840,6 +15864,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001936" ;
             rdfs:label "DL-Calcium pantothenate"@en ,
                        "DL-パントテン酸カルシウム"@ja ;
             skos:prefLabel "DL-Calcium pantothenate"@en .
@@ -15851,7 +15876,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
-            rdfs:label "Oleic acid"@en ;
+            dcterms:identifier "GMO_001937" ;
+            rdfs:label "Oleic acid"@en ,
+                       "オレイン酸"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/445639> ,
+                         <https://en.wikipedia.org/wiki/Oleic_acid> ;
             skos:prefLabel "Oleic acid"@en .
 
 
@@ -15860,6 +15889,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001343 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001938" ;
             rdfs:label "Catalase (beef)"@en ;
             skos:prefLabel "Catalase (beef)"@en .
 
@@ -15874,6 +15904,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001939" ;
             rdfs:label "D(+)-Biotin"@en ;
             skos:prefLabel "D(+)-Biotin"@en .
 
@@ -15885,6 +15916,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "D--Calcium pantothenate"@en ,
                         "D-Ca-pantothenate"@en ;
             :GMO_000113 :GMO_000046 ;
+            dcterms:identifier "GMO_001940" ;
             rdfs:label "D-Calcium pantothenate"@en ;
             skos:prefLabel "D-Calcium pantothenate"@en .
 
@@ -15894,6 +15926,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Air-dried garden soil"@en ;
             :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_001941" ;
             rdfs:label "Soil"@en ;
             skos:prefLabel "Soil"@en .
 
@@ -15903,6 +15936,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001896 ;
             :GMO_000110 "Activated charcoal (Sigma C 5510)"@en ;
             :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_001942" ;
             rdfs:label "Charcoal activated (Sigma)"@en ;
             skos:prefLabel "Charcoal activated (Sigma)"@en .
 
@@ -15911,6 +15945,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001943 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001868 ;
             :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_001943" ;
             rdfs:label "Bacto Proteose peptone No. 2"@en ;
             skos:prefLabel "Bacto Proteose peptone No. 2"@en .
 
@@ -15920,6 +15955,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000046 ;
             dcterms:description "Fatty acids with less than six carbon atoms. It includes formic acds, acetic acids, propionic acids, butyric acids."@en ;
+            dcterms:identifier "GMO_001944" ;
             rdfs:label "Volatile fatty acid"@en ,
                        "揮発性脂肪酸"@ja ;
             rdfs:seeAlso <https://en.wikipedia.org/wiki/Short-chain_fatty_acid> ;
@@ -15944,6 +15980,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001946 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001003 ;
             :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_001946" ;
             rdfs:label "Difco TC Yeastolate, UF"@en ;
             skos:altLabel "Difco &trade; Yeastolate, UF"@en ;
             skos:note "BD 292804 Dehydrated 500 g, 292805 Dehydrated 10 kg" ;
@@ -15955,10 +15992,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            rdfs:label "BBL Brain Heart Infusion Agar"@en ;
+            dcterms:identifier "GMO_001947" ;
+            rdfs:label "BBL &trade; Brain heart infusion agar"@en ;
             skos:altLabel "BBL &trade;	Brain Heart Infusion Agar"@en ;
             skos:note "BD 211065 Dehydrated 500 g, BD 212166 Dehydrated 5 lb (2.3 kg)" ;
-            skos:prefLabel "BBL Brain Heart Infusion Agar"@en .
+            skos:prefLabel "BBL &trade; Brain heart infusion agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001948
@@ -15967,27 +16005,31 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "Mueller Hinton Broth (BD 211443)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            rdfs:label "BBL Mueller hinton Broth"@en ;
+            dcterms:identifier "GMO_001948" ;
+            rdfs:label "BBL &trade; Mueller Hinton broth"@en ,
+                       "BBL &trade; ミューラー・ヒントンIIブロス"@ja ;
             skos:altLabel "BBL &trade; Mueller hinton Broth (Not cation-adjusted)"@en ;
-            skos:prefLabel "BBL Mueller hinton Broth"@en .
+            skos:prefLabel "BBL &trade; Mueller Hinton broth"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001949
 :GMO_001949 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002155 ;
             :GMO_000110 "Mueller Hinton Agar (BD 225250)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            rdfs:label "Difco Mueller hinton Agar"@en ;
+            dcterms:identifier "GMO_001949" ;
+            rdfs:label "Difco &trade; Mueller Hinton agar"@en ;
             skos:altLabel "Difco &trade; Mueller hinton Agar"@en ;
             skos:note "Catalogue numbers; 225250, 225220, 225230" ;
-            skos:prefLabel "Difco Mueller hinton Agar"@en .
+            skos:prefLabel "Difco &trade; Mueller Hinton agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001950
 :GMO_001950 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001868 ;
             :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_001950" ;
             rdfs:label "Gelatin peptone"@en ;
             rdfs:seeAlso wikipedia:Gelatin ;
             skos:prefLabel "Gelatin peptone"@en .
@@ -15999,6 +16041,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "KCl solution"@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001951" ;
             rdfs:label "Potassium chloride solution"@en ,
                        "塩化カリウム溶液"@ja ;
             skos:prefLabel "Potassium chloride solution"@en .
@@ -16008,6 +16051,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001952 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_001952" ;
             rdfs:label "Wolfe’s vitamin solution"@en ;
             rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pubmed/14063318> ;
             skos:prefLabel "Wolfe’s vitamin solution"@en .
@@ -16017,6 +16061,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001953 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_001953" ;
             rdfs:label "Wolfe’s mineral elixir"@en ;
             skos:prefLabel "Wolfe’s mineral elixir"@en .
 
@@ -16027,6 +16072,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001954" ;
             rdfs:label "Strontium chloride solution"@en ;
             skos:prefLabel "Strontium chloride solution"@en .
 
@@ -16036,6 +16082,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001085 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001955" ;
             rdfs:label "Strontium chloride hexahydrate solution"@en ,
                        "塩化ストロンチウム六水和物水溶液"@ja ;
             skos:prefLabel "Strontium chloride hexahydrate solution"@en .
@@ -16046,6 +16093,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001128 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001956" ;
             rdfs:label "Ammonium iron(II) sulfate heptahydrate solution"@en ,
                        "硫酸アンモニウム鉄(II)七水和物溶液"@ja ;
             skos:prefLabel "Ammonium iron(II) sulfate heptahydrate solution"@en .
@@ -16057,6 +16105,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001957" ;
             rdfs:label "Potassium iodide solution"@en ,
                        "ヨウ化カリウム溶液"@ja ;
             skos:prefLabel "Potassium iodide solution"@en .
@@ -16067,6 +16116,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001237 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001958" ;
             rdfs:label "EDTA disodium magnesium salt"@en ;
             skos:prefLabel "EDTA disodium magnesium salt"@en .
 
@@ -16077,6 +16127,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000003 ,
                         :GMO_000041 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_001959" ;
             rdfs:label "Fumaric acid"@en ,
                        "フマル酸"@ja ;
             skos:prefLabel "Fumaric acid"@en .
@@ -16188,6 +16239,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001971
 :GMO_001971 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001970 ;
+            :GMO_000110 "Pancreatic Digest of Gelatin (Hardy C6540)"@en ;
             dcterms:identifier "GMO_001971" ;
             rdfs:label "CRITERION &trade; Pancreatic digest of gelatin (Hardy diagnostics)"@en ;
             skos:prefLabel "CRITERION &trade; Pancreatic digest of gelatin (Hardy diagnostics)"@en .
@@ -16963,7 +17015,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002038" ;
             rdfs:label "Titanium(II) chloride"@en ,
                        "塩化チタン(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/66228> ;
             skos:prefLabel "Titanium(II) chloride"@en .
 
@@ -17017,7 +17069,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002043" ;
             rdfs:label "Nickel(II) sulfate"@en ,
                        "硫酸ニッケル(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Nickel(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24586> ;
             skos:prefLabel "Nickel(II) sulfate"@en .
 
@@ -17057,7 +17109,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002046" ;
             rdfs:label "Ammonium ferrous sulfate"@en ,
                        "硫酸アンモニウム鉄(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ;
             skos:altLabel "Mohr's Salt"@en ,
                           "モール塩"@ja ;
@@ -17160,7 +17212,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_002055" ;
             rdfs:label "Ammonium metavanadate"@en ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/516859> ,
+            rdfs:seeAlso wikipedia:Ammonium_metavanadate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516859> ,
                          "メタバナジン酸アンモニウム"@ja ;
             skos:prefLabel "Ammonium metavanadate"@en .
 
@@ -17193,7 +17246,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002058" ;
             rdfs:label "4-Hydroxyphenylacetic acid"@en ,
                        "4-ヒドロキシフェニル酢酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/4-Hydroxyphenylacetic_acid> ,
+            rdfs:seeAlso wikipedia:Hydroxyphenylacetic_acid ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/127> ;
             skos:prefLabel "4-Hydroxyphenylacetic acid"@en .
 
@@ -17465,7 +17518,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002082" ;
             rdfs:label "Chromium(III) sulfate"@en ,
                        "硫酸クロム(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ;
             skos:prefLabel "Chromium(III) sulfate"@en .
 
@@ -17650,6 +17703,593 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             skos:prefLabel "Maltose solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002100
+:GMO_002100 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002100" ;
+            rdfs:label "Ferric sodium EDTA"@en ,
+                       "エチレンジアミン四酢酸第二鉄ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Ferric_sodium_EDTA ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/87063917> ;
+            skos:altLabel "Sodium ferric ethylenediaminetetraacetate"@en ;
+            skos:prefLabel "Ferric sodium EDTA"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002101
+:GMO_002101 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001167 ;
+            dcterms:identifier "GMO_002101" ;
+            rdfs:label "Pyridoxal hydrochloride (Sigma-Aldrich)"@en ,
+                       "ピリドキサール 塩酸塩 (Sigma-Aldrich)"@ja ;
+            skos:prefLabel "Pyridoxal hydrochloride (Sigma-Aldrich)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002102
+:GMO_002102 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002102" ;
+            rdfs:label "Methylcobalamin"@en ,
+                       "メチルコバラミン"@ja ;
+            skos:altLabel wikipedia:Methylcobalamin ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/6436232> ;
+            skos:prefLabel "Methylcobalamin"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002103
+:GMO_002103 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002328 ;
+            :GMO_000110 "cyanocobalamin (Sigma Aldrich)"@en ;
+            dcterms:identifier "GMO_002103" ;
+            rdfs:label "Cyanocobalamin (Sigma-Aldrich)"@en ,
+                       "シアノコバラミン (Sigma-Aldrich)"@ja ;
+            skos:prefLabel "Cyanocobalamin (Sigma-Aldrich)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002104
+:GMO_002104 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002104" ;
+            rdfs:label "Difco &trade; Lactobacilli MRS agar"@en ;
+            skos:prefLabel "Difco &trade; Lactobacilli MRS agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002105
+:GMO_002105 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002105" ;
+            rdfs:label "Brain heart Infusion broth (Biolife)"@en ;
+            skos:prefLabel "Brain heart Infusion broth (Biolife)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002106
+:GMO_002106 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002106" ;
+            rdfs:label "Difco &trade; Tryptose blood agar base"@en ;
+            skos:prefLabel "Difco &trade; Tryptose blood agar base"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002107
+:GMO_002107 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002107" ;
+            dcterms:references <http://rdf.ncbi.nlm.nih.gov/pubmed/16350018> ;
+            rdfs:label "M17 broth"@en ;
+            skos:prefLabel "M17 broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002108
+:GMO_002108 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002108" ;
+            rdfs:label "MRS agar"@en ;
+            skos:altLabel "De Man, Rogosa and Sharpe agar"@en ;
+            skos:prefLabel "MRS agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002109
+:GMO_002109 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002109" ;
+            rdfs:label "MRS broth"@en ;
+            skos:altLabel "De Man, Rogosa and Sharpe broth"@en ;
+            skos:prefLabel "MRS broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002110
+:GMO_002110 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002109 ;
+            :GMO_000110 "de Man, Rogosa, Sharpe broth (Oxoid)"@en ;
+            dcterms:identifier "GMO_002110" ;
+            rdfs:label "Oxoid &trade; MRS broth"@en ;
+            skos:prefLabel "Oxoid &trade; MRS broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002112
+:GMO_002112 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002112" ;
+            rdfs:label "Tryptic soy agar (Merck Millipore)"@en ;
+            skos:prefLabel "Tryptic soy agar (Merck Millipore)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002113
+:GMO_002113 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002109 ;
+            :GMO_000110 "Man-Rogosa-Sharpe (MRS) broth (Biokar Diagnostic, Beauvais, France)"@en ;
+            dcterms:identifier "GMO_002113" ;
+            rdfs:label "MRS broth (Solabia, Biokar diagnostics)"@en ;
+            skos:prefLabel "MRS broth (Solabia, Biokar diagnostics)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002114
+:GMO_002114 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002114" ;
+            rdfs:label "Crystal Sea Marinemix (Marine Enterprises International)"@en ;
+            skos:prefLabel "Crystal Sea Marinemix (Marine Enterprises International)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002115
+:GMO_002115 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002115" ;
+            rdfs:label "Sea salts"@en ;
+            skos:prefLabel "Sea salts"@en ,
+                           "海塩"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002116
+:GMO_002116 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002116" ;
+            rdfs:label "Tryptic soy broth"@en ,
+                       "トプチックソイ培養液"@ja ;
+            skos:prefLabel "Tryptic soy broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002117
+:GMO_002117 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002117" ;
+            rdfs:label "Thiamine dihydrochloride"@en ;
+            skos:prefLabel "Thiamine dihydrochloride"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002118
+:GMO_002118 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "C10H14N2O8Na2・2H2O"@en ,
+                        "Ethylenediaminetetraacetic acid disodium salt,2-hydrate"@en ,
+                        "Na2EDTA · 2H2O"@en ;
+            dcterms:identifier "GMO_002118" ;
+            rdfs:label "EDTA disodium salt dihydrate"@en ,
+                       "エチレンジアミン四酢酸二ナトリウム二水和物"@ja ;
+            skos:altLabel "Ethylenediaminetetraacetic acid disodium salt dihydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002119
+:GMO_002119 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002119" ;
+            rdfs:label "LB agar"@en ;
+            skos:prefLabel "LB agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002120
+:GMO_002120 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001133 ;
+            dcterms:identifier "GMO_002120" ;
+            rdfs:label "Urea (Sigma-Aldrich)"@en ,
+                       "尿素 (Sigma-Aldrich)"@ja ;
+            skos:prefLabel "Urea (Sigma-Aldrich)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002121
+:GMO_002121 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001003 ;
+            dcterms:identifier "GMO_002121" ;
+            rdfs:label "CRITERION &trade; Yeast extract (Hardy diagnostics)"@en ;
+            skos:prefLabel "CRITERION &trade; Yeast extract (Hardy diagnostics)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002122
+:GMO_002122 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000012 ;
+            :GMO_000110 "EZMix-N-Z-amine A"@en ;
+            dcterms:identifier "GMO_002122" ;
+            rdfs:label "EZMix &trade; N-Z-Amine &reg; A"@en ;
+            skos:prefLabel "EZMix &trade; N-Z-Amine &reg; A"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002123
+:GMO_002123 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001763 ;
+            :GMO_000110 "MnSO4 · 6 H2O"@en ,
+                        "manganese(II) sulfate hexahydrate"@en ;
+            dcterms:identifier "GMO_002123" ;
+            rdfs:label "Manganese sulfate hexahydrate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/19850629> ;
+            skos:altLabel "Manganese(II) sulfate hexahydrate"@en ;
+            skos:prefLabel "Manganese sulfate hexahydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002124
+:GMO_002124 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002124" ;
+            rdfs:label "Spermidine"@en ,
+                       "スペルミジン"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/1102> ,
+                         chebi:CHEBI_16610 .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002125
+:GMO_002125 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002125" ;
+            rdfs:label "BBL &trade; Trypticase &trade; soy agar"@en ;
+            rdfs:seeAlso "BBL &trade; トリプチケースソイ寒天培地"@ja ;
+            skos:prefLabel "BBL &trade; Trypticase &trade; soy agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002126
+:GMO_002126 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002126" ;
+            rdfs:label "5-Fluorouracil"@en ;
+            rdfs:seeAlso wikipedia:Fluorouracil ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3385> ;
+            skos:altLabel "5-FU"@en ,
+                          "Fluorouracil"@en ,
+                          "フルオロウラシル"@ja ;
+            skos:prefLabel "5-Fluorouracil"@en ,
+                           "5-フルオロウラシル"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002127
+:GMO_002127 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001337 ;
+            dcterms:identifier "GMO_002127" ;
+            rdfs:label "Iron(II) sulfate tetrahydrate"@en ,
+                       "硫酸鉄(II)四水和物"@ja ;
+            rdfs:seeAlso wikipedia:Rozenite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/182426> ;
+            skos:altLabel "Ferrous sulfate tetrahydrate"@en ,
+                          "Rozenite"@en ;
+            skos:prefLabel "Iron(II) sulfate tetrahydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002128
+:GMO_002128 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            rdfs:label "API &reg; 50 CHB/E medium"@en ,
+                       "アピ 50 CHB/Eメディウム"@ja ;
+            rdfs:seeAlso <https://www.mediray.co.nz/media/15798/om_biomerieux_test-kits_ot-50430_package_insert-50430.pdf> ;
+            skos:prefLabel "API &reg; 50 CHB/E medium"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002129
+:GMO_002129 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002129" ;
+            rdfs:label "Oxoid &trade; Tryptone soya agar"@en ;
+            skos:prefLabel "Oxoid &trade; Tryptone soya agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002130
+:GMO_002130 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002130" ;
+            rdfs:label "Himedia &reg; Brain heart infusion media"@en ;
+            skos:prefLabel "Himedia &reg; Brain heart infusion media"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002131
+:GMO_002131 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001072 ;
+            :GMO_000110 "meat extract (Wako Pure Chemical Industries, Osaka, Japan)"@en ;
+            dcterms:identifier "GMO_002131" ;
+            rdfs:label "Beef extract (MP Biomedicals, Inc.)"@en ;
+            skos:prefLabel "Beef extract (MP Biomedicals, Inc.)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002132
+:GMO_002132 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001072 ;
+            dcterms:identifier "GMO_002132" ;
+            rdfs:label "BBL &trade; Beef extract powder"@en ;
+            skos:prefLabel "BBL &trade; Beef extract powder"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002133
+:GMO_002133 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000052 ;
+            dcterms:identifier "GMO_002133" ;
+            rdfs:label "Bromothymol blue"@en ,
+                       "ブロモチモールブルー"@ja ;
+            rdfs:seeAlso wikipedia:Bromothymol_blue ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6450> ;
+            skos:prefLabel "Bromothymol blue"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002134
+:GMO_002134 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "crystallized cane sugar"@en ;
+            dcterms:identifier "GMO_002134" ;
+            rdfs:label "Cane sugar"@en ,
+                       "甘蔗糖"@ja ;
+            skos:prefLabel "Cane sugar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002135
+:GMO_002135 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002135" ;
+            dcterms:references <http://rdf.ncbi.nlm.nih.gov/pubmed/13675766> ;
+            rdfs:label "Eagle’s minimum essential medium"@en ;
+            rdfs:seeAlso wikipedia:s_minimal_essential_medium ,
+                         "イーグル最少必須培地"@ja ;
+            skos:altLabel "MEM"@en ;
+            skos:prefLabel "Eagle’s minimum essential medium"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002136
+:GMO_002136 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002135 ;
+            dcterms:identifier "GMO_002136" ;
+            rdfs:label "Eagle’s MEM \"Nissui\""@en ,
+                       "イーグルMEM培地「ニッスイ」"@ja ;
+            skos:prefLabel "Eagle’s MEM \"Nissui\""@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002137
+:GMO_002137 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002137" ;
+            rdfs:label "Bordet-Gengou agar"@en ,
+                       "ボルデー・ジャング培地"@ja ;
+            rdfs:seeAlso wikipedia:Bordet-Gengou_agar ;
+            skos:prefLabel "Bordet-Gengou agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002138
+:GMO_002138 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002137 ;
+            dcterms:identifier "GMO_002138" ;
+            rdfs:label "Difco &trade; Bordet Gengou agar base"@en ;
+            skos:prefLabel "Difco &trade; Bordet Gengou agar base"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002139
+:GMO_002139 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001562 ;
+            dcterms:identifier "GMO_002139" ;
+            rdfs:label "Horse blood defibrinated"@en ;
+            skos:prefLabel "Horse blood defibrinated"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002140
+:GMO_002140 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002139 ;
+            dcterms:identifier "GMO_002140" ;
+            rdfs:label "Horse blood defibrinated (TCS Biosciences)"@en ;
+            skos:prefLabel "Horse blood defibrinated (TCS Biosciences)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002141
+:GMO_002141 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Wilkins-Chalgren agar plates (Oxoid Ltd., Hampshire, UK)"@en ;
+            dcterms:identifier "GMO_002141" ;
+            rdfs:label "Oxiod Wilkins-Chalgren anaerobe agar"@en ;
+            skos:prefLabel "Oxiod Wilkins-Chalgren anaerobe agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002142
+:GMO_002142 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002320 ;
+            :GMO_000110 "vancomycin (Lilly France S.A., Fergesheim, France)"@en ;
+            dcterms:identifier "GMO_002142" ;
+            rdfs:label "Vancomycin (Lilly France S.A.)"@en ;
+            skos:prefLabel "Vancomycin (Lilly France S.A.)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002143
+:GMO_002143 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002143" ;
+            rdfs:label "Cefsulodin"@en ;
+            rdfs:seeAlso wikipedia:Cefsulodin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5284530> ;
+            skos:prefLabel "Cefsulodin"@en ,
+                           "セフスロジン"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002144
+:GMO_002144 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001893 ;
+            :GMO_000110 "human blood"@en ;
+            dcterms:identifier "GMO_002144" ;
+            rdfs:label "Human blood"@en ,
+                       "ヒト血液"@ja ;
+            skos:prefLabel "Human blood"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002146
+:GMO_002146 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "amphotericin B"@en ;
+            dcterms:identifier "GMO_002146" ;
+            rdfs:label "Amphotericin B"@en ;
+            rdfs:seeAlso wikipedia:Amphotericin_B ;
+            skos:prefLabel "Amphotericin B"@en ,
+                           "アムホテリシンB"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002147
+:GMO_002147 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002146 ;
+            :GMO_000110 "Fungizone (Bristol-Myers Squibb Co.)"@en ;
+            dcterms:identifier "GMO_002147" ;
+            rdfs:label "Fungizone (Bristol-Myers Squibb Co.)"@en ,
+                       "ファンギゾン (Bristol-Myers Squibb Co.)"@ja ;
+            skos:altLabel "Fungizone (Bristol-Myers Squibb Co.)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002148
+:GMO_002148 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002322 ;
+            :GMO_000110 "trimethoprim (GlaxoSmithKline)"@en ;
+            dcterms:identifier "GMO_002148" ;
+            rdfs:label "Trimethoprim (GlaxoSmithKline)"@en ,
+                       "トリメテプリム (GlaxoSmithKline)"@ja ;
+            skos:altLabel "Trimethoprim (GlaxoSmithKline)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002149
+:GMO_002149 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "brain–heart infusion agar"@en ;
+            dcterms:identifier "GMO_002149" ;
+            rdfs:label "Brain heart infusion agar"@en ,
+                       "ブレインハートインフュージョン寒天培地"@ja ;
+            rdfs:seeAlso wikipedia:Brain_heart_infusion ;
+            skos:prefLabel "Brain heart infusion agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002150
+:GMO_002150 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001893 ;
+            dcterms:identifier "GMO_002150" ;
+            rdfs:label "Calf blood"@en ,
+                       "子牛血液"@ja ;
+            skos:prefLabel "Calf blood"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002151
+:GMO_002151 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "brain heart infusion agar (Difco)"@en ;
+            dcterms:identifier "GMO_002151" ;
+            rdfs:label "Difco &trade; Brain heart infusion agar"@en ;
+            skos:prefLabel "Difco &trade; Brain heart infusion agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002152
+:GMO_002152 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002152" ;
+            rdfs:label "Chocolate agar"@en ;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/Chocolate_agar> ;
+            skos:prefLabel "Chocolate agar"@en ,
+                           "チョコレート寒天培地"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002153
+:GMO_002153 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002153" ;
+            rdfs:label "BBL &trade; IsoVitaleX &trade; Enrichment"@en ,
+                       "BBL &trade; IsoVitaleX &trade; エンリッチメント"@ja ;
+            skos:prefLabel "BBL &trade; IsoVitaleX &trade; Enrichment"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002154
+:GMO_002154 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001562 ;
+            dcterms:identifier "GMO_002154" ;
+            rdfs:label "Laked horse blood"@en ,
+                       "馬溶血血液"@ja ;
+            skos:prefLabel "Laked horse blood"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002155
+:GMO_002155 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "MH agar"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002155" ;
+            rdfs:label "Mueller-Hinton agar"@en ,
+                       "ミューラー・ヒントン寒天培地"@ja ;
+            rdfs:seeAlso wikipedia:Mueller-Hinton_agar ;
+            skos:prefLabel "Mueller-Hinton agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002156
+:GMO_002156 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002108 ;
+            dcterms:identifier "GMO_002156" ;
+            rdfs:label "Oxoid &trade; MRS agar"@en ;
+            skos:prefLabel "Oxoid &trade; MRS agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002157
+:GMO_002157 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002109 ;
+            :GMO_000110 "de Man–Rogosa–Sharpe (MRS) broth (LabM)"@en ;
+            dcterms:identifier "GMO_002157" ;
+            rdfs:label "NEOGEN &reg; Lactobacilli MRS broth"@en ,
+                       "NEOGEN &reg; Lactobacilli MRS ブロス"@ja ;
+            skos:prefLabel "NEOGEN &reg; Lactobacilli MRS broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002158
+:GMO_002158 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001799 ;
+            :GMO_000110 "DL-serine"@en ;
+            dcterms:identifier "GMO_002158" ;
+            rdfs:label "DL-Serine"@en ,
+                       "DL-セリン"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/617> ;
+            skos:prefLabel "DL-Serine"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002159
+:GMO_002159 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002159" ;
+            rdfs:label "RPMI 1640"@en ;
+            rdfs:seeAlso wikipedia:RPMI_1640 ;
+            skos:altLabel "RPMI medium"@en ;
+            skos:prefLabel "RPMI 1640"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002160
+:GMO_002160 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002159 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002160" ;
+            rdfs:label "Gibco &trade; RPMI 1640 Medium"@en ;
+            skos:prefLabel "Gibco &trade; RPMI 1640 Medium"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002161
+:GMO_002161 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001003 ;
+            :GMO_000110 "yeast extract (Nacalai Tesque, Kyoto, Japan)"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002161" ,
+                               "乾燥酵母エキス (ナカライテスク)"@ja ;
+            rdfs:label "Yeast extract (Nakalai tesque)"@en ;
+            skos:prefLabel "Yeast extract (Nakalai tesque)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002162
+:GMO_002162 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002162" ;
+            rdfs:label "Brain heart infusion broth (Hardy diagnostics)"@en ;
+            skos:prefLabel "Brain heart infusion broth (Hardy diagnostics)"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/GMO_002300
 :GMO_002300 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
@@ -17668,7 +18308,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002301" ;
             rdfs:label "Iron(III) nitrate"@en ,
                        "硝酸鉄(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25251> ;
             skos:altLabel "Ferric nitrate"@en ;
             skos:prefLabel "Iron(III) nitrate"@en .
@@ -17736,7 +18376,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002308" ;
             rdfs:label "Cerium(III) chloride"@en ,
                        "塩化セリウム"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cerium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ;
             skos:prefLabel "Cerium(III) chloride"@en .
 
@@ -17769,7 +18409,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             dcterms:identifier "GMO_002311" ;
             rdfs:label "1,4-Naphthoquinone"@en ,
                        "1,4-ナフトキノン"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/1,4-Naphthoquinone> ,
+            rdfs:seeAlso wikipedia:Naphthoquinone ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8530> ;
             skos:prefLabel "1,4-Naphthoquinone"@en .
 
@@ -17779,7 +18419,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_002311" ;
             rdfs:label "TES"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6992013> ;
             skos:prefLabel "TES"@en .
 
@@ -17869,6 +18509,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002321
 :GMO_002321 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Skirrow supplement (Oxoid) (1 vial/2 ml of sterile, purified water)"@en ,
+                        "Skirrow's selective medium (Oxoid)"@en ;
             dcterms:identifier "GMO_002321" ;
             dcterms:references <http://rdf.pubmed.ncbi.nlm.nih.gov/pubmed/871765> ;
             rdfs:label "Campylobacter selective supplement (Skirrow)"@en ;
@@ -17880,11 +18522,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_002322 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_002322" ;
-            rdfs:label "Trimethoprim"@en ;
+            rdfs:label "Trimethoprim"@en ,
+                       "トリメトプリム"@ja ;
             rdfs:seeAlso wikipedia:Trimethoprim ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5578> ;
-            skos:prefLabel "Trimethoprim"@en ,
-                           "トリメトプリム"@ja .
+            skos:prefLabel "Trimethoprim"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002323
@@ -17988,6 +18630,16 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "テトラホウ酸ナトリウム"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/10219853> ;
             skos:prefLabel "Sodium Tetraborate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_004125
+:GMO_004125 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002143 ;
+            :GMO_000110 "cefsulodin (Takeda France S.A., Puteaux, France)"@en ;
+            dcterms:identifier "GMO_004125" ;
+            rdfs:label "Cefsulodin (Takeda France S.A.)"@en ;
+            skos:prefLabel "Cefsulodin (Takeda France S.A.)"@en ,
+                           "セフスロジン (Takeda France S.A.)"@ja .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
