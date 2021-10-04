@@ -18384,6 +18384,16 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             skos:prefLabel "Human blood"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002145
+:GMO_002145 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002143 ;
+            :GMO_000110 "cefsulodin (Takeda France S.A., Puteaux, France)"@en ;
+            dcterms:identifier "GMO_002145" ;
+            rdfs:label "Cefsulodin (Takeda France S.A.)"@en ;
+            skos:prefLabel "Cefsulodin (Takeda France S.A.)"@en ,
+                           "セフスロジン (Takeda France S.A.)"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/GMO_002146
 :GMO_002146 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
@@ -19346,7 +19356,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002227 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002226 ;
             :GMO_000110 "C12H12N2O3"@en ;
-            :GMO_000110 :GMO_000046 ,
+            :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_002227" ;
@@ -20187,16 +20197,6 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "テトラホウ酸ナトリウム"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/10219853> ;
             skos:prefLabel "Sodium tetraborate"@en .
-
-
-###  http://purl.jp/bio/10/gmo/GMO_004125
-:GMO_004125 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002143 ;
-            :GMO_000110 "cefsulodin (Takeda France S.A., Puteaux, France)"@en ;
-            dcterms:identifier "GMO_004125" ;
-            rdfs:label "Cefsulodin (Takeda France S.A.)"@en ;
-            skos:prefLabel "Cefsulodin (Takeda France S.A.)"@en ,
-                           "セフスロジン (Takeda France S.A.)"@ja .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
