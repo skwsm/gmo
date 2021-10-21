@@ -4488,10 +4488,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001187" ;
             rdfs:label "Disodium tetraborate"@en ;
             rdfs:seeAlso wikipedia:Borax ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10219853> ,
                          <http://purl.bioontology.org/ontology/MSH/C018851> ,
-                         ndf:N0000023099 ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000023099 ;
+            skos:altLabel "Sodium tetraborate"@en ,
+                          "テトラホウ酸ナトリウム"@ja ;
             skos:prefLabel "Disodium tetraborate"@en .
 
 
@@ -6591,10 +6592,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
 Toshio Murashige andFolke Skoog
 DOI: 10.1111/j.1399-3054.1962.tb08052.x
 Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
-            rdfs:label "Murashige & Skoog's plant salt mixture"@en ,
+            rdfs:label "Murashige and Skoog plant salt mixture"@en ,
                        "ムラシゲ・スクーグ培地用混合塩類"@ja ;
             rdfs:seeAlso <http://www.sigmaaldrich.com/content/dam/sigma-aldrich/docs/Sigma/Formulation/m5524for.pdf> ;
-            skos:prefLabel "Murashige & Skoog's plant salt mixture"@en .
+            skos:altLabel "Murashige & Skoog's plant salt mixture"@en ;
+            skos:prefLabel "Murashige and Skoog plant salt mixture"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001312
@@ -11382,7 +11384,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001598
 :GMO_001598 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002332 ;
+            rdfs:subClassOf :GMO_001187 ;
             :GMO_000110 "Na$_2$B$_4$O$_7$$¥cdot$10H$_2$O"@en ,
                         "Na$_2$B$_4$O$_7$$¥cdot$10H$_2$O {@en}"@en ,
                         "Na$_2$B4O$_7$$¥cdot$10H$_2$O"@en ,
@@ -11399,8 +11401,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                          ncit:C77496 ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/11954323> ,
                          <http://purl.bioontology.org/ontology/MSH/C018851> ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_38888 ;
             skos:altLabel "Borax decahydrate"@en ,
                           "Disodium tetraborate decahydrate"@en ,
@@ -17786,7 +17786,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:label "Amphotericin B"@en ,
                        "アムホテリシンB"@ja ;
             rdfs:seeAlso wikipedia:Amphotericin_B ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/14956> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14956> ,
+                         "amphotericin B"@en ;
             skos:prefLabel "Amphotericin B"@en .
 
 
@@ -18397,18 +18398,18 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002146
 :GMO_002146 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "amphotericin B"@en ;
             dcterms:identifier "GMO_002146" ;
-            rdfs:label "Amphotericin B"@en ;
+            rdfs:label "Obsolete: Amphotericin B"@en ,
+                       "アムホテリシンB"@ja ;
             rdfs:seeAlso wikipedia:Amphotericin_B ;
-            skos:prefLabel "Amphotericin B"@en ,
-                           "アムホテリシンB"@ja .
+            skos:prefLabel "Amphotericin B"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002147
 :GMO_002147 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002146 ;
+            rdfs:subClassOf :GMO_002086 ;
             :GMO_000110 "Fungizone (Bristol-Myers Squibb Co.)"@en ;
             dcterms:identifier "GMO_002147" ;
             rdfs:label "Fungizone (Bristol-Myers Squibb Co.)"@en ,
@@ -19212,11 +19213,11 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002216
 :GMO_002216 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002216" ;
-            rdfs:label "Murashige and Skoog plant salt mixture"@en ,
+            rdfs:label "Obsolete: Murashige and Skoog plant salt mixture"@en ,
                        "ムラシゲ・スクーグ培地用混合塩類"@ja ;
             skos:prefLabel "Murashige and Skoog plant salt mixture"@en .
 
@@ -20192,7 +20193,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002332
 :GMO_002332 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "Na2B4O7"@en ;
             dcterms:identifier "GMO_002332" ;
             rdfs:label "Sodium tetraborate"@en ,
