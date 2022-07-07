@@ -16251,6 +16251,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "Horse serum (heat--inactivated)"@en ,
                         "Horse serum (heat-inactivated)"@en ;
             :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_001961" ;
             rdfs:label "Horse serum, heat inactivated"@en ,
                        "ウマ血清 (非働化処理済み)"@ja ;
             skos:prefLabel "Horse serum, heat inactivated"@en .
@@ -16263,6 +16264,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001962" ;
             rdfs:label "Disodium EDTA solution"@en ;
             skos:prefLabel "Disodium EDTA solution"@en .
 
@@ -16273,6 +16275,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_001963" ;
             rdfs:label "Potassium phosphate dibasic trihydrate solution"@en ;
             skos:prefLabel "Potassium phosphate dibasic trihydrate solution"@en .
 
@@ -16280,6 +16283,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001964
 :GMO_001964 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001879 ;
+            dcterms:identifier "GMO_001964" ;
             rdfs:label "Bovine serum-derived component"@en ,
                        "ウシ血清由来成分"@ja ;
             skos:prefLabel "Bovine serum-derived component"@en .
@@ -16308,6 +16312,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001967
 :GMO_001967 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_001967" ;
             rdfs:label "Water solvent"@en ;
             skos:prefLabel "Water solvent"@en .
 
@@ -16327,6 +16332,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001969
 :GMO_001969 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001615 ;
+            dcterms:identifier "GMO_001969" ;
             rdfs:comment "C6530, C6531, C6532, C6533, and C6534 are the catalog numbers of the products with different volumes."@en ;
             rdfs:label "CRITERION &trade; Pancreatic digest of casein (Hardy diagnostics)"@en ;
             skos:prefLabel "CRITERION &trade; Pancreatic digest of casein (Hardy diagnostics)"@en .
@@ -16405,7 +16411,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001976
 :GMO_001976 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            dcterms:identifier "GMO_001976"@ja ;
+            dcterms:identifier "GMO_001976" ;
             dcterms:references "<http://rdf.ncbi.nlm.nih.gov/pubmed/5325709>" ;
             rdfs:label "Columbia agar base"@en ;
             skos:note "The original recipe by Ellner PD et al. is \"Blood agar base Polypeptone (BBL) 10 g, Biosate (BBL) 10 g,  Myosate (BBL) 10 g, Sodium chloride 5 g, Corn starch 1 g, Agar 15 g, Distilled water 1000 ml. Heat and agitate frequently. Boil for 1 min. Dispense and autoclave for 15 min. at 121 C. Cool to 45 C. and add 5 per cent sterile de- fibrinated sheep blood. Final pH is 7.3.\"" ;
@@ -16475,7 +16481,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000112 :GMO_000043 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
-            dcterms:identifier :GMO_001981 ;
+            dcterms:identifier "GMO_001981" ;
             rdfs:label "Bacitracin"@en ,
                        "バシトラシン"@ja ;
             rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/439542> ;
@@ -16487,6 +16493,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_001982 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "C17H20N2O6S"@en ;
+            dcterms:identifier "GMO_001982" ;
             rdfs:label "Methicillin"@en ,
                        "メチシリン"@ja ;
             rdfs:seeAlso <https://en.wikipedia.org/wiki/Methicillin> ,
@@ -16505,7 +16512,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
-            dcterms:identifier "GMO_001983"@en ;
+            dcterms:identifier "GMO_001983" ;
             rdfs:label "Citric acid monohydrate"@en ,
                        "クエン酸 一水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/22230> ,
@@ -16877,7 +16884,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001401 ;
             :GMO_000110 "(C5H8O4)n"@en ,
                         "xylan (oat spelts)"@en ;
-            dcterms:identifier :GMO_002008 ;
+            dcterms:identifier "GMO_002008" ;
             rdfs:label :GMO_000047 ,
                        "Xylan from oat spelts"@en ,
                        "キシラン カラスムギ由来"@ja ;
@@ -16965,7 +16972,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_002015 ;
             :GMO_000110 "C20H36O14"@en ,
                         "arabinogalactan (larch)"@en ;
-            dcterms:identifier "GMO_002016"@ja ;
+            dcterms:identifier "GMO_002016" ;
             rdfs:label "Arabinogalactan from Larch"@en ;
             skos:definition "A biopolymer frmo Larch woods, which consists of arabinose and galactose monosaccharides."@en ,
                             "A biopolymer from Larch woods, which consists of arabinose and galactose monosaccharides."@en ;
@@ -17071,6 +17078,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_002025 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "Lactobacilli MRS Agar (BD288210)"@en ;
+            dcterms:identifier "GMO_002025" ;
             rdfs:label "Difco &trade; Lactobacilli MRS Agar"@en ;
             skos:altLabel "GMO_002025" ;
             skos:prefLabel "Difco &trade; Lactobacilli MRS Agar"@en .
@@ -17439,7 +17447,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_002056 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001719 ;
             :GMO_000110 "Na2MoO4.4H2O"@en ;
-            dcterms:identifier "GMO_002055" ;
+            dcterms:identifier "GMO_002056" ;
             rdfs:label "Sodium molybdate tetrahydrate"@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/121225506> ,
                          chebi:CHEBI_132099 ;
@@ -17599,9 +17607,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_002069 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "SrSO4"@en ;
-            dcterms:identifier "GMO_002069" ,
-                               "硫酸ストロンチウム"@ja ;
-            rdfs:label "Strontium sulfate"@en ;
+            dcterms:identifier "GMO_002069" ;
+            rdfs:label "Strontium sulfate"@en ,
+                       "硫酸ストロンチウム"@ja ;
             rdfs:seeAlso wikipedia:Strontium_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/3084026> ;
             skos:definition "The sulfate salt of strontium"@en ;
@@ -17845,7 +17853,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002089
 :GMO_002089 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            dcterms:identifier "GMO_002088" ;
+            dcterms:identifier "GMO_002089" ;
             rdfs:label "Xylitol"@en ,
                        "キシリトール"@ja ;
             rdfs:seeAlso wikipedia:Xylitol ,
@@ -18252,6 +18260,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_002128 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "API 50 CHB/E Medium"@en ;
+            dcterms:identifier "GMO_002128" ;
             rdfs:label "API &reg; 50 CHB/E medium"@en ,
                        "アピ 50 CHB/Eメディウム"@ja ;
             rdfs:seeAlso <https://www.mediray.co.nz/media/15798/om_biomerieux_test-kits_ot-50430_package_insert-50430.pdf> ;
@@ -18596,9 +18605,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "yeast extract (Nacalai Tesque, Kyoto, Japan)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            dcterms:identifier "GMO_002161" ,
-                               "乾燥酵母エキス (ナカライテスク)"@ja ;
-            rdfs:label "Yeast extract (Nakalai tesque)"@en ;
+            dcterms:identifier "GMO_002161" ;
+            rdfs:label "Yeast extract (Nakalai tesque)"@en ,
+                       "乾燥酵母エキス (ナカライテスク)"@ja ;
             skos:prefLabel "Yeast extract (Nakalai tesque)"@en .
 
 
@@ -18709,8 +18718,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "Tween 80 (BD)"@en ;
             :GMO_000112 :GMO_000075 ,
                         :GMO_000076 ;
-            dcterms:identifier "Difco &trade; Tween &reg; 80"@en ,
-                               "GMO_002171" ;
+            dcterms:identifier "GMO_002171" ;
             rdfs:label "Difco &trade; Tween &reg; 80"@en ;
             skos:prefLabel "Difco &trade; Tween &reg; 80"@en .
 
@@ -18729,6 +18737,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 :GMO_002173 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002107 ;
             :GMO_000110 "M17 broth (Difco)"@en ;
+            dcterms:identifier "GMO_002173" ;
             rdfs:label "Difco &trade; M17 broth"@en ;
             skos:prefLabel "Difco &trade; M17 broth"@en .
 
@@ -18772,8 +18781,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                         "Brain–heart infusion (BHI) broth"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            dcterms:identifier "Brain heart infusion broth"@en ,
-                               "GMO_002176" ;
+            dcterms:identifier "GMO_002176" ;
             dcterms:references <https://www.sciencedirect.com/science/article/abs/pii/S009719011911002X> ;
             rdfs:label "Brain heart infusion broth"@en ,
                        "ブレインハートインフュージョン培地"@ja ;
@@ -19051,7 +19059,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "C46H89NO8P+"@en ,
                         "Lecithine"@en ;
             :GMO_000113 :GMO_000047 ;
-            dcterms:identifier "GOM_002200" ;
+            dcterms:identifier "GMO_002200" ;
             rdfs:label "Lecithin"@en ,
                        "レシチン"@ja ;
             skos:prefLabel "Lecithin"@en .
@@ -19306,6 +19314,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ,
                         :GMO_000051 ;
+            dcterms:identifier "GMO_002220" ;
             rdfs:label "Spectinomycin solution"@en ,
                        "スペクチノマイシン溶液"@ja ;
             rdfs:seeAlso wikipedia:Spectinomycin ;
@@ -19376,6 +19385,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_002224 ;
             :GMO_000110 "C15H17N5O6S2"@en ;
             :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002225" ;
             rdfs:label "Cefpodoxime solution"@en ,
                        "セフポドキシム溶液"@ja ;
             rdfs:seeAlso "Cefpodoxime solution"@en ,
@@ -19460,6 +19470,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
+            dcterms:identifier "GMO_002231" ;
             rdfs:label "Benzaldehyde"@en ;
             rdfs:seeAlso wikipedia:Benzaldehyde ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/240> ,
@@ -20036,6 +20047,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_001882 ;
             :GMO_000110 "CaSO4 (saturated aq. solution)"@en ;
             :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002281" ;
             rdfs:label "Calcium sulfate solution"@en ,
                        "硫酸カルシウム溶液"@ja ;
             rdfs:seeAlso "GMO_002281" ;
@@ -20092,7 +20104,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002286 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002285 ;
             :GMO_000113 :GMO_000047 ;
-            dcterms:identifier "GMO_002276" ;
+            dcterms:identifier "GMO_002286" ;
             rdfs:label "Bovine serum, heat-inactivated"@en ,
                        "sterile bovine serum (heat inactivated at 56°C for 45 min)"@en ;
             skos:prefLabel "Bovine serum, heat-inactivated"@en .
@@ -20292,6 +20304,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002305 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002019 ;
             :GMO_000110 "10% (w/v) Colloidal chitin solution"@ja ;
+            dcterms:identifier "GMO_002305" ;
             rdfs:label "Colloidal chitin solution"@en ;
             skos:prefLabel "Colloidal chitin solution"@en .
 
@@ -20365,7 +20378,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002312
 :GMO_002312 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            dcterms:identifier "GMO_002311" ;
+            dcterms:identifier "GMO_002312" ;
             rdfs:label "TES"@en ;
             rdfs:seeAlso wikipedia: ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6992013> ;
@@ -20632,6 +20645,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "Columbia blood agar base (Oxoid CM331)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
+            dcterms:identifier "GMO_002336" ;
             rdfs:label "GMO_002336" ,
                        "Oxoid &trade; Columbia blood agar base"@en ;
             skos:prefLabel "Oxoid &trade; Columbia blood agar base"@en .
@@ -20671,8 +20685,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002340 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001003 ;
             :GMO_000110 "dried yeast (e.g., Yeast from Saccharomyces cerevisiae Type II, Sigma)"@en ;
-            dcterms:identifier "Dried yeast"@en ,
-                               "GMO_002340" ;
+            dcterms:identifier "GMO_002340" ;
             rdfs:label "Dried yeast"@en ;
             skos:prefLabel "乾燥酵母"@ja .
 
@@ -20946,7 +20959,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "Rice Extract"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000049 ;
-            dcterms:identifier "GMO_002365" ;
+            dcterms:identifier "GMO_002366" ;
             rdfs:label "Rice extract"@en ,
                        "米抽出液"@ja ;
             skos:prefLabel "Rice extract"@en .
@@ -21074,8 +21087,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002376 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000047 ;
-            dcterms:identifier "BBL &trade; Hemoglobin, bovine, freeze-dried"@en ,
-                               "GMO_002376" ;
+            dcterms:identifier "GMO_002376" ;
             rdfs:label "BBL &trade; Hemoglobin, bovine, freeze-dried"@en ;
             skos:altLabel "Dried Bovine Hemoglobin (BD 212392)"@en .
 
