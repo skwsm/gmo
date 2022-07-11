@@ -26,9 +26,9 @@
                                                   "Tomomi Kuwahara"@en ,
                                                   "Yoko Okabeppu"@en ;
                               dcterms:creator "Shuichi Kawashima"@en ;
-                              dcterms:date "\"2021-02-23\"^^xsd:date" ;
+                              dcterms:date "\"2022-07-11\"^^xsd:date" ;
                               dcterms:title "Growth medium ontology"@en ;
-                              owl:versionInfo "0.22 Beta"@en ;
+                              owl:versionInfo "0.24 Beta"@en ;
                               skos:definition "An onotlogy to describe meta-information about growth meda used in biological resource centers"@en ;
                               skos:historyNote "2014-07-23: ver 0.12 Beta. Property 'has role' and 'has property' were introduced."@en ,
                                                "2014-08-03: ver 0.13 Beta. Class 'Organic compound' and 'Inorganic compound' became to be obsolete."@en ,
@@ -38,7 +38,8 @@
                                                "2019-03-12: ver 0.18 Beta"@en ,
                                                "2019-08-27: ver 0.19 Beta"@en ,
                                                "2021-02-23: ver 0.22 Beta"@en ,
-                                               "2021-03-05: ver 0.23 Beta"@en .
+                                               "2021-03-05: ver 0.23 Beta"@en ,
+                                               "2022-07-11: ver 0.24 Beta"@en .
 
 #################################################################
 #    Annotation properties
