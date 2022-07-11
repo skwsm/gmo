@@ -21388,9 +21388,9 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002402 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Chelated iron (Geigy Chem. 13% iron)"@en ;
+            dcterms:identifier "GMO_002402"@en ;
             rdfs:label "Chelated iron"@en ,
                        "キレート鉄"@ja ;
-            rdfs:seeAlso "GMO_002402" ;
             skos:prefLabel "Chelated iron"@en .
 
 
