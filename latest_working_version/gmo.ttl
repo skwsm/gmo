@@ -3639,8 +3639,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "エチレンジアミン四酢酸ー鉄(Ⅲ)"@ja ;
             rdfs:seeAlso wikipedia:Ferric_EDTA ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/197149> ,
-                         <http://purl.bioontology.org/ontology/MSH/C019179> ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/28283> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/28283> ,
+                         <http://purl.bioontology.org/ontology/MSH/C019179> ;
             skos:altLabel "Iron(III)-EDTA"@en ;
             skos:prefLabel "Fe(III)-EDTA"@en .
 
@@ -17340,9 +17340,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
                        "二酸化ケイ素"@ja ;
             rdfs:seeAlso wikipedia:Silicon_dioxide ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24261> ;
-            skos:definition "An oxide of silicon with the chemical formula SiO2"@en ;
             skos:altLabel "Silica"@en ,
                           "シリカ"@ja ;
+            skos:definition "An oxide of silicon with the chemical formula SiO2"@en ;
             skos:prefLabel "Silicon dioxide"@en ,
                            "無水ケイ酸"@ja .
 
@@ -17438,7 +17438,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "NH4VO3"@en ;
             dcterms:identifier "GMO_002055" ;
             rdfs:label "Ammonium metavanadate"@en ,
-                      "メタバナジン酸アンモニウム"@ja ;
+                       "メタバナジン酸アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_metavanadate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/516859> ;
             skos:altLabel "Ammonium vanadium oxide"@en ;
@@ -17707,7 +17707,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:label "Phenylpropanoic acid"@en ,
                        "ポリヒドロキシ酪酸"@ja ;
             rdfs:seeAlso wikipedia:Phenylpropanoic_acid ,
-                        <http://pubchem.ncbi.nlm.nih.gov/compound/107> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/107> ;
             skos:altLabel "Hydrocinnamic acid"@en ;
             skos:prefLabel "Phenylpropanoic acid"@en .
 
@@ -18006,7 +18006,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:label "Methylcobalamin"@en ,
                        "メチルコバラミン"@ja ;
             rdfs:seeAlso wikipedia:Methylcobalamin ,
-                          <http://pubchem.ncbi.nlm.nih.gov/compound/6436232> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6436232> ;
             skos:prefLabel "Methylcobalamin"@en .
 
 
@@ -19083,7 +19083,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Levulinic_acid ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/11579> ;
             skos:altLabel "4-Oxopentanoic acid"@en ,
-                       "4-オキソペンタン酸"@ja ;
+                          "4-オキソペンタン酸"@ja ;
             skos:prefLabel "Levulinic acid"@en .
 
 
