@@ -1594,6 +1594,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001032 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Cystein-HCl"@en ,
+                        "Cysteine HCl"@en ,
                         "Cysteine-HC"@en ,
                         "Cysteine-HCl"@en ;
             :GMO_000113 :GMO_000041 ,
@@ -2667,6 +2668,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "Bacto Peptone (Difco)"@en ,
                         "Bacto peptone"@en ,
                         "Bacto peptone (Difco)"@en ,
+                        "Meat peptone (BD Bacto)"@en ,
                         "Peptone (Difco)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001089" ;
@@ -3328,6 +3330,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001122 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "FeCl"@en ,
+                        "FeCl3"@en ,
                         "FeCl<sub>3</sub>"@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -3465,6 +3468,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001007 ;
             :GMO_000110 "Agar (Difco)"@en ,
                         "Agar (Difco) (if necessary)"@en ,
+                        "Agar-agar (Difco)"@en ,
                         "Bacto Agar"@en ,
                         "Bacto Agar (Becton Dickinson and Company, Franklin Lakes, N.J.)"@en ,
                         "Bacto Agar (Difco)"@en ,
@@ -7739,7 +7743,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001376
 :GMO_001376 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002107 ;
-            :GMO_000110 "M17 Broth (OXOID)"@en ;
+            :GMO_000110 "M17 Broth (OXOID)"@en ,
+                        "M17 medium (Scharlau)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001376" ;
             rdfs:label "Oxoid &trade; M17 broth"@en ;
@@ -8741,7 +8746,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             :GMO_000110 "Trypticase Soy (BBL)"@en ,
                         "Trypticase Soy Broth (BD 211768)"@en ,
                         "Trypticase soy broth (BBL)"@en ,
-                        "Trypticase soy broth (BD)"@en ;
+                        "Trypticase soy broth (BD)"@en ,
+                        "Trypticase soy broth (TSB)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001438" ;
@@ -8955,7 +8961,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001452
 :GMO_001452 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_001323 ;
             :GMO_000110 "0.1 M Sodium sulfite solution"@en ,
                         "4% Na2SO3 solution"@en ,
                         "4¥% Na$_2$SO$_3$ solution"@en ;
@@ -13461,7 +13467,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001735
 :GMO_001735 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001097 ;
-            :GMO_000110 "10¥% (w/v) Trypticase peptone (BBL) solution"@en ;
+            :GMO_000110 "10% Trypticase peptone solution"@en ,
+                        "10¥% (w/v) Trypticase peptone (BBL) solution"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001735" ;
             rdfs:label "BBL &trade; Trypticase &trade; peptone solution"@en ;
@@ -15523,6 +15530,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001903
 :GMO_001903 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001902 ;
+            :GMO_000110 "KOH solution"@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001903" ;
@@ -16412,6 +16420,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001976
 :GMO_001976 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Columbia agar"@en ;
             dcterms:identifier "GMO_001976" ;
             dcterms:references "<http://rdf.ncbi.nlm.nih.gov/pubmed/5325709>" ;
             rdfs:label "Columbia agar base"@en ;
@@ -17181,7 +17190,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002035
 :GMO_002035 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            :GMO_000110 "Yeast Extract Solution (GIBCO 18180)"@en ;
+            :GMO_000110 "Yeast Extract Solution (GIBCO 18180)"@en ,
+                        "Yeast Extract Solution (Gibco cat 18180-059)"@en ;
             dcterms:identifier "GMO_002035" ;
             rdfs:label "Gibco &trade; Autolyzed yeast extract (NEOGEN)"@en ;
             skos:prefLabel "Gibco &trade; Autolyzed yeast extract (NEOGEN)"@en .
