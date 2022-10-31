@@ -7393,10 +7393,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Thioglycolate"@en ,
                         "Thioglycollic acid"@en ;
+            :GMO_000112 :GMO_000064 ,
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
-                        :GMO_000049 ,
-                        :GMO_000064 ;
+                        :GMO_000049 ;
             dcterms:identifier "GMO_001356" ;
             rdfs:label "Thioglycolic acid"@en ,
                        "チオグリコール酸"@ja ;
@@ -13768,7 +13768,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001759 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001237 ;
             :GMO_000110 "EDTA$¥cdot$Na$¥cdot$Fe(III)"@en ;
-            :GMO_000112 :GMO_000041 ,
+            :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001759" ;
@@ -16941,7 +16941,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_002011 ;
             :GMO_000110 "C18H32O16"@en ,
                         "galatcomannan (Ceratonia siliqua)"@en ;
-            :GMO_000113 :GMO_000068 ;
+            :GMO_000112 :GMO_000068 ;
             dcterms:identifier "GMO_002012" ;
             rdfs:comment "The mannose:galactose ratio is about 4:1."@en ;
             rdfs:label "Locust bean gum"@en ,
@@ -19435,8 +19435,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002228
 :GMO_002228 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000112 :GMO_000043 ,
-                        :GMO_000046 ,
+            :GMO_000112 :GMO_000043 ;
+            :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002228" ;
             rdfs:label "Ciprofloxacin"@en ,
@@ -19555,8 +19555,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002237
 :GMO_002237 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000112 :GMO_000043 ,
-                        :GMO_000046 ,
+            :GMO_000112 :GMO_000043 ;
+            :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002237" ;
             rdfs:label "Erythromycin"@en ,
@@ -19650,7 +19650,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002244 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001153 ;
             :GMO_000110 "SrCl2・H2O"@en ;
-            :GMO_000112 :GMO_000046 ,
+            :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002244" ;
             rdfs:label "Strontium chloride monohydrate"@en ,
@@ -19753,8 +19753,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002253 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001692 ;
             :GMO_000110 "Na-ampicillin"@en ;
-            :GMO_000112 :GMO_000043 ,
-                        :GMO_000046 ,
+            :GMO_000112 :GMO_000043 ;
+            :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002253" ;
             rdfs:label "Ampicillin sodium"@en ;
@@ -20897,9 +20897,9 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002359
 :GMO_002359 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000112 :GMO_000046 ,
-                        :GMO_000049 ,
-                        :GMO_000057 ;
+            :GMO_000112 :GMO_000057 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002359" ;
             rdfs:label "SAG &trade; 471 antifoam concentrate"@en ;
             skos:prefLabel "SAG &trade; 471 antifoam concentrate"@en .
@@ -21439,8 +21439,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002406
 :GMO_002406 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001738 ;
-            :GMO_000112 :GMO_000038 ,
-                        :GMO_000046 ,
+            :GMO_000112 :GMO_000038 ;
+            :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_002406" ;
             rdfs:label "HEPES-NaOH buffer"@en ;
