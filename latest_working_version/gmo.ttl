@@ -5043,7 +5043,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001217 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001072 ;
             :GMO_000110 "Lab-Lemco powder"@en ,
-                        "‘Lab-Lemco’ powder"@en ;
+                        "'Lab-Lemco' powder"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001217" ;
             rdfs:label "Lab Lemco"@en ;
@@ -5688,7 +5688,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Todd Hewitt Broth (Difco)"@en ,
                         "Todd Hewitt broth (Becton, Dickinson and Company, Franklin Lakes, NJ, USA)"@en ,
                         "Todd-Hewitt broth (Difco)"@en ,
-                        "Todd–Hewitt (TH) broth (Difco)"@en ;
+                        "Todd-Hewitt (TH) broth (Difco)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001254" ;
@@ -6611,7 +6611,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:comment """\"A Revised Medium for Rapid Growth and Bio Assays with Tobacco Tissue Cultures\"
 Toshio Murashige andFolke Skoog
 DOI: 10.1111/j.1399-3054.1962.tb08052.x
-Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
+Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Murashige and Skoog plant salt mixture"@en ,
                        "ムラシゲ・スクーグ培地用混合塩類"@ja ;
             rdfs:seeAlso <http://www.sigmaaldrich.com/content/dam/sigma-aldrich/docs/Sigma/Formulation/m5524for.pdf> ;
@@ -16163,9 +16163,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000050 ;
             dcterms:identifier "GMO_001952" ;
-            rdfs:label "Wolfe’s vitamin solution"@en ;
+            rdfs:label "Wolfe's vitamin solution"@en ;
             rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pubmed/14063318> ;
-            skos:prefLabel "Wolfe’s vitamin solution"@en .
+            skos:prefLabel "Wolfe's vitamin solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001953
@@ -16173,8 +16173,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000050 ;
             dcterms:identifier "GMO_001953" ;
-            rdfs:label "Wolfe’s mineral elixir"@en ;
-            skos:prefLabel "Wolfe’s mineral elixir"@en .
+            rdfs:label "Wolfe's mineral elixir"@en ;
+            skos:prefLabel "Wolfe's mineral elixir"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001954
@@ -17182,7 +17182,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "PPLO Broth Base w/o CV (Mycoplasma Broth Base) (BD 211458)"@en ;
             dcterms:identifier "GMO_002034" ;
-            rdfs:comment "Cat. No. 211458 Dehydrated – 500 g"@en ;
+            rdfs:comment "Cat. No. 211458 Dehydrated - 500 g"@en ;
             rdfs:label "BBL &trade; Mycoplasma broth base"@en ;
             skos:prefLabel "BBL &trade; Mycoplasma broth base"@en .
 
@@ -18347,11 +18347,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_002135" ;
             dcterms:references <http://rdf.ncbi.nlm.nih.gov/pubmed/13675766> ;
-            rdfs:label "Eagle’s minimum essential medium"@en ,
+            rdfs:label "Eagle's minimum essential medium"@en ,
                        "イーグル最少必須培地"@ja ;
             rdfs:seeAlso wikipedia:s_minimal_essential_medium ;
             skos:altLabel "MEM"@en ;
-            skos:prefLabel "Eagle’s minimum essential medium"@en .
+            skos:prefLabel "Eagle's minimum essential medium"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002136
@@ -18359,9 +18359,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_002135 ;
             :GMO_000110 "Eagle's  minimum  essential  medium  (MEM) (Nissui  Co.,  Tokyo)"@en ;
             dcterms:identifier "GMO_002136" ;
-            rdfs:label "Eagle’s MEM \"Nissui\""@en ,
+            rdfs:label "Eagle's MEM \"Nissui\""@en ,
                        "イーグルMEM培地「ニッスイ」"@ja ;
-            skos:prefLabel "Eagle’s MEM \"Nissui\""@en .
+            skos:prefLabel "Eagle's MEM \"Nissui\""@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002137
@@ -18486,7 +18486,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "BHI agar (Luqiao)"@en ,
                         "Brain heart infusion (BHI) agar"@en ,
-                        "brain–heart infusion agar"@en ;
+                        "brain-heart infusion agar"@en ;
             dcterms:identifier "GMO_002149" ;
             rdfs:label "Brain heart infusion agar"@en ,
                        "ブレインハートインフュージョン寒天培地"@ja ;
@@ -18571,7 +18571,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002157
 :GMO_002157 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002109 ;
-            :GMO_000110 "de Man–Rogosa–Sharpe (MRS) broth (LabM)"@en ;
+            :GMO_000110 "de Man-Rogosa-Sharpe (MRS) broth (LabM)"@en ;
             dcterms:identifier "GMO_002157" ;
             rdfs:label "NEOGEN &reg; Lactobacilli MRS broth"@en ,
                        "NEOGEN &reg; Lactobacilli MRS ブロス"@ja ;
@@ -18792,7 +18792,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "Brain heart infusion (BHI) broth"@en ,
                         "Brain heart infusion broth"@en ,
-                        "Brain–heart infusion (BHI) broth"@en ;
+                        "Brain-heart infusion (BHI) broth"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002176" ;
@@ -18817,12 +18817,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473–497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002178
 :GMO_002178 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002177 ;
-            :GMO_000110 "Todd–Hewitt broth (Oxoid)"@en ;
+            :GMO_000110 "Todd-Hewitt broth (Oxoid)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002178" ;
-            rdfs:label "Oxoid &trade; Todd–Hewitt broth"@en ;
-            skos:prefLabel "Oxoid &trade; Todd–Hewitt broth"@en .
+            rdfs:label "Oxoid &trade; Todd-Hewitt broth"@en ;
+            skos:prefLabel "Oxoid &trade; Todd-Hewitt broth"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002179
@@ -19712,8 +19712,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002249" ;
-            rdfs:label "2× Yeast extract tryptone (2×YT) medium"@en ;
-            skos:prefLabel "2× Yeast extract tryptone (2×YT) medium"@en .
+            rdfs:label "2x Yeast extract tryptone (2xYT) medium"@en ;
+            skos:prefLabel "2x Yeast extract tryptone (2xYT) medium"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002250
@@ -20025,10 +20025,10 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002278
 :GMO_002278 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            :GMO_000110 "Mueller–Hinton (MH) broth"@en ;
+            :GMO_000110 "Mueller-Hinton (MH) broth"@en ;
             dcterms:identifier "GMO_002278" ;
-            rdfs:label "Mueller–Hinton broth"@en ;
-            skos:prefLabel "Mueller–Hinton broth"@en .
+            rdfs:label "Mueller-Hinton broth"@en ;
+            skos:prefLabel "Mueller-Hinton broth"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002279
@@ -21115,7 +21115,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000050 ;
             dcterms:identifier "GMO_002377" ;
             rdfs:label "Heart infusion agar (Eiken)"@en ,
-                       "ハートインフュジョン寒天培地‘栄研’"@ja ;
+                       "ハートインフュジョン寒天培地'栄研'"@ja ;
             skos:prefLabel "Heart infusion agar (Eiken)"@en .
 
 
@@ -21126,7 +21126,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000050 ;
             dcterms:identifier "GMO_002378" ;
             rdfs:label "Heart infusion broth (Eiken)"@en ,
-                       "ハートインフュジョンブイヨン培地‘栄研’"@ja ;
+                       "ハートインフュジョンブイヨン培地'栄研'"@ja ;
             skos:prefLabel "Heart infusion broth (Eiken)"@en .
 
 
