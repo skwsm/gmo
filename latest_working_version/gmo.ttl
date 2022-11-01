@@ -852,6 +852,14 @@ UnitsOntology:milligram rdf:type owl:Class ;
             skos:prefLabel "Emulsifier"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_000077
+:GMO_000077 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000039 ;
+            rdfs:label "Gas"@en ,
+                       "ガス"@ja ;
+            skos:prefLabel "Gas"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/GMO_001001
 :GMO_001001 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001890 ;
@@ -5042,8 +5050,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001217
 :GMO_001217 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001072 ;
-            :GMO_000110 "Lab-Lemco powder"@en ,
-                        "'Lab-Lemco' powder"@en ;
+            :GMO_000110 "'Lab-Lemco' powder"@en ,
+                        "Lab-Lemco powder"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001217" ;
             rdfs:label "Lab Lemco"@en ;
@@ -5687,8 +5695,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "Bacto Todd Hewitt Broth (Difco)"@en ,
                         "Todd Hewitt Broth (Difco)"@en ,
                         "Todd Hewitt broth (Becton, Dickinson and Company, Franklin Lakes, NJ, USA)"@en ,
-                        "Todd-Hewitt broth (Difco)"@en ,
-                        "Todd-Hewitt (TH) broth (Difco)"@en ;
+                        "Todd-Hewitt (TH) broth (Difco)"@en ,
+                        "Todd-Hewitt broth (Difco)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001254" ;
@@ -7393,7 +7401,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Thioglycolate"@en ,
                         "Thioglycollic acid"@en ;
-            :GMO_000112 :GMO_000064 ,
+            :GMO_000112 :GMO_000064 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
