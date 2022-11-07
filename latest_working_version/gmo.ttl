@@ -19836,6 +19836,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002260 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "CO2"@en ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002260" ;
             rdfs:label "Carbon dioxide gas"@en ,
                        "二酸化炭素ガス"@ja ;
@@ -19847,6 +19848,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002261 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "N2"@en ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002261" ;
             rdfs:label "Nitrogen gas"@en ,
                        "窒素ガス"@ja ;
@@ -19858,6 +19860,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002262 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "O2"@en ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002262" ;
             rdfs:label "Oxygen gas"@en ,
                        "酸素ガス"@ja ;
@@ -19869,6 +19872,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002263 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "H2"@en ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002263" ;
             rdfs:label "Hydrogen gas"@en ,
                        "水素ガス"@ja ;
@@ -19880,6 +19884,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002264 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "methane"@en ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002264" ;
             rdfs:label "Methane gas"@en ,
                        "メタンガス"@ja ;
@@ -19890,6 +19895,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002265
 :GMO_002265 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002265" ;
             rdfs:label "Carbon monoxide"@en ,
                        "一酸化炭素ガス"@ja ;
@@ -19900,6 +19906,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002266
 :GMO_002266 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002266" ;
             rdfs:label "Air"@en ,
                        "空気"@ja ;
@@ -19910,6 +19917,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002267 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "N2O"@en ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002267" ;
             rdfs:label "Nitric oxide"@en ,
                        "一酸化窒素"@ja ;
@@ -20202,6 +20210,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002293
 :GMO_002293 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000077 ;
             dcterms:identifier "GMO_002293" ;
             rdfs:label "Hydrogen sulfide gas"@en ,
                        "硫化水素ガス"@ja ;
