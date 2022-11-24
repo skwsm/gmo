@@ -600,7 +600,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_000045
 :GMO_000045 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000042 ;
+            rdfs:subClassOf :GMO_000067 ;
             dcterms:identifier "GMO_000045" ;
             rdfs:label "Vitamin"@en ;
             skos:prefLabel "Vitamin"@en .
@@ -757,7 +757,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_000065
 :GMO_000065 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000042 ;
+            rdfs:subClassOf :GMO_000078 ;
             dcterms:identifier "GMO_000065" ;
             rdfs:label "Trace metal"@en ;
             skos:prefLabel "Trace metal"@en .
@@ -858,6 +858,13 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Gas"@en ,
                        "ガス"@ja ;
             skos:prefLabel "Gas"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_000078
+:GMO_000078 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000067 ;
+            rdfs:label "Mineral source"@en ;
+            skos:prefLabel "Mineral source"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001001
@@ -2286,7 +2293,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001066
 :GMO_001066 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001891 ;
+            rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Half-strength seawater"@en ,
                         "Sea water"@en ,
                         "Seawater"@en ,
@@ -3493,7 +3500,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001131
 :GMO_001131 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001891 ;
+            rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Tap water"@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000047 ;
@@ -8292,7 +8299,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001407
 :GMO_001407 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001891 ;
+            rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Environmental water"@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000047 ;
@@ -8787,7 +8794,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001441
 :GMO_001441 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001891 ;
+            rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Volvic water"@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000047 ;
@@ -10235,7 +10242,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001513
 :GMO_001513 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001891 ;
+            rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Anaerobic water"@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000040 ,
@@ -15393,7 +15400,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001890
 :GMO_001890 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001967 ;
+            rdfs:subClassOf :GMO_001891 ;
             dcterms:identifier "GMO_001890" ;
             rdfs:label "Purified water"@en ,
                        "精製水"@ja ;
@@ -15405,6 +15412,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_001891" ;
             rdfs:label "Water"@en ;
+            skos:altLabel "Water solvent"@en ;
             skos:prefLabel "Water"@en .
 
 
@@ -16328,7 +16336,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001967
 :GMO_001967 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             dcterms:identifier "GMO_001967" ;
             rdfs:label "Water solvent"@en ;
             skos:prefLabel "Water solvent"@en .
