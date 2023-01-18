@@ -839,13 +839,15 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_000075" ;
             rdfs:label "Surfactant"@en ,
                        "界面活性剤"@ja ;
-            rdfs:seeAlso wikipedia:Surfactant ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Emulsion#Emulsifiers> ,
+                          wikipedia:Surfactant ;
+            skos:altLabel "Emulsifier"@en 
             skos:prefLabel "Surfactant"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_000076
 :GMO_000076 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000037 ;
+            rdfs:subClassOf :Obsolete_classes ;
             dcterms:identifier "GMO_000076" ;
             rdfs:label "Emulsifier"@en ,
                        "乳化剤"@ja ;
@@ -2201,8 +2203,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Tween 80"@en ,
                         "Tween80"@en ;
-            :GMO_000112 :GMO_000075 ,
-                        :GMO_000076 ;
+            :GMO_000112 :GMO_000075 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -2340,7 +2341,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Seawater (2% salinity)"@en ,
                         "Seawater (3 % salinity)"@en ,
                         "Seawater (3.76 % salinity)"@en ;
-            :GMO_000112 :GMO_000044 ;
+            :GMO_000112 :GMO_000044 ,
+                        :GMO_000078;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001066" ;
             rdfs:label "Seawater"@en ,
@@ -5515,7 +5517,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Artificial seawater"@en ,
                         "Seawater (1.75 % salinity)"@en ,
                         "Seawater (3.5% salinity)"@en ;
-            :GMO_000112 :GMO_000044 ;
+            :GMO_000112 :GMO_000044 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ,
                         :GMO_000051 ;
@@ -12282,7 +12285,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "Pyridoxamine 2HCl"@en ,
                         "Pyridoxamine$¥cdot$2HCl"@en ,
                         "Pyridoxamine&#183;2HCl"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -12298,7 +12301,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "Pyridoxamine HCl"@en ,
                         "Pyridoxamine$¥cdot$HCl"@en ,
                         "Pyridoxamine&#183;HCl"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -12931,8 +12934,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001675 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Tween 20"@en ;
-            :GMO_000112 :GMO_000075 ,
-                        :GMO_000076 ;
+            :GMO_000112 :GMO_000075 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -14902,7 +14904,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001813
 :GMO_001813 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001247 ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -15773,7 +15775,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001880
 :GMO_001880 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001235 ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000044 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001880" ;
@@ -15784,7 +15787,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001881
 :GMO_001881 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001235 ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000044 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001881" ;
@@ -16021,7 +16025,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001900 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001235 ;
             :GMO_000110 "MJ(-N) synthetic seawater"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000044 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001900" ;
@@ -16513,7 +16518,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "DL--Calcium pantothenate"@en ,
                         "DL-Calcium pantothenate"@en ,
                         "DL¥-Calcium pantothenate"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -16555,7 +16560,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "D(+)-Biotin"@en ,
                         "D--Biotin"@en ,
                         "D-Biotin"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -16570,7 +16575,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "Calcium D(+)-panthothenate"@en ,
                         "D--Calcium pantothenate"@en ,
                         "D-Ca-pantothenate"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             :GMO_000113 :GMO_000046 ;
             dcterms:identifier "GMO_001940" ;
             rdfs:label "D-Calcium pantothenate"@en ;
@@ -17015,7 +17020,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001978
 :GMO_001978 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             dcterms:identifier "GMO_001978" ;
             rdfs:label "Vitamin B6"@en ,
                        "ビタミンB6"@ja ;
@@ -17525,7 +17530,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002011
 :GMO_002011 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000112 :GMO_000063 ;
+            :GMO_000112 :GMO_000063 ,
+                        :GMO_000068 ;
             dcterms:identifier "GMO_002011" ;
             rdfs:label "Galatcomannan"@en ,
                        "ガラクトマンナン"@ja ;
@@ -18696,7 +18702,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_002103 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002328 ;
             :GMO_000110 "cyanocobalamin (Sigma Aldrich)"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             dcterms:identifier "GMO_002103" ;
             rdfs:label "Cyanocobalamin (Sigma-Aldrich)"@en ,
                        "シアノコバラミン (Sigma-Aldrich)"@ja ;
@@ -19422,8 +19428,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_002171 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001060 ;
             :GMO_000110 "Tween 80 (BD)"@en ;
-            :GMO_000112 :GMO_000075 ,
-                        :GMO_000076 ;
+            :GMO_000112 :GMO_000075 ;
             dcterms:identifier "GMO_002171" ;
             rdfs:label "Difco &trade; Tween &reg; 80"@en ;
             skos:prefLabel "Difco &trade; Tween &reg; 80"@en .
@@ -21363,7 +21368,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002328 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001034 ;
             :GMO_000110 "Cyanocobalamin (Vitamin B12)"@en ;
-            :GMO_000112 :GMO_000067 ;
+            :GMO_000112 :GMO_000045 ;
             dcterms:identifier "GMO_002328" ;
             rdfs:label "Cyanocobalamin"@en ;
             rdfs:seeAlso wikipedia:Cyanocobalamin ,
