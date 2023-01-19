@@ -841,7 +841,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "界面活性剤"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Emulsion#Emulsifiers> ,
                           wikipedia:Surfactant ;
-            skos:altLabel "Emulsifier"@en 
+            skos:altLabel "Emulsifier"@en ;
             skos:prefLabel "Surfactant"@en .
 
 
