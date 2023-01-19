@@ -2973,8 +2973,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001101
 :GMO_001101 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000112 :GMO_000043 ,
-                        :GMO_000045 ;
+            :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -14920,8 +14919,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001814 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001101 ;
             :GMO_000110 "<i>myo</i>-Inositol"@en ;
-            :GMO_000112 :GMO_000043 ,
-                        :GMO_000045 ;
+            :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
