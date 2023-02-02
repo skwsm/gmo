@@ -22219,7 +22219,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            dcterms:identifier "GMO_002401"@en ;
+            dcterms:identifier "GMO_002401" ;
             rdfs:label "Sheep blood agar"@en ,
                        "ヒツジ血液寒天培地"@ja ;
             skos:prefLabel "Sheep blood agar"@en .
@@ -22230,7 +22230,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Chelated iron (Geigy Chem. 13% iron)"@en ;
             :GMO_000112 :GMO_000078 ;
-            dcterms:identifier "GMO_002402"@en ;
+            dcterms:identifier "GMO_002402" ;
             rdfs:label "Chelated iron"@en ,
                        "キレート鉄"@ja ;
             skos:prefLabel "Chelated iron"@en .
