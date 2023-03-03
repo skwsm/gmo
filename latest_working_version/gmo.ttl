@@ -181,6 +181,13 @@ UnitsOntology:kilogram rdf:type rdfs:Datatype .
             rdfs:label "is a medium type"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_000115
+:GMO_000115 rdf:type owl:ObjectProperty ;
+            rdfs:domain :GMO_000079 ;
+            rdfs:label "target medium"@en ;
+            skos:prefLabel "target medium"@en .
+
+
 #################################################################
 #    Data properties
 #################################################################
@@ -839,8 +846,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_000075" ;
             rdfs:label "Surfactant"@en ,
                        "界面活性剤"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Emulsion#Emulsifiers> ,
-                          wikipedia:Surfactant ;
+            rdfs:seeAlso wikipedia:Surfactant ,
+                         <http://en.wikipedia.org/wiki/Emulsion#Emulsifiers> ;
             skos:altLabel "Emulsifier"@en ;
             skos:prefLabel "Surfactant"@en .
 
@@ -870,6 +877,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_000078" ;
             rdfs:label "Mineral source"@en ;
             skos:prefLabel "Mineral source"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_000079
+:GMO_000079 rdf:type owl:Class ;
+            rdfs:label "Media similarity"@en ;
+            skos:prefLabel "Media similarity"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001001
@@ -2344,7 +2357,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Seawater (3 % salinity)"@en ,
                         "Seawater (3.76 % salinity)"@en ;
             :GMO_000112 :GMO_000044 ,
-                        :GMO_000078;
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001066" ;
             rdfs:label "Seawater"@en ,
