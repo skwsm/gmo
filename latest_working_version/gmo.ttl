@@ -1220,8 +1220,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium sulfide nonahydrate"@en ,
                        "硫化ナトリウム九水和物"@ja ;
             rdfs:seeAlso wikipedia:Sodium_sulfide ,
-                         chebi:CHEBI_32586 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/73972> ,
+                         chebi:CHEBI_76209 ;
             skos:prefLabel "Sodium sulfide nonahydrate"@en .
 
 
@@ -1850,9 +1850,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium thiosulfate pentahydrate"@en ,
                        "チオ硫酸ナトリウム五水和物"@ja ;
             rdfs:seeAlso wikipedia:Sodium_thiosulfate ,
-                         snomed: ,
-                         chebi:CHEBI_31440 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61475> ,
+                         chebi:CHEBI_32150 ;
             skos:prefLabel "Sodium thiosulfate pentahydrate"@en .
 
 
@@ -2051,11 +2050,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_sulfate ,
                          ncit:Sodium_Sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24436> ,
                          <http://purl.bioontology.org/ontology/MSH/C012036> ,
                          ndf:N0000147390 ,
-                         rxnorm: ,
-                         chebi:CHEBI_32149 ,
-                         pubchem: ;
+                         chebi:CHEBI_32149 ;
             skos:prefLabel "Sodium sulfate"@en .
 
 
@@ -2433,6 +2431,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001070" ;
             rdfs:label "Sodium succinate"@en ,
                        "コハク酸ナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9020> ,
+                         chebi:CHEBI_63675 ;
             skos:prefLabel "Sodium succinate"@en .
 
 
@@ -2928,7 +2928,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium thiosulfate"@en ,
                        "チオ硫酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_thiosulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24477> ,
+                         chebi:CHEBI_132112 ;
             skos:prefLabel "Sodium thiosulfate"@en .
 
 
@@ -3466,8 +3467,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium phosphate buffer"@en ,
                        "リン酸ナトリウム緩衝液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_phosphates ,
-                         <http://purl.bioontology.org/ontology/MSH/C018279> ,
-                         pubchem: ;
+                         <http://purl.bioontology.org/ontology/MSH/C018279> ;
             skos:prefLabel "Sodium phosphate buffer"@en .
 
 
@@ -3601,9 +3601,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "チオグリコール酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Thioglycolic_acid ,
                          ncit:Sodium_Thioglycolate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23690444> ,
                          <http://purl.bioontology.org/ontology/MSH/C017487> ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_86481 ;
             skos:altLabel "Sodium thioglycollate"@en ;
             skos:prefLabel "Sodium thioglycolate"@en .
 
@@ -4830,7 +4830,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001198" ;
             rdfs:label "Sodium silicate nonahydrate"@en ,
                        "ケイ酸ナトリウム九水和物"@ja ;
-            rdfs:seeAlso wikipedia:Sodium_silicate ;
+            rdfs:seeAlso wikipedia:Sodium_silicate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61639> ,
+                         chebi:CHEBI_132108 ;
             skos:prefLabel "Sodium silicate nonahydrate"@en .
 
 
@@ -4864,11 +4866,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "酒石酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_tartrate ,
                          ncit:Sodium_Tartrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/13355> ,
                          <http://purl.bioontology.org/ontology/MSH/C029768> ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_63017 ,
-                         pubchem: ;
+                         chebi:CHEBI_63017 ;
             skos:prefLabel "Sodium tartrate"@en .
 
 
@@ -5538,10 +5538,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium silicate"@en ,
                        "ケイ酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_silicate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23266> ,
                          <http://purl.bioontology.org/ontology/MSH/C005691> ,
                          ndf:N0000022768 ,
-                         chebi:CHEBI_60720 ,
-                         pubchem: ;
+                         chebi:CHEBI_60720 ;
             skos:altLabel "Sodium metasilicate"@en ;
             skos:prefLabel "Sodium silicate"@en .
 
@@ -6319,7 +6319,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001283" ;
             rdfs:label "Sodium terephthalate"@en ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/82305> ;
             skos:prefLabel "Sodium terephthalate"@en .
 
 
@@ -6414,8 +6414,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8724> ,
                          <http://purl.bioontology.org/ontology/MSH/C514135> ,
                          ndf:N0000147294 ,
-                         rxnorm: ,
-                         snomed:N0000147294 ;
+                         snomed:N0000147294 ,
+                         chebi:CHEBI_132106 ;
             skos:prefLabel "Sodium propionate"@en .
 
 
@@ -6864,8 +6864,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium sulfide solution"@en ,
                        "硫化ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_sulfide ,
-                         snomed: ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24437> ,
+                         chebi:CHEBI_86477 ;
             skos:prefLabel "Sodium sulfide solution"@en .
 
 
@@ -7020,7 +7020,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "硫化ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_sulfide ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24437> ,
-                         snomed: ;
+                         <http://purl.obolibrary.org/obo//CHEBI_86477> ;
             skos:prefLabel "Sodium sulfide"@en .
 
 
@@ -7466,8 +7466,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium tetrathionate"@en ,
                        "テトラチオン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_tetrathionate ,
-                         <http://purl.bioontology.org/ontology/MSH/D013776> ,
-                         pubchem: ;
+                         <http://purl.bioontology.org/ontology/MSH/D013776> ;
             skos:prefLabel "Sodium tetrathionate"@en .
 
 
@@ -9241,10 +9240,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Sodium_sulfite ,
                          ncit:C28205 ,
                          <http://purl.bioontology.org/ontology/MSH/C025026> ,
-                         ndf:N0000146277 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000146277 ;
             skos:prefLabel "Sodium sulfite solution"@en .
 
 
@@ -9437,6 +9433,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001462" ;
             rdfs:label "Sodium succinate solution"@en ,
                        "コハク酸ナトリウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9020> ,
+                         chebi:CHEBI_63675 ;
             skos:prefLabel "Sodium succinate solution"@en .
 
 
@@ -9658,7 +9656,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium thiosulfate solution"@en ,
                        "チオ硫酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_thiosulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24477> ,
+                         chebi:CHEBI_132112 ;
             skos:prefLabel "Sodium thiosulfate solution"@en .
 
 
@@ -9972,9 +9971,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium thiosulfate pentahydrate solution"@en ,
                        "チオ硫酸ナトリウム五水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_thiosulfate ,
-                         snomed: ,
-                         chebi:CHEBI_31440 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61475> ,
+                         chebi:CHEBI_32150 ;
             skos:prefLabel "Sodium thiosulfate pentahydrate solution"@en .
 
 
@@ -10153,8 +10151,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium sulfide nonahydrate solution"@en ,
                        "硫化ナトリウム九水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_sulfide ,
-                         chebi:CHEBI_32586 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/73972> ,
+                         chebi:CHEBI_76209 ;
             skos:prefLabel "Sodium sulfide nonahydrate solution"@en .
 
 
@@ -11848,7 +11846,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001603" ;
             rdfs:label "Sodium selenate pentahydrate"@en ,
                        "セレン酸ナトリウム五水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129671869> ;
+            rdfs:seeAlso wikipedia:Sodium_selenate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/129671869> ;
             skos:prefLabel "Sodium selenate pentahydrate"@en .
 
 
@@ -12572,8 +12571,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "オレイン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Oleic_acid ,
                          ncit:C84162 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23665730> ,
                          <http://purl.bioontology.org/ontology/MSH/C013173> ,
-                         pubchem: ;
+                         chebi:CHEBI_81860 ;
             skos:prefLabel "Sodium oleate"@en .
 
 
@@ -12588,8 +12588,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001651" ;
             rdfs:label "Sodium palmitate"@en ;
             rdfs:seeAlso wikipedia:Palmitic_acid ,
-                         <http://purl.bioontology.org/ontology/MSH/D019308> ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2735111> ,
+                         <http://purl.bioontology.org/ontology/MSH/D019308> ;
             skos:prefLabel "Sodium palmitate"@en .
 
 
@@ -18187,7 +18187,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002061" ;
             rdfs:label "Sodium succinate hexahydrate"@en ,
                        "コハク酸ナトリウム六水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/3083938> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/3083938> ,
+                         chebi:CHEBI_63686 ;
             skos:prefLabel "Sodium succinate hexahydrate"@en .
 
 
@@ -18200,7 +18201,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium oxalate"@en ,
                        "シュウ酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_oxalate ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/6125> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6125> ,
+                         chebi:CHEBI_132764 ;
             skos:prefLabel "Sodium oxalate"@en .
 
 
@@ -18328,7 +18330,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002072" ;
             rdfs:label "Sodium octanoate"@en ,
                        "オクタン酸ナトリウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23664772> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23664772> ,
+                         chebi:CHEBI_132100 ;
             skos:altLabel "Sodium caprylate"@en ;
             skos:prefLabel "Sodium octanoate"@en .
 
@@ -20748,6 +20751,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_002273" ;
             rdfs:label "Sodium tungstate dihydrate solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/150191> ,
+                         chebi:CHEBI_63939 ;
             skos:prefLabel "Sodium tungstate dihydrate solution"@en .
 
 
@@ -21175,6 +21180,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002310" ;
             rdfs:label "Sodium propionate solution"@en ;
+            rdfs:seeAlso wikipedia:Sodium_propionate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8724> ,
+                         chebi:CHEBI_132106 ;
             skos:prefLabel "Sodium propionate solution"@en ,
                            "プロピオン酸ナトリウム溶液"@ja .
 
@@ -21236,6 +21244,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002315" ;
             rdfs:label "Sodium selenite solution"@en ;
+            rdfs:seeAlso wikipedia:Sodium_selenite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24934> ,
+                         chebi:CHEBI_48843 ;
             skos:prefLabel "Sodium selenite solution"@en ,
                            "亜セレン酸ナトリウム溶液"@ja .
 
@@ -21246,6 +21257,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002316" ;
             rdfs:label "Sodium pyruvate (Sigma)"@en ;
+            rdfs:seeAlso wikipedia:Sodium_pyruvate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23662274> ,
+                         chebi:CHEBI_50144 ;
             skos:prefLabel "Sodium pyruvate (Sigma)"@en ,
                            "ピルビン酸ナトリウム(Sigma)"@ja .
 
