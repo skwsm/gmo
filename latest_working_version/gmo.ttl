@@ -975,9 +975,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:seeAlso wikipedia:Sodium_chloride ,
                          ncit:Sodium_Chloride ,
                          ndf:N0000145832 ,
-                         rxnorm: ,
-                         chebi:CHEBI_26710 ,
-                         pubchem: ;
+                         chebi:CHEBI_26710 ;
             skos:prefLabel "Sodium chloride"@en .
 
 
@@ -1177,7 +1175,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Resazurin"@en ,
                        "レサズリン"@ja ;
             rdfs:seeAlso wikipedia:Resazurin ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11077> ,
+                         chebi:CHEBI_8806 ;
             skos:altLabel "7-Hydroxy-3H-phenoxazin-3-one 10-oxide"@en ;
             skos:prefLabel "Resazurin"@en .
 
@@ -1774,12 +1773,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Riboflavin"@en ;
             rdfs:seeAlso wikipedia:Riboflavin ,
                          ncit:Riboflavin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/493570> ,
                          <http://purl.bioontology.org/ontology/MSH/D012256> ,
                          ndf:N0000146013 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_17015 ,
-                         pubchem: ;
+                         chebi:CHEBI_17015 ;
             skos:altLabel "Vitamin B2"@en ;
             skos:prefLabel "Riboflavin"@en .
 
@@ -4223,7 +4220,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Rifampicin solution"@en ,
                        "リファンピシン溶液"@ja ;
             rdfs:seeAlso wikipedia:Rifampicin ,
-                         snomed: ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/135398735> ,
                          chebi:CHEBI_28077 ;
             skos:prefLabel "Rifampicin solution"@en .
 
@@ -6152,7 +6149,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25310> ,
                          <http://purl.bioontology.org/ontology/MSH/D012210> ,
                          ndf:N0000168560 ,
-                         snomed: ,
                          chebi:CHEBI_26546 ;
             skos:prefLabel "Rhamnose"@en .
 
@@ -8485,7 +8481,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Resazurin solution"@en ,
                        "レサズリン溶液"@ja ;
             rdfs:seeAlso wikipedia:Resazurin ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11077> ,
+                         chebi:CHEBI_8806 ;
             skos:prefLabel "Resazurin solution"@en .
 
 
@@ -12421,11 +12418,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "リボース"@ja ;
             rdfs:seeAlso wikipedia:Ribose ,
                          ncit:C68487 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5779> ,
                          <http://purl.bioontology.org/ontology/MSH/D012266> ,
                          ndf:N0000168501 ,
-                         snomed: ,
-                         chebi:CHEBI_33942 ,
-                         pubchem: ;
+                         chebi:CHEBI_33942 ;
             skos:prefLabel "Ribose"@en .
 
 
@@ -12439,9 +12435,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Rye-bran"@en ;
             rdfs:seeAlso wikipedia:Rye ,
                          ncit:C85249 ,
-                         <http://purl.bioontology.org/ontology/MSH/D012434> ,
-                         rxnorm: ,
-                         snomed: ;
+                         <http://purl.bioontology.org/ontology/MSH/D012434> ;
             skos:prefLabel "Rye-bran"@en .
 
 
@@ -12485,7 +12479,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001642" ;
             rdfs:label "Selenium salt"@en ;
-            rdfs:seeAlso snomed: ;
             skos:prefLabel "Selenium salt"@en .
 
 
@@ -13232,7 +13225,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Rifampicin"@en ,
                        "リファンピシン"@ja ;
             rdfs:seeAlso wikipedia:Rifampicin ,
-                         snomed: ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/135398735> ,
                          chebi:CHEBI_28077 ;
             skos:prefLabel "Rifampicin"@en .
 
@@ -13602,7 +13595,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001717" ;
             rdfs:label "Selenous acid"@en ,
                        "亜セレン酸"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/1091> ,
+                         chebi:CHEBI_26642 ;
             skos:altLabel "Selenious acid"@en ;
             skos:prefLabel "Selenous acid"@en .
 
@@ -14740,6 +14734,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001799" ;
             rdfs:label "Serine"@en ,
                        "セリン"@ja ;
+            rdfs:seeAlso wikipedia:Serine ;
             skos:prefLabel "Serine"@en .
 
 
@@ -14754,7 +14749,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001800" ;
             rdfs:label "L-Serine"@en ,
                        "L-セリン"@ja ;
-            rdfs:seeAlso wikipedia:Serine ;
+            rdfs:seeAlso wikipedia:Serine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5951> ,
+                         chebi:CHEBI_17115 ;
             skos:prefLabel "L-Serine"@en .
 
 
@@ -14768,6 +14765,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001801" ;
             rdfs:label "D-Serine"@en ,
                        "D-セリン"@ja ;
+            rdfs:seeAlso wikipedia:Serine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/71077> ,
+                         chebi:CHEBI_16523 ;
             skos:prefLabel "D-Serine"@en .
 
 
@@ -16031,6 +16031,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001899" ;
             rdfs:label "L-Serine solution"@en ,
                        "L-セリン溶液"@ja ;
+            rdfs:seeAlso wikipedia:Serine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5951> ,
+                         chebi:CHEBI_17115 ;
             skos:prefLabel "L-Serine solution"@en .
 
 
@@ -17452,7 +17455,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002004" ;
             rdfs:label "L-Rhamnose"@en ,
                        "L-ラムノース"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/25310> ;
+            rdfs:seeAlso wikipedia:Rhamnose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25310> ,
+                         chebi:CHEBI_26546 ;
             skos:prefLabel "L-Rhamnose"@en .
 
 
@@ -17991,7 +17996,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Silicon dioxide"@en ,
                        "二酸化ケイ素"@ja ;
             rdfs:seeAlso wikipedia:Silicon_dioxide ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/24261> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24261> ,
+                         chebi:CHEBI_30563 ;
             skos:altLabel "Silica"@en ,
                           "シリカ"@ja ;
             skos:definition "An oxide of silicon with the chemical formula SiO2"@en ;
@@ -18824,6 +18830,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002115" ;
             rdfs:label "Sea salts"@en ;
+            rdfs:seeAlso wikipedia:Sea_salt ;
             skos:prefLabel "Sea salts"@en ,
                            "海塩"@ja .
 
@@ -19295,7 +19302,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002158" ;
             rdfs:label "DL-Serine"@en ,
                        "DL-セリン"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/617> ;
+            rdfs:seeAlso wikipedia:Serine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/617> ,
+                         chebi:CHEBI_17822 ;
             skos:prefLabel "DL-Serine"@en .
 
 
@@ -21195,8 +21204,12 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_002004 ;
             :GMO_000110 "0.5 M L-Rhamnose solution"@en ;
             :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002313" ;
             rdfs:label "L-Rhamnose solution"@en ;
+            rdfs:seeAlso wikipedia:Rhamnose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25310> ,
+                         chebi:CHEBI_26546 ;
             skos:prefLabel "L-Rhamnose solution"@en ,
                            "L-ラムノース溶液"@ja .
 
@@ -21343,7 +21356,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002325" ;
             rdfs:label "Retinol"@en ;
             rdfs:seeAlso wikipedia:Retinol ,
-                         wikipedia:Vitamin_A ;
+                         wikipedia:Vitamin_A ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/445354> ;
             skos:altLabel "Vitamin A"@en ;
             skos:prefLabel "Retinol"@en ,
                            "レチノール"@ja .
@@ -21523,6 +21537,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002341" ;
             rdfs:label "Rice straw"@en ,
                        "稲わら"@ja ;
+            rdfs:seeAlso wikipedia:Straw ;
             skos:prefLabel "Rice straw"@en .
 
 
@@ -22257,6 +22272,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002403" ;
             rdfs:label "Silicone antifoam"@en ,
                        "シリコーン消泡剤"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Silicone#Defoaming> ;
             skos:altLabel "Silicone defoamer"@en ;
             skos:prefLabel "Silicone antifoam"@en .
 
@@ -22266,8 +22282,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_002403 ;
             :GMO_000110 "Antiform C"@en ;
             dcterms:identifier "GMO_002404" ;
-            rdfs:label "Antiform C emulsion"@en ;
-            skos:prefLabel "Antiform C emulsion"@en .
+            rdfs:label "Antifoam C emulsion"@en ;
+            skos:prefLabel "Antifoam C emulsion"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002405
