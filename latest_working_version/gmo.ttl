@@ -974,6 +974,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "塩化ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_chloride ,
                          ncit:Sodium_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5234> ,
                          ndf:N0000145832 ,
                          chebi:CHEBI_26710 ;
             skos:prefLabel "Sodium chloride"@en .
@@ -1333,11 +1334,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "炭酸水素ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_bicarbonate ,
                          ncit:Sodium_Bicarbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516892> ,
                          ndf:N0000146526 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32139 ,
-                         pubchem: ;
+                         chebi:CHEBI_32139 ;
             skos:altLabel "Sodium hydrogen carbonate"@en ,
                           "重曹"@ja ,
                           "重炭酸ソーダ"@ja ,
@@ -2472,13 +2471,13 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001073" ;
-            rdfs:label "Sodium bromide"@en ;
+            rdfs:label "Sodium bromide"@en ,
+                       "臭化ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_bromide ,
                          ncit:Sodium_Bromide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/253881> ,
                          <http://purl.bioontology.org/ontology/MSH/C027938> ,
-                         snomed: ,
-                         chebi: ,
-                         pubchem: ;
+                         chebi:CHEBI_63004 ;
             skos:prefLabel "Sodium bromide"@en .
 
 
@@ -2861,11 +2860,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium glutamate"@en ,
                        "グルタミン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Monosodium_glutamate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23672308> ,
                          <http://purl.bioontology.org/ontology/MSH/D012970> ,
-                         ndf:N0000170280 ,
-                         snomed: ,
-                         chebi:CHEBI_64243 ,
-                         pubchem: ;
+                         ndf:N0000170280 ;
             skos:altLabel "MSG"@en ,
                           "Monosodium glutamate"@en ;
             skos:prefLabel "Sodium glutamate"@en .
@@ -3132,12 +3129,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "フッ化ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_fluoride ,
                          ncit:Sodium_Fluoride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5235> ,
                          <http://purl.bioontology.org/ontology/MSH/D012969> ,
                          ndf:N0000146026 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_28741 ,
-                         pubchem: ;
+                         chebi:CHEBI_28741 ;
             skos:prefLabel "Sodium fluoride"@en .
 
 
@@ -3167,14 +3162,13 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001109" ;
             rdfs:label "Sodium citrate"@en ,
                        "クエン酸ナトリウム"@ja ;
-            rdfs:seeAlso wikipedia:Sodium_citrate ,
+            rdfs:seeAlso wikipedia:Trisodium_citrate ,
                          ncit:Sodium_Citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
                          <http://purl.bioontology.org/ontology/MSH/C102006> ,
                          ndf:N0000145851 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_53258 ,
-                         pubchem: ;
+                         chebi:CHEBI_53258 ;
+            skos:altLabel "Trisodium citrate"@en ;
             skos:prefLabel "Sodium citrate"@en .
 
 
@@ -3384,12 +3378,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "炭酸水素ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_bicarbonate ,
                          ncit:Sodium_Bicarbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516892> ,
                          <http://purl.bioontology.org/ontology/MSH/D017693> ,
                          ndf:N0000146526 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32139 ,
-                         pubchem: ;
+                         chebi:CHEBI_32139 ;
             skos:prefLabel "Sodium bicarbonate solution"@en .
 
 
@@ -3405,10 +3397,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "ギ酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_formate ,
                          ncit:Sodium_Formate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2723810> ,
                          <http://purl.bioontology.org/ontology/MSH/C030544> ,
-                         rxnorm: ,
-                         chebi:CHEBI_62965 ,
-                         pubchem: ;
+                         chebi:CHEBI_62965 ;
             skos:prefLabel "Sodium formate"@en .
 
 
@@ -4290,7 +4281,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "グルタミン酸ナトリウム一水和物"@ja ;
             rdfs:seeAlso wikipedia:Monosodium_glutamate ,
                          ncit:C82288 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23689119> ;
             skos:altLabel "Monosodium glutamate monohydrate"@en ;
             skos:prefLabel "Sodium glutamate monohydrate"@en .
 
@@ -4357,8 +4348,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001172" ;
             rdfs:label "Skim milk"@en ;
             rdfs:seeAlso wikipedia:Skimmed_milk ,
-                         ndf:N0000023323 ,
-                         snomed: ;
+                         ndf:N0000023323 ;
             skos:prefLabel "Skim milk"@en .
 
 
@@ -5190,11 +5180,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "炭酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_carbonate ,
                          ncit:Sodium_Carbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10340> ,
                          ndf:N0000147041 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_29377 ,
-                         pubchem: ;
+                         chebi:CHEBI_29377 ;
             skos:prefLabel "Sodium carbonate solution"@en .
 
 
@@ -5348,11 +5336,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "アスコルビン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_ascorbate ,
                          ncit:Sodium_Ascorbate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23667548> ,
                          <http://purl.bioontology.org/ontology/MSH/D001205> ,
                          ndf:N0000145860 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_113451 ;
             skos:prefLabel "Sodium ascorbate"@en .
 
 
@@ -6990,12 +6977,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "クエン酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_citrate ,
                          ncit:Sodium_Citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
                          <http://purl.bioontology.org/ontology/MSH/C102006> ,
                          ndf:N0000145851 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_53258 ,
-                         pubchem: ;
+                         chebi:CHEBI_53258 ;
             skos:prefLabel "Sodium citrate solution"@en .
 
 
@@ -7163,9 +7148,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001330" ;
-            rdfs:label "Sodium aspartate"@en ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/D001224> ,
-                         pubchem: ;
+            rdfs:label "Sodium aspartate"@en ,
+                       "アスパラギン酸ナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/21806> ,
+                         <http://purl.bioontology.org/ontology/MSH/D001224> ;
             skos:prefLabel "Sodium aspartate"@en .
 
 
@@ -7263,14 +7249,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001336" ;
-            rdfs:label "Sodium benzoate"@en ;
+            rdfs:label "Sodium benzoate"@en ,
+                       "安息香酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_Benzoate ,
                          ncit:Sodium_Benzoate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/517055> ,
                          <http://purl.bioontology.org/ontology/MSH/D020160> ,
                          ndf:N0000146158 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_113455 ;
             skos:prefLabel "Sodium benzoate"@en .
 
 
@@ -7547,11 +7533,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "リン酸二水素ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_phosphates ,
                          ncit:Sodium_Phosphorus ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24204> ,
                          <http://purl.bioontology.org/ontology/MSH/C018279> ,
                          ndf:N0000146391 ,
-                         rxnorm: ,
-                         chebi:CHEBI_37586 ,
-                         pubchem: ;
+                         chebi:CHEBI_37585 ,
+                         chebi:CHEBI_37586 ;
             skos:altLabel "Anhydrous monobasic sodium phosphate"@en ,
                           "Monosodium phosphate"@en ,
                           "Sodium phosphate monobasic anhydrous"@en ;
@@ -7593,9 +7579,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "亜ジチオン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_dithionite ,
                          ncit:Sodium_Dithionite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24489> ,
                          <http://purl.bioontology.org/ontology/MSH/D004227> ,
-                         chebi:CHEBI_66870 ,
-                         pubchem: ;
+                         chebi:CHEBI_66870 ;
+            skos:altLabel "Sodium hydrosulfite"@en ;
             skos:prefLabel "Sodium dithionite"@en .
 
 
@@ -7613,10 +7600,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "塩化ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_chloride ,
                          ncit:Sodium_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5234> ,
                          ndf:N0000145832 ,
-                         rxnorm: ,
-                         chebi:CHEBI_26710 ,
-                         pubchem: ;
+                         chebi:CHEBI_26710 ;
             skos:prefLabel "Sodium chloride solution"@en .
 
 
@@ -8526,11 +8512,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001405" ;
             rdfs:label "Sodium glycerophosphate"@en ,
                        "β-グリセロリン酸二ナトリウム"@ja ;
-            rdfs:seeAlso ncit:Sodium_Glycerophosphate ,
+            rdfs:seeAlso wikipedia:Monosodium_glutamate ,
+                         ncit:Sodium_Glycerophosphate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6101544> ,
                          <http://purl.bioontology.org/ontology/MSH/C029620> ,
                          ndf:N0000022764 ,
-                         snomed: ;
+                         chebi:CHEBI_132089 ;
             skos:altLabel "Disodium beta-glycerophosphate"@en ,
                           "Sodium 2-glycerophosphate" ;
             skos:prefLabel "Sodium glycerophosphate"@en .
@@ -8995,6 +8982,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001436" ;
             rdfs:label "Sodium ampicillin solution"@en ,
                        "アンピシリンナトリウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23663979> ,
+                         chebi:CHEBI_34535 ;
             skos:prefLabel "Sodium ampicillin solution"@en .
 
 
@@ -9090,7 +9079,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Alginic_acid#Sodium_alginate> ,
                          ncit:Sodium_Alginate ,
                          ndf:N0000147539 ,
-                         rxnorm: ,
                          chebi:CHEBI_53311 ;
             skos:prefLabel "Sodium alginate"@en .
 
@@ -9718,8 +9706,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "酪酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_butyrate ,
                          ncit:C2337 ,
-                         chebi:CHEBI_64103 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5222465> ,
+                         chebi:CHEBI_64103 ;
             skos:prefLabel "Sodium butyrate solution"@en .
 
 
@@ -9737,8 +9725,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium fumarate solution"@en ,
                        "フマル酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_fumarate ,
-                         rxnorm: ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6364607> ,
+                         chebi:CHEBI_115156 ;
             skos:prefLabel "Sodium fumarate solution"@en .
 
 
@@ -9817,11 +9805,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "アスコルビン酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_ascorbate ,
                          ncit:Sodium_Ascorbate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23667548> ,
                          <http://purl.bioontology.org/ontology/MSH/D001205> ,
                          ndf:N0000145860 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_113451 ;
             skos:prefLabel "Sodium ascorbate solution"@en .
 
 
@@ -10078,14 +10065,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001491" ;
-            rdfs:label "Sodium formate solution"@en ,
+            rdfs:label wikipedia:Sodium_formate ,
+                       "Sodium formate solution"@en ,
                        "ギ酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_formate ,
                          ncit:Sodium_Formate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2723810> ,
                          <http://purl.bioontology.org/ontology/MSH/C030544> ,
-                         rxnorm: ,
-                         chebi:CHEBI_62965 ,
-                         pubchem: ;
+                         chebi:CHEBI_62965 ;
             skos:prefLabel "Sodium formate solution"@en .
 
 
@@ -10477,11 +10464,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "安息香酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_Benzoate ,
                          ncit:Sodium_Benzoate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/517055> ,
                          <http://purl.bioontology.org/ontology/MSH/D020160> ,
                          ndf:N0000146158 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_113455 ;
             skos:prefLabel "Sodium benzoate solution"@en .
 
 
@@ -11900,6 +11886,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001605" ;
             rdfs:label "Sodium dihydrogen phosphate dihydrate"@en ,
                        "リン酸二水素ナトリウム二水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23673460> ;
             skos:altLabel "Anhydrous monobasic sodium phosphate dihydrate"@en ,
                           "Monosodium phosphate dihydrate"@en ;
             skos:prefLabel "Sodium dihydrogen phosphate dihydrate"@en .
@@ -11918,6 +11905,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001606" ;
             rdfs:label "Sodium dihydrogen phosphate monohydrate"@en ,
                        "リン酸二水素ナトリウム一水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/516949> ;
             skos:altLabel "Anhydrous monobasic sodium phosphate monohydrate"@en ,
                           "Monosodium phosphate monohydrate"@en ;
             skos:prefLabel "Sodium dihydrogen phosphate monohydrate"@en .
@@ -11937,11 +11925,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium bicarbonate (Sigma)"@en ;
             rdfs:seeAlso wikipedia:Sodium_bicarbonate ,
                          ncit:Sodium_Bicarbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516892> ,
                          ndf:N0000146526 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32139 ,
-                         pubchem: ;
+                         chebi:CHEBI_32139 ;
             skos:prefLabel "Sodium bicarbonate (Sigma)"@en .
 
 
@@ -11955,14 +11941,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001608" ;
-            rdfs:label "Sodium bisulfite"@en ;
+            rdfs:label "Sodium bisulfite"@en ,
+                       "亜硫酸水素ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_bisulfite ,
                          ncit:C73837 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23665763> ,
                          <http://purl.bioontology.org/ontology/MSH/C009279> ,
                          ndf:N0000146309 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_26709 ;
             skos:prefLabel "Sodium bisulfite"@en .
 
 
@@ -12549,11 +12535,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001648" ;
-            rdfs:label "Sodium butyrate"@en ;
+            rdfs:label "Sodium butyrate"@en ,
+                       "酪酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_butyrate ,
                          ncit:C2337 ,
-                         chebi:CHEBI_64103 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5222465> ,
+                         chebi:CHEBI_64103 ;
             skos:prefLabel "Sodium butyrate"@en .
 
 
@@ -12569,12 +12556,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "グルコン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_gluconate ,
                          ncit:C47723 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23672301> ,
                          <http://purl.bioontology.org/ontology/MSH/C030691> ,
                          ndf:N0000147007 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_28148 ,
-                         pubchem: ;
+                         chebi:CHEBI_84997 ;
             skos:prefLabel "Sodium gluconate"@en .
 
 
@@ -13646,7 +13631,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001720" ;
             rdfs:label "Sodium dithionite dihydrate"@en ,
                        "亜ジチオン酸ナトリウム二水和物"@ja ;
-            rdfs:seeAlso wikipedia:Sodium_dithionite ;
+            rdfs:seeAlso wikipedia:Sodium_dithionite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/18321164> ;
             skos:prefLabel "Sodium dithionite dihydrate"@en .
 
 
@@ -13660,6 +13646,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001721" ;
             rdfs:label "Sodium dithionite solution"@en ,
                        "亜ジチオン酸ナトリウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_dithionite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24489> ,
+                         chebi:CHEBI_66870 ;
+            skos:altLabel "Sodium hydrosulfite solution"@en ;
             skos:prefLabel "Sodium dithionite solution"@en .
 
 
@@ -13676,11 +13666,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "塩素酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_chlorate ,
                          ncit:C77497 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516902> ,
                          mesh:C032706 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_65242 ,
-                         pubchem: ;
+                         chebi:CHEBI_65242 ;
             skos:altLabel "塩素酸ソーダ"@ja ;
             skos:prefLabel "Sodium chlorate"@en .
 
@@ -14122,7 +14110,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001753" ;
-            rdfs:label "Sodium citrate dihydrate"@en ;
+            rdfs:label "Sodium citrate dihydrate"@en ,
+                       "クエン酸ナトリウム二水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/71474> ,
+                         chebi:CHEBI_32142 ;
+            skos:altLabel "Trisodium citrate dihydrate"@en ;
             skos:prefLabel "Sodium citrate dihydrate"@en .
 
 
@@ -15238,7 +15230,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001836" ;
-            rdfs:label "Sodium formaldehyde sulfoxylate"@en ;
+            rdfs:label "Sodium formaldehyde sulfoxylate"@en ,
+                       "ナトリウムヒドロキシメタンスルフィナート"@ja ;
             rdfs:seeAlso wikipedia:Rongalite ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8999> ;
             skos:altLabel "Rongalite"@en ,
@@ -17354,6 +17347,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001997" ;
             rdfs:label "Sodium 2-glycerophosphate pentahydrate"@en ,
                        "β-グリセリンリン酸二ナトリウム五水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/2735049> ;
             skos:altLabel "beta-Glycerophosphate, disodium salt, pentahydrate"@en ;
             skos:prefLabel "Sodium 2-glycerophosphate pentahydrate"@en .
 
@@ -18343,9 +18337,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "C6H11NaO2"@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002073" ;
-            rdfs:label "Sodium hexanoateen"@en ,
+            rdfs:label "Sodium hexanoate"@en ,
                        "ヘキサン酸ナトリウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/4087444> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/4087444> ,
+                         chebi:CHEBI_114126 ;
             skos:altLabel "Sodium caproate"@en ;
             skos:prefLabel "Sodium hexanoate"@en .
 
@@ -18647,8 +18642,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "C4H5NaO2"@en ,
                         "Sodium octanoate solution"@en ;
             :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002097" ;
             rdfs:label "Sodium crotonate solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23665426> ;
             skos:prefLabel "Sodium crotonate solution"@en ,
                            "クロトン酸ナトリウム溶液"@ja .
 
@@ -19597,6 +19594,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002183" ;
             rdfs:label "VWR Life Science &reg; Sodium chloride, high purity"@en ;
+            rdfs:seeAlso wikipedia:Sodium_chloride ,
+                         chebi:CHEBI_26710 ;
             skos:prefLabel "VWR Life Science &reg; Sodium chloride, high purity"@en .
 
 
@@ -20472,7 +20471,10 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "Sodium formate (Wako)"@en ,
                         "ぎ酸ナトリウム（富士フイルム和光純薬）"@ja ;
             dcterms:identifier "GMO_002250" ;
-            rdfs:label "Sodium formate (Fuji Film Wako Pure Chemical Corp.)"@en ;
+            rdfs:label wikipedia:Sodium_formate ,
+                       <http://pubchem.ncbi.nlm.nih.gov/compound/2723810> ,
+                       chebi:CHEBI_62965 ,
+                       "Sodium formate (Fuji Film Wako Pure Chemical Corp.)"@en ;
             skos:prefLabel "Sodium formate (Fuji Film Wako Pure Chemical Corp.)"@en .
 
 
@@ -21654,7 +21656,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002351" ;
-            rdfs:label "Sodium azide"@en ;
+            rdfs:label "Sodium azide"@en ,
+                       "アジ化ナトリウム"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/33557> ,
                          chebi:CHEBI_278547 ;
             skos:prefLabel "Sodium azide"@en .
