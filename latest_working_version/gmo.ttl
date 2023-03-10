@@ -1980,11 +1980,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硝酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_nitrate ,
                          ncit:Sodium_Nitrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24268> ,
                          ndf:N0000148203 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_63005 ,
-                         pubchem: ;
+                         chebi:CHEBI_63005 ;
             skos:prefLabel "Sodium nitrate"@en .
 
 
@@ -2539,12 +2537,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "水酸化ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_hydroxide ,
                          ncit:Sodium_Hydroxide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14798> ,
                          <http://purl.bioontology.org/ontology/MSH/D012972> ,
                          ndf:N0000146255 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32145 ,
-                         pubchem: ;
+                         chebi:CHEBI_32145 ;
             skos:prefLabel "Sodium hydroxide"@en .
 
 
@@ -2776,11 +2772,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "乳酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_lactate ,
                          ncit:Sodium_Lactate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6286> ,
                          <http://purl.bioontology.org/ontology/MSH/D019354> ,
                          ndf:N0000147000 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_75228 ;
             skos:prefLabel "Sodium lactate"@en .
 
 
@@ -3824,7 +3819,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium malate"@en ,
                        "リンゴ酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_malate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8736> ,
+                         chebi:CHEBI_91260 ;
             skos:prefLabel "Sodium malate"@en .
 
 
@@ -6612,12 +6608,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "水酸化ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_hydroxide ,
                          ncit:Sodium_Hydroxide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14798> ,
                          <http://purl.bioontology.org/ontology/MSH/D012972> ,
                          ndf:N0000146255 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32145 ,
-                         pubchem: ;
+                         chebi:CHEBI_32145 ;
             skos:prefLabel "Sodium hydroxide solution"@en .
 
 
@@ -7131,11 +7125,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium nitrite"@en ,
                        "亜硝酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_nitrite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23668193> ,
                          <http://purl.bioontology.org/ontology/MSH/D012977> ,
                          ndf:N0000145900 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_78870 ;
             skos:prefLabel "Sodium nitrite"@en .
 
 
@@ -7723,7 +7716,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium L-lactate"@en ;
             rdfs:seeAlso wikipedia:Sodium_lactate ,
                          ncit:Sodium_Lactate_L ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23664767> ;
             skos:prefLabel "Sodium L-lactate"@en .
 
 
@@ -7754,11 +7747,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "乳酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_lactate ,
                          ncit:Sodium_Lactate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6286> ,
                          <http://purl.bioontology.org/ontology/MSH/D019354> ,
                          ndf:N0000147000 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_75228 ;
             skos:prefLabel "Sodium lactate solution"@en .
 
 
@@ -8057,8 +8049,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "モリブデン酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_molybdate ,
                          ncit:Sodium_Molybdate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61424> ,
                          <http://purl.bioontology.org/ontology/MSH/C024687> ,
-                         ndf:N0000148202 ;
+                         ndf:N0000148202 ,
+                         chebi:CHEBI_75215 ;
             skos:prefLabel "Sodium molybdate solution"@en .
 
 
@@ -9684,11 +9678,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium nitrate solution"@en ;
             rdfs:seeAlso wikipedia:Sodium_nitrate ,
                          ncit:Sodium_Nitrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24268> ,
                          ndf:N0000148203 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_63005 ,
-                         pubchem: ;
+                         chebi:CHEBI_63005 ;
             skos:prefLabel "Sodium nitrate solution"@en .
 
 
@@ -11965,7 +11957,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001609" ;
             rdfs:label "Sodium metavanadate monohydrate"@en ,
                        "メタバナジン酸ナトリウム一水和物"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/516858> ,
+                         chebi:CHEBI_132095 ;
             skos:prefLabel "Sodium metavanadate monohydrate"@en .
 
 
@@ -12492,7 +12485,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001644" ;
             rdfs:label "Sodium DL-lactate"@en ;
-            rdfs:seeAlso wikipedia:Sodium_lactate ;
+            rdfs:seeAlso wikipedia:Sodium_lactate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23666456> ;
             skos:prefLabel "Sodium DL-lactate"@en .
 
 
@@ -12509,7 +12503,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001645" ;
             rdfs:label "Sodium DL-malate"@en ;
-            rdfs:seeAlso wikipedia:Sodium_malate ;
+            rdfs:seeAlso wikipedia:Sodium_malate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8736> ;
             skos:prefLabel "Sodium DL-malate"@en .
 
 
@@ -12523,7 +12518,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001646" ;
             rdfs:label "Sodium L-malate"@en ;
-            rdfs:seeAlso wikipedia:Sodium_malate ;
+            rdfs:seeAlso wikipedia:Sodium_malate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6097189> ;
             skos:prefLabel "Sodium L-malate"@en .
 
 
@@ -13598,6 +13594,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001718" ;
             rdfs:label "Sodium molybdate dihydrate solution"@en ,
                        "モリブデン酸ナトリウム二水和物溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211258> ,
+                         chebi:CHEBI_75213 ;
             skos:prefLabel "Sodium molybdate dihydrate solution"@en .
 
 
@@ -16997,7 +16995,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium metavanadate"@en ,
                        "メタバナジン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_metavanadate ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/4148882> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4148882> ,
+                         chebi:CHEBI_75221 ;
             skos:prefLabel "Sodium metavanadate"@en .
 
 
@@ -17706,7 +17705,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002024" ;
             rdfs:label "Sodium metabisulfite"@en ;
-            rdfs:seeAlso wikipedia:Sodium_metabisulfite ;
+            rdfs:seeAlso wikipedia:Sodium_metabisulfite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/656671> ,
+                         chebi:CHEBI_114786 ;
             skos:altLabel "Sodium disulphite"@en ;
             skos:definition "An inorganic compound of chemical formula Na2S2O5."@en ;
             skos:prefLabel "Sodium metabisulfite"@en ,
@@ -17914,7 +17915,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002042" ;
             rdfs:label "Sodium hydrogen fumarate"@en ,
                        "フマル酸一ナトリウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6076814> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6076814> ,
+                         chebi:CHEBI_115087 ;
             skos:altLabel "Monosodium fumarate"@en ;
             skos:prefLabel "Sodium hydrogen fumarate"@en .
 
