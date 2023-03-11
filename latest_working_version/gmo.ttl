@@ -1046,9 +1046,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "寒天"@ja ;
             rdfs:seeAlso wikipedia:Agar ,
                          <http://purl.bioontology.org/ontology/MSH/D000362> ,
-                         ndf:N0000148065 ,
-                         rxnorm: ,
-                         snomed: ;
+                         ndf:N0000148065 ;
             skos:definition "Agar, a polysaccharide extract from marine algae."@en ;
             skos:prefLabel "Agar"@en .
 
@@ -1068,12 +1066,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "塩化アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_chloride ,
                          ncit:Ammonium_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25517> ,
                          <http://purl.bioontology.org/ontology/MSH/D000643> ,
                          ndf:N0000005786 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_31206 ,
-                         pubchem: ;
+                         chebi:CHEBI_31206 ;
             skos:definition "Ammonium chloride"@en ;
             skos:prefLabel "Ammonium chloride"@en .
 
@@ -1501,13 +1497,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "4-Aminobenzoic acid"@en ,
                        "4-アミノ安息香酸"@ja ;
             rdfs:seeAlso wikipedia:Aminobenzoic_acid ,
+                         <http://en.wikipedia.org/wiki/4-Aminobenzoic_acid> ,
                          ncit:C61634 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/978> ,
                          <http://purl.bioontology.org/ontology/MSH/D010129> ,
                          ndf:N0000006481 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_30753 ,
-                         pubchem: ;
+                         chebi:CHEBI_30753 ;
             skos:altLabel "PABA"@en ,
                           "para-aminobenzoic acid"@en ,
                           "パラアミノ安息香酸"@ja ;
@@ -2027,7 +2022,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸アルミニウムカリウム十二水和物"@ja ;
             rdfs:seeAlso wikipedia:Potassium_alum ,
                          ncit:Aluminum_Potassium_Sulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62667> ,
+                         chebi:CHEBI_86465 ;
             skos:definition "Aluminum potassium sulfate dodecahydrate"@en ;
             skos:prefLabel "Aluminum potassium sulfate dodecahydrate"@en .
 
@@ -2095,10 +2091,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          ncit:Starch ,
                          <http://purl.bioontology.org/ontology/MSH/D013213> ,
                          ndf:N0000147310 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_28017 ,
-                         pubchem: ;
+                         chebi:CHEBI_28017 ;
             skos:prefLabel "Starch"@en .
 
 
@@ -2261,12 +2254,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sulfur powder"@en ,
                        "粉末硫黄"@ja ;
             rdfs:seeAlso wikipedia:Sulfer ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5362487> ,
                          <http://purl.bioontology.org/ontology/MSH/D013455> ,
                          ndf:N0000147169 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_26833 ,
-                         pubchem: ;
+                         chebi:CHEBI_26833 ;
             skos:prefLabel "Sulfur powder"@en .
 
 
@@ -2373,12 +2364,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "スクロース"@ja ;
             rdfs:seeAlso wikipedia:Sucrose ,
                          ncit:C68477 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5988> ,
                          <http://purl.bioontology.org/ontology/MSH/D013395> ,
                          ndf:N0000147528 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_17992 ,
-                         pubchem: ;
+                         chebi:CHEBI_17992 ;
             skos:prefLabel "Sucrose"@en .
 
 
@@ -2734,7 +2723,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸アルミニウムカリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_alum ,
                          ncit:Aluminum_Potassium_Sulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24856> ,
+                         chebi:CHEBI_86463 ;
             skos:definition "Aluminum potassium sulfate"@en ;
             skos:prefLabel "Aluminum potassium sulfate"@en .
 
@@ -3501,8 +3491,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Trimethylamine hydrochloride"@en ,
                        "トリメチルアミン塩酸"@ja ;
             rdfs:seeAlso wikipedia:Trimethylamine ,
-                         chebi:CHEBI_64700 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10313079> ,
+                         chebi:CHEBI_64700 ;
             skos:prefLabel "Trimethylamine hydrochloride"@en .
 
 
@@ -3778,10 +3768,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "酢酸アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_acetate ,
                          ncit:Ammonium_Acetate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/517165> ,
                          <http://purl.bioontology.org/ontology/MSH/C018824> ,
-                         snomed: ,
-                         chebi:CHEBI_62947 ,
-                         pubchem: ;
+                         chebi:CHEBI_62947 ;
             skos:definition "Ammonium acetate"@en ;
             skos:prefLabel "Ammonium acetate"@en .
 
@@ -3886,12 +3875,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Ammonium ferric citrate"@en ,
                        "クエン酸鉄アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_ferric_citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14457> ,
                          <http://purl.bioontology.org/ontology/MSH/C013531> ,
                          ndf:N0000146883 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_31604 ,
-                         pubchem: ;
+                         chebi:CHEBI_31604 ;
             skos:definition "Ammonium ferric citrate"@en ;
             skos:prefLabel "Ammonium ferric citrate"@en .
 
@@ -4004,10 +3991,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "塩化ストロンチウム"@ja ;
             rdfs:seeAlso wikipedia:Strontium_chloride ,
                          ncit:Strontium_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61520> ,
                          <http://purl.bioontology.org/ontology/MSH/C025700> ,
-                         rxnorm: ,
-                         chebi:CHEBI_36383 ,
-                         pubchem: ;
+                         chebi:CHEBI_36383 ;
             skos:prefLabel "Strontium chloride"@en .
 
 
@@ -4101,7 +4087,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001158" ;
             rdfs:label "Trisodium EDTA"@en ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9008> ,
+                         chebi:CHEBI_63125 ,
+                         "エチレンジアミン四酢酸三ナトリウム"@ja ;
             skos:prefLabel "Trisodium EDTA"@en .
 
 
@@ -4133,7 +4121,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          ncit:Sodium_Citrate_Anhydrous ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
                          <http://purl.bioontology.org/ontology/MSH/C514290> ,
-                         rxnorm: ,
                          chebi:CHEBI_53258 ;
             skos:prefLabel "Trisodium citrate"@en .
 
@@ -4462,12 +4449,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "酢酸"@ja ;
             rdfs:seeAlso wikipedia:Acetic_acid ,
                          ncit:Acetic_Acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/176> ,
                          <http://purl.bioontology.org/ontology/MSH/D019342> ,
                          ndf:N0000145831 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_15366 ,
-                         pubchem: ;
+                         chebi:CHEBI_15366 ;
             skos:definition "Acetic acid"@en ;
             skos:prefLabel "Acetic acid"@en .
 
@@ -4989,11 +4974,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001207" ;
             rdfs:label "Sorbitan monooleate"@en ;
-            rdfs:seeAlso ncit:Sorbitan_Monooleate ,
+            rdfs:seeAlso wikipedia:Sorbitan_monooleate ,
+                         ncit:Sorbitan_Monooleate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/9920342> ,
                          <http://purl.bioontology.org/ontology/MSH/C018665> ,
                          ndf:N0000022775 ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_183688 ;
             skos:prefLabel "Sorbitan monooleate"@en .
 
 
@@ -5010,7 +4996,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001208" ;
             rdfs:label "Ammonium citrate"@en ,
                        "クエン酸アンモニウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/18954> ,
+            rdfs:seeAlso wikipedia:Triammonium_citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/18954> ,
                          <http://purl.bioontology.org/ontology/MSH/C481046> ,
                          chebi:CHEBI_63037 ;
             skos:definition "Ammonium citrate"@en ;
@@ -5474,9 +5461,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Tris"@en ,
                        "トリス"@ja ;
             rdfs:seeAlso wikipedia:Tris ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6503> ,
                          <http://purl.bioontology.org/ontology/MSH/C030002> ,
-                         chebi:CHEBI_9754 ,
-                         pubchem: ;
+                         chebi:CHEBI_9754 ;
             skos:altLabel "THAM"@en ,
                           "Tris base"@en ,
                           "Tris(hydroxymethyl)aminomethane"@en ;
@@ -5604,9 +5591,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "2,3-Butanediol"@en ,
                        "2,3-ブタンジオール"@ja ;
             rdfs:seeAlso wikipedia:Butanediol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/262> ,
                          <http://purl.bioontology.org/ontology/MSH/C026978> ,
-                         chebi:CHEBI_62064 ,
-                         pubchem: ;
+                         chebi:CHEBI_62064 ;
             skos:definition "2,3-Butanediol"@en ;
             skos:prefLabel "2,3-Butanediol"@en .
 
@@ -5760,7 +5747,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "クエン酸三ナトリウム二水和物"@ja ;
             rdfs:seeAlso wikipedia:Trisodium_citrate ,
                          ncit:Trisodium_Citrate_Dihydrate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/71474> ;
             skos:prefLabel "Trisodium citrate dihydrate"@en .
 
 
@@ -5868,12 +5855,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Aluminum chloride"@en ,
                        "塩化アルミニウム"@ja ;
             rdfs:seeAlso wikipedia:Aluminum_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24012> ,
                          <http://purl.bioontology.org/ontology/MSH/C010845> ,
                          ndf:N0000147141 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_30114 ,
-                         pubchem: ;
+                         chebi:CHEBI_30114 ;
             skos:definition "Aluminum chloride"@en ;
             skos:prefLabel "Aluminum chloride"@en .
 
@@ -6291,9 +6276,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "重炭酸アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_bicarbonate ,
                          ncit:Ammonium_Bicarbonate ,
-                         <http://purl.bioontology.org/ontology/MSH/C027043> ,
-                         snomed: ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14013> ,
+                         <http://purl.bioontology.org/ontology/MSH/C027043> ;
             skos:altLabel "Ammonium hydrogen carbonate"@en ;
             skos:definition "Ammonium bicarbonate"@en ;
             skos:prefLabel "Ammonium bicarbonate"@en .
@@ -6940,8 +6924,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "チオグリコール酸溶液"@ja ;
             rdfs:seeAlso wikipedia:Thioglycolic_acid ,
                          ncit:Thioglycolic_Acid ,
-                         chebi:CHEBI_30065 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1133> ,
+                         chebi:CHEBI_30065 ;
             skos:altLabel "Mercaptoacetic acid solution"@en ;
             skos:prefLabel "Thioglycolic acid solution"@en .
 
@@ -7288,12 +7272,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001338" ;
             rdfs:label "Tin(II) chloride dihydrate"@en ,
                        "塩化スズ（II）二水和物"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Tin(II)_chloride> ,
                          ncit:C74343 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61436> ,
                          <http://purl.bioontology.org/ontology/MSH/C023599> ,
                          ndf:N0000146512 ,
-                         rxnorm: ,
-                         pubchem: ;
+                         chebi:CHEBI_188725 ;
             skos:prefLabel "Tin(II) chloride dihydrate"@en .
 
 
@@ -7310,8 +7294,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "デンプン トウモロコシ由来 (Sigma)"@ja ;
             rdfs:seeAlso wikipedia:Corn_starch ,
                          ncit:Starch_Corn ,
-                         ndf:N0000145796 ,
-                         snomed: ;
+                         ndf:N0000145796 ;
             skos:altLabel "Cornstarch"@en ,
                           "コーンスターチ"@ja ;
             skos:prefLabel "Starch from corn (SIGMA)"@en .
@@ -7417,8 +7400,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001346" ;
             rdfs:label "Soy protein isolate"@en ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Soy_protein_isolate#Isolates> ,
-                         ncit:Soy_Protein_Isolate ,
-                         rxnorm: ;
+                         ncit:Soy_Protein_Isolate ;
             skos:prefLabel "Soy protein isolate"@en .
 
 
@@ -7612,9 +7594,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "チオグリコール酸"@ja ;
             rdfs:seeAlso wikipedia:Thioglycolic_acid ,
                          ncit:Thioglycolic_Acid ,
-                         snomed: ,
-                         chebi:CHEBI_30065 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1133> ,
+                         chebi:CHEBI_30065 ;
             skos:altLabel "Mercaptoacetic acid"@en ;
             skos:prefLabel "Thioglycolic acid"@en .
 
@@ -7845,12 +7826,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "ソルビトール"@ja ;
             rdfs:seeAlso wikipedia:Sorbitol ,
                          ncit:Sorbitol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5780> ,
                          <http://purl.bioontology.org/ontology/MSH/D013012> ,
                          ndf:N0000146220 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_17317 ,
-                         pubchem: ;
+                         chebi:CHEBI_17924 ;
             skos:definition "A sugar alcohol."@en ;
             skos:prefLabel "Sorbitol"@en .
 
@@ -7866,6 +7845,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001370" ;
             rdfs:label "D-Alanine"@en ;
             rdfs:seeAlso wikipedia:Alanine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/71080> ,
                          chebi:CHEBI_15570 ;
             skos:definition "D-Alanine, D-isomer of alanin which is an alphan amino acid"@en ;
             skos:prefLabel "D-Alanine"@en .
@@ -7905,8 +7885,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001372" ;
             rdfs:comment "TAPS is one of the Good's buffers"@en ;
             rdfs:label "TAPS"@en ;
-            rdfs:seeAlso wikipedia: ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/TAPS_(buffer)> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/121591> ;
             skos:prefLabel "TAPS"@en .
 
 
@@ -7949,12 +7929,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "アラントイン"@ja ;
             rdfs:seeAlso wikipedia:Allantoin ,
                          ncit:Allantoin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/204> ,
                          <http://purl.bioontology.org/ontology/MSH/D000481> ,
                          ndf:N0000146926 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_15676 ,
-                         pubchem: ;
+                         chebi:CHEBI_15676 ;
             skos:altLabel "5-Ureidohydantoin"@en ,
                           "Glyoxyldiureide"@en ;
             skos:definition "Allantoin"@en ;
@@ -8176,9 +8154,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001387" ;
             rdfs:label "Titanium(III) chloride solution"@en ,
                        "塩化チタン(III)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
-                         <http://purl.bioontology.org/ontology/MSH/C039460> ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62646> ,
+                         <http://purl.bioontology.org/ontology/MSH/C039460> ;
             skos:prefLabel "Titanium(III) chloride solution"@en .
 
 
@@ -8303,12 +8281,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "塩化アンモニウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_chloride ,
                          ncit:Ammonium_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25517> ,
                          <http://purl.bioontology.org/ontology/MSH/D000643> ,
                          ndf:N0000005786 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_31206 ,
-                         pubchem: ;
+                         chebi:CHEBI_31206 ;
             skos:definition "Ammonium chloride solution"@en ;
             skos:prefLabel "Ammonium chloride solution"@en .
 
@@ -8374,7 +8350,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001398" ;
             rdfs:label "Adenine sulfate"@en ,
                        "硫酸アデニン"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9449> ;
             skos:definition "Adenine sulfate"@en ;
             skos:prefLabel "Adenine sulfate"@en .
 
@@ -8700,8 +8676,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001418" ;
             rdfs:comment "TAPSO is one of the Good's buffers"@en ;
             rdfs:label "TAPSO"@en ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C047133> ,
-                         pubchem: ;
+            rdfs:seeAlso wikipedia:TAPSO ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/109334> ,
+                         <http://purl.bioontology.org/ontology/MSH/C047133> ;
             skos:altLabel "N-[Tris(hydroxymethyl)methyl]-3-amino-2-hydroxypropanesulfonic acid"@en ;
             skos:prefLabel "TAPSO"@en .
 
@@ -8786,6 +8763,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000048 ;
             dcterms:identifier "GMO_001423" ;
             rdfs:label "Purified agar"@en ;
+            rdfs:seeAlso wikipedia:Agar ;
             skos:prefLabel "Purified agar"@en .
 
 
@@ -9274,12 +9252,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001454" ;
             rdfs:label "Ammonium ferric citrate solution"@en ;
             rdfs:seeAlso wikipedia:Ammonium_ferric_citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14457> ,
                          <http://purl.bioontology.org/ontology/MSH/C013531> ,
                          ndf:N0000146883 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_31604 ,
-                         pubchem: ;
+                         chebi:CHEBI_31604 ;
             skos:definition "Ammonium ferric citrate solution"@en ;
             skos:prefLabel "Ammonium ferric citrate solution"@en .
 
@@ -9357,9 +9333,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "炭酸水素アンモニウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_bicarbonate ,
                          ncit:Ammonium_Bicarbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14013> ,
                          <http://purl.bioontology.org/ontology/MSH/C027043> ,
-                         snomed: ,
-                         pubchem: ;
+                         snomed: ;
             skos:definition "Ammonium bicarbonate solution"@en ;
             skos:prefLabel "Ammonium bicarbonate solution"@en .
 
@@ -9885,12 +9861,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "硫酸溶液"@ja ;
             rdfs:seeAlso wikipedia:Sulfuric_acid ,
                          ncit:C28191 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1118> ,
                          <http://purl.bioontology.org/ontology/MSH/C033158> ,
                          ndf:N0000147101 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_26836 ,
-                         pubchem: ;
+                         chebi:CHEBI_26836 ;
             skos:altLabel "Sulphuric acid"@en ,
                           "硫酸"@ja ;
             skos:prefLabel "Sulfuric acid solution"@en .
@@ -10173,7 +10147,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001495" ;
             rdfs:label "2-Methylbutanoic acid"@en ,
                        "2-メチルブタン酸"@ja ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C019475> ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Methylbutanoic_acid> ,
+                         <http://purl.bioontology.org/ontology/MSH/C019475> ,
                          chebi:CHEBI_37070 ,
                          pubchem: ;
             skos:altLabel "2-メチル酪酸"@ja ,
@@ -10366,7 +10341,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "硫酸アルミニウムカリウム十二水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Potassium_alum ,
                          ncit:Aluminum_Potassium_Sulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62667> ,
+                         chebi:CHEBI_86465 ;
             skos:definition "Aluminum potassium sulfate dodecahydrate solution"@en ;
             skos:prefLabel "Aluminum potassium sulfate dodecahydrate solution"@en .
 
@@ -10416,11 +10392,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "トルエン"@ja ;
             rdfs:seeAlso wikipedia:Toluene ,
                          ncit:C77930 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1140> ,
                          <http://purl.bioontology.org/ontology/MSH/D014050> ,
                          ndf:N0000008219 ,
-                         snomed: ,
-                         chebi:CHEBI_17578 ,
-                         pubchem: ;
+                         chebi:CHEBI_17578 ;
             skos:prefLabel "Toluene solution"@en .
 
 
@@ -10473,9 +10448,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Difco &trade; Agar, noble"@en ;
             rdfs:seeAlso wikipedia:Agar ,
                          <http://purl.bioontology.org/ontology/MSH/D000362> ,
-                         ndf:N0000148065 ,
-                         rxnorm: ,
-                         snomed: ;
+                         ndf:N0000148065 ;
             skos:prefLabel "Difco &trade; Agar, noble"@en .
 
 
@@ -10492,6 +10465,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001511" ;
             rdfs:label "Aluminum chloride hexahydrate"@en ,
                        "塩化アルミニウム6水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24564> ,
+                         chebi:CHEBI_30115 ;
             skos:definition "Aluminum chloride hexahydrate"@en ;
             skos:prefLabel "Aluminum chloride hexahydrate"@en .
 
@@ -12605,10 +12580,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ncit:Starch ,
                          <http://purl.bioontology.org/ontology/MSH/D013213> ,
                          ndf:N0000147310 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_28017 ,
-                         pubchem: ;
+                         chebi:CHEBI_28017 ;
             skos:prefLabel "Soluble starch (Difco)"@en .
 
 
@@ -12624,10 +12596,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ncit:Starch ,
                          <http://purl.bioontology.org/ontology/MSH/D013213> ,
                          ndf:N0000147310 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_28017 ,
-                         pubchem: ;
+                         chebi:CHEBI_28017 ;
             skos:prefLabel "Soluble starch (Sigma)"@en .
 
 
@@ -12656,12 +12625,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "コハク酸"@ja ;
             rdfs:seeAlso wikipedia:Succinic_acid ,
                          ncit:C61954 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1110> ,
                          <http://purl.bioontology.org/ontology/MSH/D019822> ,
                          ndf:N0000007876 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_15741 ,
-                         pubchem: ;
+                         chebi:CHEBI_15741 ;
             skos:prefLabel "Succinic acid"@en .
 
 
@@ -12756,10 +12723,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "トルエン"@ja ;
             rdfs:seeAlso wikipedia:Toluene ,
                          ncit:C77930 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1140> ,
                          <http://purl.bioontology.org/ontology/MSH/D014050> ,
                          ndf:N0000008219 ,
-                         chebi:CHEBI_17578 ,
-                         pubchem: ;
+                         chebi:CHEBI_17578 ;
             skos:prefLabel "Toluene"@en .
 
 
@@ -12775,10 +12742,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Triethanolamine"@en ,
                        "トリエタノールアミン"@ja ;
             rdfs:seeAlso wikipedia:Triethanolamine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7618> ,
                          <http://purl.bioontology.org/ontology/MSH/C009546> ,
                          ndf:N0000148217 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_28621 ;
             skos:prefLabel "Triethanolamine"@en .
 
@@ -13321,9 +13287,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001701" ;
             rdfs:label "2-Mercaptoethanol"@en ,
                        "2-メルカプトエタノール"@ja ;
-            rdfs:seeAlso mesh:D008623 ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Mercaptoethanol> ,
+                         mesh:D008623 ,
                          ndf:N0000166823 ,
-                         snomed: ,
+                         chebi:CHEBI_41218 ,
                          <https://www.ncbi.nlm.nih.gov/pccompound/1567> ;
             skos:definition "2-Mercaptoethanol"@en ;
             skos:prefLabel "2-Mercaptoethanol"@en .
@@ -13477,9 +13444,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001711" ;
             rdfs:label "Titanium(III) chloride"@en ,
                        "塩化チタン(III)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
-                         <http://purl.bioontology.org/ontology/MSH/C039460> ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62646> ,
+                         <http://purl.bioontology.org/ontology/MSH/C039460> ;
             skos:altLabel "Titanium chloride"@en ;
             skos:prefLabel "Titanium(III) chloride"@en .
 
@@ -13495,7 +13462,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001712" ;
             rdfs:comment "TES is one of the Good's buffers"@en ;
             rdfs:label "TES buffer"@en ;
-            rdfs:seeAlso wikipedia: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ;
             skos:prefLabel "TES buffer"@en .
 
 
@@ -13807,6 +13774,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:comment "Tris buffer means usually Tris-HCl buffer"@en ;
             rdfs:label "Tris buffer"@en ,
                        "トリス緩衝液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6503> ;
             skos:altLabel "Tris hydrochloride buffer"@en ;
             skos:definition "Tris buffer is a buffer solution"@en ;
             skos:prefLabel "Tris buffer"@en .
@@ -13823,8 +13791,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001731" ;
             rdfs:label "1,1,2-Trichloroethane"@en ,
                        "1,1,2-トリクロロエタン"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/54675776> ,
-                         pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6574> ,
+                         chebi:CHEBI_27902 ;
             skos:altLabel "Beta-trichloroethane"@en ;
             skos:definition "1,1,2-Trichloroethane"@en ;
             skos:prefLabel "1,1,2-Trichloroethane"@en .
@@ -13840,6 +13808,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001732" ;
             rdfs:label "1,2-Dichloropropane"@en ,
                        "1,2-ジクロロプロパン"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/1,2-Dichloropropane> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6564> ,
+                         chebi:CHEBI_82163 ;
             skos:definition "1,2-Dichloropropane"@en ;
             skos:prefLabel "1,2-Dichloropropane"@en .
 
@@ -13928,6 +13899,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001739" ;
             rdfs:label "Trimethylamine hydrochloride solution"@en ;
+            rdfs:seeAlso wikipedia:Trimethylamine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10313079> ,
+                         chebi:CHEBI_64700 ;
             skos:prefLabel "Trimethylamine hydrochloride solution"@en .
 
 
@@ -14168,6 +14142,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001757" ;
             rdfs:label "1,2-Dichloropropane methanol solution"@en ,
                        "1,2-ジクロロプロパンメタノール溶液"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/1,2-Dichloropropane> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6564> ;
             skos:definition "1,2-Dichloropropane methanol solution"@en ;
             skos:prefLabel "1,2-Dichloropropane methanol solution"@en .
 
@@ -14288,6 +14264,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000062 ;
             dcterms:identifier "GMO_001765" ;
             rdfs:label "Alanine"@en ;
+            rdfs:seeAlso wikipedia:Alanine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5950> ,
+                         chebi:CHEBI_16977 ;
             skos:definition "Alanine, an alpha amino acid"@en ;
             skos:prefLabel "Alanine"@en .
 
@@ -14301,6 +14280,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001766" ;
             rdfs:label "L-Alanine"@en ;
+            rdfs:seeAlso wikipedia:Alanine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5950> ;
             skos:definition "L-Alanine, L-isomer of Alanin which is an alphan amino acid"@en ;
             skos:prefLabel "L-Alanine"@en .
 
@@ -14771,6 +14752,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001802" ;
             rdfs:label "Threonine"@en ,
                        "トレオニン"@ja ;
+            rdfs:seeAlso wikipedia:Threonine ;
             skos:prefLabel "Threonine"@en .
 
 
@@ -14784,6 +14766,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001803" ;
             rdfs:label "L-Threonine"@en ,
                        "L-トレオニン"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6288> ,
+                         chebi:CHEBI_16857 ;
             skos:prefLabel "L-Threonine"@en .
 
 
@@ -14797,6 +14781,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001804" ;
             rdfs:label "D-Threonine"@en ,
                        "D-トレオニン"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/69435> ,
+                         chebi:CHEBI_16398 ;
             skos:prefLabel "D-Threonine"@en .
 
 
@@ -15017,6 +15003,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001820" ;
             rdfs:label "Thymidine"@en ,
                        "チミジン"@ja ;
+            rdfs:seeAlso wikipedia:Thymidine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1134> ,
+                         chebi:CHEBI_188725 ;
             skos:prefLabel "Thymidine"@en .
 
 
@@ -15249,6 +15238,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001837" ;
             rdfs:label "Soluble starch"@en ,
                        "可溶性でんぷん"@ja ;
+            rdfs:seeAlso wikipedia:Starch ;
             skos:altLabel "溶性でんぷん"@ja ;
             skos:prefLabel "Soluble starch"@en .
 
@@ -15507,6 +15497,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:comment "ACES is one of the Good's buffers. pKa = 6.90, pH 6.0 - 7.5"@en ;
             rdfs:label "ACES"@en ,
                        "ACES"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/ACES_(buffer)> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/81832> ,
+                         chebi:CHEBI_39060 ;
             skos:altLabel "ACES buffer"@en ,
                           "N-(2-Acetamido)-2-aminoethanesulfonic acid"@en ;
             skos:definition "ACES"@en ;
@@ -15523,7 +15516,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "alpha-Ketoglutaric acid"@en ,
                        "α-ケトグルタル酸"@ja ;
             rdfs:seeAlso wikipedia:Alpha-Ketoglutaric_acid ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/51> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/51> ,
+                         chebi:CHEBI_30915 ;
             skos:definition "alpha-Ketoglutaric acid"@en ;
             skos:prefLabel "alpha-Ketoglutaric acid"@en .
 
@@ -15553,7 +15547,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001863" ;
             rdfs:label "2'-デオキシ-5-メチルシチジン"@ja ,
                        "5-Methyl-2'-deoxycytidine"@en ;
-            rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/440055> ;
+            rdfs:seeAlso chebi:CHEBI_47876 ,
+                         <https://pubchem.ncbi.nlm.nih.gov/compound/440055> ;
             skos:altLabel "5-Methyldeoxycytidine"@en ;
             skos:definition "5-Methyl-2'-deoxycytidine"@en ;
             skos:prefLabel "5-Methyl-2'-deoxycytidine"@en .
@@ -16433,6 +16428,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_001929" ;
             rdfs:label "Corn starch"@en ;
+            rdfs:seeAlso wikipedia:Corn_starch ;
             skos:prefLabel "Corn starch"@en .
 
 
@@ -16644,7 +16640,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001945" ;
             rdfs:label "3-Chloro-4-hydroxyphenylacetic acid"@en ,
                        "3-クロロ-4-ヒドロキシフェニル酢酸"@ja ;
-            rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/118534> ;
+            rdfs:seeAlso chebi:CHEBI_47106 ,
+                         <https://pubchem.ncbi.nlm.nih.gov/compound/118534> ;
             skos:prefLabel "3-Chloro-4-hydroxyphenylacetic acid"@en .
 
 
@@ -16752,7 +16749,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001954" ;
-            rdfs:label "Strontium chloride solution"@en ;
+            rdfs:label "Strontium chloride solution"@en ,
+                       "塩化ストロンチウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/61520> ,
+                         chebi:CHEBI_36383 ;
             skos:prefLabel "Strontium chloride solution"@en .
 
 
@@ -16964,6 +16964,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001973" ;
             rdfs:label "Sucrose solution"@en ,
                        "スクロース水溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/5988> ,
+                         chebi:CHEBI_17992 ;
             skos:prefLabel "Sucrose solution"@en .
 
 
@@ -17496,7 +17498,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002007" ;
             rdfs:label "D-Trehalose"@en ;
             rdfs:seeAlso wikipedia:Trehalose ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/7427> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7427> ,
+                         chebi:CHEBI_16551 ;
             skos:prefLabel "D-Trehalose"@en ,
                            "D-トレハロース"@ja .
 
@@ -17848,6 +17851,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002037" ;
             rdfs:label "Tris(hydroxymethyl)aminomethane hydrochloride"@en ,
                        "トリス(ヒドロキシメチル)アミノメタン塩酸塩"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/93573> ;
             skos:altLabel "Tris HCl"@en ,
                           "Tris Hydrochloride"@en ,
                           "トリス塩酸塩"@ja ;
@@ -17865,7 +17869,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002038" ;
             rdfs:label "Titanium(II) chloride"@en ,
                        "塩化チタン(II)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(II)_chloride> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/66228> ;
             skos:prefLabel "Titanium(II) chloride"@en .
 
@@ -17893,7 +17897,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Tetrachloroethylene"@en ,
                        "テトラクロロエチレン"@ja ;
             rdfs:seeAlso wikipedia:Tetrachloroethylene ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/31373> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/31373> ,
+                         chebi:CHEBI_17300 ;
             skos:prefLabel "Tetrachloroethylene"@en .
 
 
@@ -17944,7 +17949,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002044" ;
             rdfs:label "Aluminium sulfate"@en ,
                        "硫酸アルミニウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24850> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24850> ,
+                         chebi:CHEBI_74768 ;
             skos:altLabel "Dialuminum trisulfate"@en ;
             skos:definition "A inorganic compound with the formula Al2(SO4)3"@en ;
             skos:prefLabel "Aluminium sulfate"@en .
@@ -18144,7 +18150,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "4-Hydroxyphenylacetic acid"@en ,
                        "4-ヒドロキシフェニル酢酸"@ja ;
             rdfs:seeAlso wikipedia:Hydroxyphenylacetic_acid ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/127> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/127> ,
+                         chebi:CHEBI_18101 ;
             skos:altLabel "p-Hydroxyphenylacetic acid"@en ;
             skos:prefLabel "4-Hydroxyphenylacetic acid"@en .
 
@@ -18224,7 +18231,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002064" ;
             rdfs:label "Trimethylamine"@en ;
             rdfs:seeAlso wikipedia:Trimethylamine ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/1146> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1146> ,
+                         chebi:CHEBI_18139 ;
             skos:prefLabel "Trimethylamine"@en ,
                            "トリメチルアミン"@ja .
 
@@ -18235,6 +18243,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000042 ;
             dcterms:identifier "GMO_002065" ;
             rdfs:label "Trimethylamine solution"@en ;
+            rdfs:seeAlso wikipedia:Trimethylamine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1146> ,
+                         chebi:CHEBI_18139 ;
             skos:prefLabel "Trimethylamine solution"@en ,
                            "トリメチルアミン溶液"@ja .
 
@@ -18274,7 +18285,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "オクタデカン酸"@ja ,
                        "ステアリン酸"@ja ;
             rdfs:seeAlso wikipedia:Stearic_acid ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/5281> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5281> ,
+                         chebi:CHEBI_28842 ;
             skos:altLabel "Octadecanoic acid"@en ;
             skos:prefLabel "Stearic acid"@en .
 
@@ -18953,7 +18965,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002126" ;
             rdfs:label "5-Fluorouracil"@en ;
             rdfs:seeAlso wikipedia:Fluorouracil ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/3385> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3385> ,
+                         chebi:CHEBI_46345 ;
             skos:altLabel "5-FU"@en ,
                           "Fluorouracil"@en ,
                           "フルオロウラシル"@ja ;
@@ -19193,6 +19206,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002148" ;
             rdfs:label "Trimethoprim (GlaxoSmithKline)"@en ,
                        "トリメテプリム (GlaxoSmithKline)"@ja ;
+            rdfs:seeAlso wikipedia:Trimethoprim ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5578> ,
+                         chebi:CHEBI_45924 ;
             skos:prefLabel "Trimethoprim (GlaxoSmithKline)"@en .
 
 
@@ -19428,12 +19444,13 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_002169 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "C6H13NO5"@en ;
+            :GMO_000113 :GMO_000038 ;
             dcterms:identifier "GMO_002169" ;
             rdfs:label "Tricine"@en ,
                        "トリシン"@ja ;
-            rdfs:seeAlso <https://en.wikipedia.org/wiki/Tricine> ,
-                         <https://pubchem.ncbi.nlm.nih.gov/compound/79784> ,
-                         <https://www.ebi.ac.uk/chebi/searchId.do?chebiId=39063> ;
+            rdfs:seeAlso chebi:CHEBI_39063 ,
+                         <https://en.wikipedia.org/wiki/Tricine> ,
+                         <https://pubchem.ncbi.nlm.nih.gov/compound/79784> ;
             skos:prefLabel "Tricine"@en .
 
 
@@ -20529,6 +20546,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002254" ;
             rdfs:label "Clarified tomato juice"@en ;
+            rdfs:seeAlso wikipedia:Tomato_juice ;
             skos:prefLabel "Clarified tomato juice"@en .
 
 
@@ -21065,7 +21083,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002300" ;
             rdfs:label "Adenine"@en ;
             rdfs:seeAlso wikipedia:Adenine ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/190> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/190> ,
+                         chebi:CHEBI_16708 ;
             skos:prefLabel "Adenine"@en ,
                            "アデニン"@ja .
 
@@ -21089,8 +21108,10 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_001837 ;
             :GMO_000110 "10% Soluble starch solution"@en ;
             :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002302" ;
             rdfs:label "Soluble starch solution"@en ;
+            rdfs:seeAlso wikipedia:Starch ;
             skos:prefLabel "Soluble starch solution"@en ,
                            "可溶性でんぷん溶液"@ja .
 
@@ -21196,7 +21217,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "1,4-Naphthoquinone"@en ,
                        "1,4-ナフトキノン"@ja ;
             rdfs:seeAlso wikipedia:Naphthoquinone ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/8530> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8530> ,
+                         chebi:CHEBI_27418 ;
             skos:prefLabel "1,4-Naphthoquinone"@en .
 
 
@@ -21206,7 +21228,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000038 ;
             dcterms:identifier "GMO_002312" ;
             rdfs:label "TES"@en ;
-            rdfs:seeAlso wikipedia: ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6992013> ;
             skos:prefLabel "TES"@en .
 
@@ -21334,7 +21356,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Trimethoprim"@en ,
                        "トリメトプリム"@ja ;
             rdfs:seeAlso wikipedia:Trimethoprim ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/5578> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5578> ,
+                         chebi:CHEBI_45924 ;
             skos:prefLabel "Trimethoprim"@en .
 
 
@@ -21479,6 +21502,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002334" ;
             rdfs:label "Tomato juice (Del Monte)"@en ;
+            rdfs:seeAlso wikipedia:Tomato_juice ;
             skos:prefLabel "Tomato juice (Del Monte)"@en .
 
 
@@ -21569,7 +21593,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002342" ;
             rdfs:label "4-Hydroxybenzoic acid"@en ,
                        "4-ヒドロキシ安息香酸"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/135> ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/4-Hydroxybenzoic_acid> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/135> ,
                          chebi:CHEBI_30763 ;
             skos:prefLabel "4-Hydroxybenzoic acid"@en .
 
@@ -21630,16 +21655,18 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002348
 :GMO_002348 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Aceton"@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002348" ;
-            rdfs:label "Aceton"@en ,
+            rdfs:label "Acetone"@en ,
                        "アセトン"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/180> ,
+            rdfs:seeAlso wikipedia:Acetone ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/180> ,
                          chebi:CHEBI_15347 ;
-            skos:prefLabel "Aceton"@en .
+            skos:prefLabel "Acetone"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002349
@@ -21898,9 +21925,11 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_002370 ;
             :GMO_000110 "Streptomycin solution (50 mg/ml)*"@en ;
             :GMO_000112 :GMO_000043 ;
+            :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002371" ;
             rdfs:label "Streptomycin solution"@en ,
                        "ストレプトマイシン溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/19649> ;
             skos:prefLabel "Streptomycin solution"@en .
 
 
