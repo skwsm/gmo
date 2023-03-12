@@ -1242,11 +1242,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "ホウ酸"@ja ;
             rdfs:seeAlso wikipedia:Boric_acid ,
                          ncit:Boric_Acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7628> ,
                          ndf:N0000146538 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_33118 ,
-                         pubchem: ;
+                         chebi:CHEBI_33118 ;
             skos:prefLabel "Boric acid"@en .
 
 
@@ -1552,11 +1550,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "パントテン酸カルシウム"@ja ;
             rdfs:seeAlso wikipedia:Pantothenic_acid ,
                          ncit:Calcium_Pantothenate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/443753> ,
                          <http://purl.bioontology.org/ontology/MSH/D010205> ,
                          ndf:N0000146007 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_31345 ;
             skos:prefLabel "Calcium pantothenate"@en .
 
 
@@ -1602,11 +1599,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_sulfate ,
                          ncit:Ammonium_Sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6097028> ,
                          <http://purl.bioontology.org/ontology/MSH/D000645> ,
                          ndf:N0000166204 ,
-                         snomed: ,
-                         chebi:CHEBI_62946 ,
-                         pubchem: ;
+                         chebi:CHEBI_62946 ;
             skos:definition "Ammonium sulfate"@en ;
             skos:prefLabel "Ammonium sulfate"@en .
 
@@ -2278,12 +2274,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "炭酸カルシウム"@ja ;
             rdfs:seeAlso wikipedia:Calcium_carbonate ,
                          ncit:Calcium_Carbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10112> ,
                          <http://purl.bioontology.org/ontology/MSH/D002119> ,
                          ndf:N0000146023 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_3311 ,
-                         pubchem: ;
+                         chebi:CHEBI_3311 ;
             skos:prefLabel "Calcium carbonate"@en .
 
 
@@ -2495,8 +2489,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001076" ;
             rdfs:label "Ammonium iron(II) sulfate hexahydrate"@en ,
                        "硫酸アンモニウム鉄(II)六水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/15942308> ;
             skos:altLabel "Ferrous ammonium sulfate hexahydrate"@en ,
                           "Iron(II) ammonium sulfate hexahydrate"@en ;
             skos:definition "Ammonium iron(II) sulfate hexahydrate"@en ;
@@ -2958,6 +2952,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Ammonium nitrate"@en ,
                        "硝酸アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_nitrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22985> ,
                          <http://purl.bioontology.org/ontology/MSH/C006568> ,
                          ndf:N0000176065 ,
                          chebi:CHEBI_63038 ;
@@ -3281,7 +3276,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Calcium nitrate tetrahydrate"@en ,
                        "硝酸カルシウム四水和物"@ja ;
             rdfs:seeAlso wikipedia:Calcium_nitrate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16211656> ;
             skos:prefLabel "Calcium nitrate tetrahydrate"@en .
 
 
@@ -3523,6 +3518,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001128" ;
             rdfs:label "Ammonium iron(II) sulfate heptahydrate"@en ,
                        "硫酸アンモニウム鉄(II)七水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/118796939> ,
+                         chebi:CHEBI_131378 ;
             skos:definition "Ammonium iron(II) sulfate heptahydrate"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate heptahydrate"@en .
 
@@ -3692,11 +3689,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Cellobiose"@en ,
                        "セロビオース"@ja ;
             rdfs:seeAlso wikipedia:Cellobiose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/294> ,
                          <http://purl.bioontology.org/ontology/MSH/D002475> ,
                          ndf:N0000168516 ,
-                         snomed: ,
-                         chebi:CHEBI_17057 ,
-                         pubchem: ;
+                         chebi:CHEBI_17057 ;
             skos:prefLabel "Cellobiose"@en .
 
 
@@ -4428,9 +4424,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "酪酸"@ja ;
             rdfs:seeAlso wikipedia:Butyric_acid ,
                          ncit:Butyric_Acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/264> ,
                          <http://purl.bioontology.org/ontology/MSH/D020148> ,
                          ndf:N0000008162 ,
-                         snomed: ,
                          chebi:CHEBI_30772 ;
             skos:altLabel "Butanoic acid"@en ;
             skos:prefLabel "Butyric acid"@en .
@@ -4473,9 +4469,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "セルロース"@ja ;
             rdfs:seeAlso wikipedia:Cellulose ,
                          ncit:Cellulose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14055602> ,
                          <http://purl.bioontology.org/ontology/MSH/D002482> ,
                          ndf:N0000147309 ,
-                         rxnorm: ;
+                         chebi:CHEBI_167997 ;
             skos:prefLabel "Cellulose"@en .
 
 
@@ -4669,10 +4666,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "アスパラギン"@ja ;
             rdfs:seeAlso wikipedia:Asparagine ,
                          ncit:Asparagine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/236> ,
                          <http://purl.bioontology.org/ontology/MSH/D001216> ,
-                         rxnorm: ,
-                         chebi:CHEBI_17196 ,
-                         pubchem: ;
+                         chebi:CHEBI_22653 ;
             skos:definition "Asparagine"@en ;
             skos:prefLabel "Asparagine"@en .
 
@@ -4735,9 +4731,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Calcium nitrate"@en ,
                        "硝酸カルシウム"@ja ;
             rdfs:seeAlso wikipedia:Calcium_nitrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24963> ,
                          <http://purl.bioontology.org/ontology/MSH/C059948> ,
-                         chebi:CHEBI_64205 ,
-                         pubchem: ;
+                         chebi:CHEBI_64205 ;
             skos:prefLabel "Calcium nitrate"@en .
 
 
@@ -4901,7 +4897,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          ncit:Arginine_Base ,
                          <http://purl.bioontology.org/ontology/MSH/D001120> ,
                          ndf:N0000146979 ,
-                         rxnorm: ,
                          chebi:CHEBI_29016 ;
             skos:definition "Arginine, an alpha-amino acid"@en ;
             skos:prefLabel "Arginine"@en .
@@ -5015,6 +5010,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001209" ;
             rdfs:label "Ammonium sulfate heptahydrate"@en ,
                        "硫酸アンモニウム七水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129680374> ;
             skos:definition "Ammonium sulfate heptahydrate"@en ;
             skos:prefLabel "Ammonium sulfate heptahydrate"@en .
 
@@ -5071,8 +5067,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "人参"@ja ;
             rdfs:seeAlso wikipedia:Carrot ,
                          ncit:Carrot ,
-                         <http://purl.bioontology.org/ontology/MSH/D018552> ,
-                         snomed: ;
+                         <http://purl.bioontology.org/ontology/MSH/D018552> ;
             skos:prefLabel "Carrot"@en .
 
 
@@ -5208,9 +5203,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001219" ;
             rdfs:label "Bis-tris propane"@en ;
             rdfs:seeAlso wikipedia:Bis-tris_propane ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/125132> ,
                          <http://purl.bioontology.org/ontology/MSH/C034249> ,
-                         chebi:CHEBI_40947 ,
-                         pubchem: ;
+                         chebi:CHEBI_40947 ;
             skos:altLabel "1,3-bis(tris(hydroxymethyl)methylamino)propane"@en ;
             skos:prefLabel "Bis-tris propane"@en .
 
@@ -5271,6 +5266,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001222" ;
             rdfs:label "Cellulose (MN 300)"@en ,
                        "セルロース (MN 300)"@ja ;
+            rdfs:seeAlso wikipedia:Cellulose ;
             skos:prefLabel "Cellulose (MN 300)"@en .
 
 
@@ -5442,7 +5438,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001232" ;
             rdfs:label "Calcium chloride monohydrate"@en ,
                        "塩化カルシウム一水和物"@ja ;
-            rdfs:seeAlso wikipedia:Calcium_chloride ;
+            rdfs:seeAlso wikipedia:Calcium_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/185507> ;
             skos:prefLabel "Calcium chloride monohydrate"@en .
 
 
@@ -5701,13 +5698,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001247" ;
             rdfs:label "Ascorbic acid"@en ,
                        "アスコルビン酸"@ja ;
-            rdfs:seeAlso wikipedia:Ascorbic_acid ,
+            rdfs:seeAlso wikipedia:Vitamin_C ,
                          ncit:Ascorbic_Acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/54670067> ,
                          <http://purl.bioontology.org/ontology/MSH/D001205> ,
                          ndf:N0000145859 ,
-                         rxnorm: ,
-                         chebi:CHEBI_22652 ,
-                         pubchem: ;
+                         chebi:CHEBI_22652 ;
             skos:definition "Ascorbic acid"@en ;
             skos:prefLabel "Ascorbic acid"@en .
 
@@ -6671,11 +6667,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "乳酸カルシウム"@ja ;
             rdfs:seeAlso wikipedia:Calcium_lactate ,
                          ncit:Calcium_Lactate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/13144> ,
                          <http://purl.bioontology.org/ontology/MSH/C110051> ,
-                         ndf:N0000146058 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000146058 ;
             skos:prefLabel "Calcium lactate"@en .
 
 
@@ -7359,8 +7353,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Catalase ,
                          ncit:Catalase ,
                          <http://purl.bioontology.org/ontology/MSH/D002374> ,
-                         ndf:N0000148379 ,
-                         rxnorm: ;
+                         ndf:N0000148379 ;
             skos:prefLabel "Catalase"@en .
 
 
@@ -7465,8 +7458,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "アラビノース"@ja ;
             rdfs:seeAlso wikipedia:Arabinose ,
                          ncit:Arabinose ,
-                         chebi:CHEB_46983 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5460291> ,
+                         chebi:CHEB_46983 ;
             skos:definition "Arabinose"@en ;
             skos:prefLabel "Arabinose"@en .
 
@@ -7484,10 +7477,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Bromophenol blue"@en ,
                        "ブロモフェノールブルー"@ja ;
             rdfs:seeAlso wikipedia:Bromophenol_blue ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8272> ,
                          <http://purl.bioontology.org/ontology/MSH/D001978> ,
                          ndf:N0000166616 ,
-                         chebi:CHEBI_59424 ,
-                         pubchem: ;
+                         chebi:CHEBI_59424 ;
             skos:prefLabel "Bromophenol blue"@en .
 
 
@@ -7676,8 +7669,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001361" ;
             rdfs:label "Ammonium tartrate"@en ,
                        "酒石酸アンモニウム"@ja ;
-            rdfs:seeAlso chebi:CHEBI_63075 ,
-                         pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/2724224> ,
+                         chebi:CHEBI_63075 ;
             skos:definition "Ammonium tartrate"@en ;
             skos:prefLabel "Ammonium tartrate"@en .
 
@@ -8001,12 +7994,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "リン酸二アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_phosphate ,
                          ncit:Ammonium_Phosphate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24540> ,
                          <http://purl.bioontology.org/ontology/MSH/C024788> ,
                          ndf:N0000147703 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_63051 ,
-                         pubchem: ;
+                         chebi:CHEBI_63051 ;
             skos:altLabel "DAP"@en ,
                           "Diammonium phosphate"@en ;
             skos:definition "Ammonium hydrogen phosphate"@en ;
@@ -8074,10 +8065,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001383" ;
             rdfs:label "Biphenyl"@en ;
             rdfs:seeAlso wikipedia:Biphenyl ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7095> ,
                          <http://purl.bioontology.org/ontology/MSH/C010574> ,
-                         snomed: ,
-                         chebi:CHEBI_17097 ,
-                         pubchem: ;
+                         chebi:CHEBI_17097 ;
             skos:prefLabel "Biphenyl"@en .
 
 
@@ -8582,11 +8572,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Chitosan"@en ,
                        "キトサン"@ja ;
             rdfs:seeAlso wikipedia:Chitosan ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/71853> ,
                          <http://purl.bioontology.org/ontology/MSH/D048271> ,
                          ndf:N0000180857 ,
-                         rxnorm: ,
-                         chebi:CHEBI_16261 ,
-                         pubchem: ;
+                         chebi:CHEBI_16261 ;
             skos:prefLabel "Chitosan"@en .
 
 
@@ -9276,8 +9265,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001455" ;
             rdfs:label "Ammonium iron(II) sulfate hexahydrate solution"@en ,
                        "硫酸アンモニウム鉄(II)六水和物溶液"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/15942308> ;
             skos:definition "Ammonium iron(II) sulfate hexahydrate solution"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate hexahydrate solution"@en .
 
@@ -9353,7 +9342,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001459" ;
             rdfs:label "Calcium chloride hexahydrate solution"@en ,
                        "塩化カルシウム六水和物溶液"@ja ;
-            rdfs:seeAlso wikipedia:Antarcticite ;
+            rdfs:seeAlso wikipedia:Antarcticite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24486> ;
             skos:prefLabel "Calcium chloride hexahydrate solution"@en .
 
 
@@ -9792,11 +9782,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "ベタイン溶液"@ja ;
             rdfs:seeAlso wikipedia:Betaine ,
                          ncit:C81038 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/247> ,
                          <http://purl.bioontology.org/ontology/MSH/D001622> ,
-                         ndf:N0000147725 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000147725 ;
             skos:prefLabel "Betaine solution"@en .
 
 
@@ -9896,11 +9884,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Cellobiose solution"@en ,
                        "セロビオース溶液"@ja ;
             rdfs:seeAlso wikipedia:Cellobiose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/294> ,
                          <http://purl.bioontology.org/ontology/MSH/D002475> ,
                          ndf:N0000168516 ,
-                         snomed: ,
-                         chebi:CHEBI_17057 ,
-                         pubchem: ;
+                         chebi:CHEBI_17057 ;
             skos:prefLabel "Cellobiose solution"@en .
 
 
@@ -10202,10 +10189,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "ベンゼン溶液"@ja ;
             rdfs:seeAlso wikipedia:Benzene ,
                          ncit:C302 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/241> ,
                          <http://purl.bioontology.org/ontology/MSH/D001554> ,
-                         snomed: ,
-                         chebi:CHEBI_16716 ,
-                         pubchem: ;
+                         chebi:CHEBI_16716 ;
             skos:prefLabel "Benzene solution"@en .
 
 
@@ -10266,11 +10252,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "アスコルビン酸溶液"@ja ;
             rdfs:seeAlso wikipedia:Ascorbic_acid ,
                          ncit:Ascorbic_Acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/54670067> ,
                          <http://purl.bioontology.org/ontology/MSH/D001205> ,
                          ndf:N0000145859 ,
-                         rxnorm: ,
-                         chebi:CHEBI_22652 ,
-                         pubchem: ;
+                         chebi:CHEBI_22652 ;
             skos:definition "Ascorbic acid solution"@en ;
             skos:prefLabel "Ascorbic acid solution"@en .
 
@@ -10485,11 +10470,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "アンピシリン溶液"@ja ;
             rdfs:seeAlso wikipedia:Ampicillin ,
                          ncit:C239 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6249> ,
                          <http://purl.bioontology.org/ontology/MSH/D000667> ,
-                         ndf:N0000145927 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000145927 ;
             skos:definition "Ampicillin solution"@en ;
             skos:prefLabel "Ampicillin solution"@en .
 
@@ -10532,9 +10515,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Barium chloride"@en ,
                        "塩化バリウム"@ja ;
             rdfs:seeAlso wikipedia:Barium_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25204> ,
                          <http://purl.bioontology.org/ontology/MSH/C024986> ,
-                         chebi:CHEBI_63317 ,
-                         pubchem: ;
+                         chebi:CHEBI_63317 ;
             skos:definition "Barium chloride"@en ;
             skos:prefLabel "Barium chloride"@en .
 
@@ -10553,7 +10536,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Barium chloride dihydrate"@en ,
                        "塩化バリウム二水和物"@ja ;
             rdfs:seeAlso wikipedia:Barium_chloride ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25157> ;
             skos:definition "Barium chloride dihydrate"@en ;
             skos:prefLabel "Barium chloride dihydrate"@en .
 
@@ -10675,6 +10658,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001525" ;
             rdfs:label "Calcium sulfate heptahydrate"@en ,
                        "硫酸カルシウム七水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/140700884> ;
             skos:prefLabel "Calcium sulfate heptahydrate"@en .
 
 
@@ -10690,10 +10674,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Calcium folinate"@en ,
                        "フォリン酸カルシウム"@ja ;
             rdfs:seeAlso wikipedia:Folinic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/135403647> ,
                          mesh:D002955 ,
                          ndf:N0000184018 ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_31340 ;
             skos:altLabel "Calcium folinic acid"@en ,
                           "Leucovorin"@en ;
             skos:prefLabel "Calcium folinate"@en .
@@ -10711,7 +10695,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Calcium malate"@en ,
                        "リンゴ酸カルシウム"@ja ;
             rdfs:seeAlso wikipedia:Calcium_malate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/167659> ;
             skos:prefLabel "Calcium malate"@en .
 
 
@@ -10759,6 +10743,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001532" ;
             rdfs:label "Catalase from bovine liver C-10 (Sigma)"@en ;
+            rdfs:seeAlso wikipedia:Catalase ;
             skos:prefLabel "Catalase from bovine liver C-10 (Sigma)"@en .
 
 
@@ -10774,8 +10759,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Chalcopyrite"@en ,
                        "黄銅鉱"@ja ;
             rdfs:seeAlso wikipedia:Chalcopyrite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/19601290> ,
                          <http://purl.bioontology.org/ontology/MSH/C012819> ,
-                         pubchem: ;
+                         chebi:CHEBI_86202 ;
             skos:prefLabel "Chalcopyrite"@en .
 
 
@@ -13116,6 +13102,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Beta-NAD"@en ;
             rdfs:seeAlso wikipedia:Nicotinamide_adenine_dinucleotide ,
                          ncit:C87339 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5892> ,
                          mesh:D009243 ,
                          ndf:N0000170823 ,
                          chebi:CHEBI_13389 ;
@@ -13232,6 +13219,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001698" ;
             rdfs:label "Ammonium iron(II) sulfate solution"@en ,
                        "硫酸アンモニウム鉄(II)溶液"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
+                         chebi:CHEBI_76243 ;
             skos:definition "Ammonium iron(II) sulfate solution"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate solution"@en .
 
@@ -14018,7 +14008,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001748" ;
-            rdfs:label "Betaine"@en ;
+            rdfs:label "Betaine"@en ,
+                       "ベタイン"@ja ;
+            rdfs:seeAlso wikipedia:Betaine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/247> ;
             skos:prefLabel "Betaine"@en .
 
 
@@ -14296,6 +14289,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001767" ;
             rdfs:label "L-Arginine"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6322> ,
+                         <https://en.wikipedia.org/wiki/Arginine> ;
             skos:definition "L-Arginine, L-isomer of arginine which is an alphan amino acid"@en ;
             skos:prefLabel "L-Arginine"@en .
 
@@ -14309,6 +14304,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001768" ;
             rdfs:label "D-Arginine"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/71070> ,
+                         <https://en.wikipedia.org/wiki/Arginine> ;
             skos:definition "D-Arginine, D-isomer of arginine which is an alphan amino acid"@en ;
             skos:prefLabel "D-Arginine"@en .
 
@@ -14321,7 +14318,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001769" ;
-            rdfs:label "Aspartic acid"@en ;
+            rdfs:label "Aspartic acid"@en ,
+                       "アスパラギン酸"@ja ;
+            rdfs:seeAlso wikipedia:Aspartic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/424> ,
+                         chebi:CHEBI_22660 ;
             skos:definition "Aspartic acid"@en ;
             skos:prefLabel "Aspartic acid"@en .
 
@@ -14334,7 +14335,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001770" ;
-            rdfs:label "L-Aspartic acid"@en ;
+            rdfs:label "L-Aspartic acid"@en ,
+                       "L-アスパラギン酸"@ja ;
+            rdfs:seeAlso wikipedia:Aspartic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5960> ,
+                         chebi:CHEBI_17053 ;
             skos:definition "L-Aspartic acid, L-isomer of aspartic acid which is an alphan amino acid"@en ;
             skos:prefLabel "L-Aspartic acid"@en .
 
@@ -14347,7 +14352,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001771" ;
-            rdfs:label "D-Aspartic acid"@en ;
+            rdfs:label "D-Aspartic acid"@en ,
+                       "D-アスパラギン酸"@ja ;
+            rdfs:seeAlso wikipedia:Aspartic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/83887> ,
+                         chebi:CHEBI_17364 ;
             skos:definition "D-Aspartic acid, D-isomer of aspartic acid which is an alphan amino acid"@en ;
             skos:prefLabel "D-Aspartic acid"@en .
 
@@ -14901,6 +14910,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001813" ;
             rdfs:label "L-Ascorbic acid"@en ,
                        "L-アスコルビン酸"@ja ;
+            rdfs:seeAlso wikipedia:Vitamin_C ,
+                         chebi:CHEBI_22652 ;
             skos:altLabel "Vitamin C"@en ;
             skos:definition "L-Ascorbic acid"@en ;
             skos:prefLabel "L-Ascorbic acid"@en .
@@ -15626,7 +15637,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001869" ;
             rdfs:label "Ammonium iron(II) sulfate"@en ,
                        "硫酸アンモニウム鉄(II)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
+                         chebi:CHEBI_76243 ;
             skos:altLabel "Ferrous ammonium sulfate"@en ,
                           "Iron(II) ammonium sulfate"@en ;
             skos:definition "Ammonium iron(II) sulfate"@en ;
@@ -15645,7 +15658,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001870" ;
             rdfs:label "L-Asparagine"@en ,
                        "L-アスパラギン"@ja ;
-            rdfs:seeAlso wikipedia:Asparagine ;
+            rdfs:seeAlso wikipedia:Asparagine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6267> ,
+                         chebi:CHEBI_17196 ;
             skos:definition "L-Asparagine, L-isomer of asparagine which is an alphan amino acid"@en ;
             skos:prefLabel "L-Asparagine"@en .
 
@@ -15660,7 +15675,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001871" ;
             rdfs:label "D-Asparagine"@en ,
                        "D-アスパラギン"@ja ;
-            rdfs:seeAlso wikipedia:Asparagine ;
+            rdfs:seeAlso wikipedia:Asparagine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/439600> ,
+                         chebi:CHEBI_28159 ;
             skos:definition "D-Asparagine, D-isomer of asparagine which is an alphan amino acid"@en ;
             skos:prefLabel "D-Asparagine"@en .
 
@@ -16045,6 +16062,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001901" ;
             rdfs:label "Bromophenol blue solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/8272> ,
+                         <https://en.wikipedia.org/wiki/Bromophenol_blue> ;
             skos:prefLabel "Bromophenol blue solution"@en .
 
 
@@ -16528,6 +16547,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001936" ;
             rdfs:label "DL-Calcium pantothenate"@en ,
                        "DL-パントテン酸カルシウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/8714> ;
             skos:prefLabel "DL-Calcium pantothenate"@en .
 
 
@@ -16553,6 +16573,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001938" ;
             rdfs:label "Catalase (beef)"@en ;
+            rdfs:seeAlso wikipedia:Catalase ;
             skos:prefLabel "Catalase (beef)"@en .
 
 
@@ -16777,6 +16798,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001956" ;
             rdfs:label "Ammonium iron(II) sulfate heptahydrate solution"@en ,
                        "硫酸アンモニウム鉄(II)七水和物溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/118796939> ,
+                         chebi:CHEBI_131378 ;
             skos:prefLabel "Ammonium iron(II) sulfate heptahydrate solution"@en .
 
 
@@ -17066,7 +17089,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Benzylpenicillin"@en ,
                        "ベンジルペニシリン"@ja ;
             rdfs:seeAlso wikipedia:Benzylpenicillin ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/5904> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5904> ,
+                         chebi:CHEBI_18208 ;
             skos:altLabel "Penicillin G"@en ,
                           "ペニシリンG"@ja ;
             skos:prefLabel "Benzylpenicillin"@en .
@@ -17364,6 +17388,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:comment "Bicin is one of the Good's buffers"@en ;
             rdfs:label "Bicine"@en ,
                        "ビシン"@ja ;
+            rdfs:seeAlso wikipedia:Bicine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8761> ,
+                         chebi:CHEBI_39066 ;
             skos:altLabel "C6H13NO4"@en ;
             skos:definition "An organic compound used as a buffering agent."@en ;
             skos:prefLabel "Bicine"@en .
@@ -17423,6 +17450,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002002" ;
             rdfs:label "L-Arabinose"@en ,
                        "L-アラビノース"@ja ;
+            rdfs:seeAlso wikipedia:Arabinose ;
             skos:prefLabel "L-arabinose"@en .
 
 
@@ -17436,6 +17464,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002003" ;
             rdfs:label "D-Arabinose"@en ,
                        "D-アラビノース"@ja ;
+            rdfs:seeAlso wikipedia:Arabinose ;
             skos:prefLabel "D-Arabinose"@en .
 
 
@@ -17595,9 +17624,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002015" ;
-            rdfs:label "Arabinogalactan"@en ;
-            skos:definition "A biopolymer consisting of arabinose and galactose monosaccharides."@en ,
-                            "アラビノガラクタン"@ja ;
+            rdfs:label "Arabinogalactan"@en ,
+                       "アラビノガラクタン"@ja ;
+            skos:definition "A biopolymer consisting of arabinose and galactose monosaccharides."@en ;
             skos:prefLabel "Arabinogalactan"@en .
 
 
@@ -17647,6 +17676,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002019" ;
             rdfs:label "Chitin"@en ;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/Chitin> ;
             skos:altLabel "ポリ-(1→4)-β-N-アセチル-D-グルコサミン"@ja ;
             skos:prefLabel "Chitin"@en ,
                            "キチン"@ja .
@@ -17660,6 +17690,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002020" ;
             rdfs:label "Chitin from shrimp shells"@en ;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/Chitin> ;
             skos:prefLabel "Chitin from shrimp shells"@en .
 
 
@@ -18107,7 +18138,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Ammonium metavanadate"@en ,
                        "メタバナジン酸アンモニウム"@ja ;
             rdfs:seeAlso wikipedia:Ammonium_metavanadate ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/516859> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516859> ,
+                         chebi:CHEBI_15347 ;
             skos:altLabel "Ammonium vanadium oxide"@en ;
             skos:prefLabel "Ammonium metavanadate"@en .
 
@@ -18179,7 +18211,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Cefoxitin"@en ,
                        "セフォキシチン"@ja ;
             rdfs:seeAlso wikipedia:Cefoxitin ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/441199> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/441199> ,
+                         chebi:CHEBI_209807 ;
             skos:altLabel "Mefoxin"@en ,
                           "Rephoxitin"@en ;
             skos:prefLabel "Cefoxitin"@en .
@@ -18371,7 +18404,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Catechol"@en ,
                        "カテコール"@ja ;
             rdfs:seeAlso wikipedia:Catechol ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/289> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/289> ,
+                         chebi:CHEBI_18135 ;
             skos:altLabel "Pyrocatechol"@en ,
                           "ピロカテコール"@ja ;
             skos:prefLabel "Catechol"@en .
@@ -18504,6 +18538,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002084" ;
             rdfs:label "Calcium nitrate hexahydrate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129651236> ;
             skos:prefLabel "Calcium nitrate hexahydrate"@en ,
                            "硝酸カルシウム六水和物"@ja .
 
@@ -18529,7 +18564,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Amphotericin B"@en ,
                        "アムホテリシンB"@ja ;
             rdfs:seeAlso wikipedia:Amphotericin_B ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/14956> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14956> ,
+                         chebi:CHEBI_2682 ;
             skos:prefLabel "Amphotericin B"@en .
 
 
@@ -18639,6 +18675,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002095" ;
             rdfs:label "Ammonium hydrogen phosphate solution"@en ,
                        "リン酸二アンモニウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24540> ,
+                         chebi:CHEBI_63051 ;
             skos:prefLabel "Ammonium hydrogen phosphate solution"@en .
 
 
@@ -19047,7 +19085,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Bromothymol blue"@en ,
                        "ブロモチモールブルー"@ja ;
             rdfs:seeAlso wikipedia:Bromothymol_blue ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/6450> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6450> ,
+                         chebi:CHEBI_86155 ;
             skos:prefLabel "Bromothymol blue"@en .
 
 
@@ -19059,6 +19098,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002134" ;
             rdfs:label "Cane sugar"@en ,
                        "甘蔗糖"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Sucrose#Cane> ;
             skos:prefLabel "Cane sugar"@en .
 
 
@@ -19172,6 +19212,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000043 ;
             dcterms:identifier "GMO_002145" ;
             rdfs:label "Cefsulodin (Takeda France S.A.)"@en ;
+            rdfs:seeAlso wikipedia:Cefsulodin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5284530> ;
             skos:prefLabel "Cefsulodin (Takeda France S.A.)"@en ,
                            "セフスロジン (Takeda France S.A.)"@ja .
 
@@ -19943,7 +19985,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002208" ;
             rdfs:label "Benzoic acid"@en ,
                        "安息香酸"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/243> ,
+            rdfs:seeAlso wikipedia:Benzoic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/243> ,
                          chebi:CHEBI_30746 ;
             skos:prefLabel "Benzoic acid"@en .
 
@@ -20148,7 +20191,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002224" ;
             rdfs:label "Cefpodoxime"@en ,
                        "セフポドキシム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6335986> ,
+            rdfs:seeAlso wikipedia:Cefpodoxime ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6335986> ,
                          chebi:CHEBI_3504 ;
             skos:prefLabel "Cefpodoxime"@en .
 
@@ -20162,6 +20206,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002225" ;
             rdfs:label "Cefpodoxime solution"@en ,
                        "セフポドキシム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Cefpodoxime ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6335986> ,
+                         chebi:CHEBI_3504 ;
             skos:prefLabel "Cefpodoxime solution"@en .
 
 
@@ -20298,6 +20345,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002235" ;
             rdfs:label "Ammonium hydroxide"@en ;
             rdfs:seeAlso wikipedia:Ammonia_solution ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14923> ,
                          chebi:CHEBI_18219 ;
             skos:prefLabel "Ammonium hydroxide"@en ,
                            "水酸化アンモニウム"@ja .
@@ -20449,6 +20497,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002246" ;
             rdfs:label "Beer"@en ,
                        "ビール"@ja ;
+            rdfs:seeAlso wikipedia:Beer ;
             skos:prefLabel "Beer"@en .
 
 
@@ -20534,7 +20583,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002253" ;
             rdfs:label "Ampicillin sodium"@en ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23663979> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23663979> ,
+                         chebi:CHEBI_34535 ;
             skos:altLabel "Ampicillin sodium salt"@en ;
             skos:prefLabel "Ampicillin sodium"@en .
 
@@ -20674,7 +20724,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002265" ;
             rdfs:label "Carbon monoxide"@en ,
                        "一酸化炭素ガス"@ja ;
-            rdfs:seeAlso wikipedia:Carbon_monoxide ;
+            rdfs:seeAlso wikipedia:Carbon_monoxide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/281> ,
+                         chebi:CHEBI_17245 ;
             skos:prefLabel "Carbon monoxide"@en .
 
 
@@ -20756,6 +20808,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_002272" ;
             rdfs:label "Ammonium nickel sulfate solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/27455> ;
             skos:prefLabel "Ammonium nickel sulfate solution"@en ,
                            "硫酸ニッケル(II)アンモニウム溶液"@ja .
 
@@ -20865,6 +20918,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002281" ;
             rdfs:label "Calcium sulfate solution"@en ,
                        "硫酸カルシウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24497> ;
             skos:prefLabel "Calcium sulfate solution"@en .
 
 
@@ -21060,6 +21114,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002298" ;
             rdfs:label "Beef"@en ,
                        "牛肉"@ja ;
+            rdfs:seeAlso wikipedia:Beef ;
             skos:prefLabel "Beef"@en .
 
 
@@ -21144,6 +21199,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002305" ;
             rdfs:label "Colloidal chitin solution"@en ;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/Chitin> ;
             skos:prefLabel "Colloidal chitin solution"@en .
 
 
@@ -21175,8 +21231,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002308" ;
             rdfs:label "Cerium(III) chloride"@en ,
                        "塩化セリウム"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cerium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ,
+                         chebi:CHEBI_35458 ;
             skos:prefLabel "Cerium(III) chloride"@en .
 
 
@@ -21188,6 +21245,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002309" ;
             rdfs:label "Cerium(III) chloride solution"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cerium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ,
+                         chebi:CHEBI_35458 ;
             skos:prefLabel "Cerium(III) chloride solution"@en ,
                            "塩化セリウム溶液"@ja .
 
@@ -21413,7 +21473,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002326" ;
             rdfs:label "Cholecalciferol"@en ;
             rdfs:seeAlso wikipedia:Cholecalciferol ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/5280795> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5280795> ,
+                         chebi:CHEBI_28940 ;
             skos:altLabel "Vitamin D3"@en ,
                           "コレカシフェロール"@ja ,
                           "ビタミンD3"@ja ;
@@ -21724,6 +21785,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002353" ;
             rdfs:label "Chloramphenicol solution"@en ,
                        "クロラムフェニコール溶液"@ja ;
+            rdfs:seeAlso wikipedia:Chloramphenicol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/298> ,
+                         chebi:CHEBI_17698 ;
             skos:prefLabel "Chloramphenicol solution"@en .
 
 
@@ -21968,7 +22032,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002374" ;
             rdfs:label "CAPS"@en ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/70815> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/CAPS_(buffer)> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/70815> ;
             skos:altLabel "N-cyclohexyl-3-aminopropanesulfonic acid"@en ;
             skos:prefLabel "CAPS"@en .
 
@@ -22229,7 +22294,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002395" ;
             rdfs:label "Cadmium nitrate tetrahydrate"@en ,
                        "硝酸カドミウム四水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/56924536> ,
+            rdfs:seeAlso wikipedia:Cadmium_nitrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/56924536> ,
                          chebi:CHEBI_86156 ;
             skos:prefLabel "Cadmium nitrate tetrahydrate"@en .
 
