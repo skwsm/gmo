@@ -1927,7 +1927,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001047" ;
             rdfs:label "Iron(III) chloride hexahydrate"@en ,
                        "塩化鉄(III)六水和物"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211236> ;
             skos:prefLabel "Iron(III) chloride hexahydrate"@en .
 
 
@@ -2291,9 +2291,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001064" ;
             rdfs:label "Manganese sulfate tetrahydrate"@en ,
                        "硫酸マンガン(II)四水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         <http://purl.bioontology.org/ontology/MSH/C039798> ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22572548> ,
+                         <http://purl.bioontology.org/ontology/MSH/C039798> ;
             skos:prefLabel "Manganese sulfate tetrahydrate"@en .
 
 
@@ -2315,7 +2315,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001065" ;
             rdfs:label "Manganese sulfate n-hydrate"@en ,
                        "硫酸マンガン(II)n水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ;
             skos:altLabel "Manganese sulfate x-hydrate"@en ;
             skos:prefLabel "Manganese sulfate n-hydrate"@en .
 
@@ -2375,8 +2375,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001068" ;
             rdfs:label "Manganese sulfate dihydrate"@en ,
                        "硫酸マンガン(II)二水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+                         chebi:CHEBI_86356 ,
+                         <https://pubchem.ncbi.nlm.nih.gov/compound/22613964> ;
             skos:prefLabel "Manganese sulfate dihydrate"@en .
 
 
@@ -2579,7 +2580,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001081" ;
             rdfs:label "Manganese sulfate monohydrate"@en ,
                        "硫酸マンガン(II)一水和物"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/177577> ,
+                         chebi:CHEBI_86364 ;
             skos:prefLabel "Manganese sulfate monohydrate"@en .
 
 
@@ -3927,6 +3929,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001150" ;
             rdfs:label "Manganese sulfate pentahydrate"@en ,
                        "硫酸マンガン(II)五水和物"@ja ;
+            rdfs:seeAlso chebi:CHEBI_131524 ,
+                         <https://pubchem.ncbi.nlm.nih.gov/compound/22138077> ;
             skos:prefLabel "Manganese sulfate pentahydrate"@en .
 
 
@@ -6063,12 +6067,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001270" ;
             rdfs:label "Iron(II) chloride"@en ,
                        "塩化鉄(II)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
                          ncit:Ferrous_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24458> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ,
-                         rxnorm: ,
-                         chebi:CHEBI_30812 ,
-                         pubchem: ;
+                         chebi:CHEBI_30812 ;
             skos:altLabel "Ferrous chloride"@en ;
             skos:prefLabel "Iron(II) chloride"@en .
 
@@ -7322,13 +7325,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001342" ;
             rdfs:label "Manganese sulfate solution"@en ,
                        "硫酸マンガン(II)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
                          ncit:Manganese_Sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24580> ,
                          <http://purl.bioontology.org/ontology/MSH/C039798> ,
-                         ndf:N0000146056 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000146056 ;
             skos:prefLabel "Manganese sulfate solution"@en .
 
 
@@ -8029,7 +8030,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001381" ;
             rdfs:label "Manganese sulfate heptahydrate"@en ,
                        "硫酸マンガン(II)七水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/166832> ;
             skos:altLabel "Manganous sulfate heptahydrate"@en ;
             skos:prefLabel "Manganese sulfate heptahydrate"@en .
 
@@ -9068,8 +9070,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6134> ,
                          <http://purl.bioontology.org/ontology/MSH/D007785> ,
                          ndf:N0000146181 ,
-                         rxnorm: ,
-                         snomed: ;
+                         chebi:CHEBI_36218 ;
             skos:altLabel "乳糖"@ja ;
             skos:prefLabel "Lactose"@en .
 
@@ -9958,12 +9959,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001488" ;
             rdfs:label "Iron(II) chloride solution"@en ,
                        "塩化鉄(II)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
                          ncit:Ferrous_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24458> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ,
-                         rxnorm: ,
-                         chebi:CHEBI_30812 ,
-                         pubchem: ;
+                         chebi:CHEBI_30812 ;
             skos:prefLabel "Iron(II) chloride solution"@en .
 
 
@@ -9995,7 +9995,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001490" ;
             rdfs:label "Iron(II) chloride hexahydrate solution"@en ,
                        "塩化鉄(II)六水和物溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/129819097> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ;
             skos:altLabel "Iron dichloride hexahydrate solution"@en ;
             skos:prefLabel "Iron(II) chloride hexahydrate solution"@en .
@@ -11004,7 +11005,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001548" ;
             rdfs:label "Iron(II) chloride tetrahydrate"@en ,
                        "塩化鉄(II)四水和物"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211588> ;
             skos:altLabel "Iron dichloride tetrahydrate"@en ;
             skos:prefLabel "Iron(II) chloride tetrahydrate"@en .
 
@@ -11022,6 +11023,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001549" ;
             rdfs:label "Iron(II) chloride hexahydrate"@en ,
                        "塩化鉄(II)六水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129819097> ;
             skos:altLabel "Iron dichloride hexahydrate"@en ;
             skos:prefLabel "Iron(II) chloride hexahydrate"@en .
 
@@ -14227,12 +14229,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001763" ;
             rdfs:label "Manganese sulfate"@en ,
                        "硫酸マンガン(II)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
                          ncit:C66054 ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24580> ,
                          mesh:C039798 ,
                          ndf:N0000146056 ,
-                         snomed: ;
+                         chebi:CHEBI_86360 ;
             skos:altLabel "Manganese(II) sulfate"@en ;
             skos:prefLabel "Manganese sulfate"@en .
 
@@ -18540,6 +18542,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002080" ;
             rdfs:label "Iron(III) chloride hexahydrate solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211236> ;
             skos:prefLabel "Iron(III) chloride hexahydrate solution"@en ,
                            "塩化鉄(III)六水和物溶液"@ja .
 
@@ -19028,7 +19031,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002123" ;
             rdfs:label "Manganese sulfate hexahydrate"@en ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/19850629> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/19850629> ,
+                         chebi:CHEBI_131523 ;
             skos:altLabel "Manganese(II) sulfate hexahydrate"@en ;
             skos:prefLabel "Manganese sulfate hexahydrate"@en .
 
@@ -21386,6 +21390,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002314" ;
             rdfs:label "Lactose solution"@en ,
                        "乳糖溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6134> ,
+                         chebi:CHEBI_36218 ,
+                         <https://en.wikipedia.org/wiki/Lactose> ;
             skos:prefLabel "Lactose solution"@en .
 
 
