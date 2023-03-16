@@ -939,8 +939,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸マグネシウム七水和物"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_sulfate ,
                          ncit:Magnesium_Sulfate_Heptahydrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24843> ,
                          <http://purl.bioontology.org/ontology/MSH/D008278> ,
-                         rxnorm: ,
                          chebi:CHEBI_31795 ;
             skos:prefLabel "Magnesium sulfate heptahydrate"@en .
 
@@ -1096,8 +1096,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24450> ,
                          <http://purl.bioontology.org/ontology/MSH/C013216> ,
                          ndf:N0000147003 ,
-                         rxnorm: ,
-                         snomed: ;
+                         chebi:CHEBI_131527 ;
             skos:altLabel "Dipotassium hydrogen phosphate"@en ,
                           "Dipotassium hydrogenphosphate"@en ,
                           "Dipotassium phosphate"@en ,
@@ -1194,9 +1193,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Magnesium chloride hexahydrate"@en ,
                        "塩化マグネシウム六水和物"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_chloride ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24644> ,
+                         chebi:CHEBI_86345 ;
             skos:prefLabel "Magnesium chloride hexahydrate"@en .
 
 
@@ -1283,11 +1281,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "塩化カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_chloride ,
                          ncit:Potassium_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4873> ,
                          ndf:N0000145835 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32588 ,
-                         pubchem: ;
+                         chebi:CHEBI_32588 ;
             skos:prefLabel "Potassium chloride"@en .
 
 
@@ -1356,7 +1352,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "塩化マンガン(II)四水和物"@ja ;
             rdfs:seeAlso wikipedia:Manganese_chloride ,
                          ncit:Manganese_Chloride ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/643989> ;
+            skos:altLabel chebi:CHEBI_86368 ;
             skos:prefLabel "Manganese chloride tetrahydrate"@en .
 
 
@@ -1376,6 +1373,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Cobalt dichloride hexahydrate"@en ,
                        "塩化コバルト六水和物"@ja ;
             rdfs:seeAlso wikipedia:Cobalt_chloride_hexahydrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24643> ,
                          chebi:CHEBI_53503 ;
             skos:altLabel "Cobalt(II) chloride hexahydrate"@en ;
             skos:prefLabel "Cobalt dichloride hexahydrate"@en .
@@ -1645,10 +1643,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "システイン塩酸塩"@ja ;
             rdfs:seeAlso wikipedia:Cysteine_hydrochloride ,
                          ncit:Cysteine_Hydrochloride ,
-                         ndf:N0000146996 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25150> ,
+                         ndf:N0000146996 ;
             skos:prefLabel "Cysteine hydrochloride"@en .
 
 
@@ -1698,11 +1694,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "コバラミン"@ja ;
             rdfs:seeAlso wikipedia:Vitamin_B12 ,
                          ncit:Vitamin_B12 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/46853873> ,
                          <http://purl.bioontology.org/ontology/MSH/D014805> ,
                          ndf:N0000146258 ,
-                         snomed: ,
-                         chebi:CHEBI_30411 ,
-                         pubchem: ;
+                         chebi:CHEBI_30411 ;
             skos:altLabel "Vitamin B12"@en ;
             skos:prefLabel "Cobalamin"@en .
 
@@ -1996,7 +1991,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸コバルト(II)七水和物"@ja ;
             rdfs:seeAlso wikipedia:Cobalt_sulfate ,
                          ncit:Cobalt_Sulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61444> ,
+                         chebi:CHEBI_91244 ;
             skos:prefLabel "Cobalt(II) sulfate heptahydrate"@en .
 
 
@@ -2126,7 +2122,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Potassium nitrate"@en ,
                        "硝酸カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_nitrate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24434> ,
+                         chebi:CHEBI_63043 ;
             skos:prefLabel "Potassium nitrate"@en .
 
 
@@ -2777,12 +2774,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "ヨウ化カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_iodide ,
                          ncit:Potassium_Iodide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4875> ,
                          <http://purl.bioontology.org/ontology/MSH/D011193> ,
                          ndf:N0000146024 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_8346 ,
-                         pubchem: ;
+                         chebi:CHEBI_8346 ;
             skos:prefLabel "Potassium iodide"@en .
 
 
@@ -2873,6 +2868,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001096" ;
             rdfs:label "Magnesium sulfate"@en ,
                        "硫酸マグネシウム"@ja ;
+            rdfs:seeAlso wikipedia:Magnesium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24083> ,
+                         chebi:CHEBI_32599 ;
             skos:altLabel "Magnesium sulphate"@en ;
             skos:prefLabel "Magnesium sulfate"@en .
 
@@ -2932,8 +2930,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:seeAlso wikipedia:Choline_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/522265> ,
                          ndf:N0000022653 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_133341 ;
             skos:prefLabel "Choline chloride"@en .
 
@@ -3015,12 +3011,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001103" ;
             rdfs:label "Copper(II) sulfate"@en ,
                        "硫酸銅(II)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24462> ,
                          <http://purl.bioontology.org/ontology/MSH/D019327> ,
                          ndf:N0000148098 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_23414 ;
             skos:altLabel "Copper sulfate"@en ,
                           "Cupric sulfate"@en ;
@@ -3088,11 +3082,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "コバラミン溶液"@ja ;
             rdfs:seeAlso wikipedia:Vitamin_B12 ,
                          ncit:Vitamin_B12 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/46853873> ,
                          <http://purl.bioontology.org/ontology/MSH/D014805> ,
                          ndf:N0000146258 ,
-                         snomed: ,
-                         chebi:CHEBI_30411 ,
-                         pubchem: ;
+                         chebi:CHEBI_30411 ;
             skos:altLabel "Vitamin B12 solution"@en ;
             skos:prefLabel "Cobalamin solution"@en .
 
@@ -3129,7 +3122,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Potassium bromide"@en ,
                        "臭化カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_bromide ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24446> ,
+                         chebi:CHEBI_32030 ;
             skos:prefLabel "Potassium bromide"@en .
 
 
@@ -3168,8 +3162,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001110" ;
             rdfs:label "Cobalt(II) nitrate hexahydrate"@en ,
                        "硝酸コバルト(II)六水和物"@ja ;
-            rdfs:seeAlso wikipedia:_nitrate ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/24821> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_nitrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24821> ,
+                         chebi:CHEBI_86214 ;
             skos:altLabel "Cobalt nitrate hexahydrate"@en ;
             skos:prefLabel "Cobalt(II) nitrate hexahydrate"@en .
 
@@ -3432,8 +3427,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001123" ;
             rdfs:label "D-Fructose"@en ;
             rdfs:seeAlso wikipedia:Fructose ,
-                         chebi:CHEBI_28757 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5984> ,
+                         chebi:CHEBI_28757 ;
             skos:prefLabel "D-Fructose"@en .
 
 
@@ -3469,6 +3464,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001125" ;
             rdfs:label "Potassium phosphate dibasic trihydrate"@en ,
                        "リン酸水素二カリウム三水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16217523> ;
             skos:altLabel "Dipotassium phosphate trihydrate"@en ;
             skos:prefLabel "Potassium phosphate dibasic trihydrate"@en .
 
@@ -3537,9 +3533,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Manganese chloride dihydrate"@en ,
                        "塩化マンガン(II)二水和物"@ja ;
             rdfs:seeAlso wikipedia:Manganese_chloride ,
-                         <http://purl.bioontology.org/ontology/MSH/C025340> ,
-                         pubchem: ;
-            skos:altLabel "Manganous chloride dihydrate"@en ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/90470232> ,
+                         <http://purl.bioontology.org/ontology/MSH/C025340> ;
+            skos:altLabel chebi:CHEBI_131395 ,
+                          "Manganous chloride dihydrate"@en ;
             skos:prefLabel "Manganese chloride dihydrate"@en .
 
 
@@ -4012,7 +4009,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5360315> ,
                          <http://purl.bioontology.org/ontology/MSH/D015636> ,
                          ndf:N0000146546 ,
-                         rxnorm: ,
                          chebi:CHEBI_6636 ;
             skos:prefLabel "Magnesium chloride"@en .
 
@@ -4314,7 +4310,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Magnesium chloride monohydrate"@en ,
                        "塩化マグネシウム一水和物"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_chloride ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/168060> ,
+                         chebi:CHEBI_86355 ;
             skos:prefLabel "Magnesium chloride monohydrate"@en .
 
 
@@ -4346,11 +4343,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_sulfate ,
                          ncit:Potassium_Sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24507> ,
                          <http://purl.bioontology.org/ontology/MSH/C031512> ,
                          ndf:N0000146064 ,
-                         rxnorm: ,
-                         chebi:CHEBI_32036 ,
-                         pubchem: ;
+                         chebi:CHEBI_32036 ;
             skos:prefLabel "Potassium sulfate"@en .
 
 
@@ -4630,9 +4626,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "酢酸マグネシウム"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_acetate ,
                          ncit:Magnesium_Acetate ,
-                         rxnorm: ,
-                         chebi:CHEBI_62964 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8896> ,
+                         chebi:CHEBI_62964 ;
             skos:prefLabel "Magnesium acetate"@en .
 
 
@@ -4706,12 +4701,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "プロピオン酸"@ja ;
             rdfs:seeAlso wikipedia:Propionic_Acid ,
                          ncit:Propionic_Acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1032> ,
                          <http://purl.bioontology.org/ontology/MSH/C029658> ,
                          ndf:N0000147394 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_30768 ,
-                         pubchem: ;
+                         chebi:CHEBI_30768 ;
             skos:altLabel "Propionic acid"@en ,
                           "プロパン酸"@ja ;
             skos:prefLabel "Propionic acid"@en .
@@ -4762,9 +4755,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "マルトース"@ja ;
             rdfs:seeAlso wikipedia:Maltose ,
                          ncit:Maltose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6255> ,
                          <http://purl.bioontology.org/ontology/MSH/D008320> ,
-                         chebi:CHEBI_17306 ,
-                         pubchem: ;
+                         chebi:CHEBI_17306 ;
             skos:altLabel "Malt sugar"@en ,
                           "Maltobiose"@en ,
                           "麦芽糖"@ja ;
@@ -4829,7 +4822,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Magnesium oxide"@en ,
                        "酸化マグネシウム"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_oxide ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14792> ;
             skos:prefLabel "Magnesium oxide"@en .
 
 
@@ -4932,7 +4925,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001205" ;
             rdfs:label "L-Cysteine hydrochloride monohydrate"@en ,
                        "L-システイン塩酸塩一水和物"@ja ;
-            rdfs:seeAlso wikipedia:Cysteine_hydrochloride ;
+            rdfs:seeAlso wikipedia:Cysteine_hydrochloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23462> ,
+                         chebi:CHEBI_91248 ;
             skos:prefLabel "L-Cysteine hydrochloride monohydrate"@en .
 
 
@@ -5027,10 +5022,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Raffinose"@en ;
             rdfs:seeAlso wikipedia:Raffinose ,
                          ncit:Raffinose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/439242> ,
                          <http://purl.bioontology.org/ontology/MSH/D011887> ,
-                         snomed: ,
-                         chebi:CHEBI_16634 ,
-                         pubchem: ;
+                         chebi:CHEBI_16634 ;
             skos:prefLabel "Raffinose"@en .
 
 
@@ -5606,9 +5600,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Potassium thiocyanate"@en ,
                        "チオシアン酸カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_thiocyanate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516872> ,
                          <http://purl.bioontology.org/ontology/MSH/C009941> ,
-                         chebi:CHEBI_30951 ,
-                         pubchem: ;
+                         chebi:CHEBI_30951 ;
             skos:prefLabel "Potassium thiocyanate"@en .
 
 
@@ -5721,10 +5715,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Quinic acid"@en ,
                        "キナ酸"@ja ;
             rdfs:seeAlso wikipedia:Quinic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6508> ,
                          <http://purl.bioontology.org/ontology/MSH/D011801> ,
                          ndf:N0000166670 ,
-                         chebi:CHEBI_36124 ,
-                         pubchem: ;
+                         chebi:CHEBI_36124 ;
             skos:prefLabel "Quinic acid"@en .
 
 
@@ -5963,12 +5957,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Pyruvate solution"@en ,
                        "ピルビン酸溶液"@ja ;
             rdfs:seeAlso wikipedia:Pyruvic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1060> ,
                          <http://purl.bioontology.org/ontology/MSH/D019289> ,
                          ndf:N0000166688 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32816 ,
-                         pubchem: ;
+                         chebi:CHEBI_32816 ;
             skos:prefLabel "Pyruvate solution"@en .
 
 
@@ -6021,6 +6013,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001266" ;
             rdfs:label "Magnesium chloride dihydrate"@en ,
                        "塩化マグネシウム二水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/57370964> ,
+                         chebi:CHEBI_131394 ;
             skos:prefLabel "Magnesium chloride dihydrate"@en .
 
 
@@ -6361,9 +6355,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Magnesium chloride hexahydrate solution"@en ,
                        "塩化マグネシウム六水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_chloride ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24644> ,
+                         chebi:CHEBI_86345 ;
             skos:prefLabel "Magnesium chloride hexahydrate solution"@en .
 
 
@@ -6722,11 +6715,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "リン酸カリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Dipotassium_phosphate ,
                          ncit:Potassium_Phosphate_Dibasic ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24450> ,
                          <http://purl.bioontology.org/ontology/MSH/C013216> ,
                          ndf:N0000147003 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_131527 ;
             skos:prefLabel "Potassium phosphate buffer"@en .
 
 
@@ -6743,11 +6735,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001309" ;
             rdfs:label "Cobalt dichloride"@en ,
                        "塩化コバルト"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_chloride> ,
                          ncit:Cobalt_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3032536> ,
                          <http://purl.bioontology.org/ontology/MSH/C018021> ,
-                         chebi:CHEBI_35696 ,
-                         pubchem: ;
+                         chebi:CHEBI_35696 ;
             skos:altLabel "Cobalt(II) chloride"@en ;
             skos:prefLabel "Cobalt dichloride"@en .
 
@@ -6876,11 +6868,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "炭酸水素カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_bicarbonate ,
                          ncit:Potassium_Bicarbonate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516893> ,
                          <http://purl.bioontology.org/ontology/MSH/C026329> ,
                          ndf:N0000145903 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_81862 ;
             skos:prefLabel "Potassium bicarbonate"@en .
 
 
@@ -6898,11 +6889,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "システイン"@ja ;
             rdfs:seeAlso wikipedia:Cysteine ,
                          ncit:Cysteine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5862> ,
                          <http://purl.bioontology.org/ontology/MSH/D003545> ,
                          ndf:N0000147794 ,
-                         rxnorm: ,
-                         chebi:CHEBI_15356 ,
-                         pubchem: ;
+                         chebi:CHEBI_15356 ;
             skos:prefLabel "Cysteine"@en .
 
 
@@ -7140,6 +7130,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "L-シスチン"@ja ;
             rdfs:seeAlso wikipedia:Cystine ,
                          ncit:Cystine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/67678> ,
                          <http://purl.bioontology.org/ontology/MSH/D003553> ,
                          ndf:N0000147293 ,
                          chebi:CHEBI_17376 ;
@@ -7759,7 +7750,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001366" ;
             rdfs:label "Copper(II) sulfate heptahydrate solution"@en ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22386232> ;
             skos:prefLabel "Copper(II) sulfate heptahydrate solution"@en .
 
 
@@ -8836,10 +8828,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Malonic acid"@en ,
                        "マロン酸"@ja ;
             rdfs:seeAlso wikipedia:Malonic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/867> ,
                          <http://purl.bioontology.org/ontology/MSH/C030290> ,
-                         snomed: ,
-                         chebi:CHEBI_30794 ,
-                         pubchem: ;
+                         chebi:CHEBI_30794 ;
             skos:altLabel "Propanedioic acid"@en ;
             skos:prefLabel "Malonic acid"@en .
 
@@ -9168,9 +9159,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001450" ;
             rdfs:label "Potassium tetrathionate solution"@en ;
-            rdfs:seeAlso wikipedia:Tetrathionate ,
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/61701> ,
                          <http://purl.bioontology.org/ontology/MSH/D013776> ,
-                         pubchem: ;
+                         chebi:CHEBI_86466 ;
             skos:prefLabel "Potassium tetrathionate solution"@en .
 
 
@@ -9188,6 +9179,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001451" ;
             rdfs:label "Magnesium sulfate solution"@en ,
                        "硫酸マグネシウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Magnesium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24083> ,
+                         chebi:CHEBI_32599 ;
             skos:prefLabel "Magnesium sulfate solution"@en .
 
 
@@ -9420,6 +9414,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "硫酸マグネシウム七水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_sulfate ,
                          ncit:Magnesium_Sulfate_Heptahydrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24843> ,
                          <http://purl.bioontology.org/ontology/MSH/D008278> ,
                          chebi:CHEBI_31795 ;
             skos:prefLabel "Magnesium sulfate heptahydrate solution"@en .
@@ -9440,8 +9435,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "D-Fructose solution"@en ,
                        "D-フルクトース溶液"@ja ;
             rdfs:seeAlso wikipedia:Fructose ,
-                         chebi:CHEBI_28757 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5984> ,
+                         chebi:CHEBI_28757 ;
             skos:prefLabel "D-Fructose solution"@en .
 
 
@@ -9521,11 +9516,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "リン酸水素二カリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Dipotassium_phosphate ,
                          ncit:Potassium_Phosphate_Dibasic ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24450> ,
                          <http://purl.bioontology.org/ontology/MSH/C013216> ,
                          ndf:N0000147003 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_131527 ;
             skos:prefLabel "Potassium phosphate dibasic solution"@en .
 
 
@@ -9558,11 +9552,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "リン酸二水素カリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Monopotassium_phosphate ,
                          ncit:Potassium_Phosphate_Monobasic ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516951> ,
                          ndf:N0000147004 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_63036 ,
-                         pubchem: ;
+                         chebi:CHEBI_63036 ;
             skos:prefLabel "Potassium phosphate monobasic solution"@en .
 
 
@@ -9585,7 +9577,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Potassium nitrate solution"@en ,
                        "硝酸カリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Potassium_nitrate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24434> ,
+                         chebi:CHEBI_63043 ;
             skos:prefLabel "Potassium nitrate solution"@en .
 
 
@@ -9724,9 +9717,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001476" ;
             rdfs:label "Copper(II) sulfate pentahydrate solution"@en ,
                        "硫酸銅(II)五水和物溶液"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         chebi:CHEBI_31440 ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24463> ,
+                         chebi:CHEBI_31440 ;
             skos:prefLabel "Copper(II) sulfate pentahydrate solution"@en .
 
 
@@ -9823,6 +9816,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Coenzyme M solution"@en ,
                        "補酵素M溶液"@ja ;
             rdfs:seeAlso wikipedia:Coenzyme_M ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/598> ,
                          chebi:CHEBI_17905 ;
             skos:altLabel "Mercaptoethanesulfonic acid solution"@en ,
                           "コエンザイムM溶液"@ja ;
@@ -9905,11 +9899,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "システイン溶液"@ja ;
             rdfs:seeAlso wikipedia:Cysteine ,
                          ncit:Cysteine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5862> ,
                          <http://purl.bioontology.org/ontology/MSH/D003545> ,
                          ndf:N0000147794 ,
-                         rxnorm: ,
-                         chebi:CHEBI_15356 ,
-                         pubchem: ;
+                         chebi:CHEBI_15356 ;
             skos:prefLabel "Cysteine solution"@en .
 
 
@@ -10038,10 +10031,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Potassium thiocyanate solution"@en ,
                        "チオシアン酸カリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Potassium_thiocyanate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/516872> ,
                          <http://purl.bioontology.org/ontology/MSH/C009941> ,
-                         snomed: ,
-                         chebi:CHEBI_30951 ,
-                         pubchem: ;
+                         chebi:CHEBI_30951 ;
             skos:prefLabel "Potassium thiocyanate solution"@en .
 
 
@@ -10062,6 +10054,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ncit:C75426 ,
                          <http://purl.bioontology.org/ontology/MSH/C005095> ,
                          chebi:CHEBI_72449 ;
+            skos:altLabel <http://pubchem.ncbi.nlm.nih.gov/compound/11294> ;
             skos:prefLabel "Malachite green solution"@en .
 
 
@@ -10171,7 +10164,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001496" ;
             rdfs:label "L-Cysteine hydrochloride monohydrate solution"@en ,
                        "L-システイン塩酸塩一水和物溶液"@ja ;
-            rdfs:seeAlso wikipedia:Cysteine_hydrochloride ;
+            rdfs:seeAlso wikipedia:Cysteine_hydrochloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23462> ,
+                         chebi:CHEBI_91248 ;
             skos:prefLabel "L-Cysteine hydrochloride monohydrate solution"@en .
 
 
@@ -10790,7 +10785,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001535" ;
             rdfs:label "Cobalt dichloride solution"@en ,
                        "塩化コバルト溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3032536> ,
+                         chebi:CHEBI_35696 ;
             skos:altLabel "Cobalt(II) chloride solution"@en ;
             skos:prefLabel "Cobalt dichloride solution"@en .
 
@@ -10807,9 +10804,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Coenzyme A"@en ,
                        "補酵素A"@ja ;
             rdfs:seeAlso wikipedia:Coenzyme_A ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6816> ,
                          <http://purl.bioontology.org/ontology/MSH/D003065> ,
-                         chebi:CHEBI_15346 ,
-                         pubchem: ;
+                         chebi:CHEBI_15346 ;
             skos:prefLabel "Coenzyme A"@en .
 
 
@@ -10826,11 +10823,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "コンゴーレッド"@ja ;
             rdfs:seeAlso wikipedia:Congo_red ,
                          ncit:C81102 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11313> ,
                          <http://purl.bioontology.org/ontology/MSH/D003224> ,
                          ndf:N0000167389 ,
-                         snomed: ,
-                         chebi:CHEBI_34653 ,
-                         pubchem: ;
+                         chebi:CHEBI_34653 ;
             skos:prefLabel "Congo red"@en .
 
 
@@ -10902,12 +10898,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "塩化銅(II)"@ja ;
             rdfs:seeAlso wikipedia:Cupric_chloride ,
                          ncit:Cupric_Chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24014> ,
                          <http://purl.bioontology.org/ontology/MSH/C029892> ,
                          ndf:N0000146044 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_49553 ,
-                         pubchem: ;
+                         chebi:CHEBI_49553 ;
             skos:altLabel "Cupric chloride"@en ;
             skos:prefLabel "Copper(II) chloride"@en .
 
@@ -11280,7 +11274,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001566" ;
             rdfs:label "Potassium tetrathionate"@en ,
                        "四チオン酸カリウム"@ja ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/D013776> ;
+            rdfs:seeAlso wikipedia:Tetrathionate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61701> ,
+                         <http://purl.bioontology.org/ontology/MSH/D013776> ,
+                         chebi:CHEBI_86466 ;
             skos:prefLabel "Potassium tetrathionate"@en .
 
 
@@ -11443,7 +11440,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001579" ;
             rdfs:label "Maltose monohydrate"@en ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23615261> ;
             skos:prefLabel "Maltose monohydrate"@en .
 
 
@@ -11459,9 +11456,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Maltose, technical (Difco)"@en ;
             rdfs:seeAlso wikipedia:Maltose ,
                          ncit:Maltose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6255> ,
                          <http://purl.bioontology.org/ontology/MSH/D008320> ,
-                         chebi:CHEBI_17306 ,
-                         pubchem: ;
+                         chebi:CHEBI_17306 ;
             skos:definition "Maltose, technical production"@en ;
             skos:prefLabel "Maltose, technical (Difco)"@en .
 
@@ -11531,7 +11528,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Magnesium nitrate hexahydrate"@en ,
                        "硝酸マグネシウム六水和物"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_nitrate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/202877> ;
             skos:prefLabel "Magnesium nitrate hexahydrate"@en .
 
 
@@ -11564,6 +11561,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001586" ;
             rdfs:label "Magnesium chloride heptahydrate"@en ,
                        "塩化マグネシウム七水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129701623> ;
             skos:prefLabel "Magnesium chloride heptahydrate"@en .
 
 
@@ -11580,6 +11578,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001587" ;
             rdfs:label "Magnesium sulfate monohydrate"@en ,
                        "硫酸マグネシウム一水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211255> ;
             skos:prefLabel "Magnesium sulfate monohydrate"@en .
 
 
@@ -11611,9 +11610,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Manganese_chloride ,
                          ncit:C61823 ,
                          <http://purl.bioontology.org/ontology/MSH/C025340> ,
-                         ndf:N0000146053 ,
-                         rxnorm: ,
-                         snomed: ;
+                         ndf:N0000146053 ;
+            skos:altLabel <http://en.wikipedia.org/wiki/Manganese(II)_chloride> ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/24480> ,
+                          chebi:CHEBI_63041 ;
             skos:prefLabel "Manganese chloride"@en .
 
 
@@ -11630,6 +11630,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001591" ;
             rdfs:label "Manganese chloride hexahydrate"@en ,
                        "塩化マンガン(II)六水和物"@ja ;
+            skos:altLabel <http://pubchem.ncbi.nlm.nih.gov/compound/129816660> ;
             skos:prefLabel "Manganese chloride hexahydrate"@en .
 
 
@@ -11645,6 +11646,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001592" ;
             rdfs:label "Manganese chloride monohydrate"@en ;
+            skos:altLabel <http://pubchem.ncbi.nlm.nih.gov/compound/16211237> ;
             skos:prefLabel "Manganese chloride monohydrate"@en .
 
 
@@ -12198,11 +12200,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Putrescine"@en ,
                        "プトレシン"@ja ;
             rdfs:seeAlso wikipedia:Putrescine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1045> ,
                          <http://purl.bioontology.org/ontology/MSH/D011700> ,
                          ndf:N0000166545 ,
-                         snomed: ,
-                         chebi:CHEBI_17148 ,
-                         pubchem: ;
+                         chebi:CHEBI_17148 ;
             skos:prefLabel "Putrescine"@en .
 
 
@@ -13203,7 +13204,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Magnesium chloride monohydrate solution"@en ,
                        "塩化マグネシウム一水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Magnesium_chloride ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/168060> ,
+                         chebi:CHEBI_86355 ;
             skos:prefLabel "Magnesium chloride monohydrate solution"@en .
 
 
@@ -13350,10 +13352,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Creatine"@en ,
                        "クレアチン"@ja ;
             rdfs:seeAlso wikipedia:Creatine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/586> ,
                          mesh:D003401 ,
                          ndf:N0000023110 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_16919 ;
             skos:prefLabel "Creatine"@en .
 
@@ -13678,7 +13679,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "プルラン"@ja ;
             rdfs:seeAlso wikipedia:Pullulan ,
                          mesh:C009109 ,
-                         rxnorm: ,
                          chebi:CHEBI_27941 ;
             skos:prefLabel "Pullulan"@en .
 
@@ -13906,6 +13906,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001740" ;
             rdfs:label "Quinic acid solution"@en ,
                        "キナ酸溶液"@ja ;
+            rdfs:seeAlso wikipedia:Quinic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6508> ,
+                         chebi:CHEBI_36124 ;
             skos:prefLabel "Quinic acid solution"@en .
 
 
@@ -14093,6 +14096,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001754" ;
             rdfs:label "Copper(II) sulfate dihydrate"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ;
             skos:altLabel "Cupric sulfate dihydrate"@en ;
             skos:prefLabel "Copper(II) sulfate dihydrate"@en .
 
@@ -14194,7 +14198,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001761" ;
             rdfs:label "Copper(II) sulfate heptahydrate"@en ,
                        "硫酸銅(II)七水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22386232> ;
             skos:altLabel "Boothite"@en ;
             skos:prefLabel "Copper(II) sulfate heptahydrate"@en .
 
@@ -14371,6 +14376,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001772" ;
             rdfs:label "D-Cystine"@en ,
                        "D-シスチン"@ja ;
+            rdfs:seeAlso wikipedia:Cystine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6857538> ,
+                         chebi:CHEBI_35494 ;
             skos:prefLabel "D-Cystine"@en .
 
 
@@ -14987,6 +14995,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001818" ;
             rdfs:label "Magnesium sulfate anhydrate"@en ,
                        "硫酸マグネシウム無水和物"@ja ;
+            rdfs:seeAlso wikipedia:Magnesium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24083> ,
+                         chebi:CHEBI_32599 ;
             skos:prefLabel "Magnesium sulfate anhydrate"@en .
 
 
@@ -15031,7 +15042,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Cholesterol"@en ,
                        "コレステロール"@ja ;
             rdfs:seeAlso wikipedia:Cholesterol ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/5997> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5997> ,
+                         chebi:CHEBI_16113 ;
             skos:altLabel "Cholesterin"@en ;
             skos:prefLabel "Cholesterol"@en .
 
@@ -15046,6 +15058,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001822" ;
             rdfs:label "Coenzyme A sodium salt"@en ,
                        "補酵素Aナトリウム塩"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/92043465> ;
             skos:altLabel "コエンザイムAナトリウム塩"@ja ;
             skos:prefLabel "Coenzyme A sodium salt"@en .
 
@@ -15124,6 +15137,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001827" ;
             rdfs:label "Cysteine hydrochloride solution"@en ,
                        "システイン塩酸塩溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/25150> ;
             skos:prefLabel "Cysteine hydrochloride solution"@en .
 
 
@@ -15137,6 +15151,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001828" ;
             rdfs:label "L-Cysteine hydrochloride"@en ,
                        "L-システイン塩酸塩"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/60960> ,
+                         chebi:CHEBI_91247 ;
             skos:prefLabel "L-Cysteine hydrochloride"@en .
 
 
@@ -15589,7 +15605,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001865" ;
             rdfs:label "D-Glucuronic acid sodium salt"@en ,
                        "D-グルクロン酸ナトリウム塩"@ja ;
-            rdfs:seeAlso wikipedia:Glucuronic_acid ;
+            rdfs:seeAlso wikipedia:Glucuronic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23677976> ,
+                         chebi:CHEBI_32144 ;
             skos:prefLabel "D-Glucuronic acid sodium salt"@en .
 
 
@@ -15837,7 +15855,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001883" ;
             rdfs:label "Cobalt(II) nitrate"@en ;
-            rdfs:seeAlso wikipedia:_nitrate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_nitrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25000> ,
+                         chebi:CHEBI_86209 ;
             skos:prefLabel "Cobalt(II) nitrate"@en .
 
 
@@ -15851,7 +15871,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001884" ;
             rdfs:label "Magnesium nitrate"@en ,
                        "硝酸マグネシウム"@ja ;
-            rdfs:seeAlso wikipedia:Magnesium_nitrate ;
+            rdfs:seeAlso wikipedia:Magnesium_nitrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/25212> ,
+                         chebi:CHEBI_64736 ;
             skos:prefLabel "Magnesium nitrate"@en .
 
 
@@ -15868,7 +15890,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Malachite green"@en ,
                        "マラカイトグリーン"@ja ;
             rdfs:seeAlso wikipedia:Malachite_green ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/11294> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11294> ,
+                         chebi:CHEBI_72449 ;
             skos:prefLabel "Malachite green"@en .
 
 
@@ -16078,7 +16101,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001902" ;
             rdfs:label "Potassium hydroxide"@en ,
                        "水酸化カリウム"@ja ;
-            rdfs:seeAlso <https://en.wikipedia.org/wiki/Potassium_hydroxide> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/14797> ,
+                         chebi:CHEBI_32035 ,
+                         <https://en.wikipedia.org/wiki/Potassium_hydroxide> ;
             skos:prefLabel "Potassium hydroxide"@en .
 
 
@@ -16092,6 +16117,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001903" ;
             rdfs:label "Potassium hydroxide solution"@en ,
                        "水酸化カリウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/14797> ,
+                         chebi:CHEBI_32035 ,
+                         <https://en.wikipedia.org/wiki/Potassium_hydroxide> ;
             skos:prefLabel "Potassium hydroxide solution"@en .
 
 
@@ -16297,7 +16325,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Crotonic acid solution"@en ,
                        "クロトン酸溶液"@ja ;
             rdfs:seeAlso wikipedia:Crotonic_acid ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/637090> ;
             skos:prefLabel "Crotonic acid solution"@en .
 
 
@@ -16350,6 +16378,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001922" ;
             rdfs:label "Cobalt dichloride hexahydrate solution "@en ;
+            rdfs:seeAlso wikipedia:Cobalt_chloride_hexahydrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24643> ,
+                         chebi:CHEBI_53503 ;
             skos:prefLabel "Cobalt dichloride hexahydrate solution "@en .
 
 
@@ -16473,6 +16504,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001931" ;
             rdfs:label "Magnesium chloride anhydrous"@en ,
                        "塩化マグネシウム無水物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/5360315> ;
             skos:prefLabel "Magnesium chloride anhydrous"@en .
 
 
@@ -16516,7 +16548,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001934" ;
             rdfs:label "Cobalt(II) sulfate"@en ,
                        "硫酸コバルト(II)"@ja ;
-            rdfs:seeAlso pubchem: ,
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24965> ,
+                         chebi:CHEBI_53470 ,
                          <https://en.wikipedia.org/wiki/Cobalt(II)_sulfate> ;
             skos:prefLabel "Cobalt(II) sulfate"@en .
 
@@ -16738,6 +16771,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001951" ;
             rdfs:label "Potassium chloride solution"@en ,
                        "塩化カリウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Potassium_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4873> ,
+                         chebi:CHEBI_32588 ;
             skos:prefLabel "Potassium chloride solution"@en .
 
 
@@ -16813,6 +16849,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001957" ;
             rdfs:label "Potassium iodide solution"@en ,
                        "ヨウ化カリウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Potassium_iodide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4875> ;
             skos:prefLabel "Potassium iodide solution"@en .
 
 
@@ -16884,6 +16922,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001963" ;
             rdfs:label "Potassium phosphate dibasic trihydrate solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16217523> ;
             skos:prefLabel "Potassium phosphate dibasic trihydrate solution"@en .
 
 
@@ -17290,6 +17329,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001992" ;
             rdfs:label "Malic acid"@en ,
                        "リンゴ酸"@ja ;
+            skos:altLabel wikipedia:Malic_acid ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/525> ;
             skos:prefLabel "Malic acid"@en .
 
 
@@ -17304,7 +17345,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001993" ;
             rdfs:label "DL-Malic acid"@en ,
                        "DL-リンゴ酸"@ja ;
-            skos:altLabel "Malate"@en ,
+            skos:altLabel wikipedia:Malic_acid ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/525> ,
+                          "Malate"@en ,
                           "Malic acid"@en ;
             skos:prefLabel "DL-Malic acid"@en .
 
@@ -17320,7 +17363,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001994" ;
             rdfs:label "Chromium(III) nitrate nonahydrate"@en ,
                        "ヘプタモリブデン酸アンモニウム四水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211167> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_nitrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16211167> ;
             skos:altLabel "Chromic nitrate nonahydrate"@en ,
                           "Chromium trinitrate nonahydrate"@en ;
             skos:prefLabel "Chromium(III) nitrate nonahydrate"@en .
@@ -17336,7 +17380,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001995" ;
             rdfs:label "Chromium(III) nitrate"@en ,
                        "ヘプタモリブデン酸アンモニウム"@ja ;
-            rdfs:seeAlso wikipedia:_nitrate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_nitrate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24598> ;
             skos:prefLabel "Chromium(III) nitrate"@en .
 
@@ -17702,7 +17746,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002021" ;
             rdfs:label "Copper(I) chloride"@en ,
                        "塩化銅(I)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(I)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62652> ,
+                         chebi:CHEBI_53472 ;
             skos:prefLabel "Copper(I) chloride"@en .
 
 
@@ -18074,6 +18120,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002050" ;
             rdfs:label "Magnesium chloride solution"@en ,
                        "塩化マグネシウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Magnesium_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5360315> ,
+                         chebi:CHEBI_6636 ;
             skos:prefLabel "Magnesium chloride solution"@en .
 
 
@@ -18086,7 +18135,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Pyruvic acid"@en ,
                        "ピルビン酸"@ja ;
             rdfs:seeAlso wikipedia:Pyruvic_acid ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/1060> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1060> ,
+                         chebi:CHEBI_32816 ;
             skos:altLabel "2-オキソプロパン酸"@ja ;
             skos:prefLabel "Pyruvic acid"@en .
 
@@ -18167,7 +18217,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Cholic acid"@en ,
                        "コール酸"@ja ;
             rdfs:seeAlso wikipedia:Cholic_acid ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/221493> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/221493> ,
+                         chebi:CHEBI_16359 ;
             skos:definition "A primary bile acid"@en ;
             skos:prefLabel "Cholic acid"@en .
 
@@ -18197,7 +18248,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Cycloserine"@en ,
                        "サイクロセリン"@ja ;
             rdfs:seeAlso wikipedia:Cycloserine ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/6234> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6234> ,
+                         chebi:CHEBI_40009 ;
             skos:altLabel "D-cycloserine"@en ;
             skos:prefLabel "Cycloserine"@en .
 
@@ -18254,6 +18306,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002063" ;
             rdfs:label "Copper(II) sulfate solution"@en ,
                        "硫酸銅溶液"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ;
             skos:prefLabel "Copper(II) sulfate solution"@en .
 
 
@@ -18514,8 +18567,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002082" ;
             rdfs:label "Chromium(III) sulfate"@en ,
                        "硫酸クロム(III)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ,
+                         chebi:CHEBI_53471 ;
             skos:prefLabel "Chromium(III) sulfate"@en .
 
 
@@ -18588,7 +18642,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002088" ;
             rdfs:label "Manganese dioxide solution"@en ;
-            skos:altLabel "Manganese(IV) oxide"@en ,
+            skos:altLabel wikipedia:Manganese_dioxide ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/14801> ,
+                          chebi:CHEBI_136511 ,
+                          "Manganese(IV) oxide"@en ,
                           "酸化マンガン(IV)"@ja ;
             skos:prefLabel "Manganese dioxide solution"@en ,
                            "二酸化マンガン溶液"@ja .
@@ -18664,6 +18721,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "L-Cysteine・HCl solution"@en ;
             dcterms:identifier "GMO_002094" ;
             rdfs:label "L-Cysteine hydrochloride solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/60960> ,
+                         chebi:CHEBI_91247 ;
             skos:prefLabel "L-Cysteine hydrochloride solution"@en .
 
 
@@ -18729,6 +18788,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002099" ;
             rdfs:label "Maltose solution"@en ,
                        "マルトース溶液"@ja ;
+            skos:altLabel wikipedia:Maltose ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/6255> ;
             skos:prefLabel "Maltose solution"@en .
 
 
@@ -19719,6 +19780,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000062 ;
             dcterms:identifier "GMO_002188" ;
             rdfs:label "L-Cystine (Sigma)"@en ;
+            rdfs:seeAlso wikipedia:Cystine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/67678> ,
+                         chebi:CHEBI_17376 ;
             skos:prefLabel "L-Cystine (Sigma)"@en .
 
 
@@ -20263,6 +20327,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_002229" ;
             rdfs:label "Ciprofloxacin solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/2764> ,
+                         chebi:CHEBI_100241 ;
             skos:prefLabel "Ciprofloxacin solution"@en ,
                            "シプロフロキサシン溶液"@ja .
 
@@ -20618,6 +20684,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000042 ;
             dcterms:identifier "GMO_002256" ;
             rdfs:label "Sardine, small dried"@en ;
+            rdfs:seeAlso wikipedia:Niboshi ;
             skos:prefLabel "Sardine, small dried"@en .
 
 
@@ -20639,6 +20706,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002258" ;
             rdfs:label "Maize meal"@en ,
                        "ひき割りとうもろこし"@ja ;
+            rdfs:seeAlso wikipedia:Cornmeal ;
+            skos:altLabel "Corn meal"@en ;
             skos:prefLabel "Maize meal"@en .
 
 
@@ -21220,6 +21289,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002307" ;
             rdfs:label "Copper(II) chloride solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24014> ;
             skos:prefLabel "Copper(II) chloride solution"@en .
 
 
@@ -21620,6 +21690,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002339" ;
             rdfs:label "Maltodextrin"@en ,
                        "マルトデキストリン"@ja ;
+            skos:altLabel wikipedia:Maltodextrin ,
+                          <http://pubchem.ncbi.nlm.nih.gov/compound/62698> ;
             skos:prefLabel "Maltodextrin"@en .
 
 
@@ -21905,6 +21977,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002364" ;
             rdfs:label "Potato flour"@en ,
                        "片栗粉"@ja ;
+            rdfs:seeAlso wikipedia:Potato_starch ;
             skos:prefLabel "Potato flour"@en .
 
 
@@ -22139,6 +22212,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002382" ;
             rdfs:label "Crotonic acid (Sigma-Aldrich)"@en ;
+            rdfs:seeAlso wikipedia:Crotonic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/637090> ;
             skos:prefLabel "Crotonic acid (Sigma-Aldrich)"@en .
 
 
@@ -22148,7 +22223,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "Citric acid solution (0.1% w/v)"@en ;
             dcterms:identifier "GMO_002383" ;
             rdfs:label "Citric acid solution"@en ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/311> ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/311> ,
+                         chebi:CHEBI_30769 ;
             skos:prefLabel "Citric acid solution"@en ,
                            "クエン酸溶液"@ja .
 
