@@ -2545,8 +2545,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001079" ;
             rdfs:label "Iron(III) citrate solution"@en ,
                        "クエン酸酸化鉄溶液"@ja ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C025314> ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_citrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61300> ,
+                         <http://purl.bioontology.org/ontology/MSH/C025314> ,
+                         chebi:CHEBI_144421 ;
             skos:prefLabel "Iron(III) citrate solution"@en .
 
 
@@ -3303,8 +3305,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001118" ;
             rdfs:label "Iron(III) citrate"@en ,
                        "クエン酸酸化鉄"@ja ;
-            rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C025314> ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_citrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61300> ,
+                         <http://purl.bioontology.org/ontology/MSH/C025314> ,
+                         chebi:CHEBI_144421 ;
             skos:altLabel "Ferric citrate"@en ;
             skos:prefLabel "Iron(III) citrate"@en .
 
@@ -4557,9 +4561,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Isobutyric acid"@en ,
                        "イソ酪酸"@ja ;
             rdfs:seeAlso wikipedia:Isobutyric_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6590> ,
                          <http://purl.bioontology.org/ontology/MSH/C020380> ,
                          ndf:N0000182117 ,
-                         snomed: ,
                          chebi:CHEBI_16135 ;
             skos:altLabel "2-methylpropanoic acid"@en ;
             skos:prefLabel "Isobutyric acid"@en .
@@ -6646,7 +6650,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001304" ;
             rdfs:label "Iron(III) sulfate n-hydrate"@en ,
                        "硫酸鉄(III)Ｎー水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ;
             skos:prefLabel "Iron(III) sulfate n-hydrate"@en .
 
 
@@ -10052,9 +10056,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "マラカイトグリーン溶液"@ja ;
             rdfs:seeAlso wikipedia:Malachite_green ,
                          ncit:C75426 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11294> ,
                          <http://purl.bioontology.org/ontology/MSH/C005095> ,
-                         chebi:CHEBI_72449 ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/11294> ;
+                         chebi:CHEBI_72449 ;
             skos:prefLabel "Malachite green solution"@en .
 
 
@@ -11609,11 +11613,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Manganese chloride"@en ,
                        "塩化マンガン(II)"@ja ;
             rdfs:seeAlso wikipedia:Manganese_chloride ,
+                         <http://en.wikipedia.org/wiki/Manganese(II)_chloride> ,
                          ncit:C61823 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24480> ,
                          <http://purl.bioontology.org/ontology/MSH/C025340> ,
                          ndf:N0000146053 ,
-                         <http://en.wikipedia.org/wiki/Manganese(II)_chloride> ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/24480> ,
                          chebi:CHEBI_63041 ;
             skos:prefLabel "Manganese chloride"@en .
 
@@ -13502,9 +13506,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001715" ;
             rdfs:label "Iron(III) chloride solution"@en ,
                        "塩化鉄(III)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
-                         chebi:CHEBI_30808 ,
-                         pubchem: ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24380> ,
+                         chebi:CHEBI_30808 ;
             skos:prefLabel "Iron(III) chloride solution"@en .
 
 
@@ -15364,7 +15368,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001846" ;
             rdfs:label "Iron(III) pyrophosphate"@en ,
                        "鉄(III)ピロホスフェート"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24877> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_pyrophosphate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24877> ,
+                         chebi:CHEBI_132767 ;
             skos:altLabel "Ferric pyrophosphate"@en ;
             skos:prefLabel "Iron(III) pyrophosphate"@en .
 
@@ -17331,7 +17337,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Malic acid"@en ,
                        "リンゴ酸"@ja ;
             rdfs:seeAlso wikipedia:Malic_acid ,
-                          <http://pubchem.ncbi.nlm.nih.gov/compound/525> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/525> ;
             skos:prefLabel "Malic acid"@en .
 
 
@@ -17347,7 +17353,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "DL-Malic acid"@en ,
                        "DL-リンゴ酸"@ja ;
             rdfs:seeAlso wikipedia:Malic_acid ,
-                          <http://pubchem.ncbi.nlm.nih.gov/compound/525> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/525> ;
             skos:altLabel "Malate"@en ,
                           "Malic acid"@en ;
             skos:prefLabel "DL-Malic acid"@en .
@@ -18773,7 +18779,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002098" ;
             rdfs:label "Isocetane"@en ,
                        "イソセタン"@ja ;
-            rdfs:seeAlso wikipedia:Isocetane ;
+            rdfs:seeAlso wikipedia:Isocetane ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/20414> ;
             skos:altLabel "2,2,4,4,6,8,8-Heptamethylnonane"@en ;
             skos:prefLabel "Isocetane"@en .
 
@@ -18790,7 +18797,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Maltose solution"@en ,
                        "マルトース溶液"@ja ;
             rdfs:seeAlso wikipedia:Maltose ,
-                          <http://pubchem.ncbi.nlm.nih.gov/compound/6255> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6255> ;
             skos:prefLabel "Maltose solution"@en .
 
 
@@ -19922,6 +19929,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002199" ;
             rdfs:label "Soluble iron(III) pyrophosphate"@en ,
                        "可溶性鉄(III)ピロホスフェート"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_pyrophosphate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24877> ,
+                         chebi:CHEBI_132767 ;
             skos:prefLabel "Soluble iron(III) pyrophosphate"@en .
 
 
@@ -21223,7 +21233,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002301" ;
             rdfs:label "Iron(III) nitrate"@en ,
                        "硝酸鉄(III)"@ja ;
-            rdfs:seeAlso wikipedia:_nitrate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_nitrate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25251> ;
             skos:altLabel "Ferric nitrate"@en ;
             skos:prefLabel "Iron(III) nitrate"@en .
@@ -21249,6 +21259,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002303" ;
             rdfs:label "Iron(III) sulfate solution"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ;
             skos:prefLabel "Iron(III) sulfate solution"@en .
 
 
@@ -21874,7 +21885,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002354" ;
             rdfs:label "Iron(III) sulfate hexahydrate"@en ;
-            rdfs:seeAlso "http://pubchem.ncbi.nlm.nih.gov/compound/26260" ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ,
+                         "http://pubchem.ncbi.nlm.nih.gov/compound/26260" ;
             skos:altLabel "Ferric sulfate hexahydrate"@en ;
             skos:prefLabel "Iron(III) sulfate hexahydrate"@en ,
                            "硫酸鉄(III)六水和物"@ja .
