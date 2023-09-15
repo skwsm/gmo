@@ -355,8 +355,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "ペプトン"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Peptone#Peptide_classes> ,
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
-                         ndf:N0000005859 ,
-                         rxnorm: ;
+                         ndf:N0000005859 ;
             skos:definition "Hydrolyzed protein"@en ;
             skos:prefLabel "Peptone"@en .
 
@@ -2179,7 +2178,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001059
 :GMO_001059 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000011 ;
+            rdfs:subClassOf :GMO_001859 ;
             :GMO_000110 "Malt extract"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001059" ;
@@ -4063,7 +4062,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001157
 :GMO_001157 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000011 ;
+            rdfs:subClassOf :GMO_001859 ;
             :GMO_000110 "Corn Meal Infusion from (Solids)"@en ,
                         "Cornmeal"@en ,
                         "Cornmeal extract"@en ;
@@ -7612,7 +7611,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001358
 :GMO_001358 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000011 ;
+            rdfs:subClassOf :GMO_001859 ;
             :GMO_000110 "Ground Sesami powder"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001358" ;
@@ -12754,7 +12753,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001665" ;
             rdfs:label "Trisodium citrate monohydrate"@en ,
                        "クエン酸三ナトリウム一水和物"@ja ;
-            rdfs:seeAlso snomed: ;
             skos:prefLabel "Trisodium citrate monohydrate"@en .
 
 
@@ -15516,6 +15514,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001859" ;
             rdfs:label "Plant extract"@en ;
+            skos:definition "Extract made from materials derived from plants"@en ;
             skos:prefLabel "Plant extract"@en .
 
 
@@ -16997,7 +16996,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001970
 :GMO_001970 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000012 ;
+            rdfs:subClassOf :GMO_001950 ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001970" ;
@@ -21824,6 +21823,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002349" ;
             rdfs:label "Trisodium citrate solution"@en ;
+            rdfs:seeAlso wikipedia:Trisodium_citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
+                         chebi:CHEBI_53258 ;
             skos:prefLabel "Trisodium citrate solution"@en .
 
 
@@ -22009,7 +22011,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002366
 :GMO_002366 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000011 ;
+            rdfs:subClassOf :GMO_001859 ;
             :GMO_000110 "Rice Extract"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000049 ;
