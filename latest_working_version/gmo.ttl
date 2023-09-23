@@ -340,7 +340,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_000011 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_000011" ;
-            rdfs:label "Extract"@en ;
+            rdfs:label "Extract"@en ,
+                       "エキス"@ja ;
             skos:prefLabel "Extract"@en .
 
 
@@ -412,7 +413,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_000019 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             dcterms:identifier "GMO_000019" ;
-            rdfs:label "Prepared culture medium"@en ;
+            rdfs:label "Prepared culture medium"@en ,
+                       "培養培地"@ja ;
             skos:prefLabel "Prepared culture medium"@en .
 
 
@@ -1754,7 +1756,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001037" ;
-            rdfs:label "Riboflavin"@en ;
+            rdfs:label "Riboflavin"@en ,
+                       "リボフラビン"@ja ;
             rdfs:seeAlso wikipedia:Riboflavin ,
                          ncit:Riboflavin ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/493570> ,
@@ -2167,7 +2170,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001058" ;
-            rdfs:label "Disodium EDTA"@en ;
+            rdfs:label "Disodium EDTA"@en ,
+                       "EDTA二ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:EDTA ,
                          <http://purl.bioontology.org/ontology/MSH/D004492> ,
                          ndf:N0000178916 ,
@@ -2200,7 +2204,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001060" ;
-            rdfs:label "Polysorbate 80"@en ;
+            rdfs:label "Polysorbate 80"@en ,
+                       "ポリソルベート80"@ja ;
             rdfs:seeAlso wikipedia:Polysorbate_80 ,
                          ncit:Polysorbate_80 ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5284448> ,
@@ -2559,11 +2564,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Polypeptone"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001080" ;
-            rdfs:label "Polypeptone"@en ;
+            rdfs:label "Polypeptone"@en ,
+                       "ポリペプトン"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Peptone#Peptide_classes> ,
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
-                         ndf:N0000005859 ,
-                         rxnorm: ;
+                         ndf:N0000005859 ;
             skos:definition "A mixture of peptones consisting of pancreatic digest of casein and peptic digest of animal tissue."@en ;
             skos:prefLabel "Polypeptone"@en .
 
@@ -2638,7 +2643,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001084" ;
-            rdfs:label "Diammonium hydrogen citrate"@en ;
+            rdfs:label "Diammonium hydrogen citrate"@en ,
+                       "クエン酸水素二アンモニウム"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/18171> ,
                          chebi:CHEBI_63076 ;
             skos:altLabel "Diammonium citrate"@en ;
@@ -3430,7 +3436,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001123" ;
-            rdfs:label "D-Fructose"@en ;
+            rdfs:label "D-Fructose"@en ,
+                       "D-フルクトース"@ja ;
             rdfs:seeAlso wikipedia:Fructose ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5984> ,
                          chebi:CHEBI_28757 ;
@@ -3783,7 +3790,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001142" ;
             rdfs:comment "HEPES is a Good's buffer"@en ;
-            rdfs:label "HEPES"@en ;
+            rdfs:label "HEPES"@en ,
+                       "HEPES"@ja ;
             rdfs:seeAlso wikipedia:HEPES ,
                          ncit:HEPES ,
                          <http://purl.bioontology.org/ontology/MSH/D006531> ,
@@ -3967,11 +3975,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001152" ;
             rdfs:comment "MOPS is one of the Good's buffers"@en ;
-            rdfs:label "MOPS"@en ;
+            rdfs:label <http://pubchem.ncbi.nlm.nih.gov/compound/70807> ,
+                       "MOPS"@en ,
+                       "MOPS"@ja ;
             rdfs:seeAlso wikipedia:MOPS ,
                          <http://purl.bioontology.org/ontology/MSH/C008550> ,
-                         chebi:CHEBI_39074 ,
-                         pubchem: ;
+                         chebi:CHEBI_39074 ;
             skos:altLabel "3-(N-morpholino)propanesulfonic acid"@en ;
             skos:prefLabel "MOPS"@en .
 
@@ -4085,7 +4094,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001158" ;
-            rdfs:label "Trisodium EDTA"@en ;
+            rdfs:label "EDTA三ナトリウム"@ja ,
+                       "Trisodium EDTA"@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9008> ,
                          chebi:CHEBI_63125 ;
             skos:altLabel "エチレンジアミン四酢酸三ナトリウム"@ja ;
@@ -4227,7 +4237,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Soil extract (See below)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001166" ;
-            rdfs:label "Soil extract"@en ;
+            rdfs:label "Soil extract"@en ,
+                       "土壌抽出物"@ja ;
             skos:prefLabel "Soil extract"@en .
 
 
@@ -4329,7 +4340,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001172" ;
-            rdfs:label "Skim milk"@en ;
+            rdfs:label "Skim milk"@en ,
+                       "スキムミルク"@ja ;
             rdfs:seeAlso wikipedia:Skimmed_milk ,
                          ndf:N0000023323 ;
             skos:prefLabel "Skim milk"@en .
@@ -4610,7 +4622,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001187" ;
-            rdfs:label "Disodium tetraborate"@en ;
+            rdfs:label "Disodium tetraborate"@en ,
+                       "四ホウ酸二ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Borax ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/10219853> ,
                          <http://purl.bioontology.org/ontology/MSH/C018851> ,
@@ -4686,11 +4699,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001191" ;
             rdfs:comment "MES is one of the Good's buffers"@en ;
-            rdfs:label "MES"@en ;
-            rdfs:seeAlso wikipedia: ,
+            rdfs:label "MES"@en ,
+                       "MES"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/MES_(buffer)> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/78165> ,
                          <http://purl.bioontology.org/ontology/MSH/C004550> ,
-                         chebi:CHEBI_39005 ,
-                         pubchem: ;
+                         chebi:CHEBI_39005 ;
             skos:altLabel "2-(N-morpholino)ethanesulfonic acid"@en ;
             skos:prefLabel "MES"@en .
 
@@ -4970,7 +4984,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001207" ;
-            rdfs:label "Sorbitan monooleate"@en ;
+            rdfs:label "Sorbitan monooleate"@en ,
+                       "ソルビタンモノオレート"@ja ;
             rdfs:seeAlso wikipedia:Sorbitan_monooleate ,
                          ncit:Sorbitan_Monooleate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/9920342> ,
@@ -5281,10 +5296,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001223" ;
             rdfs:comment "PIPES is one of the Good's buffers"@en ;
-            rdfs:label "PIPES"@en ;
+            rdfs:label "PIPES"@en ,
+                       "PIPES"@ja ;
             rdfs:seeAlso wikipedia:PIPES ,
-                         chebi:CHEBI_39033 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6992709> ,
+                         chebi:CHEBI_39033 ;
             skos:altLabel "Piperazine-N,N′-bis(2-ethanesulfonic acid)"@en ;
             skos:prefLabel "PIPES"@en .
 
@@ -5655,7 +5671,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001244" ;
-            rdfs:label "Tomato"@en ;
+            rdfs:label "Tomato"@en ,
+                       "トマト"@ja ;
             rdfs:seeAlso wikipedia:Tomato ,
                          ncit:Tomato ,
                          <http://purl.bioontology.org/ontology/MSH/D018551> ;
@@ -5669,7 +5686,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Peptone from casein"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001245" ;
-            rdfs:label "Casein peptone"@en ;
+            rdfs:label "Casein peptone"@en ,
+                       "カゼインペプトン"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Peptone#Peptide_classes> ,
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
                          ndf:N0000005859 ,
@@ -7832,7 +7850,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001370" ;
-            rdfs:label "D-Alanine"@en ;
+            rdfs:label "D-Alanine"@en ,
+                       "D-アラニン"@ja ;
             rdfs:seeAlso wikipedia:Alanine ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/71080> ,
                          chebi:CHEBI_15570 ;
@@ -8120,7 +8139,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001386" ;
-            rdfs:label "Polysorbate 60"@en ;
+            rdfs:label "Polysorbate 60"@en ,
+                       "ポリソルベート60"@ja ;
             rdfs:seeAlso wikipedia:Polysorbate_60 ,
                          ncit:Polysorbate_60 ,
                          ndf:N0000023183 ,
@@ -8284,13 +8304,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000048 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001395" ;
-            rdfs:label "Gelatin"@en ;
+            rdfs:label "Gelatin"@en ,
+                       "ゼラチン"@ja ;
             rdfs:seeAlso wikipedia:Gelatin ,
                          ncit:Gelatin ,
                          <http://purl.bioontology.org/ontology/MSH/D005780> ,
-                         ndf:N0000147405 ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000147405 ;
             skos:prefLabel "Gelatin"@en .
 
 
@@ -8879,7 +8898,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001431" ;
-            rdfs:label "Lithium chloride"@en ;
+            rdfs:label "Lithium chloride"@en ,
+                       "塩化リチウム"@ja ;
             rdfs:seeAlso wikipedia:Lithium_chloride ,
                          <http://purl.bioontology.org/ontology/MSH/D018021> ,
                          ndf:N0000166288 ,
@@ -9120,8 +9140,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "PIPES solution"@en ,
                        "PIPES溶液"@ja ;
             rdfs:seeAlso wikipedia:PIPES ,
-                         chebi:CHEBI_39033 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6992709> ,
+                         chebi:CHEBI_39033 ;
             skos:prefLabel "PIPES solution"@en .
 
 
@@ -9798,9 +9818,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "MOPS solution"@en ,
                        "MOPS溶液"@ja ;
             rdfs:seeAlso wikipedia:MOPS ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/70807> ,
                          <http://purl.bioontology.org/ontology/MSH/C008550> ,
-                         chebi:CHEBI_39074 ,
-                         pubchem: ;
+                         chebi:CHEBI_39074 ;
             skos:prefLabel "MOPS solution"@en .
 
 
@@ -10725,7 +10745,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000062 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001531" ;
-            rdfs:label "Casein"@en ;
+            rdfs:label "Casein"@en ,
+                       "カゼイン"@ja ;
             rdfs:seeAlso wikipedia:Casein ,
                          ncit:Casein ,
                          <http://purl.bioontology.org/ontology/MSH/D002364> ,
@@ -12763,13 +12784,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "Trypsin (Sigma-Aldrich)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001666" ;
-            rdfs:label "Trypsin (Sigma-Aldrich)"@en ;
+            rdfs:label "Trypsin (Sigma-Aldrich)"@en ,
+                       "トリプシン (Sigma-Aldrich)"@ja ;
             rdfs:seeAlso wikipedia:Trypsin ,
                          ncit:C84232 ,
                          <http://purl.bioontology.org/ontology/MSH/D014357> ,
-                         ndf:N0000147325 ,
-                         rxnorm: ,
-                         snomed: ;
+                         ndf:N0000147325 ;
             skos:prefLabel "Trypsin (Sigma-Aldrich)"@en .
 
 
@@ -12883,7 +12903,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001675" ;
-            rdfs:label "Polysorbate 20"@en ;
+            rdfs:label "Polysorbate 20"@en ,
+                       "ポリソルベート20"@ja ;
             rdfs:seeAlso wikipedia:Polysorbate_20 ,
                          ncit:C80937 ,
                          <http://purl.bioontology.org/ontology/MSH/D011136> ,
@@ -13103,7 +13124,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001691" ;
-            rdfs:label "Beta-NAD"@en ;
+            rdfs:label "Beta-NAD"@en ,
+                       "ベータNAD"@ja ;
             rdfs:seeAlso wikipedia:Nicotinamide_adenine_dinucleotide ,
                          ncit:C87339 ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5892> ,
@@ -13455,7 +13477,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001712" ;
             rdfs:comment "TES is one of the Good's buffers"@en ;
-            rdfs:label "TES buffer"@en ;
+            rdfs:label "TES buffer"@en ,
+                       "TES緩衝液"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ;
             skos:prefLabel "TES buffer"@en .
 
@@ -13643,7 +13666,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001723" ;
             rdfs:comment "PIPES is one of the Good's buffers"@en ;
             rdfs:label "PIPES (Sigma)"@en ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6992709> ;
             skos:prefLabel "PIPES (Sigma)"@en .
 
 
@@ -13820,6 +13843,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001733" ;
             rdfs:label "MES solution"@en ,
                        "MES溶液"@ja ;
+            rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/78165> ;
             skos:prefLabel "MES solution"@en .
 
 
@@ -14069,7 +14093,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001752" ;
-            rdfs:label "Nitrilotriacetic acid trisodium salt monohydrate"@en ;
+            rdfs:label "Nitrilotriacetic acid trisodium salt monohydrate"@en ,
+                       "ニトリロ三酢酸三ナトリウム塩一水和物"@ja ;
             skos:prefLabel "Nitrilotriacetic acid trisodium salt monohydrate"@en .
 
 
@@ -14127,7 +14152,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001756" ;
-            rdfs:label "Nitrilotriacetic acid trisodium salt"@en ;
+            rdfs:label "Nitrilotriacetic acid trisodium salt"@en ,
+                       "ニトリロ三酢酸三ナトリウム塩"@ja ;
             skos:prefLabel "Nitrilotriacetic acid trisodium salt"@en .
 
 
@@ -14264,7 +14290,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000112 :GMO_000062 ;
             dcterms:identifier "GMO_001765" ;
-            rdfs:label "Alanine"@en ;
+            rdfs:label "Alanine"@en ,
+                       "アラニン"@ja ;
             rdfs:seeAlso wikipedia:Alanine ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5950> ,
                          chebi:CHEBI_16977 ;
@@ -14280,7 +14307,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001766" ;
-            rdfs:label "L-Alanine"@en ;
+            rdfs:label "L-Alanine"@en ,
+                       "L-アラニン"@ja ;
             rdfs:seeAlso wikipedia:Alanine ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5950> ;
             skos:definition "L-Alanine, L-isomer of Alanin which is an alphan amino acid"@en ;
@@ -15513,7 +15541,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000011 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001859" ;
-            rdfs:label "Plant extract"@en ;
+            rdfs:label "Plant extract"@en ,
+                       "植物抽出物"@ja ;
             skos:definition "Extract made from materials derived from plants"@en ;
             skos:prefLabel "Plant extract"@en .
 
@@ -15860,7 +15889,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001883" ;
-            rdfs:label "Cobalt(II) nitrate"@en ;
+            rdfs:label "Cobalt(II) nitrate"@en ,
+                       "硝酸コバルト(II)"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_nitrate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25000> ,
                          chebi:CHEBI_86209 ;
@@ -15966,7 +15996,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000112 :GMO_000044 ;
             dcterms:identifier "GMO_001891" ;
-            rdfs:label "Water"@en ;
+            rdfs:label "Water"@en ,
+                       "水"@ja ;
             skos:altLabel "Water solvent"@en ;
             skos:prefLabel "Water"@en .
 
@@ -16219,7 +16250,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000050 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001910" ;
-            rdfs:label "Wolfe's mineral solution"@en ;
+            rdfs:label "Wolfe's mineral solution"@en ,
+                       "ウルフミネラル溶液"@ja ;
             skos:prefLabel "Wolfe's mineral solution"@en .
 
 
@@ -16789,7 +16821,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000050 ;
             dcterms:identifier "GMO_001952" ;
-            rdfs:label "Wolfe's vitamin solution"@en ;
+            rdfs:label "Wolfe's vitamin solution"@en ,
+                       "ウルフビタミン溶液"@ja ;
             rdfs:seeAlso <https://www.ncbi.nlm.nih.gov/pubmed/14063318> ;
             skos:prefLabel "Wolfe's vitamin solution"@en .
 
@@ -17845,7 +17878,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002029" ;
             rdfs:label "DNA from fish sperm (SERVA)"@en ,
-                       "デオキシリボ核酸 魚類精子由来"@ja ;
+                       "デオキシリボ核酸 魚類精子由来（SERVA）"@ja ;
             skos:prefLabel "DNA from fish sperm (SERVA)"@en .
 
 
@@ -19490,7 +19523,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000049 ;
             dcterms:identifier "GMO_002163" ;
-            rdfs:label "NAD (Merck)"@en ;
+            rdfs:label "NAD (Merck)"@en ,
+                       "NAD（メルク）"@ja ;
             skos:prefLabel "NAD (Merck)"@en .
 
 
@@ -20118,7 +20152,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002213" ;
-            rdfs:label "Polysorbate 40"@en ;
+            rdfs:label "Polysorbate 40"@en ,
+                       "ポリソルベート40"@ja ;
             skos:altLabel "Tween &reg; 40"@en ;
             skos:prefLabel "Polysorbate 40"@en .
 
@@ -20672,7 +20707,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002254" ;
-            rdfs:label "Clarified tomato juice"@en ;
+            rdfs:label "Clarified tomato juice"@en ,
+                       "清澄トマトジュース"@ja ;
             rdfs:seeAlso wikipedia:Tomato_juice ;
             skos:prefLabel "Clarified tomato juice"@en .
 
@@ -21369,7 +21405,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000112 :GMO_000038 ;
             dcterms:identifier "GMO_002312" ;
-            rdfs:label "TES"@en ;
+            rdfs:label "TES"@en ,
+                       "TES"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6992013> ;
             skos:prefLabel "TES"@en .
@@ -21647,7 +21684,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002334" ;
-            rdfs:label "Tomato juice (Del Monte)"@en ;
+            rdfs:label "Tomato juice (Del Monte)"@en ,
+                       "トマトジュース（デルモンテ）"@ja ;
             rdfs:seeAlso wikipedia:Tomato_juice ;
             skos:prefLabel "Tomato juice (Del Monte)"@en .
 
@@ -22346,7 +22384,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_002409 ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002392" ;
-            rdfs:label "DNA from fish sperm"@en ;
+            rdfs:label "DNA from fish sperm"@en ,
+                       "デオキシリボ核酸 魚類精子由来"@ja ;
             skos:prefLabel "DNA from fish sperm"@en .
 
 
@@ -22357,7 +22396,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002393" ;
-            rdfs:label "DNA from salmon sperm (Sigma)"@en ;
+            rdfs:label "DNA from salmon sperm (Sigma)"@en ,
+                       "デオキシリボ核酸 魚類精子由来（Sigma）"@ja ;
             skos:prefLabel "DNA from salmon sperm (Sigma)"@en .
 
 
@@ -22545,7 +22585,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002409" ;
-            rdfs:label "DNA"@en ;
+            rdfs:label "DNA"@en ,
+                       "DNA"@ja ;
+            skos:altLabel "デオキシリボ核酸"@ja ;
             skos:prefLabel "DNA"@en .
 
 
