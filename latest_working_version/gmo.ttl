@@ -1144,6 +1144,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Na2MoO4 2H2O"@en ,
                         "Na2MoO4 · H2O"@en ,
                         "Na2MoO4.H2O"@en ,
+                        "Na2MoO4·2H2O"@en ,
                         "Na<sub>2</sub>MoO<sub>4</sub>&middot;2H<sub>2</sub>O"@en ,
                         "NaMoO<sub>4</sub>&middot;2H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000078 ;
@@ -3429,8 +3430,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001123
 :GMO_001123 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Fructose"@en ,
-                        "Fructose (20% solution)"@en ;
+            :GMO_000110 "Fructose"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
@@ -4079,8 +4079,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001157" ;
             rdfs:label "Cornmeal extract"@en ,
                        "コーンミール抽出液"@ja ;
-            rdfs:seeAlso wikipedia:Cornmeal ,
-                         snomed: ;
+            rdfs:seeAlso wikipedia:Cornmeal ;
             skos:prefLabel "Cornmeal extract"@en .
 
 
@@ -6817,7 +6816,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://purl.bioontology.org/ontology/MSH/D006427> ,
                          ndf:N0000147014 ,
                          chebi:CHEBI_50385 ;
-            skos:altLabel "Hematin"@en ,
+            skos:altLabel "Haemin"@en ,
+                          "Hematin"@en ,
                           "ヘマチン"@ja ;
             skos:definition "An iron-containing porphyrin"@en ;
             skos:prefLabel "Hemin"@en .
@@ -7108,6 +7108,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001329 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "NaNO$_2$"@en ,
+                        "NaNO2"@en ,
                         "NaNO<sub>2</sub>"@en ;
             :GMO_000112 :GMO_000062 ;
             :GMO_000113 :GMO_000040 ,
@@ -22589,6 +22590,95 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "DNA"@ja ;
             skos:altLabel "デオキシリボ核酸"@ja ;
             skos:prefLabel "DNA"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002410
+:GMO_002410 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Antifoam SI (Wako)"@en ;
+            :GMO_000112 :GMO_000057 ;
+            :GMO_000113 :GMO_000046 ;
+            dcterms:identifier "GMO_002410" ;
+            rdfs:label "Antifoam SI (Wako)"@en ,
+                       "消泡剤SI (Wako)"@ja ;
+            rdfs:seeAlso <http://labchem-wako.fujifilm.com/us/product/detail/W01W0101-1743.html> ;
+            skos:definition "A silicone defoaming agent"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002411
+:GMO_002411 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002411" ;
+            rdfs:comment "CM0655"@en ;
+            rdfs:label "Oxiod &trade; Legionella CYE Agar Base"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002412
+:GMO_002412 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002412" ;
+            rdfs:label "Apple juice"@en ,
+                       "リンゴジュース"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002413
+:GMO_002413 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001026 ;
+            :GMO_000110 "p-aminobenzoic acid (0.3 ug/uL)"@en ;
+            :GMO_000112 :GMO_000045 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002413" ;
+            rdfs:label "4-Aminobenzoic acid solution"@en ,
+                       "4-アミノ安息香酸溶液"@ja ;
+            rdfs:seeAlso wikipedia:Aminobenzoic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/978> ,
+                         chebi:CHEBI_30753 ;
+            skos:altLabel "para-aminobenzoic acid solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002414
+:GMO_002414 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001033 ;
+            :GMO_000110 "Folic acid (5 ug/uL)"@en ;
+            :GMO_000112 :GMO_000045 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002414" ;
+            rdfs:label "Folic acid solution"@en ,
+                       "葉酸溶液"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002415
+:GMO_002415 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001751 ;
+            :GMO_000110 "Pyridoxamine (15 ug/uL)"@en ;
+            :GMO_000112 :GMO_000045 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002415" ;
+            rdfs:label "Pyridoxamine solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002416
+:GMO_002416 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001037 ;
+            :GMO_000112 :GMO_000045 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002416" ;
+            rdfs:label "Riboflavin solution"@en ,
+                       "リボフラビン溶液"@ja ;
+            rdfs:seeAlso wikipedia:Riboflavin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/493570> ,
+                         chebi:CHEBI_17015 ;
+            skos:prefLabel "Riboflavin solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
