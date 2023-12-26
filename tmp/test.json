@@ -4,699 +4,799 @@
     "jcm id": "JCM 10113",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/112248",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10180",
     "jcm id": "JCM 10180",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/37633",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10032",
     "jcm id": "JCM 10032",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/42233",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10138",
     "jcm id": "JCM 10138",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53686",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10083",
     "jcm id": "JCM 10083",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/698418",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10030",
     "jcm id": "JCM 10030",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/76020",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10017",
     "jcm id": "JCM 10017",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/82515",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10044",
     "jcm id": "JCM 10044",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/145262",
-    "meo": "sludge"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000013",
+    "meo_label": "sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10195",
     "jcm id": "JCM 10195",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/33052",
-    "meo": "activated sludge"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000014",
+    "meo_label": "activated sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10082",
     "jcm id": "JCM 10082",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/86680",
-    "meo": "activated sludge"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000014",
+    "meo_label": "activated sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10137",
     "jcm id": "JCM 10137",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/110163",
-    "meo": "hydrothermal vent"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000031",
+    "meo_label": "hydrothermal vent"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10136",
     "jcm id": "JCM 10136",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/110164",
-    "meo": "hydrothermal vent"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000031",
+    "meo_label": "hydrothermal vent"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10179",
     "jcm id": "JCM 10179",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/60217",
-    "meo": "marine sediment"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000040",
+    "meo_label": "marine sediment"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10085",
     "jcm id": "JCM 10085",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/77524",
-    "meo": "marine water"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000041",
+    "meo_label": "marine water"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10125",
     "jcm id": "JCM 10125",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2006",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10005",
     "jcm id": "JCM 10005",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/315405",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10188",
     "jcm id": "JCM 10188",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74426",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10110",
     "jcm id": "JCM 10110",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/42777",
-    "meo": "blood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
+    "meo_label": "blood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10112",
     "jcm id": "JCM 10112",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/57704",
-    "meo": "blood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
+    "meo_label": "blood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10102",
     "jcm id": "JCM 10102",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/162496",
-    "meo": "urine"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000063",
+    "meo_label": "urine"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10043",
     "jcm id": "JCM 10043",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1434108",
-    "meo": "anaerobic bioreactor"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000120",
+    "meo_label": "anaerobic bioreactor"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10045",
     "jcm id": "JCM 10045",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2190",
-    "meo": "marine hydrothermal vent chimney"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000142",
+    "meo_label": "marine hydrothermal vent chimney"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1002",
     "jcm id": "JCM 1002",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1585",
-    "meo": "fermented dairy product"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000248",
+    "meo_label": "fermented dairy product"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10018",
     "jcm id": "JCM 10018",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/82516",
-    "meo": "fermented dairy product"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000248",
+    "meo_label": "fermented dairy product"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10103",
     "jcm id": "JCM 10103",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46256",
-    "meo": "sausage"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000298",
+    "meo_label": "sausage"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10086",
     "jcm id": "JCM 10086",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/40516",
-    "meo": "bark"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000373",
+    "meo_label": "bark"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10213",
     "jcm id": "JCM 10213",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100910",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10207",
     "jcm id": "JCM 10207",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100911",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10212",
     "jcm id": "JCM 10212",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100912",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10047",
     "jcm id": "JCM 10047",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/109612",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10216",
     "jcm id": "JCM 10216",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/132576",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10193",
     "jcm id": "JCM 10193",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/40682",
-    "meo": "plant root"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000386",
+    "meo_label": "plant root"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10145",
     "jcm id": "JCM 10145",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/87895",
-    "meo": "frass"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000400",
+    "meo_label": "frass"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10111",
     "jcm id": "JCM 10111",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/47312",
-    "meo": "sputum"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000403",
+    "meo_label": "sputum"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10132",
     "jcm id": "JCM 10132",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2162",
-    "meo": "waste treatment"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000411",
+    "meo_label": "waste treatment"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10002",
     "jcm id": "JCM 10002",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1828",
-    "meo": "plant body associated"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000419",
+    "meo_label": "plant body associated"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10104",
     "jcm id": "JCM 10104",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/134602",
-    "meo": "small artifact"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000423",
+    "meo_label": "small artifact"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10105",
     "jcm id": "JCM 10105",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53427",
-    "meo": "small artifact"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000423",
+    "meo_label": "small artifact"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1012",
     "jcm id": "JCM 1012",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1584",
-    "meo": "food related"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000428",
+    "meo_label": "food related"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10129",
     "jcm id": "JCM 10129",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/64975",
-    "meo": "food related"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000428",
+    "meo_label": "food related"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10158",
     "jcm id": "JCM 10158",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/68891",
-    "meo": "tooth"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000458",
+    "meo_label": "tooth"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10157",
     "jcm id": "JCM 10157",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/68892",
-    "meo": "tooth"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000458",
+    "meo_label": "tooth"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10006",
     "jcm id": "JCM 10006",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/64642",
-    "meo": "liver"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000483",
+    "meo_label": "liver"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10131",
     "jcm id": "JCM 10131",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/77020",
-    "meo": "ear"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000599",
+    "meo_label": "ear"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10005",
     "jcm id": "JCM 10005",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/315405",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000627",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10188",
     "jcm id": "JCM 10188",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74426",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000627",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10054",
     "jcm id": "JCM 10054",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46632",
-    "meo": "hot soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000652",
+    "meo_label": "hot soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10118",
     "jcm id": "JCM 10118",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/29283",
-    "meo": "saline soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000659",
+    "meo_label": "saline soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10101",
     "jcm id": "JCM 10101",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1470455",
-    "meo": "wetland soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000669",
+    "meo_label": "wetland soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10133",
     "jcm id": "JCM 10133",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2203",
-    "meo": "sewage sludge"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000670",
+    "meo_label": "sewage sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10099",
     "jcm id": "JCM 10099",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2336",
-    "meo": "geothermal field"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000697",
+    "meo_label": "geothermal field"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10135",
     "jcm id": "JCM 10135",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/52001",
-    "meo": "hydrothermal field"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000698",
+    "meo_label": "hydrothermal field"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10116",
     "jcm id": "JCM 10116",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/73044",
-    "meo": "mountain"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000700",
+    "meo_label": "mountain"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10142",
     "jcm id": "JCM 10142",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/95809",
-    "meo": "mountain"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000700",
+    "meo_label": "mountain"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10006",
     "jcm id": "JCM 10006",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/64642",
-    "meo": "fermented seafood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000708",
+    "meo_label": "fermented seafood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10128",
     "jcm id": "JCM 10128",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46540",
-    "meo": "deep sea"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000724",
+    "meo_label": "deep sea"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10084",
     "jcm id": "JCM 10084",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74109",
-    "meo": "deep sea"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000724",
+    "meo_label": "deep sea"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10189",
     "jcm id": "JCM 10189",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/89524",
-    "meo": "lake water"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000737",
+    "meo_label": "lake water"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10240",
     "jcm id": "JCM 10240",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1156966",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10261",
     "jcm id": "JCM 10261",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/39483",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10265",
     "jcm id": "JCM 10265",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/45597",
-    "meo": "wood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000062",
+    "meo_label": "wood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10246",
     "jcm id": "JCM 10246",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/73919",
-    "meo": "mud"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000065",
+    "meo_label": "mud"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10232",
     "jcm id": "JCM 10232",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74104",
-    "meo": "bay"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000084",
+    "meo_label": "bay"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10248",
     "jcm id": "JCM 10248",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/75385",
-    "meo": "bioreactor"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000119",
+    "meo_label": "bioreactor"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10224",
     "jcm id": "JCM 10224",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100913",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10217",
     "jcm id": "JCM 10217",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/132574",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10218",
     "jcm id": "JCM 10218",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/132575",
-    "meo": "leaf"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
+    "meo_label": "leaf"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1027",
     "jcm id": "JCM 1027",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/644",
-    "meo": "small artifact"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000423",
+    "meo_label": "small artifact"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10262",
     "jcm id": "JCM 10262",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/33871",
-    "meo": "intestine"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000484",
+    "meo_label": "intestine"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10261",
     "jcm id": "JCM 10261",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/39483",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000627",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10247",
     "jcm id": "JCM 10247",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/267368",
-    "meo": "salt"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000722",
+    "meo_label": "salt"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10249",
     "jcm id": "JCM 10249",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/89067",
-    "meo": "deep sea"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000724",
+    "meo_label": "deep sea"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10278",
     "jcm id": "JCM 10278",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53317",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10268",
     "jcm id": "JCM 10268",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/76756",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10292",
     "jcm id": "JCM 10292",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/86838",
-    "meo": "marsh"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000028",
+    "meo_label": "marsh"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10272",
     "jcm id": "JCM 10272",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/93683",
-    "meo": "rock"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000112",
+    "meo_label": "rock"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10271",
     "jcm id": "JCM 10271",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/93684",
-    "meo": "rock"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000112",
+    "meo_label": "rock"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10284",
     "jcm id": "JCM 10284",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53442",
-    "meo": "anaerobic bioreactor"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000120",
+    "meo_label": "anaerobic bioreactor"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10267",
     "jcm id": "JCM 10267",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/83302",
-    "meo": "forest soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000126",
+    "meo_label": "forest soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10270",
     "jcm id": "JCM 10270",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/76884",
-    "meo": "food processing factory"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000131",
+    "meo_label": "food processing factory"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10282",
     "jcm id": "JCM 10282",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/35811",
-    "meo": "microbial mat"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000137",
+    "meo_label": "microbial mat"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10275",
     "jcm id": "JCM 10275",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46429",
-    "meo": "contaminated soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000649",
+    "meo_label": "contaminated soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10339",
     "jcm id": "JCM 10339",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/182640",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10428",
     "jcm id": "JCM 10428",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/200596",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10453",
     "jcm id": "JCM 10453",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/40409",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10408",
     "jcm id": "JCM 10408",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/415705",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10303",
     "jcm id": "JCM 10303",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/59917",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10340",
     "jcm id": "JCM 10340",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/60450",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10302",
     "jcm id": "JCM 10302",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/84725",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10427",
     "jcm id": "JCM 10427",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/941183",
-    "meo": "soil"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
+    "meo_label": "soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10308",
     "jcm id": "JCM 10308",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2180",
-    "meo": "hot spring"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000029",
+    "meo_label": "hot spring"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10311",
     "jcm id": "JCM 10311",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/33190",
-    "meo": "water"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000036",
+    "meo_label": "water"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1054",
     "jcm id": "JCM 1054",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/680",
-    "meo": "marine water"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000041",
+    "meo_label": "marine water"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10412",
     "jcm id": "JCM 10412",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/518637",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10310",
     "jcm id": "JCM 10310",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/106008",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1059",
     "jcm id": "JCM 1059",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1580",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10413",
     "jcm id": "JCM 10413",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/31971",
-    "meo": "feces"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
+    "meo_label": "feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10391",
     "jcm id": "JCM 10391",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/144184",
-    "meo": "blood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
+    "meo_label": "blood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10390",
     "jcm id": "JCM 10390",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/38286",
-    "meo": "blood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
+    "meo_label": "blood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10381",
     "jcm id": "JCM 10381",
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53374",
-    "meo": "blood"
+    "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
+    "meo_label": "blood"
   }
 ]
