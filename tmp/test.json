@@ -1,0 +1,62 @@
+[
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10113",
+    "jcm id": "JCM 10113",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/112248"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10180",
+    "jcm id": "JCM 10180",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/37633"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10032",
+    "jcm id": "JCM 10032",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/42233"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10138",
+    "jcm id": "JCM 10138",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/53686"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10083",
+    "jcm id": "JCM 10083",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/698418"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10030",
+    "jcm id": "JCM 10030",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/76020"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10017",
+    "jcm id": "JCM 10017",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/82515"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10044",
+    "jcm id": "JCM 10044",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/145262"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10195",
+    "jcm id": "JCM 10195",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/33052"
+  },
+  {
+    "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10082",
+    "jcm id": "JCM 10082",
+    "isType": "1",
+    "tax_id": "http://identifiers.org/taxonomy/86680"
+  }
+]
