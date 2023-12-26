@@ -5,7 +5,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/112248",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Yamanashi Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10180",
@@ -13,7 +14,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/37633",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, India"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10032",
@@ -21,7 +23,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/42233",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Kofu, Yamanashi Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10138",
@@ -29,7 +32,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53686",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Field soil, East Falkland Islands, UK"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10083",
@@ -37,7 +41,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/698418",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Fukui Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10030",
@@ -45,7 +50,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/76020",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10017",
@@ -53,7 +59,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/82515",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Delft, the Netherlands"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10044",
@@ -61,7 +68,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/145262",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000013",
-    "meo_label": "sludge"
+    "meo_label": "sludge",
+    "env_label": "Anaerobic sewage-sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10195",
@@ -69,7 +77,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/33052",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000014",
-    "meo_label": "activated sludge"
+    "meo_label": "activated sludge",
+    "env_label": "Activated sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10082",
@@ -77,7 +86,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/86680",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000014",
-    "meo_label": "activated sludge"
+    "meo_label": "activated sludge",
+    "env_label": "Activated sludge, petrochemical waste, Plock Refinery, Warsaw, Poland"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10137",
@@ -85,7 +95,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/110163",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000031",
-    "meo_label": "hydrothermal vent"
+    "meo_label": "hydrothermal vent",
+    "env_label": "Guaymas Basin hydrothermal vent, Gulf of California"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10136",
@@ -93,7 +104,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/110164",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000031",
-    "meo_label": "hydrothermal vent"
+    "meo_label": "hydrothermal vent",
+    "env_label": "Guaymas Basin hydrothermal vent, Gulf of California"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10179",
@@ -101,7 +113,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/60217",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000040",
-    "meo_label": "marine sediment"
+    "meo_label": "marine sediment",
+    "env_label": "Marine sediment at a depth of 5,110 m, the Ryukyu Trench"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10085",
@@ -109,7 +122,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/77524",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000041",
-    "meo_label": "marine water"
+    "meo_label": "marine water",
+    "env_label": "Seawater, Abashiri, Hokkaido, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10125",
@@ -117,7 +131,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2006",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Decaying manure, Berlin, Germany"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10005",
@@ -125,7 +140,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/315405",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Koala feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10188",
@@ -133,7 +149,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74426",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10110",
@@ -141,7 +158,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/42777",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
-    "meo_label": "blood"
+    "meo_label": "blood",
+    "env_label": "Blood culture of a patient who ingested hydrochloric acid, Inchon, South Korea"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10112",
@@ -149,7 +167,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/57704",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
-    "meo_label": "blood"
+    "meo_label": "blood",
+    "env_label": "Blood culture from a 62-year-old woman who had cardiac pacemaker implants"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10102",
@@ -157,7 +176,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/162496",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000063",
-    "meo_label": "urine"
+    "meo_label": "urine",
+    "env_label": "Human urine"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10043",
@@ -165,7 +185,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1434108",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000120",
-    "meo_label": "anaerobic bioreactor"
+    "meo_label": "anaerobic bioreactor",
+    "env_label": "Anaerobic sewage-sludge digester, Urbana, IL, USA"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10045",
@@ -173,7 +194,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2190",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000142",
-    "meo_label": "marine hydrothermal vent chimney"
+    "meo_label": "marine hydrothermal vent chimney",
+    "env_label": "Base of 'white smoker' chimney on the East Pacific Rise"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1002",
@@ -181,7 +203,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1585",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000248",
-    "meo_label": "fermented dairy product"
+    "meo_label": "fermented dairy product",
+    "env_label": "Bulgarian yogurt"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10018",
@@ -189,7 +212,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/82516",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000248",
-    "meo_label": "fermented dairy product"
+    "meo_label": "fermented dairy product",
+    "env_label": "Sour milk, Germany"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10103",
@@ -197,7 +221,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46256",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000298",
-    "meo_label": "sausage"
+    "meo_label": "sausage",
+    "env_label": "Fermented sausage"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10086",
@@ -205,7 +230,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/40516",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000373",
-    "meo_label": "bark"
+    "meo_label": "bark",
+    "env_label": "Tree bark compost of biofilter for waste gas purification of animal rendering plant emissions"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10213",
@@ -213,7 +239,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100910",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Oryza sativa (Poales, Poaceae), Suburb of Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10207",
@@ -221,7 +248,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100911",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Mangifera indica (Sapindales, Anacardiaceae), Southeast seacoast of Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10212",
@@ -229,7 +257,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100912",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Blumea sp. (Asterales, Asteraceae), Southeast seacoast of Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10047",
@@ -237,7 +266,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/109612",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Bischofia javanica (Malpighiales, Pyllanthaceae), Ogasawara Islands, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10216",
@@ -245,7 +275,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/132576",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Pennisetum pedicellatum (Poales, Poaceae), Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10193",
@@ -253,7 +284,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/40682",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000386",
-    "meo_label": "plant root"
+    "meo_label": "plant root",
+    "env_label": "Apple tree roots"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10145",
@@ -261,7 +293,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/87895",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000400",
-    "meo_label": "frass"
+    "meo_label": "frass",
+    "env_label": "Insect frass of a Japanese maple Acer palmatum (Sapindales, Sapindaceae), Chigasaki, Kanagawa Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10111",
@@ -269,7 +302,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/47312",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000403",
-    "meo_label": "sputum"
+    "meo_label": "sputum",
+    "env_label": "Sputum of a 92-year-old woman who suffered from pulmonary tuberculosis"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10132",
@@ -277,7 +311,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2162",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000411",
-    "meo_label": "waste treatment"
+    "meo_label": "waste treatment",
+    "env_label": "Sewage sludge digestor, Urbana, IL, USA"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10002",
@@ -285,7 +320,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1828",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000419",
-    "meo_label": "plant body associated"
+    "meo_label": "plant body associated",
+    "env_label": "Fasciation of sweet peas (Lathyrus odoratus)"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10104",
@@ -293,7 +329,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/134602",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000423",
-    "meo_label": "small artifact"
+    "meo_label": "small artifact",
+    "env_label": "Biofilter containing tree bark compost as the packing material"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10105",
@@ -301,7 +338,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53427",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000423",
-    "meo_label": "small artifact"
+    "meo_label": "small artifact",
+    "env_label": "Wet-ground filter material (fiber bark compost) from a large scale biofilter"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1012",
@@ -309,7 +347,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1584",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000428",
-    "meo_label": "food related"
+    "meo_label": "food related",
+    "env_label": "Sour grain mash"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10129",
@@ -317,7 +356,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/64975",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000428",
-    "meo_label": "food related"
+    "meo_label": "food related",
+    "env_label": "Kusaya-gravy, the Izu Islands, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10158",
@@ -325,7 +365,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/68891",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000458",
-    "meo_label": "tooth"
+    "meo_label": "tooth",
+    "env_label": "Human tooth surface"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10157",
@@ -333,7 +374,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/68892",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000458",
-    "meo_label": "tooth"
+    "meo_label": "tooth",
+    "env_label": "Human tooth surface"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10006",
@@ -341,7 +383,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/64642",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000483",
-    "meo_label": "liver"
+    "meo_label": "liver",
+    "env_label": "Squid liver sauce, Japanese local traditional fermented seafood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10131",
@@ -349,7 +392,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/77020",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000599",
-    "meo_label": "ear"
+    "meo_label": "ear",
+    "env_label": "Ear of dog with otitis externa, Sweden"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10005",
@@ -357,7 +401,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/315405",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000627",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Koala feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10188",
@@ -365,7 +410,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74426",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000627",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10054",
@@ -373,7 +419,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46632",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000652",
-    "meo_label": "hot soil"
+    "meo_label": "hot soil",
+    "env_label": "Dry, hot soil in the vicinity of Kawayu, Hokkaido, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10118",
@@ -381,7 +428,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/29283",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000659",
-    "meo_label": "saline soil"
+    "meo_label": "saline soil",
+    "env_label": "Salt soil crust, Turkmenistan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10101",
@@ -389,7 +437,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1470455",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000669",
-    "meo_label": "wetland soil"
+    "meo_label": "wetland soil",
+    "env_label": "Soil near lake, Inba, Chiba Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10133",
@@ -397,7 +446,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2203",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000670",
-    "meo_label": "sewage sludge"
+    "meo_label": "sewage sludge",
+    "env_label": "Sewage sludge"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10099",
@@ -405,7 +455,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2336",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000697",
-    "meo_label": "geothermal field"
+    "meo_label": "geothermal field",
+    "env_label": "Geothermally heated sea sediment, Porto di Levante, Vulcano, Italy"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10135",
@@ -413,7 +464,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/52001",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000698",
-    "meo_label": "hydrothermal field"
+    "meo_label": "hydrothermal field",
+    "env_label": "Marine sediment of a hydrothermal system at PaleohoriBay in Milos, Greece"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10116",
@@ -421,7 +473,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/73044",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000700",
-    "meo_label": "mountain"
+    "meo_label": "mountain",
+    "env_label": "Soil, Kwanak Mountain, Seoul, South Korea"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10142",
@@ -429,7 +482,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/95809",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000700",
-    "meo_label": "mountain"
+    "meo_label": "mountain",
+    "env_label": "Fruit body of a mushroom, Mt. Tonotake, Tanzawa Mountains, Kanagawa Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10006",
@@ -437,7 +491,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/64642",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000708",
-    "meo_label": "fermented seafood"
+    "meo_label": "fermented seafood",
+    "env_label": "Squid liver sauce, Japanese local traditional fermented seafood"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10128",
@@ -445,7 +500,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46540",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000724",
-    "meo_label": "deep sea"
+    "meo_label": "deep sea",
+    "env_label": "Deep-sea hydrothermal vent in the Northern Fiji Basin"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10084",
@@ -453,7 +509,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74109",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000724",
-    "meo_label": "deep sea"
+    "meo_label": "deep sea",
+    "env_label": "Deep sea sediment"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10189",
@@ -461,7 +518,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/89524",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000737",
-    "meo_label": "lake water"
+    "meo_label": "lake water",
+    "env_label": "Water of lake Clifton, Australia"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10240",
@@ -469,7 +527,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1156966",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Chiba Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10261",
@@ -477,7 +536,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/39483",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10265",
@@ -485,7 +545,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/45597",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000062",
-    "meo_label": "wood"
+    "meo_label": "wood",
+    "env_label": "Rotting trunk of Laureliopsis philippiana (Laurales, Atherospermataceae), Chile"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10246",
@@ -493,7 +554,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/73919",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000065",
-    "meo_label": "mud"
+    "meo_label": "mud",
+    "env_label": "Mud, the Mariana Trench Challenger Deep at a depth of 10,897 m"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10232",
@@ -501,7 +563,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/74104",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000084",
-    "meo_label": "bay"
+    "meo_label": "bay",
+    "env_label": "Sediment at depths of 1,200-1,977 m, Suruga or Sagami Bay, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10248",
@@ -509,7 +572,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/75385",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000119",
-    "meo_label": "bioreactor"
+    "meo_label": "bioreactor",
+    "env_label": "Activated sludge reactor showing enhanced biological phosphorous removal activity"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10224",
@@ -517,7 +581,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/100913",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Pennisetum pedicellatum (Poales, Poaceae), Southeast seacoast of Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10217",
@@ -525,7 +590,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/132574",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Asian rice Oryza sativa (Poales, Poaceae), Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10218",
@@ -533,7 +599,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/132575",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000379",
-    "meo_label": "leaf"
+    "meo_label": "leaf",
+    "env_label": "Leaf of Asian rice Oryza sativa (Poales, Poaceae), Bangkok, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1027",
@@ -541,7 +608,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/644",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000423",
-    "meo_label": "small artifact"
+    "meo_label": "small artifact",
+    "env_label": "Tin of milk with a fishy odor"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10262",
@@ -549,7 +617,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/33871",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000484",
-    "meo_label": "intestine"
+    "meo_label": "intestine",
+    "env_label": "Intestinal tract of red soldier bug"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10261",
@@ -557,7 +626,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/39483",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000627",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10247",
@@ -565,7 +635,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/267368",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000722",
-    "meo_label": "salt"
+    "meo_label": "salt",
+    "env_label": "Salt crust, Ashgabat, Turkmenistan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10249",
@@ -573,7 +644,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/89067",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000724",
-    "meo_label": "deep sea"
+    "meo_label": "deep sea",
+    "env_label": "Deep sea sediment at a depth of 6,356 m, the Japan Trench"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10278",
@@ -581,7 +653,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53317",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10268",
@@ -589,7 +662,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/76756",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Sayama City, Saitama Pref., Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10292",
@@ -597,7 +671,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/86838",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000028",
-    "meo_label": "marsh"
+    "meo_label": "marsh",
+    "env_label": "Black rush Juncus roemerianus (Poales, Juncaceae), Marsh, FL, USA"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10272",
@@ -605,7 +680,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/93683",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000112",
-    "meo_label": "rock"
+    "meo_label": "rock",
+    "env_label": "Charophytes on the stromatolites"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10271",
@@ -613,7 +689,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/93684",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000112",
-    "meo_label": "rock"
+    "meo_label": "rock",
+    "env_label": "Epiphytes on the stromatolites"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10284",
@@ -621,7 +698,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53442",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000120",
-    "meo_label": "anaerobic bioreactor"
+    "meo_label": "anaerobic bioreactor",
+    "env_label": "Anaerobic digestor supplemented with contents from a wood fiber-to-alcohol fermentation plant, New Zealand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10267",
@@ -629,7 +707,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/83302",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000126",
-    "meo_label": "forest soil"
+    "meo_label": "forest soil",
+    "env_label": "Soil at a deciduous dipterocarp forest, Thailand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10270",
@@ -637,7 +716,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/76884",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000131",
-    "meo_label": "food processing factory"
+    "meo_label": "food processing factory",
+    "env_label": "Wastewater of a sugar-beet factory, Kitami, Hokkaido, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10282",
@@ -645,7 +725,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/35811",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000137",
-    "meo_label": "microbial mat"
+    "meo_label": "microbial mat",
+    "env_label": "Cyanobacterial mat from an alkaline spring"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10275",
@@ -653,7 +734,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/46429",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000649",
-    "meo_label": "contaminated soil"
+    "meo_label": "contaminated soil",
+    "env_label": "Pentachlorophenol-contaminated soil"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10339",
@@ -661,7 +743,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/182640",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, near Beijing, China"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10428",
@@ -669,7 +752,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/200596",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, USSR"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10453",
@@ -677,7 +761,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/40409",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Garden soil, Dunedin, Ontago, New Zealand"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10408",
@@ -685,7 +770,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/415705",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Khorog, mountain area of western Pamir, Tajikistan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10303",
@@ -693,7 +779,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/59917",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Jiangxi Province, China"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10340",
@@ -701,7 +788,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/60450",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Mexico"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10302",
@@ -709,7 +797,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/84725",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Setagaya-ku, Tokyo, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10427",
@@ -717,7 +806,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/941183",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000007",
-    "meo_label": "soil"
+    "meo_label": "soil",
+    "env_label": "Soil, Beijing, China"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10308",
@@ -725,7 +815,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/2180",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000029",
-    "meo_label": "hot spring"
+    "meo_label": "hot spring",
+    "env_label": "Hot spring, Iceland"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10311",
@@ -733,7 +824,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/33190",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000036",
-    "meo_label": "water"
+    "meo_label": "water",
+    "env_label": "Brackish water, Miami River, FL, USA"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1054",
@@ -741,7 +833,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/680",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000041",
-    "meo_label": "marine water"
+    "meo_label": "marine water",
+    "env_label": "Seawater"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10412",
@@ -749,7 +842,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/518637",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10310",
@@ -757,7 +851,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/106008",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Droppings of hare, Near Mt. Fuji, Japan"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_1059",
@@ -765,7 +860,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/1580",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10413",
@@ -773,7 +869,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/31971",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000054",
-    "meo_label": "feces"
+    "meo_label": "feces",
+    "env_label": "Human feces"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10391",
@@ -781,7 +878,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/144184",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
-    "meo_label": "blood"
+    "meo_label": "blood",
+    "env_label": "Human blood culture, Strasbourg, France"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10390",
@@ -789,7 +887,8 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/38286",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
-    "meo_label": "blood"
+    "meo_label": "blood",
+    "env_label": "Human blood culture, Canada"
   },
   {
     "strain": "http://metadb.riken.jp/db/rikenbrc_jcm_microbe/JCM_10381",
@@ -797,6 +896,7 @@
     "isType": "1",
     "tax_id": "http://identifiers.org/taxonomy/53374",
     "meo": "http://purl.jp/bio/11/meo/MEO_0000059",
-    "meo_label": "blood"
+    "meo_label": "blood",
+    "env_label": "Blood culture (a 30 year-old man infected with the human immunodeficiency virus), Zurich, Switzerland"
   }
 ]
