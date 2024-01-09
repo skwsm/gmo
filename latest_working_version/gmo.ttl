@@ -1627,6 +1627,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             skos:altLabel "NaOAc"@en ,
                           "Sodium ethanoate"@en ,
                           "酢酸ソーダ"@ja ;
+            skos:definition "Sodium salt of acetic acid."@en ;
             skos:prefLabel "Sodium acetate"@en .
 
 
@@ -2846,7 +2847,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:seeAlso wikipedia:Monosodium_glutamate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/23672308> ,
                          <http://purl.bioontology.org/ontology/MSH/D012970> ,
-                         ndf:N0000170280 ;
+                         ndf:N0000170280 ,
+                         chebi:CHEBI_64220 ;
             skos:altLabel "MSG"@en ,
                           "Monosodium glutamate"@en ;
             skos:prefLabel "Sodium glutamate"@en .
@@ -5415,11 +5417,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "チアミン"@ja ;
             rdfs:seeAlso wikipedia:Thiamine ,
                          ncit:Thiamine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1130> ,
                          <http://purl.bioontology.org/ontology/MSH/D013831> ,
                          ndf:N0000145862 ,
-                         rxnorm: ,
-                         chebi:CHEBI_26948 ,
-                         pubchem: ;
+                         chebi:CHEBI_26948 ;
             skos:altLabel "Vitamin B1"@en ,
                           "ビタミンB1"@ja ;
             skos:prefLabel "Thiamine"@en .
@@ -6537,7 +6538,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001296" ;
-            rdfs:label "Sludge fluid"@en ;
+            rdfs:label "Sludge fluid"@en ,
+                       "汚泥液"@ja ;
             rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/D012722> ;
             skos:prefLabel "Sludge fluid"@en .
 
@@ -7405,7 +7407,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000062 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001346" ;
-            rdfs:label "Soy protein isolate"@en ;
+            rdfs:label "Soy protein isolate"@en ,
+                       "ソイプロテインアイソレート"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Soy_protein_isolate#Isolates> ,
                          ncit:Soy_Protein_Isolate ;
             skos:prefLabel "Soy protein isolate"@en .
@@ -8330,7 +8333,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Sodium acetate trihydrate"@en ,
                        "酢酸ナトリウム三水和物"@ja ;
             rdfs:seeAlso wikipedia:Sodium_acetate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23665404> ,
+                         chebi:CHEBI_32138 ;
             skos:prefLabel "Sodium acetate trihydrate"@en .
 
 
@@ -8646,12 +8650,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "酢酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_Acetate ,
                          ncit:Sodium_Acetate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/517045> ,
                          <http://purl.bioontology.org/ontology/MSH/D019346> ,
                          ndf:N0000145830 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32954 ,
-                         pubchem: ;
+                         chebi:CHEBI_32954 ;
             skos:prefLabel "Sodium acetate solution"@en .
 
 
@@ -9052,7 +9054,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001443" ;
-            rdfs:label "Sodium alginate"@en ;
+            rdfs:label "Sodium alginate"@en ,
+                       "アルギン酸ナトリウム"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Alginic_acid#Sodium_alginate> ,
                          ncit:Sodium_Alginate ,
                          ndf:N0000147539 ,
@@ -9658,7 +9661,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001472" ;
-            rdfs:label "Sodium nitrate solution"@en ;
+            rdfs:label "Sodium nitrate solution"@en ,
+                       "硝酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_nitrate ,
                          ncit:Sodium_Nitrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24268> ,
@@ -16555,7 +16559,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001932" ;
-            rdfs:label "Iron(II) disulfide"@en ;
+            rdfs:label "Iron(II) disulfide"@en ,
+                       "黄鉄鉱"@ja ;
             rdfs:seeAlso <https://en.wikipedia.org/wiki/Pyrite> ;
             skos:altLabel "Fool's gold"@en ,
                           "Pyrite"@en ;
@@ -16571,7 +16576,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001933" ;
-            rdfs:label "Sulfide mineral"@en ;
+            rdfs:label "Sulfide mineral"@en ,
+                       "硫化鉱"@ja ;
             skos:altLabel "Sulfide ore"@en ;
             skos:prefLabel "Sulfide mineral"@en .
 
@@ -18197,6 +18203,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_002053 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002053" ;
             rdfs:label "Sodium ammonium phosphate"@en ,
                        "リン酸水素アンモニウムナトリウム"@ja ;
@@ -18210,6 +18218,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "NaNH4HPO4 . 4H2O"@en ,
                         "NaNH4HPO4.4H2O"@en ;
             :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002054" ;
             rdfs:label "Sodium ammonium hydrogen phosphate tetrahydrate"@en ,
                        "リン酸水素アンモニウムナトリウム四水和物"@ja ;
@@ -20634,7 +20644,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002248" ;
-            rdfs:label "Sterile human urine"@en ;
+            rdfs:label "Sterile human urine"@en ,
+                       "滅菌人尿"@ja ;
             skos:prefLabel "Sterile human urine"@en .
 
 
