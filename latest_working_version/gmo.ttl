@@ -667,7 +667,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_000052
 :GMO_000052 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000037 ;
+            rdfs:subClassOf :GMO_000037 ,
+                            [ rdf:type owl:Class ;
+                              owl:unionOf ( :GMO_000001
+                                            :GMO_000002
+                                          )
+                            ] ;
             dcterms:identifier "GMO_000052" ;
             rdfs:label "pH indicator"@en ;
             skos:prefLabel "pH indicator"@en .
@@ -1421,8 +1426,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸亜鉛七水和物"@ja ;
             rdfs:seeAlso wikipedia:Zinc_Sulfate ,
                          ncit:Zinc_Sulfate_Heptahydrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62640> ,
                          <http://purl.bioontology.org/ontology/MSH/D019287> ,
-                         snomed: ,
                          chebi:CHEBI_32312 ;
             skos:prefLabel "Zinc sulfate heptahydrate"@en .
 
@@ -4062,10 +4067,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "フェノールレッド"@ja ;
             rdfs:seeAlso wikipedia:Phenol_red ,
                          ncit:Phenolsulfonphthalein ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4766> ,
                          <http://purl.bioontology.org/ontology/MSH/D010637> ,
                          ndf:N0000005902 ,
-                         chebi:CHEBI_31991 ,
-                         pubchem: ;
+                         chebi:CHEBI_31991 ;
             skos:altLabel "Phenolsulfonphthalein"@en ,
                           "フェノールスルホンフタレイン"@ja ;
             skos:prefLabel "Phenol red"@en .
@@ -5690,8 +5695,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "カゼインペプトン"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Peptone#Peptide_classes> ,
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
-                         ndf:N0000005859 ,
-                         rxnorm: ;
+                         ndf:N0000005859 ;
             skos:definition "An enzymatic digest or acid hydrolysates of casein"@en ;
             skos:prefLabel "Casein peptone"@en .
 
@@ -5797,8 +5801,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "大豆ペプトン"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Peptone#Peptide_classes> ,
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
-                         ndf:N0000005859 ,
-                         rxnorm: ;
+                         ndf:N0000005859 ;
             skos:altLabel "Soy peptone"@en ,
                           "Soya peptone"@en ;
             skos:definition "Enzymatic digest of soybean meal/flour"@en ;
@@ -6217,12 +6220,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "硫酸亜鉛溶液"@ja ;
             rdfs:seeAlso wikipedia:Zinc_sulfate ,
                          ncit:Zinc_Sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/> ,
                          <http://purl.bioontology.org/ontology/MSH/D019287> ,
                          ndf:N0000146030 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_35176 ,
-                         pubchem: ;
+                         chebi:CHEBI_35176 ;
             skos:prefLabel "Zinc sulfate solution"@en .
 
 
@@ -7668,8 +7669,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "硫酸亜鉛七水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Zinc_Sulfate ,
                          ncit:Zinc_Sulfate_Heptahydrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62640> ,
                          <http://purl.bioontology.org/ontology/MSH/D019287> ,
-                         snomed: ,
                          chebi:CHEBI_32312 ;
             skos:prefLabel "Zinc sulfate heptahydrate solution"@en .
 
@@ -9386,10 +9387,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "フェノールレッド溶液"@ja ;
             rdfs:seeAlso wikipedia:Phenol_red ,
                          ncit:Phenolsulfonphthalein ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4766> ,
                          <http://purl.bioontology.org/ontology/MSH/D010637> ,
                          ndf:N0000005902 ,
-                         chebi:CHEBI_31991 ,
-                         pubchem: ;
+                         chebi:CHEBI_31991 ;
             skos:altLabel "Phenolsulfonphthalein solution"@en ,
                           "フェノールスルホンフタレイン溶液"@ja ;
             skos:prefLabel "Phenol red solution"@en .
@@ -12115,8 +12116,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Penicillin ,
                          <http://purl.bioontology.org/ontology/MSH/D010406> ,
                          ndf:N0000147965 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_17334 ;
             skos:prefLabel "Penicillin"@en .
 
@@ -12914,9 +12913,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ncit:C80937 ,
                          <http://purl.bioontology.org/ontology/MSH/D011136> ,
                          ndf:N0000023218 ,
-                         rxnorm: ,
-                         chebi:CHEBI_53424 ,
-                         pubchem: ;
+                         chebi:CHEBI_53424 ;
             skos:altLabel "Tween &reg; 20"@en ;
             skos:prefLabel "Polysorbate 20"@en .
 
@@ -13082,6 +13079,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001688" ;
             rdfs:label "Zinc sulfate dihydrate"@en ,
                        "硫酸亜鉛二水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/3067215> ;
             skos:prefLabel "Zinc sulfate dihydrate"@en .
 
 
@@ -13098,6 +13096,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001689" ;
             rdfs:label "Zinc sulfate monohydrate"@en ,
                        "硫酸亜鉛一水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/62639> ;
             skos:prefLabel "Zinc sulfate monohydrate"@en .
 
 
@@ -13688,12 +13687,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "酢酸カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_acetate ,
                          ncit:C47677 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/31371> ,
                          mesh:D019347 ,
                          ndf:N0000145902 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_32029 ,
-                         pubchem: ;
+                         chebi:CHEBI_32029 ;
             skos:prefLabel "Potassium acetate"@en .
 
 
@@ -13751,12 +13748,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Phenol solution"@en ,
                        "フェノール溶液"@ja ;
             rdfs:seeAlso wikipedia:Phenol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/996> ,
                          mesh:D019800 ,
                          ndf:N0000145800 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_15882 ,
-                         pubchem: ;
+                         chebi:CHEBI_15882 ;
             skos:prefLabel "Phenol solution"@en .
 
 
@@ -14282,9 +14277,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Zinc sulfate"@en ,
                        "硫酸亜鉛"@ja ;
             rdfs:seeAlso ncit:C1280 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24424> ,
                          <http://purl.bioontology.org/ontology/MSH/D019287> ,
                          ndf:N0000146030 ,
-                         rxnorm: ,
                          chebi:CHEBI_35176 ,
                          <https://en.wikipedia.org/wiki/Zinc_sulfate> ;
             skos:prefLabel "Zinc sulfate"@en .
@@ -14683,6 +14678,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001793" ;
             rdfs:label "Phenylalanine"@en ,
                        "フェニルアラニン"@ja ;
+            rdfs:seeAlso wikipedia:Phenylalanine ;
             skos:prefLabel "Phenylalanine"@en .
 
 
@@ -14696,6 +14692,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001794" ;
             rdfs:label "L-Phenylalanine "@en ,
                        "L-フェニルアラニン"@ja ;
+            rdfs:seeAlso wikipedia:Phenylalanine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6140> ,
+                         chebi:CHEBI_17295 ;
             skos:prefLabel "L-Phenylalanine "@en .
 
 
@@ -14709,6 +14708,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001795" ;
             rdfs:label "D-Phenylalanine "@en ,
                        "D-フェニルアラニン"@ja ;
+            rdfs:seeAlso wikipedia:Phenylalanine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/71567> ,
+                         chebi:CHEBI_16998 ;
             skos:prefLabel "D-Phenylalanine "@en .
 
 
@@ -18566,7 +18568,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Potassium fluorure"@en ,
                        "フッ化カリウム"@ja ;
             rdfs:seeAlso wikipedia:Potassium_fluoride ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/522689> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/522689> ,
+                         chebi:CHEBI_66872 ;
             skos:altLabel "KF"@en ;
             skos:prefLabel "Potassium fluorure"@en .
 
@@ -22253,7 +22256,9 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002380" ;
-            rdfs:label "Pectin (Apple)"@en ;
+            rdfs:label "Pectin (Apple)"@en ,
+                       "ペクチン（リンゴ由来）"@ja ;
+            rdfs:seeAlso wikipedia:Pectin ;
             skos:prefLabel "Pectin (Apple)"@en .
 
 
@@ -22266,7 +22271,9 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002381" ;
-            rdfs:label "Pectin (Citrus peel)"@en ;
+            rdfs:label "Pectin (Citrus peel)"@en ,
+                       "ペクチン（柑橘類皮由来）"@ja ;
+            rdfs:seeAlso wikipedia:Pectin ;
             skos:prefLabel "Pectin (Citrus peel)"@en .
 
 
