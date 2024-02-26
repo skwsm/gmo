@@ -22699,6 +22699,55 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Riboflavin solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002417
+:GMO_002417 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Sodium alpha-ketoglutamate"@en ,
+                        "alpha-Ketoglutaric acid sodium salt"@en ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002417" ;
+            rdfs:label "Sodium alpha-Ketoglutarate"@en ,
+                       "α-ケトグルタル酸 ナトリウム塩"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23670750> .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002418
+:GMO_002418 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001135 ;
+            :GMO_000110 "1 M Mannitol solution"@en ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
+            rdfs:label "GMO_002418" ,
+                       "Mannitol solution"@en ,
+                       "マンニトール溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6251> ,
+                         <http://purl.obolibrary.org/obo/16899> .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002419
+:GMO_002419 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001025 ;
+            :GMO_000110 "Biotin (1 μg/μL)"@en ;
+            :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002419" ;
+            rdfs:label "Biotin solution"@en ,
+                       "ビオチン溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/171548> ,
+                         <http://purl.obolibrary.org/obo/15956> .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002420
+:GMO_002420 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Nissui corn meal agar"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002420" ;
+            rdfs:label "Corn meal agar (Nissui)"@en ,
+                       "コーンミールアガール「ニッスイ」"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
