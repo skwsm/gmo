@@ -4393,6 +4393,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "DL-&alpha;-Methylbutyric acid"@en ,
                         "DL--$¥alpha$--Methyl butyric acid"@en ,
                         "DL-2-Methyl butyric acid"@en ,
+                        "DL-2-Methylbutyric acid"@en ,
                         "DL-alpha-Methyl butyric acid"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000041 ,
