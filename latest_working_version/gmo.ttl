@@ -1579,11 +1579,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "ピリドキシン塩酸塩"@ja ;
             rdfs:seeAlso wikipedia:Pyridoxine_hydrochloride ,
                          ncit:Pyridoxine_Hydrochloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6019> ,
                          ndf:N0000145876 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_30961 ,
-                         pubchem: ;
+                         chebi:CHEBI_30961 ;
             skos:prefLabel "Pyridoxine hydrochloride"@en .
 
 
@@ -4259,9 +4257,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001167" ;
+            rdfs:comment <http://purl.obolibrary.org/obo/131529> ;
             rdfs:label "Pyridoxal hydrochloride"@en ,
                        "塩酸ピリドキサール"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6171> ;
             skos:prefLabel "Pyridoxal hydrochloride"@en .
 
 
@@ -5839,7 +5838,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001253" ;
             rdfs:label "Pyridoxine dihydrochloride"@en ;
             rdfs:seeAlso wikipedia:Pyridoxine ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22124026> ,
+                         chebi:CHEBI_189426 ;
             skos:prefLabel "Pyridoxine dihydrochloride"@en .
 
 
@@ -12250,11 +12250,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "ピリドキサールリン酸"@ja ;
             rdfs:seeAlso wikipedia:Pyridoxal_phosphate ,
                          ncit:C81627 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1051> ,
                          <http://purl.bioontology.org/ontology/MSH/D011732> ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_18405 ,
-                         pubchem: ;
+                         chebi:CHEBI_18405 ;
             skos:altLabel "PLP"@en ;
             skos:prefLabel "Pyridoxal phosphate"@en .
 
@@ -12271,7 +12269,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001630" ;
             rdfs:label "Pyridoxamine dihydrochloride"@en ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/10664> ,
+                         chebi:CHEBI_131532 ;
             skos:prefLabel "Pyridoxamine dihydrochloride"@en .
 
 
@@ -12287,7 +12286,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001631" ;
             rdfs:label "Pyridoxamine hydrochloride"@en ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/216452> ,
+                         chebi:CHEBI_131531 ;
             skos:prefLabel "Pyridoxamine hydrochloride"@en .
 
 
@@ -12304,12 +12304,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "ピリドキシン"@ja ;
             rdfs:seeAlso wikipedia:Pyridoxine ,
                          ncit:C62619 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1054> ,
                          <http://purl.bioontology.org/ontology/MSH/D011736> ,
                          ndf:N0000148007 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_16709 ,
-                         pubchem: ;
+                         chebi:CHEBI_16709 ;
             skos:definition "Pyridoxine is a form of vitamin B6"@en ;
             skos:prefLabel "Pyridoxine"@en .
 
@@ -12990,7 +12988,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001679" ;
             rdfs:label "Vancomycin hydrochloride solution"@en ,
                        "バンコマイシン塩酸塩溶液"@ja ;
-            rdfs:seeAlso pubchem: ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6420023> ;
             skos:prefLabel "Vancomycin hydrochloride solution"@en .
 
 
@@ -14080,6 +14078,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001751" ;
             rdfs:label "Pyridoxamine"@en ;
+            rdfs:seeAlso wikipedia:Pyridoxamine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1052> ,
+                         chebi:CHEBI_16410 ;
             skos:definition "Pyridoxamine is a form of vitamin B6"@en ;
             skos:prefLabel "Pyridoxamine"@en .
 
@@ -14930,6 +14931,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001811" ;
             rdfs:label "L-Valine"@en ,
                        "L-バリン"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6287> ;
             skos:prefLabel "L-Valine"@en .
 
 
@@ -16044,6 +16046,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001894" ;
             rdfs:label "Vanadyl sulfate"@en ,
                        "硫酸バナジル"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/34007> ,
+                         chebi:CHEBI_33146 ;
             skos:altLabel "Vanadium oxysulfate"@en ,
                           "オキシ硫酸バナジウム"@ja ;
             skos:prefLabel "Vanadyl sulfate"@en .
@@ -18866,6 +18870,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "pyridoxal-HCl (Sigma Aldrich)"@en ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002101" ;
+            rdfs:comment <http://pubchem.ncbi.nlm.nih.gov/compound/6171> ,
+                         chebi:CHEBI_131529 ;
             rdfs:label "Pyridoxal hydrochloride (Sigma-Aldrich)"@en ,
                        "ピリドキサール 塩酸塩 (Sigma-Aldrich)"@ja ;
             skos:prefLabel "Pyridoxal hydrochloride (Sigma-Aldrich)"@en .
@@ -19295,6 +19301,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000043 ;
             dcterms:identifier "GMO_002142" ;
             rdfs:label "Vancomycin (Lilly France S.A.)"@en ;
+            rdfs:seeAlso wikipedia:Vancomycin ;
             skos:prefLabel "Vancomycin (Lilly France S.A.)"@en .
 
 
@@ -20288,7 +20295,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Vanillic acid"@en ,
                        "バニリン酸"@ja ;
             rdfs:seeAlso wikipedia:Vanillic_acid ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/8468> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8468> ,
+                         chebi:CHEBI_30816 ;
             skos:prefLabel "Vanillic acid"@en .
 
 
@@ -21527,7 +21535,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Vancomycin"@en ,
                        "バンコマイシン"@ja ;
             rdfs:seeAlso wikipedia:Vancomycin ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/14969> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14969> ,
+                         chebi:CHEBI_28001 ;
             skos:prefLabel "Vancomycin"@en .
 
 
@@ -22680,7 +22689,9 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_002415" ;
-            rdfs:label "Pyridoxamine solution"@en .
+            rdfs:label "Pyridoxamine solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/1052> ,
+                         chebi:CHEBI_16410 .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002416
