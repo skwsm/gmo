@@ -22759,6 +22759,37 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "コーンミールアガール「ニッスイ」"@ja .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002421
+:GMO_002421 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002421" ;
+            rdfs:label "Chromium(III) chloride"@en ,
+                       "三塩化クロム"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6452300> ,
+                         chebi:CHEBI_53351 ;
+            skos:prefLabel "Chromium(III) chloride"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002422
+:GMO_002422 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002421 ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002422" ;
+            rdfs:label "Chromium(III) chloride hexahydrate"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/104957> ;
+            skos:prefLabel "Chromium(III) chloride hexahydrate"@en ,
+                           "塩化クロム(III)六水和物"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
