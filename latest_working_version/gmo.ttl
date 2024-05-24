@@ -2246,7 +2246,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001062
 :GMO_001062 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Sulfur"@en ,
+            :GMO_000110 "Elemental sulfer"@en ,
+                        "Sulfur"@en ,
                         "Sulfur (powder)"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
@@ -2260,6 +2261,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/D013455> ,
                          ndf:N0000147169 ,
                          chebi:CHEBI_26833 ;
+            skos:altLabel "Elemental sulfur"@en ;
             skos:prefLabel "Sulfur powder"@en .
 
 
@@ -3980,10 +3982,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001152" ;
             rdfs:comment "MOPS is one of the Good's buffers"@en ;
-            rdfs:label <http://pubchem.ncbi.nlm.nih.gov/compound/70807> ,
-                       "MOPS"@en ,
+            rdfs:label "MOPS"@en ,
                        "MOPS"@ja ;
             rdfs:seeAlso wikipedia:MOPS ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/70807> ,
                          <http://purl.bioontology.org/ontology/MSH/C008550> ,
                          chebi:CHEBI_39074 ;
             skos:altLabel "3-(N-morpholino)propanesulfonic acid"@en ;
@@ -14133,7 +14135,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001755
 :GMO_001755 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001542 ;
-            :GMO_000110 "CuCl$_2$$¥cdot$6H$_2$O"@en ;
+            :GMO_000110 "CuCl$_2$$¥cdot$6H$_2$O"@en ,
+                        "CuCl2 × 6H2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -22778,6 +22781,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002422
 :GMO_002422 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002421 ;
+            :GMO_000110 "CrCl3.6H2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -22788,6 +22792,23 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/104957> ;
             skos:prefLabel "Chromium(III) chloride hexahydrate"@en ,
                            "塩化クロム(III)六水和物"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002423
+:GMO_002423 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001480 ;
+            :GMO_000110 "MOPS buffer (SIGMA)"@en ;
+            :GMO_000112 :GMO_000038 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002423" ;
+            rdfs:label "MOPS (Sigma-Aldrich)"@en ,
+                       "MOPS (Sigma-Aldrich)"@ja ;
+            rdfs:seeAlso wikipedia:MOPS ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/70807> ,
+                         chebi:CHEBI_39074 ;
+            skos:prefLabel "MOPS (Sigma-Aldrich)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
