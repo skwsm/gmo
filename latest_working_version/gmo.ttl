@@ -22834,7 +22834,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/1123> ,
                          chebi:CHEBI_15891 ;
             skos:altLabel "2-Aminoethanesulfonic acid"@en ,
-                          "Tauric acid"@en .
+                          "Tauric acid"@en ;
+            skos:prefLabel "Taurine"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002425
@@ -22847,7 +22848,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Corn steep powder"@en ,
                        "コーンスティープパウダー"@ja ;
             skos:altLabel "CSP"@en ;
-            skos:definition "A byproduct of the wet milling process of corn. It is obtained by drying corn steep liquor, the liquid portion that remains after the starch and other components have been separated from the corn."@en .
+            skos:definition "A byproduct of the wet milling process of corn. It is obtained by drying corn steep liquor, the liquid portion that remains after the starch and other components have been separated from the corn."@en ;
+            skos:prefLabel "Corn steep powder"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002426
+:GMO_002426 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002426" ;
+            rdfs:label "Lemon"@en ,
+                       "レモン"@ja ;
+            rdfs:seeAlso wikipedia:Lemon ;
+            skos:prefLabel "Lemon"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
