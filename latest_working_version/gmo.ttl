@@ -1060,7 +1060,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001008
 :GMO_001008 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "NH$_4$Cl"@en ,
+            :GMO_000110 "(NH4)Cl"@en ,
+                        "NH$_4$Cl"@en ,
                         "NH4Cl"@en ,
                         "NH<sub>4</sub>Cl"@en ;
             :GMO_000112 :GMO_000062 ;
@@ -3863,7 +3864,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001146
 :GMO_001146 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002358 ;
-            :GMO_000110 "Bacto Heart Infusion Broth (Difco)"@en ,
+            :GMO_000110 "Bacto Heart Infusion Broth"@en ,
+                        "Bacto Heart Infusion Broth (Difco)"@en ,
                         "Heart Infusion Broth (BD 238400)"@en ,
                         "Heart infusion broth (Difco)"@en ;
             :GMO_000113 :GMO_000047 ,
@@ -5192,6 +5194,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001217 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001072 ;
             :GMO_000110 "'Lab-Lemco' powder"@en ,
+                        "Lab Lemco powder"@en ,
                         "Lab-Lemco powder"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001217" ;
@@ -5671,6 +5674,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001244 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Tomato Juice (filtered)"@en ,
+                        "Tomato extract"@en ,
                         "Tomato juice"@en ,
                         "Tomato juice filtered"@en ,
                         "Tomato juice, filtered"@en ,
@@ -7102,11 +7106,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "グルタチオン"@ja ;
             rdfs:seeAlso wikipedia:Glutathione ,
                          ncit:Glutathione ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/124886> ,
                          <http://purl.bioontology.org/ontology/MSH/D005978> ,
                          ndf:N0000148266 ,
-                         rxnorm: ,
-                         chebi:CHEBI_16856 ,
-                         pubchem: ;
+                         chebi:CHEBI_16856 ;
             skos:prefLabel "Glutathione"@en .
 
 
@@ -7237,7 +7240,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001336
 :GMO_001336 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Sodium benzoate"@en ;
+            :GMO_000110 "Sodium benzoate"@en ,
+                        "Sodiumbenzoate"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -8735,7 +8739,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001421
 :GMO_001421 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Ox bile, desiccated"@en ,
+            :GMO_000110 "Desicatted Ox-bile"@en ,
+                        "Ox bile, desiccated"@en ,
                         "desiccated"@en ;
             :GMO_000112 :GMO_000056 ;
             :GMO_000113 :GMO_000047 ;
@@ -10610,6 +10615,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001964 ;
             :GMO_000110 "20% Bovine serum albumin, fraction V"@en ,
                         "20¥% Bovine serum albumin, fraction V"@en ,
+                        "Bovine albumin"@en ,
                         "Bovine albumin, Fraction V"@en ,
                         "Bovine serum albumin"@en ;
             :GMO_000112 :GMO_000042 ;
@@ -11104,6 +11110,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Fetal bovine serum"@en ,
                        "ウシ胎児血清アルブミン"@ja ;
             rdfs:seeAlso <https://en.wikipedia.org/wiki/Fetal_bovine_serum> ;
+            skos:altLabel "FBS"@en ;
             skos:prefLabel "Fetal bovine serum"@en .
 
 
@@ -13967,7 +13974,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001743
 :GMO_001743 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001892 ;
-            :GMO_000110 "MilliQ water"@en ;
+            :GMO_000110 "Milli Q Water"@en ,
+                        "MilliQ water"@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -22191,7 +22199,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "CAPS"@en ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/CAPS_(buffer)> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/70815> ;
-            skos:altLabel "N-cyclohexyl-3-aminopropanesulfonic acid"@en ;
+            skos:altLabel "CAPS buffer"@en ,
+                          "N-cyclohexyl-3-aminopropanesulfonic acid"@en ;
             skos:prefLabel "CAPS"@en .
 
 
