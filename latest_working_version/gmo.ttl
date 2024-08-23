@@ -22864,6 +22864,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Lemon"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002427
+:GMO_002427 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002427" ;
+            rdfs:label "Pulp of sour stone cherries"@en ,
+                       "サワーチェリーの果肉"@ja ;
+            skos:prefLabel "Pulp of sour stone cherries"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
