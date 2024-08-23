@@ -22821,6 +22821,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "MOPS (Sigma-Aldrich)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002424
+:GMO_002424 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002424" ;
+            rdfs:label "Taurine"@en ,
+                       "タウリン"@ja ;
+            rdfs:seeAlso wikipedia:Taurine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1123> ,
+                         chebi:CHEBI_15891 ;
+            skos:altLabel "2-Aminoethanesulfonic acid"@en ,
+                          "Tauric acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
