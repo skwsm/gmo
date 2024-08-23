@@ -22840,11 +22840,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002425
 :GMO_002425 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000062 ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002425" ;
             rdfs:label "Corn steep powder"@en ,
                        "コーンスティープパウダー"@ja ;
+            skos:altLabel "CSP"@en ;
             skos:definition "A byproduct of the wet milling process of corn. It is obtained by drying corn steep liquor, the liquid portion that remains after the starch and other components have been separated from the corn."@en .
 
 
