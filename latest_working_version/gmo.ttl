@@ -22921,6 +22921,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Phenyl acetate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002431
+:GMO_002431 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002431" ;
+            rdfs:label "2,4-Dichlorophenoxyacetic acid"@en ,
+                       "2,4-ジクロロフェノキシ酢酸"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/2,4-Dichlorophenoxyacetic_acid> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1486> ,
+                         chebi:CHEBI_28854 ;
+            skos:altLabel "2,4-D"@en ;
+            skos:prefLabel "2,4-Dichlorophenoxyacetic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
