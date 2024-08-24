@@ -23013,6 +23013,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "2-Nitrophenol"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002437
+:GMO_002437 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na-stearate"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002437" ;
+            rdfs:label "Sodium stearate"@en ,
+                       "ステアリン酸ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_stearate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2724691> ,
+                         chebi:CHEBI_132109 ;
+            skos:definition "The sodium salt of stearic acid"@en ;
+            skos:prefLabel "Sodium stearate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
