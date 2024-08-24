@@ -23045,6 +23045,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium orotate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002439
+:GMO_002439 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002439" ;
+            rdfs:label "Sugar beet molasses"@en ,
+                       "糖蜜（サトウダイコン）"@ja ;
+            rdfs:seeAlso wikipedia:Molasses ;
+            skos:prefLabel "Sugar beet molasses"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
