@@ -22952,6 +22952,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "2-Chlorobenzoic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002433
+:GMO_002433 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002433" ;
+            rdfs:label "3-Chloroacrylic acid"@en ,
+                       "3-クロロアクリル酸"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/638124> ,
+                         chebi:CHEBI_19982 ;
+            skos:altLabel "trans-3-Chloroacrylic acid"@en ;
+            skos:prefLabel "3-Chloroacrylic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
