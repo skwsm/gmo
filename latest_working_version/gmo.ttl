@@ -23113,6 +23113,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "2-Furoic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002444
+:GMO_002444 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na-gallate"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002444" ;
+            rdfs:label "Sodium gallate"@en ,
+                       "没食子酸ナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23674757> ,
+                         chebi:CHEBI_115197 ;
+            skos:definition "The sodium salt of gallic acid"@en ;
+            skos:prefLabel "Sodium gallate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
