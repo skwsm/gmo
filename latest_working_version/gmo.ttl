@@ -23142,6 +23142,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Butyl vinyl ether"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002446
+:GMO_002446 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na-vanillate"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002446" ;
+            rdfs:label "Sodium vanillate"@en ,
+                       "ナトリウムバニラート"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23675709> ,
+                         chebi:CHEBI_132748 ;
+            skos:prefLabel "Sodium vanillate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
