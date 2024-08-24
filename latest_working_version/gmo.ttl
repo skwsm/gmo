@@ -22905,6 +22905,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium ferulate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002430
+:GMO_002430 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002430" ;
+            rdfs:label "Phenyl acetate"@en ,
+                       "酢酸フェニル"@ja ;
+            rdfs:seeAlso wikipedia:Phenyl_acetate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/31229> ,
+                         chebi:CHEBI_8082 ;
+            skos:definition "The ester of phenol and acetic aci"@en ;
+            skos:prefLabel "Phenyl acetate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
