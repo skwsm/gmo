@@ -23097,6 +23097,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "gamma Aminobutyric acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002443
+:GMO_002443 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002443" ;
+            rdfs:label "2-Furoic acid"@en ,
+                       "2-フロ酸"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Furoic_acid> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6919> ,
+                         chebi:CHEBI_30845 ;
+            skos:altLabel "2-furancarboxylic acid"@en ;
+            skos:prefLabel "2-Furoic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
