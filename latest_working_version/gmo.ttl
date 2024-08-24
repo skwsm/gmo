@@ -2189,14 +2189,13 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001059
 :GMO_001059 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001859 ;
-            :GMO_000110 "Malt extract"@en ;
+            :GMO_000110 "Malt extract"@en ,
+                        "Malt extract powder"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001059" ;
             rdfs:label "Malt extract"@en ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Malt#Malt_extract> ,
-                         ndf:N0000148149 ,
-                         rxnorm: ,
-                         snomed: ;
+                         ndf:N0000148149 ;
             skos:prefLabel "Malt extract"@en .
 
 
@@ -23253,6 +23252,22 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/444305> ,
                          chebi:CHEBI_15671 ;
             skos:prefLabel "L(+)-Tartaric acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002453
+:GMO_002453 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002453" ;
+            rdfs:label "Diaminopimelic acid"@en ,
+                       "ジアミノピメリン酸"@ja ;
+            rdfs:seeAlso wikipedia:Diaminopimelic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1549101> ,
+                         chebi:CHEBI_16488 ;
+            skos:definition "An amino acid that is an epsilon-carboxy derivative of lysine"@ja ;
+            skos:prefLabel "Diaminopimelic acid"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
