@@ -23207,6 +23207,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Antipyrine"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002450
+:GMO_002450 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002450" ;
+            rdfs:label :GMO_000041 ,
+                       :GMO_000046 ,
+                       :GMO_000049 ,
+                       "2-プロパノール"@ja ,
+                       "Isopropyl alcohol"@en ;
+            rdfs:seeAlso wikipedia:Isopropyl_alcohol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3776> ,
+                         chebi:CHEBI_17824 ;
+            skos:altLabel "2-Propanol"@en ,
+                          "Isopropanol"@en ;
+            skos:prefLabel "Isopropyl alcohol"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
