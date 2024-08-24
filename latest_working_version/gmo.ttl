@@ -23057,6 +23057,30 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sugar beet molasses"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002440
+:GMO_002440 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002440" ;
+            rdfs:label "Ginger"@en ,
+                       "ショウガ"@ja ;
+            rdfs:seeAlso wikipedia:Ginger ;
+            skos:prefLabel "Ginger"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002441
+:GMO_002441 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002441" ;
+            rdfs:label "Tea"@en ,
+                       "茶"@ja ;
+            rdfs:seeAlso wikipedia:Tea ;
+            skos:prefLabel "Tea"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
