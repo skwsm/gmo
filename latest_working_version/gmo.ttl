@@ -23129,6 +23129,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium gallate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002445
+:GMO_002445 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002445" ;
+            rdfs:label :GMO_000041 ,
+                       :GMO_000046 ,
+                       :GMO_000049 ,
+                       "Butyl vinyl ether"@en ,
+                       "ブチルビニルエーテル"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/8108> ;
+            skos:prefLabel "Butyl vinyl ether"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
