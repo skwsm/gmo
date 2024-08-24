@@ -22890,6 +22890,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Ethanolamine"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002429
+:GMO_002429 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002429" ;
+            rdfs:label "Sodium ferulate"@en ;
+            rdfs:seeAlso wikipedia:Sodium_ferulate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5321361> ,
+                         chebi:CHEBI_114954 ;
+            skos:definition "The sodium salt of ferulic acid"@en ;
+            skos:prefLabel "Sodium ferulate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
