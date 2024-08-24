@@ -23030,6 +23030,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium stearate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002438
+:GMO_002438 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na-orotate"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002438" ;
+            rdfs:label "Sodium orotate"@en ,
+                       "オロト酸ナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/Sodium-orotate> ,
+                         chebi:CHEBI_132101 ;
+            skos:prefLabel "Sodium orotate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
