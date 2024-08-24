@@ -23040,7 +23040,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002438" ;
             rdfs:label "Sodium orotate"@en ,
                        "オロト酸ナトリウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/Sodium-orotate> ,
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23683036> ,
                          chebi:CHEBI_132101 ;
             skos:prefLabel "Sodium orotate"@en .
 
