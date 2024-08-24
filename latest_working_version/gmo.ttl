@@ -8741,6 +8741,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Desicatted Ox-bile"@en ,
                         "Ox bile, desiccated"@en ,
+                        "Ox-bile"@en ,
                         "desiccated"@en ;
             :GMO_000112 :GMO_000056 ;
             :GMO_000113 :GMO_000047 ;
