@@ -23191,6 +23191,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Magnesium citrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002449
+:GMO_002449 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002449" ;
+            rdfs:label "Antipyrine"@en ,
+                       "アンチピリン"@ja ;
+            rdfs:seeAlso wikipedia:Phenazone ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2206> ,
+                         chebi:CHEBI_31225 ;
+            skos:altLabel "Phenazone"@en ;
+            skos:prefLabel "Antipyrine"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
