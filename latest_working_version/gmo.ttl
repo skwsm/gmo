@@ -23224,6 +23224,37 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Isopropyl alcohol"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002451
+:GMO_002451 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002452" ;
+            rdfs:label "Tartaric acid"@en ,
+                       "酒石酸"@ja ;
+            rdfs:seeAlso wikipedia:Tartaric_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/875> ,
+                         chebi:CHEBI_15674 ;
+            skos:altLabel "DL-Tartaric acid"@en ;
+            skos:prefLabel "Tartaric acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002452
+:GMO_002452 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002451 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_00245" ;
+            rdfs:label "L(+)-Tartaric acid"@en ,
+                       "L(+)-酒石酸"@ja ;
+            rdfs:seeAlso wikipedia:Tartaric_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/444305> ,
+                         chebi:CHEBI_15671 ;
+            skos:prefLabel "L(+)-Tartaric acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
