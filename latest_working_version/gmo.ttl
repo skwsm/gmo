@@ -23285,6 +23285,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Glycerol monooleate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002455
+:GMO_002455 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002455" ;
+            rdfs:label "3-Hydroxybenzoic acid"@en ,
+                       "3-ヒドロキシ安息香酸"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/3-Hydroxybenzoic_acid> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7420> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_30764 ;
+            skos:prefLabel "3-Hydroxybenzoic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
