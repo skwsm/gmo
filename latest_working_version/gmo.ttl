@@ -23302,6 +23302,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "3-Hydroxybenzoic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002456
+:GMO_002456 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002456" ;
+            rdfs:label "5-Aminovaleric acid"@en ,
+                       "5-アミノ吉草酸"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/138> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_15887 ;
+            skos:prefLabel "5-Aminovaleric acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
