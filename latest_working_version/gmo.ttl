@@ -6066,10 +6066,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Dextrin"@en ,
                        "デキストリン"@ja ;
             rdfs:seeAlso wikipedia:Dextrin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62698> ,
                          <http://purl.bioontology.org/ontology/MSH/C013862> ,
-                         ndf:N0000022671 ,
-                         chebi:CHEBI_28675 ,
-                         pubchem: ;
+                         chebi:CHEBI_28675 ;
             skos:prefLabel "Dextrin"@en .
 
 
