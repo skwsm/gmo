@@ -9049,6 +9049,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001442 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001072 ;
             :GMO_000110 "Bacto Beef Extract (Difco)"@en ,
+                        "Bacto beef extract"@en ,
                         "Beef extract (Difco)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001442" ;
@@ -23374,6 +23375,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Ferric ammonium EDTA"@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/45358589> ;
             skos:prefLabel "Ferric ammonium EDTA"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002461
+:GMO_002461 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002461" ;
+            rdfs:label "3,4,5-Trimethoxycinnamic acid"@en ,
+                       "3,4,5-トリメトキシけい皮酸"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/735755> ,
+                         chebi:CHEBI_566519 ;
+            skos:prefLabel "3,4,5-Trimethoxycinnamic acid"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
