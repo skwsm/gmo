@@ -14169,6 +14169,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001756" ;
             rdfs:label "Nitrilotriacetic acid trisodium salt"@en ,
                        "ニトリロ三酢酸三ナトリウム塩"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/21152> ,
+                         chebi:CHEBI_132766 ;
+            skos:altLabel "Trisodium nitrilotriacetate"@en ;
             skos:prefLabel "Nitrilotriacetic acid trisodium salt"@en .
 
 
@@ -22732,7 +22735,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002417
 :GMO_002417 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Sodium alpha-ketoglutamate"@en ,
+            :GMO_000110 "Na2 alpha-ketoglutarate"@en ,
+                        "Sodium alpha-ketoglutamate"@en ,
                         "alpha-Ketoglutaric acid sodium salt"@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
