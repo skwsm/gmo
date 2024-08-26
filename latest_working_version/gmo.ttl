@@ -23431,6 +23431,33 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Ammonium oxalate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002465
+:GMO_002465 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002465" ;
+            rdfs:label "Cinnamic acid"@en ,
+                       "ケイ皮酸"@ja ;
+            rdfs:seeAlso wikipedia:Cinnamic_acid ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ;
+            skos:prefLabel "Cinnamic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002466
+:GMO_002466 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002465 ;
+            dcterms:identifier "GMO_002466" ;
+            rdfs:label "trans-Cinnamic acid"@en ,
+                       "ケイ皮酸（E体）"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/444539> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_27386 ;
+            skos:prefLabel "trans-Cinnamic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
