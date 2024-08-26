@@ -23670,6 +23670,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Glucuronic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002482
+:GMO_002482 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002482" ;
+            rdfs:label "Formic acid"@en ,
+                       "ギ酸"@ja ;
+            rdfs:seeAlso wikipedia:Formic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/284> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_30751 ;
+            skos:prefLabel "Formic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
