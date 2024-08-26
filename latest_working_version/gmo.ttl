@@ -3047,7 +3047,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Casitone"@en ,
                         "Casitone (BD-BBL)"@en ,
                         "Casitone (Difco)"@en ;
-            :GMO_000113 :GMO_000047 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
             dcterms:identifier "GMO_001104" ;
             rdfs:label "Bacto &trade; Casitone"@en ;
             rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C475729> ;
@@ -23324,13 +23325,27 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002457" ;
-            rdfs:label "Naphthalene-1-sulfonic acid"@en ;
+            rdfs:label "1-ナフタレンスルホン酸"@ja ,
+                       "Naphthalene-1-sulfonic acid"@en ;
             rdfs:seeAlso wikipedia:Naphthalene-1-sulfonic_acid ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6812> ,
                          chebi:CHEBI_30895 ;
             skos:altLabel "1-Naphthalenesulfonic acid"@en ,
                           "Naphthalene sulfonic acid"@en ;
             skos:prefLabel "Naphthalene-1-sulfonic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002458
+:GMO_002458 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002458" ;
+            rdfs:label wikipedia:Creatinine ,
+                       "Creatinine"@en ,
+                       "クレアチニン"@ja ;
+            skos:prefLabel "Creatinine"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
