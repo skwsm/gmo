@@ -23584,6 +23584,15 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sabouraud glucose broth"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002476
+:GMO_002476 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001180 ;
+            :GMO_000110 "Sigmacell alpha Type 50"@en ;
+            dcterms:identifier "GMO_002476" ;
+            rdfs:label "Sigmacell cellulose type 50"@en ;
+            skos:prefLabel "Sigmacell cellulose type 50"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
