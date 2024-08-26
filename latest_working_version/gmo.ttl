@@ -23749,6 +23749,16 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Iron(III) citrate hydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002487
+:GMO_002487 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002487" ;
+            rdfs:label "Soy flour"@en ,
+                       "きな粉"@ja ;
+            skos:prefLabel "Soy flour"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
