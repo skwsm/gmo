@@ -23358,6 +23358,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                          :GMO_000046 ,
                          :GMO_000049 ,
                          chebi:CHEBI_16148 ;
+            skos:definition "A type of hydrocarbon, a straight-chain alkane with 17 carbon atoms"@en ;
             skos:prefLabel "Heptadecane"@en ,
                            "ヘプタデカン"@ja .
 
