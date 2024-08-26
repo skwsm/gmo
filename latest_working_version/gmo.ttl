@@ -9819,6 +9819,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/247> ,
                          <http://purl.bioontology.org/ontology/MSH/D001622> ,
                          ndf:N0000147725 ;
+            skos:altLabel "Trimethylglycine solution"@en ;
             skos:prefLabel "Betaine solution"@en .
 
 
