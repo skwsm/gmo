@@ -18754,7 +18754,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Fucose"@en ,
                        "フコース"@ja ;
             rdfs:seeAlso wikipedia:Fucose ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/17106> ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/17106> ,
+                         chebi:CHEBI_2181 ;
+            skos:altLabel "L-Fucose"@en ;
             skos:prefLabel "Fucose"@en .
 
 
