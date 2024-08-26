@@ -23763,6 +23763,33 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Soy flour"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002488
+:GMO_002488 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002488" ;
+            rdfs:label :GMO_000047 ,
+                       "Mucin from porcine stomach Type III"@en ,
+                       "ムチン ブタ胃由来 Type III"@ja ;
+            rdfs:seeAlso wikipedia:Mucin ;
+            skos:prefLabel "Mucin from porcine stomach Type III"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002489
+:GMO_002489 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000052 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002489" ;
+            rdfs:label "Cresol red"@en ,
+                       "クレゾールレッド"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/73013> ,
+                         chebi:CHEBI_86218 ,
+                         <https://en.wikipedia.org/wiki/Cresol_Red> ;
+            skos:prefLabel "Cresol red"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
