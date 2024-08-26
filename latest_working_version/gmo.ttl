@@ -23735,6 +23735,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Putrescine dihydrochloride"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002486
+:GMO_002486 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001118 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002486" ;
+            rdfs:label "Iron(III) citrate hydrate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9881379> ;
+            skos:altLabel "Eisencitrat"@en ,
+                          "クエン酸酸化鉄一水和物"@ja ;
+            skos:prefLabel "Iron(III) citrate hydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
