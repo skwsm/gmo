@@ -23575,10 +23575,12 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002475
 :GMO_002475 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "SABOURAUD- Glucose-Bouillon"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002475" ;
             rdfs:label "Sabouraud glucose broth"@en ,
                        "サブローグルコースブロス"@ja ;
+            skos:altLabel "SABOURAUD-Glucose-Bouillon"@en ;
             skos:prefLabel "Sabouraud glucose broth"@en .
 
 
