@@ -21355,11 +21355,12 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002305
 :GMO_002305 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002019 ;
+            rdfs:subClassOf :GMO_002493 ;
             :GMO_000110 "10% (w/v) Colloidal chitin solution"@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002305" ;
-            rdfs:label "Colloidal chitin solution"@en ;
+            rdfs:label "Colloidal chitin solution"@en ,
+                       "コロイド状キチン溶液"@ja ;
             rdfs:seeAlso <https://en.wikipedia.org/wiki/Chitin> ;
             skos:prefLabel "Colloidal chitin solution"@en .
 
@@ -23825,6 +23826,16 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/10690> ,
                          chebi:CHEBI_33198 ;
             skos:prefLabel "Gluconic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002493
+:GMO_002493 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002019 ;
+            dcterms:identifier "GMO_002493" ;
+            rdfs:label :GMO_000047 ,
+                       "Colloidal chitin"@en ,
+                       "コロイド状キチン"@ja ;
+            skos:prefLabel "Colloidal chitin"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
