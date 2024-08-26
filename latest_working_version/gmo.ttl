@@ -1126,11 +1126,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "D-グルコース"@ja ;
             rdfs:seeAlso wikipedia:Glucose ,
                          ncit:Glucose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5793> ,
                          ndf:N0000006402 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_17234 ,
-                         pubchem: ;
+                         chebi:CHEBI_17234 ;
             skos:altLabel "Dextrose"@en ,
                           "grape sugar"@en ,
                           "デキストロース"@ja ,
