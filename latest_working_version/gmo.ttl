@@ -14054,6 +14054,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "ベタイン"@ja ;
             rdfs:seeAlso wikipedia:Betaine ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/247> ;
+            skos:altLabel "Trimethylglycine"@en ;
             skos:prefLabel "Betaine"@en .
 
 
