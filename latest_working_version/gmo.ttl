@@ -23591,6 +23591,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sigmacell cellulose type 50"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002477
+:GMO_002477 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001010 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002477" ,
+                               "alpha-D-Glucose"@en ;
+            rdfs:label "alpha-D-Glucose"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/79025> ,
+                         chebi:CHEBI_28102 ;
+            skos:prefLabel "alpha-D-Glucose"@en ,
+                           "アルファ-D-グルコース"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
