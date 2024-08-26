@@ -23685,6 +23685,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Formic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002483
+:GMO_002483 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002483" ;
+            rdfs:label "Hypoxanthine"@en ,
+                       "ヒポキサンチン"@ja ;
+            rdfs:seeAlso wikipedia:Hypoxanthine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/135398638> ,
+                         chebi:CHEBI_17368 ;
+            skos:prefLabel "Hypoxanthine"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
