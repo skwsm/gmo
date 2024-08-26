@@ -23563,13 +23563,23 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002474" ;
-            rdfs:label "Pyromellitic acid" ,
+            rdfs:label "Pyromellitic acid"@en ,
                        "ピロメリト酸"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6961> ,
                          chebi:CHEBI_45165 ;
             skos:altLabel "Benzene-1,2,4,5-tetracarboxylic acid"@en ,
                           "ベンゼン-1,2,4,5-テトラカルボン酸"@ja ;
             skos:prefLabel "Pyromellitic acid"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002475
+:GMO_002475 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002475" ;
+            rdfs:label "Sabouraud glucose broth"@en ,
+                       "サブローグルコースブロス"@ja ;
+            skos:prefLabel "Sabouraud glucose broth"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
