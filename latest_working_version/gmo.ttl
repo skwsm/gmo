@@ -23709,12 +23709,27 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002484" ;
             rdfs:label "Carnitine"@en ,
-                       "カルニチン"@en ;
+                       "カルニチン"@ja ;
             rdfs:seeAlso wikipedia:Carnitine ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/288> ,
                          chebi:CHEBI_17126 ;
             skos:altLabel "DL-Carnitine"@en ;
             skos:prefLabel "Carnitine"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002485
+:GMO_002485 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Putrescine 2 HCl"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002485" ;
+            rdfs:label <http://pubchem.ncbi.nlm.nih.gov/compound/9532> ,
+                       "Putrescine dihydrochloride"@en ,
+                       "プトレシン二塩酸塩"@ja ;
+            rdfs:seeAlso chebi:CHEBI_201718 ;
+            skos:prefLabel "Putrescine dihydrochloride"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
