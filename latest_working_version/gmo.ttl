@@ -13854,6 +13854,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "MES solution"@en ,
                        "MES溶液"@ja ;
             rdfs:seeAlso <https://pubchem.ncbi.nlm.nih.gov/compound/78165> ;
+            skos:altLabel "MES acids"@en ;
             skos:prefLabel "MES solution"@en .
 
 
