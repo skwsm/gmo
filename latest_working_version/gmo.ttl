@@ -23458,6 +23458,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "trans-Cinnamic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002467
+:GMO_002467 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002467" ;
+            rdfs:label "Poly hexamethylene carbonate"@en ,
+                       "ポリ（ヘキサメチレンカーボネート）"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Poly(hexamethylene_carbonate)> ;
+            skos:prefLabel "Poly hexamethylene carbonate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
