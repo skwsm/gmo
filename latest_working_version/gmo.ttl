@@ -23637,6 +23637,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "L-Ornithine hydrochloride"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002480
+:GMO_002480 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002480" ;
+            rdfs:label :GMO_000041 ,
+                       :GMO_000046 ,
+                       :GMO_000049 ,
+                       "N-Acetylmuramic acid"@en ,
+                       "N-アセチルムラミン酸"@ja ;
+            rdfs:seeAlso wikipedia:N-Acetylmuramic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5462244> ,
+                         chebi:CHEBI_21615 ;
+            skos:altLabel "MurNAc"@en ,
+                          "NAM"@en ;
+            skos:prefLabel "N-Acetylmuramic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
