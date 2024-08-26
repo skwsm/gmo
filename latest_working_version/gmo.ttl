@@ -2423,6 +2423,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "コハク酸ナトリウム"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9020> ,
                          chebi:CHEBI_63675 ;
+            skos:altLabel "Sodium succinate dibasic"@en ;
             skos:prefLabel "Sodium succinate"@en .
 
 
