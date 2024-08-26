@@ -23556,6 +23556,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium polygalacturonate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002474
+:GMO_002474 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002474" ;
+            rdfs:label "Pyromellitic acid" ,
+                       "ピロメリト酸"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6961> ,
+                         chebi:CHEBI_45165 ;
+            skos:altLabel "Benzene-1,2,4,5-tetracarboxylic acid"@en ,
+                          "ベンゼン-1,2,4,5-テトラカルボン酸"@ja ;
+            skos:prefLabel "Pyromellitic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
