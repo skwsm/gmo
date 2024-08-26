@@ -23607,6 +23607,20 @@ Final pH ( at 25°C) 7.0"""@en ;
                            "アルファ-D-グルコース"@ja .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002478
+:GMO_002478 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002478" ;
+            rdfs:label "Lithium borate"@en ,
+                       "四ホウ酸リチウム"@ja ;
+            rdfs:seeAlso wikipedia:Lithium_borate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/15764247> ;
+            skos:prefLabel "Lithium borate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
