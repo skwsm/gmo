@@ -23514,6 +23514,35 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Potassium aspartate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002471
+:GMO_002471 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002471" ;
+            rdfs:label "Potassium glutamate"@en ,
+                       "グルタミン酸カリウム"@ja ;
+            rdfs:seeAlso wikipedia:Monopotassium_glutamate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23669634> ;
+            skos:altLabel "Monopotassium glutamate"@en ;
+            skos:prefLabel "Potassium glutamate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002472
+:GMO_002472 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002472" ;
+            rdfs:label "Dextran"@en ,
+                       "デキストラン"@ja ;
+            rdfs:seeAlso wikipedia:Dextran ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/4125253> ;
+            skos:prefLabel "Dextran"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
