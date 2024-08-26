@@ -3047,8 +3047,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Casitone"@en ,
                         "Casitone (BD-BBL)"@en ,
                         "Casitone (Difco)"@en ;
-            :GMO_000113 :GMO_000047 ,
-                        :GMO_000050 ;
+            :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001104" ;
             rdfs:label "Bacto &trade; Casitone"@en ;
             rdfs:seeAlso <http://purl.bioontology.org/ontology/MSH/C475729> ;
@@ -23346,6 +23345,21 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "Creatinine"@en ,
                        "クレアチニン"@ja ;
             skos:prefLabel "Creatinine"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002459
+:GMO_002459 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002459" ;
+            rdfs:label "Heptadecane"@en ;
+            rdfs:seeAlso wikipedia:Heptadecane ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/12398> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_16148 ;
+            skos:prefLabel "Heptadecane"@en ,
+                           "ヘプタデカン"@ja .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
