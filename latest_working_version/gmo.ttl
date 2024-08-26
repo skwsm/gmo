@@ -23791,6 +23791,16 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Cresol red"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002490
+:GMO_002490 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002490" ;
+            rdfs:label "Cholesterol lipid concentrate"@en ,
+                       "コレステロール脂質濃縮物"@ja ;
+            skos:prefLabel "Cholesterol lipid concentrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
