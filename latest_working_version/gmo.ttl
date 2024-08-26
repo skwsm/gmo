@@ -23390,6 +23390,32 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "3,4,5-Trimethoxycinnamic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002462
+:GMO_002462 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002462" ;
+            rdfs:label "Tetramethyl ammonium chloride"@en ,
+                       "塩化テトラメチルアンモニウム"@ja ;
+            rdfs:seeAlso wikipedia:Tetramethylammonium_chloride ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6379> ,
+                         chebi:CHEBI_7070 ;
+            skos:altLabel "TMAC"@en ;
+            skos:prefLabel "Tetramethyl ammonium chloride"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002463
+:GMO_002463 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002463" ;
+            rdfs:label "Dung extract"@en ;
+            rdfs:seeAlso wikipedia:Feces ;
+            skos:prefLabel "Dung extract"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
