@@ -13966,7 +13966,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001742
 :GMO_001742 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001830 ;
+            rdfs:subClassOf :GMO_002333 ;
             :GMO_000110 "Liver extract concentrate (NBCo)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001742" ;
@@ -21710,7 +21710,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002333
 :GMO_002333 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001074 ;
+            rdfs:subClassOf :GMO_001830 ;
+            :GMO_000110 "Liver Concentrate"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002333" ;
             rdfs:label "Liver powder"@en ,
@@ -23541,6 +23542,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Dextran ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/4125253> ;
             skos:prefLabel "Dextran"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002473
+:GMO_002473 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002473" ;
+            rdfs:label "Sodium polygalacturonate"@en ,
+                       "ポリガラクツロン酸ナトリウム塩"@ja ;
+            skos:prefLabel "Sodium polygalacturonate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
