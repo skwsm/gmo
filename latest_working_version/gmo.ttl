@@ -2178,9 +2178,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "EDTA二ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:EDTA ,
                          <http://purl.bioontology.org/ontology/MSH/D004492> ,
-                         ndf:N0000178916 ,
-                         snomed: ,
-                         pubchem: ;
+                         ndf:N0000178916 ;
             skos:prefLabel "Disodium EDTA"@en .
 
 
@@ -7560,7 +7558,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001354
 :GMO_001354 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Na2S2O4 (sodium dithionite)"@en ,
+            :GMO_000110 "Na-dithionite"@en ,
+                        "Na2S2O4 (sodium dithionite)"@en ,
                         "Na<sub>2</sub>S<sub>2</sub>O<sub>4</sub>"@en ,
                         "Sodium dithionite"@en ;
             :GMO_000113 :GMO_000040 ,
@@ -23873,6 +23872,21 @@ Final pH ( at 25°C) 7.0"""@en ;
                          :GMO_000049 ;
             skos:prefLabel "Magnesium chloride tetrahydrate"@en ,
                            "塩化マグネシウム四水和物"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002497
+:GMO_002497 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002497" ;
+            rdfs:label "Disodium citrate"@en ,
+                       "クエン酸二ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Disodium_citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8950> ;
+            owl:backwardCompatibleWith "Na2-citrate"@en ;
+            skos:prefLabel "Disodium citrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
