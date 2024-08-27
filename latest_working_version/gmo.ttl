@@ -23861,6 +23861,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium resazurin"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002496
+:GMO_002496 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001154 ;
+            :GMO_000110 "MgCl2 x 4 H2O"@en ;
+            dcterms:identifier "GMO_002496" ;
+            rdfs:label "Magnesium chloride tetrahydrate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/20565568> ,
+                         :GMO_000040 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ;
+            skos:prefLabel "Magnesium chloride tetrahydrate"@en ,
+                           "塩化マグネシウム四水和物"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
