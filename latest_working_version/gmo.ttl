@@ -12087,11 +12087,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/988> ,
                          <http://purl.bioontology.org/ontology/MSH/D010205> ,
                          ndf:N0000146048 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_7916 ;
-            skos:altLabel "PABA"@en ,
-                          "Pantothenate"@en ,
+            skos:altLabel "Pantothenate"@en ,
                           "Vitamin B5"@en ,
                           "ビタミンB5"@ja ;
             skos:prefLabel "Pantothenic acid"@en .
