@@ -6444,8 +6444,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001290
 :GMO_001290 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000013 ;
+            rdfs:subClassOf :GMO_001400 ;
             :GMO_000110 "V-8 Juice"@en ,
+                        "V8 canned vegetable juice"@en ,
                         "V8 canned vegetable juice (Campbell)"@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
@@ -9245,7 +9246,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001453
 :GMO_001453 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002495 ;
             :GMO_000110 "0.1% (w/v) Sodium resazurin solution"@en ,
                         "0.1% (w/v) resazurin-Na"@en ,
                         "0.1¥% (w/v) Sodium resazurin solution"@en ,
@@ -10388,7 +10389,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_002257 ;
             :GMO_000110 "5% defibrinated sheep blood"@en ,
                         "5\\\\% defibrinated sheep blood"@en ,
-                        "5¥% defibrinated sheep blood"@en ;
+                        "5¥% defibrinated sheep blood"@en ,
+                        "Defibrinated sheep blood"@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001506" ;
@@ -12041,7 +12043,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001614
 :GMO_001614 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002494 ;
             :GMO_000110 "Oxgall (Difco)"@en ;
             :GMO_000112 :GMO_000056 ;
             :GMO_000113 :GMO_000047 ,
@@ -13217,8 +13219,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Purified_water ;
             skos:altLabel "DI water"@en ,
                           "DM water"@en ,
-                          "De-ionized water"@en ,
-                          "Demineralized water"@en ;
+                          "De-ionized water"@en ;
             skos:prefLabel "Deionized water"@en .
 
 
@@ -13514,7 +13515,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001714
 :GMO_001714 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "KH$_2$PO$_3$"@en ;
+            :GMO_000110 "KH$_2$PO$_3$"@en ,
+                        "KH2PO3"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -23837,6 +23839,29 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "Colloidal chitin"@en ,
                        "コロイド状キチン"@ja ;
             skos:prefLabel "Colloidal chitin"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002494
+:GMO_002494 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002494" ;
+            rdfs:label "Oxgall"@en ,
+                       "牛胆汁"@ja ;
+            rdfs:seeAlso wikipedia:Ox_gall ,
+                         :GMO_000049 ;
+            skos:prefLabel "Oxgall"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002495
+:GMO_002495 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002495" ;
+            rdfs:label "Sodium resazurin"@en ,
+                       "レサズリンナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/112939> ;
+            skos:altLabel "Resazurin sodium"@en ;
+            skos:prefLabel "Sodium resazurin"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
