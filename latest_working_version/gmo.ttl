@@ -9675,6 +9675,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "亜硫酸ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_sulfite ,
                          ncit:C28205 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24437> ,
                          <http://purl.bioontology.org/ontology/MSH/C025026> ,
                          ndf:N0000146277 ;
             skos:prefLabel "Sodium sulfite solution"@en .
@@ -24762,6 +24763,21 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8950> ;
             owl:backwardCompatibleWith "Na2-citrate"@en ;
             skos:prefLabel "Disodium citrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002498
+:GMO_002498 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001995 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002498" ;
+            rdfs:label "Chromium(III) nitrate heptahydrate"@en ,
+                       "硝酸クロム(III)七水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/91825725> ,
+                         chebi:CHEBI_86206 ;
+            skos:altLabel "Cr(NO3)3 x 7 H2O"@en ;
+            skos:prefLabel "Chromium(III) nitrate heptahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
