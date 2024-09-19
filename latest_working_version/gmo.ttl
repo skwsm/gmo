@@ -18126,7 +18126,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001994" ;
             rdfs:label "Chromium(III) nitrate nonahydrate"@en ,
-                       "ヘプタモリブデン酸アンモニウム四水和物"@ja ;
+                       "硝酸クロム(III)九水和物"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_nitrate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/16211167> ;
             skos:altLabel "Chromic nitrate nonahydrate"@en ,
@@ -18143,7 +18143,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001995" ;
             rdfs:label "Chromium(III) nitrate"@en ,
-                       "ヘプタモリブデン酸アンモニウム"@ja ;
+                       "硝酸クロム(III)"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_nitrate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24598> ;
             skos:prefLabel "Chromium(III) nitrate"@en .
