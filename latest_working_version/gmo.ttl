@@ -24768,6 +24768,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002498
 :GMO_002498 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001995 ;
+            :GMO_000110 "Cr(NO3)3 x 7 H2O"@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -24776,7 +24777,6 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "硝酸クロム(III)七水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/91825725> ,
                          chebi:CHEBI_86206 ;
-            skos:altLabel "Cr(NO3)3 x 7 H2O"@en ;
             skos:prefLabel "Chromium(III) nitrate heptahydrate"@en .
 
 
