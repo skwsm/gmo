@@ -24780,6 +24780,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Chromium(III) nitrate heptahydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002499
+:GMO_002499 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "La(NO3)3 x 6 H2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002499" ;
+            rdfs:label "Lanthanum(Ⅲ) nitrate hexahydrate"@en ,
+                       "硝酸ランタン六水和物"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Lanthanum(III)_nitrate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16211478> ;
+            skos:prefLabel "Lanthanum(Ⅲ) nitrate hexahydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
