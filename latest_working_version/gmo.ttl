@@ -2143,7 +2143,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Nitrilotriacetic acid"@en ,
                         "Nitrilotriacetic acid (NTA)"@en ,
-                        "Nitrilotroacetic acid"@en ;
+                        "Nitrilotroacetic acid"@en ,
+                        "Titriplex1"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
@@ -2155,11 +2156,12 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://mediadive.dsmz.de/ingredients/189> ,
                          <http://mediadive.dsmz.de/ingredients/907> ,
                          ncit:C44408 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/8758> ,
                          <http://purl.bioontology.org/ontology/MSH/D009571> ,
                          ndf:N0000166695 ,
-                         chebi:CHEBI_44557 ,
-                         pubchem: ;
-            skos:altLabel "NTA"@en ;
+                         chebi:CHEBI_44557 ;
+            skos:altLabel "NTA"@en ,
+                          "Titriplex I"@en ;
             skos:prefLabel "Nitrilotriacetic acid"@en .
 
 
