@@ -24795,6 +24795,36 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Lanthanum(Ⅲ) nitrate hexahydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002500
+:GMO_002500 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002500" ;
+            rdfs:label "Cerium nitrates"@en ,
+                       "硝酸セリウム(III)"@ja ;
+            rdfs:seeAlso wikipedia:Cerium_nitrates ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24948> ;
+            skos:altLabel :GMO_000040 ,
+                          :GMO_000046 ,
+                          :GMO_000049 ,
+                          "Cerium trinitrat"@en ;
+            skos:prefLabel "Cerium nitrates"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002501
+:GMO_002501 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002500 ;
+            :GMO_000110 "Ce(NO3)3 x 6 H2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002501" ;
+            rdfs:label "Cerium(III) nitrate hexahydrate"@en ,
+                       "硝酸セリウム(III)六水和物"@ja ;
+            rdfs:seeAlso wikipedia:Cerium_nitrates ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16211466> ;
+            skos:prefLabel "Cerium(III) nitrate hexahydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
