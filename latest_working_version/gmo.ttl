@@ -22509,7 +22509,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002333
 :GMO_002333 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001830 ;
-            :GMO_000110 "Liver Concentrate"@en ;
+            :GMO_000110 "Liver Concentrate"@en ,
+                        "Liver extract concentrate"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002333" ;
             rdfs:label "Liver powder"@en ,
