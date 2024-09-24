@@ -12061,6 +12061,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001884 ;
             :GMO_000110 "Mg(NO$_3$)$¥cdot$6H$_2$O"@en ,
                         "Mg(NO3) 6H2O"@en ,
+                        "Mg(NO3)2 x 6 H2O"@en ,
                         "Mg(NO<sub>3</sub>)&#183;6H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
