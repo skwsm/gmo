@@ -11912,7 +11912,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001573
 :GMO_001573 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002503 ;
             :GMO_000110 "Larchwood xylan (Sigma)"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000047 ;
@@ -24839,6 +24839,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso <http://elischolar.library.yale.edu/journal_of_marine_research/582/> ;
             skos:definition "Marine Broth 2216 is a culture medium originally described in J. Mar. Res. 4:42 (1941) and designed for the cultivation of marine bacteria."@en ;
             skos:prefLabel "Marine broth 2216"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002503
+:GMO_002503 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002503" ;
+            rdfs:label "Larchwood xylan"@en ,
+                       "カラマツキシラン"@ja ;
+            skos:prefLabel "Larchwood xylan"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
