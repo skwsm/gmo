@@ -3016,7 +3016,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001095
 :GMO_001095 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002502 ;
             :GMO_000110 "Bacto Marine Broth 2216 (Difco)"@en ,
                         "Marine broth 2216 (Difco)"@en ;
             :GMO_000113 :GMO_000047 ,
@@ -24826,6 +24826,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Cerium_nitrates ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/16211466> ;
             skos:prefLabel "Cerium(III) nitrate hexahydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002502
+:GMO_002502 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002502" ;
+            rdfs:label "Marine broth 2216"@en ,
+                       "Marine broth 2216"@ja ;
+            rdfs:seeAlso <http://elischolar.library.yale.edu/journal_of_marine_research/582/> ;
+            skos:definition "Marine Broth 2216 is a culture medium originally described in J. Mar. Res. 4:42 (1941) and designed for the cultivation of marine bacteria."@en ;
+            skos:prefLabel "Marine broth 2216"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
