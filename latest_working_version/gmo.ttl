@@ -24965,6 +24965,21 @@ Final pH ( at 25°C) 7.0"""@en ;
                            "硫酸銅(II)六水和物"@ja .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002511
+:GMO_002511 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000046 ;
+            dcterms:identifier "GMO_002511" ;
+            rdfs:label "Ethylene glycol"@en ,
+                       "エチレングリコール"@ja ;
+            rdfs:seeAlso wikipedia:Ethylene_glycol ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/174> ,
+                         :GMO_000041 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_30742 ;
+            skos:prefLabel "Ethylene glycol"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
