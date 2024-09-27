@@ -3849,9 +3849,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                        "オートミール"@ja ;
             rdfs:seeAlso wikipedia:Oatmeal ,
                          <http://mediadive.dsmz.de/ingredients/292> ,
-                         <http://mediadive.dsmz.de/ingredients/471> ,
-                         ndf:N0000021602 ,
-                         snomed: ;
+                         <http://mediadive.dsmz.de/ingredients/471> ;
+            skos:altLabel "Rolled oats"@en ;
             skos:prefLabel "Oatmeal"@en .
 
 
