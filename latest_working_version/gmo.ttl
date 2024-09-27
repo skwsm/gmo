@@ -24897,6 +24897,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Phytone peptone"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002507
+:GMO_002507 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001074 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002507" ,
+                               "Ground beef"@en ;
+            rdfs:label "Ground beef"@en ,
+                       "牛挽肉"@ja ;
+            rdfs:seeAlso wikipedia:Ground_beef ;
+            skos:prefLabel "Ground beef"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
