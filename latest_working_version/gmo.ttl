@@ -7567,7 +7567,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Vanadyl sulfate dihydrate"@en ,
                        "硫酸バナジル二水和物"@ja ;
             rdfs:seeAlso wikipedia:Vanadyl_sulfate ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/19884450> ,
+                         chebi:CHEBI_87009 ;
             skos:prefLabel "Vanadyl sulfate dihydrate"@en .
 
 
