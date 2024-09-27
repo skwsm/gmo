@@ -2410,7 +2410,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001064" ;
             rdfs:label "Manganese sulfate tetrahydrate"@en ,
                        "硫酸マンガン(II)四水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
                          <http://mediadive.dsmz.de/ingredients/272> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/22572548> ,
                          <http://purl.bioontology.org/ontology/MSH/C039798> ;
@@ -2435,7 +2435,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001065" ;
             rdfs:label "Manganese sulfate n-hydrate"@en ,
                        "硫酸マンガン(II)n水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ;
             skos:altLabel "Manganese sulfate x-hydrate"@en ;
             skos:prefLabel "Manganese sulfate n-hydrate"@en .
 
@@ -2492,6 +2492,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001763 ;
             :GMO_000110 "MnSO$_4$$¥cdot$2H$_2$O"@en ,
                         "MnSO4 2H2O"@en ,
+                        "MnSO4 x 2 H2O"@en ,
                         "MnSO<sub>4</sub>&middot;2H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
@@ -2500,8 +2501,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001068" ;
             rdfs:label "Manganese sulfate dihydrate"@en ,
                        "硫酸マンガン(II)二水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         chebi:CHEBI_86356 ,
+            rdfs:seeAlso chebi:CHEBI_86356 ,
+                         <https://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
                          <https://pubchem.ncbi.nlm.nih.gov/compound/22613964> ;
             skos:prefLabel "Manganese sulfate dihydrate"@en .
 
@@ -2723,7 +2724,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001081" ;
             rdfs:label "Manganese sulfate monohydrate"@en ,
                        "硫酸マンガン(II)一水和物"@ja ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/14> ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+                         <http://mediadive.dsmz.de/ingredients/14> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/177577> ,
                          chebi:CHEBI_86364 ;
             skos:prefLabel "Manganese sulfate monohydrate"@en .
@@ -4172,8 +4174,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001150" ;
             rdfs:label "Manganese sulfate pentahydrate"@en ,
                        "硫酸マンガン(II)五水和物"@ja ;
-            rdfs:seeAlso chebi:CHEBI_131524 ,
-                         <https://pubchem.ncbi.nlm.nih.gov/compound/22138077> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22138077> ,
+                         chebi:CHEBI_131524 ;
             skos:prefLabel "Manganese sulfate pentahydrate"@en .
 
 
@@ -7750,7 +7753,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001342" ;
             rdfs:label "Manganese sulfate solution"@en ,
                        "硫酸マンガン(II)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
                          ncit:Manganese_Sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24580> ,
                          <http://purl.bioontology.org/ontology/MSH/C039798> ,
@@ -8479,7 +8482,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001381" ;
             rdfs:label "Manganese sulfate heptahydrate"@en ,
                        "硫酸マンガン(II)七水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/166832> ;
             skos:altLabel "Manganous sulfate heptahydrate"@en ;
             skos:prefLabel "Manganese sulfate heptahydrate"@en .
@@ -14882,8 +14885,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001763" ;
             rdfs:label "Manganese sulfate"@en ,
                        "硫酸マンガン(II)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
-                         <http://mediadive.dsmz.de/ingredients/319> ,
+            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/319> ,
                          <http://mediadive.dsmz.de/ingredients/543> ,
                          <http://mediadive.dsmz.de/ingredients/608> ,
                          <http://mediadive.dsmz.de/ingredients/939> ,
@@ -14891,7 +14893,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24580> ,
                          mesh:C039798 ,
                          ndf:N0000146056 ,
-                         chebi:CHEBI_86360 ;
+                         chebi:CHEBI_86360 ,
+                         <https://en.wikipedia.org/wiki/Manganese(II)_sulfate> ;
             skos:altLabel "Manganese(II) sulfate"@en ;
             skos:prefLabel "Manganese sulfate"@en .
 
@@ -19874,7 +19877,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002123" ;
             rdfs:label "Manganese sulfate hexahydrate"@en ,
                        "硫酸マンガン(II)六水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/19850629> ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/19850629> ,
                          chebi:CHEBI_131523 ;
             skos:altLabel "Manganese(II) sulfate hexahydrate"@en ;
             skos:prefLabel "Manganese sulfate hexahydrate"@en .
