@@ -17801,7 +17801,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001974" ;
             rdfs:label "Iron(III) phospate"@en ;
             rdfs:seeAlso wikipedia:_phosphate ,
-                         <http://mediadive.dsmz.de/ingredients/1200> ;
+                         <http://mediadive.dsmz.de/ingredients/1200> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24861> ,
+                         chebi:CHEBI_131371 ;
             skos:altLabel "Ferric phosphate"@en ;
             skos:prefLabel "Iron(III) phospate"@en ,
                            "リン酸鉄(III)"@ja .
@@ -24908,6 +24910,23 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "牛挽肉"@ja ;
             rdfs:seeAlso wikipedia:Ground_beef ;
             skos:prefLabel "Ground beef"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002508
+:GMO_002508 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001974 ;
+            :GMO_000110 "Fe(III)PO4 x 4 H2O"@en ;
+            :GMO_000112 :GMO_000078 ;
+            dcterms:identifier "GMO_002508" ;
+            rdfs:label <http://pubchem.ncbi.nlm.nih.gov/compound/16212846> ,
+                       :GMO_000040 ,
+                       :GMO_000046 ,
+                       :GMO_000049 ,
+                       "Iron(III) phosphate tetrahydrate"@en ,
+                       "リン酸鉄(III)四水和物"@ja ;
+            rdfs:seeAlso chebi:CHEBI_131372 ;
+            skos:altLabel "Ferric phosphate tetrahydrate"@en ;
+            skos:prefLabel "Iron(III) phosphate tetrahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
