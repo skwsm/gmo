@@ -12689,7 +12689,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001622
 :GMO_001622 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001251 ;
+            rdfs:subClassOf :GMO_002506 ;
             :GMO_000110 "Phytone (BBL)"@en ,
                         "Phytone Peptone (BBL)"@en ,
                         "Phytone peptone (BBL)"@en ,
@@ -12698,7 +12698,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001622" ;
             rdfs:label "BBL &trade; Phytone peptone"@en ;
-            skos:definition "大豆のパパイン消化物"@ja ;
+            skos:definition "Digested soybeans with papain (BBL &trade;)"@en ,
+                            "大豆のパパイン消化物"@ja ;
             skos:prefLabel "BBL &trade; Phytone peptone"@en .
 
 
@@ -24884,6 +24885,16 @@ Final pH ( at 25°C) 7.0"""@en ;
                          :GMO_000049 ,
                          chebi:CHEBI_86154 ;
             skos:prefLabel "Bromocresol purple"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002506
+:GMO_002506 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001251 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002506" ;
+            rdfs:label "Phytone peptone"@en ;
+            skos:definition "Digested soybeans with papain"@en ;
+            skos:prefLabel "Phytone peptone"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
