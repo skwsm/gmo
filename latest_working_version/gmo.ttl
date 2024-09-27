@@ -24984,6 +24984,33 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Ethylene glycol"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002512
+:GMO_002512 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002512" ;
+            rdfs:label "Lanthanum(III) chloride"@en ,
+                       "塩化ランタン(III)七水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/9859665> ;
+            skos:prefLabel "Lanthanum(III) chloride"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002513
+:GMO_002513 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002512 ;
+            :GMO_000110 "LaCl3 x 7 H2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002513" ;
+            rdfs:label "Lanthanum(III) chloride heptahydrate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/44134794> ;
+            skos:prefLabel "Lanthanum(III) chloride heptahydrate"@en ,
+                           "塩化ランタン七水和物"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
