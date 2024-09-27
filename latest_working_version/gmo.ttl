@@ -21,26 +21,26 @@
 
 <http://purl.jp/bio/10/gmo/> rdf:type owl:Ontology ;
                               owl:versionIRI <http://purl.jp/bio/01/gmo/> ;
-                              dcterms:contributor "Hideto Takami"@en ,
-                                                  "Shinobu Okamoto"@en ,
-                                                  "Tomomi Kuwahara"@en ,
-                                                  "Yoko Okabeppu"@en ;
-                              dcterms:creator "Shuichi Kawashima"@en ;
-                              dcterms:date "\"2022-07-11\"^^xsd:date" ;
-                              dcterms:title "Growth medium ontology"@en ;
-                              owl:versionInfo "0.24 Beta"@en ;
                               skos:definition "An onotlogy to describe meta-information about growth meda used in biological resource centers"@en ;
-                              skos:historyNote "2014-07-23: ver 0.12 Beta. Property 'has role' and 'has property' were introduced."@en ,
-                                               "2014-08-03: ver 0.13 Beta. Class 'Organic compound' and 'Inorganic compound' became to be obsolete."@en ,
+                              dcterms:contributor "Shinobu Okamoto"@en ,
+                                                  "Yoko Okabeppu"@en ;
+                              dcterms:title "Growth medium ontology"@en ;
+                              dcterms:creator "Shuichi Kawashima"@en ;
+                              skos:historyNote "2021-02-23: ver 0.22 Beta"@en ,
+                                               "2014-07-23: ver 0.12 Beta. Property 'has role' and 'has property' were introduced."@en ,
                                                "2015-03-06: ver 0.15 Beta"@en ,
-                                               "2015-04-08: ver 0.16 Beta"@en ,
                                                "2018-08-30: ver 0.17 Beta"@en ,
+                                               "2021-03-05: ver 0.23 Beta"@en ;
+                              owl:versionInfo "0.24 Beta"@en ;
+                              skos:historyNote "2024-08-27: ver 0.3 Beta"@en ;
+                              dcterms:date "\"2022-07-11\"^^xsd:date" ;
+                              dcterms:contributor "Tomomi Kuwahara"@en ;
+                              skos:historyNote "2015-04-08: ver 0.16 Beta"@en ,
                                                "2019-03-12: ver 0.18 Beta"@en ,
                                                "2019-08-27: ver 0.19 Beta"@en ,
-                                               "2021-02-23: ver 0.22 Beta"@en ,
-                                               "2021-03-05: ver 0.23 Beta"@en ,
-                                               "2022-07-11: ver 0.24 Beta"@en ,
-                                               "2024-08-27: ver 0.3 Beta"@en .
+                                               "2014-08-03: ver 0.13 Beta. Class 'Organic compound' and 'Inorganic compound' became to be obsolete."@en ;
+                              dcterms:contributor "Hideto Takami"@en ;
+                              skos:historyNote "2022-07-11: ver 0.24 Beta"@en .
 
 #################################################################
 #    Annotation properties
@@ -1537,7 +1537,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "4-Aminobenzoic acid"@en ,
                        "4-アミノ安息香酸"@ja ;
             rdfs:seeAlso wikipedia:Aminobenzoic_acid ,
-                         <http://en.wikipedia.org/wiki/4-Aminobenzoic_acid> ,
+                         wikipedia:Aminobenzoic_acid ,
                          <http://mediadive.dsmz.de/ingredients/1122> ,
                          <http://mediadive.dsmz.de/ingredients/1237> ,
                          <http://mediadive.dsmz.de/ingredients/1309> ,
@@ -1880,7 +1880,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001039" ;
             rdfs:label "Copper(II) sulfate pentahydrate"@en ,
                        "硫酸銅(II)五水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://mediadive.dsmz.de/ingredients/121> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24463> ,
                          chebi:CHEBI_31440 ;
@@ -2411,7 +2411,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001064" ;
             rdfs:label "Manganese sulfate tetrahydrate"@en ,
                        "硫酸マンガン(II)四水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://mediadive.dsmz.de/ingredients/272> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/22572548> ,
                          <http://purl.bioontology.org/ontology/MSH/C039798> ;
@@ -2436,7 +2436,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001065" ;
             rdfs:label "Manganese sulfate n-hydrate"@en ,
                        "硫酸マンガン(II)n水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ;
+            rdfs:seeAlso wikipedia:_sulfate ;
             skos:altLabel "Manganese sulfate x-hydrate"@en ;
             skos:prefLabel "Manganese sulfate n-hydrate"@en .
 
@@ -2501,7 +2501,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001068" ;
             rdfs:label "Manganese sulfate dihydrate"@en ,
                        "硫酸マンガン(II)二水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          chebi:CHEBI_86356 ,
                          <https://pubchem.ncbi.nlm.nih.gov/compound/22613964> ;
             skos:prefLabel "Manganese sulfate dihydrate"@en .
@@ -2626,7 +2626,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001076" ;
             rdfs:label "Ammonium iron(II) sulfate hexahydrate"@en ,
                        "硫酸アンモニウム鉄(II)六水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/15942308> ;
             skos:altLabel "Ferrous ammonium sulfate hexahydrate"@en ,
                           "Iron(II) ammonium sulfate hexahydrate"@en ;
@@ -2685,7 +2685,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001079" ;
             rdfs:label "Iron(III) citrate solution"@en ,
                        "クエン酸酸化鉄溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_citrate> ,
+            rdfs:seeAlso wikipedia:_citrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/61300> ,
                          <http://purl.bioontology.org/ontology/MSH/C025314> ,
                          chebi:CHEBI_144421 ;
@@ -3198,7 +3198,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001103" ;
             rdfs:label "Copper(II) sulfate"@en ,
                        "硫酸銅(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://mediadive.dsmz.de/ingredients/1456> ,
                          <http://mediadive.dsmz.de/ingredients/509> ,
                          <http://mediadive.dsmz.de/ingredients/636> ,
@@ -3358,7 +3358,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001110" ;
             rdfs:label "Cobalt(II) nitrate hexahydrate"@en ,
                        "硝酸コバルト(II)六水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://mediadive.dsmz.de/ingredients/541> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24821> ,
                          chebi:CHEBI_86214 ;
@@ -3504,7 +3504,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001118" ;
             rdfs:label "Iron(III) citrate"@en ,
                        "クエン酸酸化鉄"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_citrate> ,
+            rdfs:seeAlso wikipedia:_citrate ,
                          <http://mediadive.dsmz.de/ingredients/1885> ,
                          <http://mediadive.dsmz.de/ingredients/45> ,
                          <http://mediadive.dsmz.de/ingredients/863> ,
@@ -3618,7 +3618,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001122" ;
             rdfs:label "Iron(III) chloride"@en ,
                        "塩化鉄(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/403> ,
                          <http://mediadive.dsmz.de/ingredients/922> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24380> ,
@@ -4502,7 +4502,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001167" ;
-            rdfs:comment <http://purl.obolibrary.org/obo/131529> ;
+            rdfs:comment chebi: ;
             rdfs:label "Pyridoxal hydrochloride"@en ,
                        "塩酸ピリドキサール"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/338> ,
@@ -4979,7 +4979,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:comment "MES is one of the Good's buffers"@en ;
             rdfs:label "MES"@en ,
                        "MES"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/MES_(buffer)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://mediadive.dsmz.de/ingredients/766> ,
                          <http://mediadive.dsmz.de/ingredients/824> ,
                          <http://mediadive.dsmz.de/ingredients/835> ,
@@ -5357,7 +5357,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001211" ;
             rdfs:label "Iron(III) sulfate"@en ,
                        "硫酸鉄(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          ncit:Ferric_Sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24826> ,
                          <http://purl.bioontology.org/ontology/MSH/C024823> ,
@@ -6432,7 +6432,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001270" ;
             rdfs:label "Iron(II) chloride"@en ,
                        "塩化鉄(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/555> ,
                          <http://mediadive.dsmz.de/ingredients/603> ,
                          <http://mediadive.dsmz.de/ingredients/840> ,
@@ -7036,7 +7036,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001304" ;
             rdfs:label "Iron(III) sulfate n-hydrate"@en ,
                        "硫酸鉄(III)Ｎー水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ;
+            rdfs:seeAlso wikipedia:_sulfate ;
             skos:prefLabel "Iron(III) sulfate n-hydrate"@en .
 
 
@@ -7130,7 +7130,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001309" ;
             rdfs:label "Cobalt dichloride"@en ,
                        "塩化コバルト"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/38> ,
                          <http://mediadive.dsmz.de/ingredients/578> ,
                          <http://mediadive.dsmz.de/ingredients/626> ,
@@ -7682,7 +7682,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001338" ;
             rdfs:label "Tin(II) chloride dihydrate"@en ,
                        "塩化スズ（II）二水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Tin(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/1361> ,
                          ncit:C74343 ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/61436> ,
@@ -7748,7 +7748,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001342" ;
             rdfs:label "Manganese sulfate solution"@en ,
                        "硫酸マンガン(II)溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          ncit:Manganese_Sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24580> ,
                          <http://purl.bioontology.org/ontology/MSH/C039798> ,
@@ -8191,7 +8191,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_001366" ;
             rdfs:label "Copper(II) sulfate heptahydrate solution"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/22386232> ;
             skos:prefLabel "Copper(II) sulfate heptahydrate solution"@en .
 
@@ -8315,7 +8315,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001372" ;
             rdfs:comment "TAPS is one of the Good's buffers"@en ;
             rdfs:label "TAPS"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/TAPS_(buffer)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://mediadive.dsmz.de/ingredients/1188> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/121591> ;
             skos:prefLabel "TAPS"@en .
@@ -8477,7 +8477,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001381" ;
             rdfs:label "Manganese sulfate heptahydrate"@en ,
                        "硫酸マンガン(II)七水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/166832> ;
             skos:altLabel "Manganous sulfate heptahydrate"@en ;
             skos:prefLabel "Manganese sulfate heptahydrate"@en .
@@ -8589,7 +8589,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001387" ;
             rdfs:label "Titanium(III) chloride solution"@en ,
                        "塩化チタン(III)溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62646> ,
                          <http://purl.bioontology.org/ontology/MSH/C039460> ;
             skos:prefLabel "Titanium(III) chloride solution"@en .
@@ -9664,7 +9664,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001452
 :GMO_001452 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001323 ;
+            rdfs:subClassOf :GMO_002504 ;
             :GMO_000110 "0.1 M Sodium sulfite solution"@en ,
                         "4% Na2SO3 solution"@en ,
                         "4¥% Na$_2$SO$_3$ solution"@en ;
@@ -9737,7 +9737,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001455" ;
             rdfs:label "Ammonium iron(II) sulfate hexahydrate solution"@en ,
                        "硫酸アンモニウム鉄(II)六水和物溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/15942308> ;
             skos:definition "Ammonium iron(II) sulfate hexahydrate solution"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate hexahydrate solution"@en .
@@ -10196,7 +10196,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001476" ;
             rdfs:label "Copper(II) sulfate pentahydrate solution"@en ,
                        "硫酸銅(II)五水和物溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24463> ,
                          chebi:CHEBI_31440 ;
             skos:prefLabel "Copper(II) sulfate pentahydrate solution"@en .
@@ -10441,7 +10441,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001488" ;
             rdfs:label "Iron(II) chloride solution"@en ,
                        "塩化鉄(II)溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          ncit:Ferrous_Chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24458> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ,
@@ -10477,7 +10477,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001490" ;
             rdfs:label "Iron(II) chloride hexahydrate solution"@en ,
                        "塩化鉄(II)六水和物溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/129819097> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ;
             skos:altLabel "Iron dichloride hexahydrate solution"@en ;
@@ -10609,7 +10609,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001495" ;
             rdfs:label "2-Methylbutanoic acid"@en ,
                        "2-メチルブタン酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Methylbutanoic_acid> ,
+            rdfs:seeAlso wikipedia:Methylbutanoic_acid ,
                          <http://mediadive.dsmz.de/ingredients/1543> ,
                          <http://mediadive.dsmz.de/ingredients/480> ,
                          <http://purl.bioontology.org/ontology/MSH/C019475> ,
@@ -11288,7 +11288,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001535" ;
             rdfs:label "Cobalt dichloride solution"@en ,
                        "塩化コバルト溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/3032536> ,
                          chebi:CHEBI_35696 ;
             skos:altLabel "Cobalt(II) chloride solution"@en ;
@@ -12154,7 +12154,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Manganese chloride"@en ,
                        "塩化マンガン(II)"@ja ;
             rdfs:seeAlso wikipedia:Manganese_chloride ,
-                         <http://en.wikipedia.org/wiki/Manganese(II)_chloride> ,
+                         wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/980> ,
                          ncit:C61823 ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24480> ,
@@ -13821,7 +13821,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001698" ;
             rdfs:label "Ammonium iron(II) sulfate solution"@en ,
                        "硫酸アンモニウム鉄(II)溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
                          chebi:CHEBI_76243 ;
             skos:definition "Ammonium iron(II) sulfate solution"@en ;
@@ -13884,7 +13884,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001701" ;
             rdfs:label "2-Mercaptoethanol"@en ,
                        "2-メルカプトエタノール"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Mercaptoethanol> ,
+            rdfs:seeAlso wikipedia:Mercaptoethanol ,
                          <http://mediadive.dsmz.de/ingredients/1771> ,
                          mesh:D008623 ,
                          ndf:N0000166823 ,
@@ -14046,7 +14046,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001711" ;
             rdfs:label "Titanium(III) chloride"@en ,
                        "塩化チタン(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/1142> ,
                          <http://mediadive.dsmz.de/ingredients/1909> ,
                          <http://mediadive.dsmz.de/ingredients/805> ,
@@ -14068,7 +14068,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:comment "TES is one of the Good's buffers"@en ;
             rdfs:label "TES buffer"@en ,
                        "TES緩衝液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ;
+            rdfs:seeAlso wikipedia: ;
             skos:prefLabel "TES buffer"@en .
 
 
@@ -14119,7 +14119,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001715" ;
             rdfs:label "Iron(III) chloride solution"@en ,
                        "塩化鉄(III)溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24380> ,
                          chebi:CHEBI_30808 ;
             skos:prefLabel "Iron(III) chloride solution"@en .
@@ -14426,7 +14426,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001732" ;
             rdfs:label "1,2-Dichloropropane"@en ,
                        "1,2-ジクロロプロパン"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/1,2-Dichloropropane> ,
+            rdfs:seeAlso wikipedia:Dichloropropane ,
                          <http://mediadive.dsmz.de/ingredients/1859> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6564> ,
                          chebi:CHEBI_82163 ;
@@ -14742,7 +14742,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_001754" ;
             rdfs:label "Copper(II) sulfate dihydrate"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ;
+            rdfs:seeAlso wikipedia:_sulfate ;
             skos:altLabel "Cupric sulfate dihydrate"@en ;
             skos:prefLabel "Copper(II) sulfate dihydrate"@en .
 
@@ -14790,7 +14790,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001757" ;
             rdfs:label "1,2-Dichloropropane methanol solution"@en ,
                        "1,2-ジクロロプロパンメタノール溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/1,2-Dichloropropane> ,
+            rdfs:seeAlso wikipedia:Dichloropropane ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6564> ;
             skos:definition "1,2-Dichloropropane methanol solution"@en ;
             skos:prefLabel "1,2-Dichloropropane methanol solution"@en .
@@ -14849,7 +14849,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001761" ;
             rdfs:label "Copper(II) sulfate heptahydrate"@en ,
                        "硫酸銅(II)七水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/22386232> ;
             skos:altLabel "Boothite"@en ;
             skos:prefLabel "Copper(II) sulfate heptahydrate"@en .
@@ -14878,7 +14878,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001763" ;
             rdfs:label "Manganese sulfate"@en ,
                        "硫酸マンガン(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Manganese(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://mediadive.dsmz.de/ingredients/319> ,
                          <http://mediadive.dsmz.de/ingredients/543> ,
                          <http://mediadive.dsmz.de/ingredients/608> ,
@@ -16062,7 +16062,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001846" ;
             rdfs:label "Iron(III) pyrophosphate"@en ,
                        "鉄(III)ピロホスフェート"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_pyrophosphate> ,
+            rdfs:seeAlso wikipedia:_pyrophosphate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24877> ,
                          chebi:CHEBI_132767 ;
             skos:altLabel "Ferric pyrophosphate"@en ;
@@ -16229,7 +16229,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:comment "ACES is one of the Good's buffers. pKa = 6.90, pH 6.0 - 7.5"@en ;
             rdfs:label "ACES"@en ,
                        "ACES"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/ACES_(buffer)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://mediadive.dsmz.de/ingredients/1350> ,
                          <http://mediadive.dsmz.de/ingredients/581> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/81832> ,
@@ -16367,7 +16367,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001869" ;
             rdfs:label "Ammonium iron(II) sulfate"@en ,
                        "硫酸アンモニウム鉄(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://mediadive.dsmz.de/ingredients/106> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
                          chebi:CHEBI_76243 ;
@@ -16576,7 +16576,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001883" ;
             rdfs:label "Cobalt(II) nitrate"@en ,
                        "硝酸コバルト(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://mediadive.dsmz.de/ingredients/273> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25000> ,
                          chebi:CHEBI_86209 ;
@@ -17730,7 +17730,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001968" ;
             rdfs:label "Iron(II) dichloride dihydrate"@en ,
                        "塩化鉄(II)二水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/129694154> ;
             skos:prefLabel "Iron(II) dichloride dihydrate"@en .
 
@@ -18130,7 +18130,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001994" ;
             rdfs:label "Chromium(III) nitrate nonahydrate"@en ,
                        "硝酸クロム(III)九水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/16211167> ;
             skos:altLabel "Chromic nitrate nonahydrate"@en ,
                           "Chromium trinitrate nonahydrate"@en ;
@@ -18147,7 +18147,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001995" ;
             rdfs:label "Chromium(III) nitrate"@en ,
                        "硝酸クロム(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24598> ;
             skos:prefLabel "Chromium(III) nitrate"@en .
 
@@ -18524,7 +18524,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002021" ;
             rdfs:label "Copper(I) chloride"@en ,
                        "塩化銅(I)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(I)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/892> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62652> ,
                          chebi:CHEBI_53472 ;
@@ -18731,7 +18731,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002038" ;
             rdfs:label "Titanium(II) chloride"@en ,
                        "塩化チタン(II)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(II)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/66228> ;
             skos:prefLabel "Titanium(II) chloride"@en .
 
@@ -19107,7 +19107,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002063" ;
             rdfs:label "Copper(II) sulfate solution"@en ,
                        "硫酸銅溶液"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ;
+            rdfs:seeAlso wikipedia:_sulfate ;
             skos:prefLabel "Copper(II) sulfate solution"@en .
 
 
@@ -19384,7 +19384,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002082" ;
             rdfs:label "Chromium(III) sulfate"@en ,
                        "硫酸クロム(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ,
                          chebi:CHEBI_53471 ;
             skos:prefLabel "Chromium(III) sulfate"@en .
@@ -20770,7 +20770,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002199" ;
             rdfs:label "Soluble iron(III) pyrophosphate"@en ,
                        "可溶性鉄(III)ピロホスフェート"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_pyrophosphate> ,
+            rdfs:seeAlso wikipedia:_pyrophosphate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24877> ,
                          chebi:CHEBI_132767 ;
             skos:prefLabel "Soluble iron(III) pyrophosphate"@en .
@@ -22097,7 +22097,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002301" ;
             rdfs:label "Iron(III) nitrate"@en ,
                        "硝酸鉄(III)"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25251> ;
             skos:altLabel "Ferric nitrate"@en ;
             skos:prefLabel "Iron(III) nitrate"@en .
@@ -22123,7 +22123,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002303" ;
             rdfs:label "Iron(III) sulfate solution"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ;
+            rdfs:seeAlso wikipedia:_sulfate ;
             skos:prefLabel "Iron(III) sulfate solution"@en .
 
 
@@ -22179,7 +22179,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002308" ;
             rdfs:label "Cerium(III) chloride"@en ,
                        "塩化セリウム"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cerium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://mediadive.dsmz.de/ingredients/1444> ,
                          <http://mediadive.dsmz.de/ingredients/2022> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ,
@@ -22195,7 +22195,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002309" ;
             rdfs:label "Cerium(III) chloride solution"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cerium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24636> ,
                          chebi:CHEBI_35458 ;
             skos:prefLabel "Cerium(III) chloride solution"@en ,
@@ -22240,7 +22240,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002312" ;
             rdfs:label "TES"@en ,
                        "TES"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/TES_(buffer)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://mediadive.dsmz.de/ingredients/1453> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6992013> ;
             skos:prefLabel "TES"@en .
@@ -22621,7 +22621,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002342" ;
             rdfs:label "4-Hydroxybenzoic acid"@en ,
                        "4-ヒドロキシ安息香酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/4-Hydroxybenzoic_acid> ,
+            rdfs:seeAlso wikipedia:Hydroxybenzoic_acid ,
                          <http://mediadive.dsmz.de/ingredients/923> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/135> ,
                          chebi:CHEBI_30763 ;
@@ -22770,7 +22770,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002354" ;
             rdfs:label "Iron(III) sulfate hexahydrate"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ,
+            rdfs:seeAlso wikipedia:_sulfate ,
                          "http://pubchem.ncbi.nlm.nih.gov/compound/26260" ;
             skos:altLabel "Ferric sulfate hexahydrate"@en ;
             skos:prefLabel "Iron(III) sulfate hexahydrate"@en ,
@@ -23009,7 +23009,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002374" ;
             rdfs:label "CAPS"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/CAPS_(buffer)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://mediadive.dsmz.de/ingredients/1471> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/70815> ;
             skos:altLabel "CAPS buffer"@en ,
@@ -23345,7 +23345,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002400" ;
             rdfs:label "Fleischmann's yeast"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Fleischmann%27s_Yeast> ;
+            rdfs:seeAlso wikipedia:s_Yeast ;
             skos:prefLabel "Fleischmann's yeast"@en .
 
 
@@ -23565,7 +23565,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "Mannitol solution"@en ,
                        "マンニトール溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6251> ,
-                         <http://purl.obolibrary.org/obo/16899> .
+                         chebi: .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002419
@@ -23577,7 +23577,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Biotin solution"@en ,
                        "ビオチン溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/171548> ,
-                         <http://purl.obolibrary.org/obo/15956> .
+                         chebi: .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002420
@@ -23601,7 +23601,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002421" ;
             rdfs:label "Chromium(III) chloride"@en ,
                        "三塩化クロム"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6452300> ,
                          chebi:CHEBI_53351 ;
             skos:prefLabel "Chromium(III) chloride"@en .
@@ -23617,7 +23617,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002422" ;
             rdfs:label "Chromium(III) chloride hexahydrate"@en ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_chloride> ,
+            rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/104957> ;
             skos:prefLabel "Chromium(III) chloride hexahydrate"@en ,
                            "塩化クロム(III)六水和物"@ja .
@@ -23756,7 +23756,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002431" ;
             rdfs:label "2,4-Dichlorophenoxyacetic acid"@en ,
                        "2,4-ジクロロフェノキシ酢酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/2,4-Dichlorophenoxyacetic_acid> ,
+            rdfs:seeAlso wikipedia:Dichlorophenoxyacetic_acid ,
                          <http://mediadive.dsmz.de/ingredients/2102> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/1486> ,
                          chebi:CHEBI_28854 ;
@@ -23773,7 +23773,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                                "GMO_002432" ;
             rdfs:label "2-Chlorobenzoic acid"@en ,
                        "2-クロロ安息香酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Chlorobenzoic_acid> ,
+            rdfs:seeAlso wikipedia:Chlorobenzoic_acid ,
                          <http://mediadive.dsmz.de/ingredients/2103> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8374> ,
                          chebi:CHEBI_30793 ;
@@ -23944,7 +23944,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002443" ;
             rdfs:label "2-Furoic acid"@en ,
                        "2-フロ酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/2-Furoic_acid> ,
+            rdfs:seeAlso wikipedia:Furoic_acid ,
                          <http://mediadive.dsmz.de/ingredients/372> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6919> ,
                          chebi:CHEBI_30845 ;
@@ -24140,7 +24140,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002455" ;
             rdfs:label "3-Hydroxybenzoic acid"@en ,
                        "3-ヒドロキシ安息香酸"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/3-Hydroxybenzoic_acid> ,
+            rdfs:seeAlso wikipedia:Hydroxybenzoic_acid ,
                          <http://mediadive.dsmz.de/ingredients/513> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/7420> ,
                          :GMO_000041 ,
@@ -24324,7 +24324,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002467" ;
             rdfs:label "Poly hexamethylene carbonate"@en ,
                        "ポリ（ヘキサメチレンカーボネート）"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Poly(hexamethylene_carbonate)> ,
+            rdfs:seeAlso wikipedia: ,
                          <http://mediadive.dsmz.de/ingredients/812> ;
             skos:prefLabel "Poly hexamethylene carbonate"@en .
 
@@ -24794,7 +24794,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002499" ;
             rdfs:label "Lanthanum(Ⅲ) nitrate hexahydrate"@en ,
                        "硝酸ランタン六水和物"@ja ;
-            rdfs:seeAlso <http://en.wikipedia.org/wiki/Lanthanum(III)_nitrate> ,
+            rdfs:seeAlso wikipedia:_nitrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/16211478> ;
             skos:prefLabel "Lanthanum(Ⅲ) nitrate hexahydrate"@en .
 
@@ -24853,6 +24853,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Larchwood xylan"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002504
+:GMO_002504 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na2SO3"@en ;
+            :GMO_000113 wikipedia:Sodium_sulfite ,
+                        :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        chebi:CHEBI_86477 ;
+            dcterms:identifier "GMO_002504" ;
+            rdfs:label "Sodium sulfite"@en ,
+                       "亜硫酸ナトリウム"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24437> ;
+            skos:prefLabel "Sodium sulfite"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
@@ -24887,4 +24903,4 @@ rdfs:Datatype rdf:type owl:Class .
             skos:prefLabel "is used to culture"@en .
 
 
-###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
+###  Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi
