@@ -8598,12 +8598,13 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001388
 :GMO_001388 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001074 ;
+            rdfs:subClassOf :GMO_002507 ;
             :GMO_000110 "Ground beef (fat free)"@en ,
                         "Ground beef meat (free of fat)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001388" ;
-            rdfs:label "Ground beef (fat free)"@en ;
+            rdfs:label "Ground beef (fat free)"@en ,
+                       "牛挽肉（無脂肪）"@ja ;
             rdfs:seeAlso wikipedia:Beef_mince ;
             skos:prefLabel "Ground beef (fat free)"@en .
 
