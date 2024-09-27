@@ -24947,6 +24947,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Zinc sulfate hexahydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002510
+:GMO_002510 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001103 ;
+            :GMO_000110 "CuSO4 x 6 H2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002510" ;
+            rdfs:label "Copper(II) sulfate hexahydrate"@en ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22348481> ,
+                         chebi:CHEBI_91246 ;
+            skos:prefLabel "Copper(II) sulfate hexahydrate"@en ,
+                           "硫酸銅(II)六水和物"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
