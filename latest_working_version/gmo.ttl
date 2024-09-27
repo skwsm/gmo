@@ -17799,13 +17799,13 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001974" ;
-            rdfs:label "Iron(III) phospate"@en ;
+            rdfs:label "Iron(III) phosphate"@en ;
             rdfs:seeAlso wikipedia:_phosphate ,
                          <http://mediadive.dsmz.de/ingredients/1200> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24861> ,
                          chebi:CHEBI_131371 ;
             skos:altLabel "Ferric phosphate"@en ;
-            skos:prefLabel "Iron(III) phospate"@en ,
+            skos:prefLabel "Iron(III) phosphate"@en ,
                            "リン酸鉄(III)"@ja .
 
 
