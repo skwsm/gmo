@@ -25026,6 +25026,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Melezitose"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002515
+:GMO_002515 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002515" ;
+            rdfs:label "Benomyl"@en ,
+                       "ベノミル"@ja ;
+            rdfs:seeAlso wikipedia:Benomyl ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/28780> ,
+                         chebi:CHEBI_3015 ;
+            skos:prefLabel "Benomyl"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
