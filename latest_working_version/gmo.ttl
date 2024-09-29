@@ -25074,6 +25074,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Ammonium magnesium phosphate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002518
+:GMO_002518 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Rye grass"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002518" ;
+            rdfs:label "Ryegrass"@en ,
+                       "ドクムギ"@ja ;
+            rdfs:seeAlso wikipedia:Lolium ;
+            skos:altLabel "Lolium"@en ;
+            skos:prefLabel "Ryegrass"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
