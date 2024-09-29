@@ -25088,6 +25088,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Ryegrass"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002519
+:GMO_002519 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na3VO4"@en ;
+            dcterms:identifier "GMO_002519" ;
+            rdfs:label :GMO_000040 ,
+                       :GMO_000046 ,
+                       :GMO_000049 ,
+                       "Sodium orthovanadate"@en ,
+                       "オルトバナジン酸ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_orthovanadate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/61671> ,
+                         chebi:CHEBI_35607 ;
+            skos:prefLabel "Sodium orthovanadate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
