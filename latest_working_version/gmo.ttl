@@ -24624,16 +24624,18 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002486
 :GMO_002486 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001118 ;
+            :GMO_000110 "Ferric citrate monohydrate"@en ,
+                        "Iron(III) citrate hydrate"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002486" ;
-            rdfs:label "Iron(III) citrate hydrate"@en ;
+            rdfs:label "Iron(III) citrate monohydrate"@en ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1401> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/9881379> ;
             skos:altLabel "Eisencitrat"@en ,
                           "クエン酸酸化鉄一水和物"@ja ;
-            skos:prefLabel "Iron(III) citrate hydrate"@en .
+            skos:prefLabel "Iron(III) citrate monohydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002487
