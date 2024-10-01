@@ -25104,6 +25104,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium orthovanadate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002520
+:GMO_002520 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "K2CrO4"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002520" ;
+            rdfs:label "Potassium chromate"@en ,
+                       "クロム酸カリウム"@ja ;
+            rdfs:seeAlso wikipedia:Potassium_chromate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24597> ,
+                         chebi:CHEBI_75249 ;
+            skos:prefLabel "Potassium chromate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
