@@ -25120,6 +25120,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Potassium chromate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002521
+:GMO_002521 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "CaHPO4"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002521" ;
+            rdfs:label "Calcium hydrogen phosphate"@en ,
+                       "リン酸一水素カルシウム"@ja ;
+            rdfs:seeAlso wikipedia:Dicalcium_phosphate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24441> ,
+                         chebi:CHEBI_32596 ;
+            skos:altLabel "Dicalcium phosphate"@en ;
+            skos:prefLabel "Calcium hydrogen phosphate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
