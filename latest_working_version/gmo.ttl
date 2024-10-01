@@ -1790,8 +1790,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          ncit:Zinc_Chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/3007855> ,
                          ndf:N0000146854 ,
-                         rxnorm: ,
-                         snomed: ,
                          chebi:CHEBI_49976 ;
             skos:prefLabel "Zinc chloride"@en .
 
@@ -25159,6 +25157,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:definition "A spread made primarily from yeast extract, a by-product of beer brewing."@en ;
             skos:prefLabel "Marmite"@en ,
                            "マーマイト"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002524
+:GMO_002524 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001035 ;
+            :GMO_000110 "ZnCl2 x 6 H20"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002524" ;
+            rdfs:label "Zinc chloride hexahydrate"@en ,
+                       "塩化亜鉛六水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129831233> ;
+            skos:prefLabel "Zinc chloride hexahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
