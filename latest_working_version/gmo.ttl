@@ -25183,6 +25183,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Rice starch"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002526
+:GMO_002526 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002526" ;
+            rdfs:label "2,4-Dihydroxybenzoic acid"@en ,
+                       "2,4-ジヒドロキシ安息香酸"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/2,4-Dihydroxybenzoic_acid> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/1491> ,
+                         chebi:CHEBI_42094 ;
+            skos:prefLabel "2,4-Dihydroxybenzoic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
