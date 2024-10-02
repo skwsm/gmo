@@ -25240,6 +25240,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Fig"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002530
+:GMO_002530 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002477 ;
+            :GMO_000110 "\\\\u03b1-D-Glucose monohydrate"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002530" ;
+            rdfs:label "alpha-D-Glucose monohydrate"@en ,
+                       "アルファ-D-グルコース一水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/66370> ;
+            skos:prefLabel "alpha-D-Glucose monohydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
