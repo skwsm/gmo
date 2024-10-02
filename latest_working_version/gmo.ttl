@@ -25198,6 +25198,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "2,4-Dihydroxybenzoic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002527
+:GMO_002527 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002527" ;
+            rdfs:label "3,5-Dihydroxybenzoic acid"@en ,
+                       "3,5-ジヒドロキシ安息香酸"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/3,5-Dihydroxybenzoic_acid> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7424> ,
+                         chebi:CHEBI_39912 ;
+            skos:prefLabel "3,5-Dihydroxybenzoic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
