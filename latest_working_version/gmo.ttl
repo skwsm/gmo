@@ -25213,6 +25213,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "3,5-Dihydroxybenzoic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002528
+:GMO_002528 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002528" ;
+            rdfs:label "Indole"@en ,
+                       "インドール"@ja ;
+            rdfs:seeAlso wikipedia:Indole ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/798> ,
+                         chebi:CHEBI_16881 ;
+            skos:prefLabel "Indole"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
