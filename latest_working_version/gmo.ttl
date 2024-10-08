@@ -19424,7 +19424,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002085
 :GMO_002085 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002285 ;
+            rdfs:subClassOf :GMO_002532 ;
             :GMO_000110 "Bovine calf serum (heat-inactivated)"@en ;
             :GMO_000112 :GMO_000042 ;
             dcterms:identifier "GMO_002085" ;
@@ -21542,7 +21542,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002255
 :GMO_002255 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002285 ;
+            rdfs:subClassOf :GMO_002532 ;
             :GMO_000110 "Bovine serum"@en ;
             :GMO_000112 :GMO_000042 ;
             dcterms:identifier "GMO_002255" ;
@@ -25268,6 +25268,18 @@ Final pH ( at 25°C) 7.0"""@en ;
                          chebi:CHEBI_25979 ;
             skos:altLabel "Benzylcyanide"@en ;
             skos:prefLabel "Benzyl cyanide"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002532
+:GMO_002532 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002285 ;
+            :GMO_000112 :GMO_000042 ;
+            dcterms:identifier "GMO_002532" ;
+            rdfs:label "Bovine calf serum"@en ;
+            skos:altLabel "Calf serum"@en ;
+            skos:prefLabel :GMO_000047 ,
+                           "Bovine calf serum"@en ,
+                           "子牛血清"@ja .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
