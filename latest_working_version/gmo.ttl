@@ -2765,8 +2765,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:seeAlso wikipedia:Glycerol ,
                          <http://mediadive.dsmz.de/ingredients/1963> ,
                          <http://mediadive.dsmz.de/ingredients/72> ,
-                         chebi:CHEBI_17522 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/753> ,
+                         chebi:CHEBI_17522 ;
             skos:altLabel "Glycerin"@en ,
                           "グリセリン"@ja ;
             skos:prefLabel "Glycerol"@en .
@@ -9969,8 +9969,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Glycerol solution"@en ,
                        "グリセロール溶液"@ja ;
             rdfs:seeAlso wikipedia:Glycerol ,
-                         chebi:CHEBI_17522 ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/753> ,
+                         chebi:CHEBI_17522 ;
             skos:prefLabel "Glycerol solution"@en .
 
 
