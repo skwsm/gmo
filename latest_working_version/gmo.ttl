@@ -5843,7 +5843,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001236
 :GMO_001236 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002533 ;
             :GMO_000110 "Na$_2$SiO$_3$"@en ,
                         "Na-meta silicate"@en ,
                         "Na2SiO3"@en ,
@@ -5855,9 +5855,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001236" ;
-            rdfs:label "Sodium silicate"@en ,
-                       "ケイ酸ナトリウム"@ja ;
-            rdfs:seeAlso wikipedia:Sodium_silicate ,
+            rdfs:label "Sodium metasilicate"@en ,
+                       "メタケイ酸ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_metasilicate ,
                          <http://mediadive.dsmz.de/ingredients/1596> ,
                          <http://mediadive.dsmz.de/ingredients/1690> ,
                          <http://mediadive.dsmz.de/ingredients/524> ,
@@ -5867,8 +5867,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/C005691> ,
                          ndf:N0000022768 ,
                          chebi:CHEBI_60720 ;
-            skos:altLabel "Sodium metasilicate"@en ;
-            skos:prefLabel "Sodium silicate"@en .
+            skos:prefLabel "Sodium metasilicate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001237
@@ -25280,6 +25279,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel :GMO_000047 ,
                            "Bovine calf serum"@en ,
                            "子牛血清"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002533
+:GMO_002533 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002533" ;
+            rdfs:label "Sodium silicate"@en ,
+                       "ケイ酸ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_silicate ;
+            skos:definition "A generic chemical compounds with the formula Na2xSiyO2y+x"@en ;
+            skos:prefLabel "Sodium silicate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
