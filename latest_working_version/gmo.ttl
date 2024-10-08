@@ -7730,13 +7730,13 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001341" ;
-            rdfs:label "Sodium metasilicate"@en ,
+            rdfs:label "Obsolete: Sodium metasilicate"@en ,
                        "ケイ酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_metasilicate ,
                          <http://purl.bioontology.org/ontology/MSH/C025349> ,
                          chebi:CHEBI_60720 ,
                          pubchem: ;
-            skos:prefLabel "Sodium metasilicate"@en .
+            skos:prefLabel "Obsolete: Sodium metasilicate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001342
@@ -12373,9 +12373,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001604" ;
-            rdfs:label "Sodium metasilicate nonahydrate"@en ,
+            rdfs:label "Obsolete: Sodium metasilicate nonahydrate"@en ,
                        "ケイ酸ナトリウム九水和物"@ja ;
-            skos:prefLabel "Sodium metasilicate nonahydrate"@en .
+            skos:prefLabel "Obsolete: Sodium metasilicate nonahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001605
