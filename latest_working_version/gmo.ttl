@@ -25295,6 +25295,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium silicate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002534
+:GMO_002534 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001236 ;
+            :GMO_000110 <http://pubchem.ncbi.nlm.nih.gov/compound/61495> ,
+                        "Na2SiO3 x 5 H2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002534" ;
+            rdfs:label "Sodium metasilicate pentahydrate"@en ,
+                       "ケイ酸ナトリウム五水和物"@ja ;
+            skos:prefLabel "Sodium metasilicate pentahydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
