@@ -928,6 +928,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001002 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001096 ;
             :GMO_000110 "Mg$_2$SO$_4$$¥cdot$7H$_2$O"@en ,
+                        "Mg(SO4) x 7 H2O"@en ,
                         "Mg2SO4 7H2O"@en ,
                         "MgSO$_4$$¥cdot$7H$_2$O"@en ,
                         "MgSO$_4$$¥cdot$7H2O"@en ,
@@ -25306,6 +25307,16 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Sodium metasilicate pentahydrate"@en ,
                        "ケイ酸ナトリウム五水和物"@ja ;
             skos:prefLabel "Sodium metasilicate pentahydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002535
+:GMO_002535 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002535" ;
+            rdfs:label "Asialofetuin"@en ,
+                       "アシアロフェツイン"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/substance/798134> ;
+            skos:prefLabel "Asialofetuin"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
