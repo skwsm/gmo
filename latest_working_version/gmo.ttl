@@ -3331,14 +3331,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001109" ;
             rdfs:label "Sodium citrate"@en ,
                        "クエン酸ナトリウム"@ja ;
-            rdfs:seeAlso wikipedia:Trisodium_citrate ,
-                         <http://mediadive.dsmz.de/ingredients/792> ,
-                         ncit:Sodium_Citrate ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
-                         <http://purl.bioontology.org/ontology/MSH/C102006> ,
-                         ndf:N0000145851 ,
-                         chebi:CHEBI_53258 ;
-            skos:altLabel "Trisodium citrate"@en ;
+            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/792> ;
             skos:prefLabel "Sodium citrate"@en .
 
 
@@ -4355,7 +4348,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001160
 :GMO_001160 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_001109 ;
             :GMO_000110 "Trisodium citrate"@en ;
             :GMO_000112 :GMO_000038 ;
             :GMO_000113 :GMO_000041 ,
@@ -6082,8 +6075,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001249
 :GMO_001249 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001160 ;
-            :GMO_000110 "Trisodium citrate 2H2O"@en ,
+            rdfs:subClassOf :Obsolete_classes ;
+            :GMO_000110 "Na3-citrate x 2 H2O"@en ,
+                        "Sodium citrate solution (0.2 M)"@en ,
+                        "Trisodium citrate 2H2O"@en ,
                         "Trisodium citrate$¥cdot$2H$_2$O"@en ,
                         "Trisodium citrate&middot;2H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000038 ;
@@ -6091,13 +6086,13 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001249" ;
-            rdfs:label "Trisodium citrate dihydrate"@en ,
+            rdfs:label "Obsolete: Trisodium citrate dihydrate"@en ,
                        "クエン酸三ナトリウム二水和物"@ja ;
             rdfs:seeAlso wikipedia:Trisodium_citrate ,
                          <http://mediadive.dsmz.de/ingredients/1249> ,
                          ncit:Trisodium_Citrate_Dihydrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/71474> ;
-            skos:prefLabel "Trisodium citrate dihydrate"@en .
+            skos:prefLabel "Obsolete: Trisodium citrate dihydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001250
@@ -7336,21 +7331,19 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001321
 :GMO_001321 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001109 ;
+            rdfs:subClassOf :GMO_001160 ;
             :GMO_000110 "Sodium citrate solution (0.2 M)"@en ;
+            :GMO_000112 :GMO_000038 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001321" ;
-            rdfs:label "Sodium citrate solution"@en ,
-                       "クエン酸ナトリウム溶液"@ja ;
+            rdfs:label "Trisodium citrate solution"@en ,
+                       "クエン酸三ナトリウム溶液"@ja ;
             rdfs:seeAlso wikipedia:Sodium_citrate ,
-                         ncit:Sodium_Citrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
-                         <http://purl.bioontology.org/ontology/MSH/C102006> ,
-                         ndf:N0000145851 ,
                          chebi:CHEBI_53258 ;
-            skos:prefLabel "Sodium citrate solution"@en .
+            skos:prefLabel "Trisodium citrate solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001322
@@ -14721,19 +14714,23 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001753
 :GMO_001753 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001109 ;
-            :GMO_000110 "Sodium citrate$¥cdot$2H$_2$O"@en ;
+            rdfs:subClassOf :GMO_001160 ;
+            :GMO_000110 "Na3-citrate x 2 H2O"@en ,
+                        "Sodium citrate$¥cdot$2H$_2$O"@en ,
+                        "Trisodium citrate 2H2O"@en ,
+                        "Trisodium citrate&middot;2H<sub>2</sub>O"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001753" ;
-            rdfs:label "Sodium citrate dihydrate"@en ,
+            rdfs:label "Trisodium citrate dihydrate"@en ,
                        "クエン酸ナトリウム二水和物"@ja ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1375> ,
+            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1249> ,
+                         <http://mediadive.dsmz.de/ingredients/1375> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/71474> ,
                          chebi:CHEBI_32142 ;
-            skos:altLabel "Trisodium citrate dihydrate"@en ;
-            skos:prefLabel "Sodium citrate dihydrate"@en .
+            skos:altLabel "Sodium citrate dihydrate"@en ;
+            skos:prefLabel "Trisodium citrate dihydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001754
@@ -22711,15 +22708,17 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002349
 :GMO_002349 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001160 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000112 :GMO_000038 ;
             :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002349" ;
-            rdfs:label "Trisodium citrate solution"@en ;
-            rdfs:seeAlso wikipedia:Trisodium_citrate ,
+            rdfs:label "Obsolete: Trisodium citrate solution"@en ,
+                       "クエン酸三ナトリウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_citrate ,
+                         wikipedia:Trisodium_citrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6224> ,
                          chebi:CHEBI_53258 ;
-            skos:prefLabel "Trisodium citrate solution"@en .
+            skos:prefLabel "Obsolete: Trisodium citrate solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002350
