@@ -25319,6 +25319,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Asialofetuin"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002536
+:GMO_002536 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002536" ;
+            rdfs:label "Isobutyramide"@en ,
+                       "イソブチルアミド"@ja ;
+            rdfs:seeAlso wikipedia:Isobutyramide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/68424> ,
+                         chebi:CHEBI_193555 ;
+            skos:definition "An amide with the molecular formula C4H9NO"@en ;
+            skos:prefLabel "Isobutyramide"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
