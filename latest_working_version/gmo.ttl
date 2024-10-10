@@ -18901,7 +18901,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002049
 :GMO_002049 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "C45H71N5O10"@en ;
+            :GMO_000110 "C45H71N5O10"@en ,
+                        "Mycobactine J"@en ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002049" ;
             rdfs:label "Mycobactin J"@en ,
