@@ -9573,7 +9573,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000044 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001447" ;
-            rdfs:label "Sea water filtered"@en ;
+            rdfs:label "Sea water filtered"@en ,
+                       "ろ過海水"@ja ;
             skos:prefLabel "Sea water filtered"@en .
 
 
@@ -25333,6 +25334,18 @@ Final pH ( at 25°C) 7.0"""@en ;
                          chebi:CHEBI_193555 ;
             skos:definition "An amide with the molecular formula C4H9NO"@en ;
             skos:prefLabel "Isobutyramide"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002537
+:GMO_002537 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001447 ;
+            :GMO_000110 "Charcoal-filtered, natural seawater"@en ;
+            :GMO_000112 :GMO_000044 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002537" ;
+            rdfs:label "Seawater charcoal-filtered"@en ,
+                       "炭ろ過海水"@ja ;
+            skos:prefLabel "Seawater charcoal-filtered"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
