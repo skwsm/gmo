@@ -25398,6 +25398,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Benzothiazole"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002542
+:GMO_002542 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Syringic  acid"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002542" ;
+            rdfs:label "Syringic acid"@en ,
+                       "シリング酸"@ja ;
+            rdfs:seeAlso wikipedia:Syringic_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10742> ,
+                         chebi:CHEBI_68329 ;
+            skos:prefLabel "Syringic acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
