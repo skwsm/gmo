@@ -25371,6 +25371,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "BBL &trade; Middlebrook OADC enrichment"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002540
+:GMO_002540 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002540" ;
+            rdfs:label "Cresol"@en ,
+                       "クレゾール"@ja ;
+            rdfs:seeAlso wikipedia:Cresol ,
+                         :GMO_000041 ;
+            skos:prefLabel "Cresol"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
