@@ -6979,7 +6979,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001301 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Cow manure"@en ,
-                        "Cow-manure"@en ;
+                        "Cow-manure"@en ,
+                        "Dry cow-manure"@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001301" ;
@@ -25347,6 +25348,27 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Seawater charcoal-filtered"@en ,
                        "炭ろ過海水"@ja ;
             skos:prefLabel "Seawater charcoal-filtered"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002538
+:GMO_002538 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "OADC Enrichment"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002538" ;
+            rdfs:label "Middlebrook OADC enrichment"@en ;
+            skos:prefLabel "Middlebrook OADC enrichment"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002539
+:GMO_002539 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002538 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002539" ;
+            rdfs:label "BBL &trade; Middlebrook OADC enrichment"@en ;
+            skos:prefLabel "BBL &trade; Middlebrook OADC enrichment"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
