@@ -25431,6 +25431,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Atrazine"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002544
+:GMO_002544 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002544" ;
+            rdfs:label "Cyanuric acid"@en ,
+                       "シアヌル酸"@ja ;
+            rdfs:seeAlso wikipedia:Cyanuric_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/7956> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_38028 ;
+            skos:prefLabel "Cyanuric acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
