@@ -25504,6 +25504,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Fluoranthene"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002549
+:GMO_002549 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "L-\\\\u03b1-Phosphatidylcholine"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002549" ;
+            rdfs:label "Lecithin"@en ,
+                       "レシチン"@ja ;
+            rdfs:seeAlso wikipedia:Lecithin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5287971> ,
+                         chebi:CHEBI_73002 ;
+            skos:altLabel "L-alpha-Phosphatidylcholine"@en ;
+            skos:prefLabel "Lecithin"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
