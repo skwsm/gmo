@@ -25446,6 +25446,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Cyanuric acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002545
+:GMO_002545 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002545" ;
+            rdfs:label "3-Aminophenol"@en ,
+                       "3-アミノフェノール"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/3-Aminophenol> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/11568> ,
+                         chebi:CHEBI_28924 ;
+            skos:prefLabel "3-Aminophenol"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
