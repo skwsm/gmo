@@ -25474,6 +25474,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "2-Sulfobenzoic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002547
+:GMO_002547 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002547" ;
+            rdfs:label "Pentachlorophenol"@en ,
+                       "ペンタクロロフェノール"@ja ;
+            rdfs:seeAlso wikipedia:Pentachlorophenol ,
+                         chebi:CHEBI_17642 ;
+            skos:altLabel "PCP"@en ;
+            skos:prefLabel "Pentachlorophenol"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
