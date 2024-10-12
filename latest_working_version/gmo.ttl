@@ -25414,6 +25414,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Syringic acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002543
+:GMO_002543 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "2-chloro-4(ethylamino)-6-(isopropylamino)-1,3,5-triazine"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002543" ;
+            rdfs:label "Atrazine"@en ,
+                       "アトラジン"@ja ;
+            rdfs:seeAlso wikipedia:Atrazine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2256> ,
+                         chebi:CHEBI_15930 ;
+            skos:altLabel "2-chloro-4-ethylamino-6-isopropylamino-1,3,5-triazine"@en ;
+            skos:prefLabel "Atrazine"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
