@@ -25489,6 +25489,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Pentachlorophenol"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002548
+:GMO_002548 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002548" ;
+            rdfs:label "Fluoranthene"@en ,
+                       "フルオランテン"@ja ;
+            rdfs:seeAlso wikipedia:Fluoranthene ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/9154> ,
+                         chebi:CHEBI_33083 ;
+            skos:prefLabel "Fluoranthene"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
