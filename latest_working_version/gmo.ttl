@@ -5343,7 +5343,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001211
 :GMO_001211 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>"@en ;
+            :GMO_000110 "Fe2(SO4)3"@en ,
+                        "Fe<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -5351,11 +5352,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001211" ;
             rdfs:label "Iron(III) sulfate"@en ,
                        "硫酸鉄(III)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(III)_sulfate> ,
                          ncit:Ferric_Sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24826> ,
                          <http://purl.bioontology.org/ontology/MSH/C024823> ,
-                         ndf:N0000147365 ,
                          chebi:CHEBI_53438 ;
             skos:altLabel "Ferric sulfate"@en ;
             skos:prefLabel "Iron(III) sulfate"@en .
