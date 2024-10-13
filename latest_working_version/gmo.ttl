@@ -8279,7 +8279,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001371
 :GMO_001371 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001693 ;
+            rdfs:subClassOf :GMO_002553 ;
             :GMO_000110 "Kanamycin sulfate (dissolved in distilled water)"@en ,
                         "Kanamycin sulfate solution (20 mg/ml)"@en ,
                         "Kanamycin sulfate solution (250 &mu;g/ml)"@en ;
@@ -8291,12 +8291,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Kanamycin sulfate solution"@en ,
                        "カナマイシン硫酸塩溶液"@ja ;
             rdfs:seeAlso wikipedia:Kanamycin ,
-                         ncit:Kanamycin_A_Sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/441374> ,
                          <http://purl.bioontology.org/ontology/MSH/D007612> ,
-                         ndf:N0000146479 ,
-                         rxnorm: ,
-                         chebi:CHEBI_6109 ,
-                         pubchem: ;
+                         chebi:CHEBI_6109 ;
             skos:prefLabel "Kanamycin sulfate solution"@en .
 
 
@@ -8520,14 +8517,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001384" ;
             rdfs:label "Kanamycin solution"@en ,
                        "カナマイシン溶液"@ja ;
-            rdfs:seeAlso wikipedia:Kanamycin ,
-                         ncit:Kanamycin ,
+            rdfs:seeAlso wikipedia:Kanamycin_A ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6032> ,
                          <http://purl.bioontology.org/ontology/MSH/D007612> ,
-                         ndf:N0000147884 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_6104 ,
-                         pubchem: ;
+                         chebi:CHEBI_6104 ;
             skos:prefLabel "Kanamycin solution"@en .
 
 
@@ -22047,10 +22040,12 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002295
 :GMO_002295 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001693 ;
+            rdfs:subClassOf :GMO_002553 ;
             :GMO_000112 :GMO_000043 ;
             dcterms:identifier "GMO_002295" ;
             rdfs:label "Oxoid &trade; Kanamycin sulphate supplement"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/441374> ,
+                         chebi:CHEBI_6109 ;
             skos:prefLabel "Oxoid &trade; Kanamycin sulphate supplement"@en .
 
 
@@ -25574,6 +25569,21 @@ Final pH ( at 25°C) 7.0"""@en ;
                            :GMO_000046 ,
                            :GMO_000049 ,
                            "Chromium(III) sulfate n-hydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002553
+:GMO_002553 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002553" ;
+            rdfs:label "Kanamycin sulfate"@en ,
+                       "カナマイシン硫酸塩"@ja ;
+            rdfs:seeAlso wikipedia:Kanamycin_A ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/441374> ,
+                         chebi:CHEBI_6109 ;
+            skos:prefLabel "Kanamycin sulfate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
