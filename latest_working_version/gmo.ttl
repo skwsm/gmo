@@ -15986,7 +15986,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001839
 :GMO_001839 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Mn(II)・EDTA"@en ;
+            :GMO_000110 "Mn(II) x EDTA"@en ,
+                        "Mn(II)・EDTA"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
