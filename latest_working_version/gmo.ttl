@@ -25528,6 +25528,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Aluminium sulfate octadecahydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002550
+:GMO_002550 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002550" ;
+            rdfs:label "Sodium perchlorate"@en ,
+                       "過塩素酸ナトリウム"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_perchlorate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/522606> ,
+                         chebi:CHEBI_132103 ;
+            skos:prefLabel "Sodium perchlorate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
