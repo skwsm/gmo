@@ -18824,10 +18824,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002044" ;
             rdfs:label "Aluminium sulfate"@en ,
                        "硫酸アルミニウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24850> ,
+            rdfs:seeAlso wikipedia:Aluminium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24850> ,
                          chebi:CHEBI_74768 ;
             skos:altLabel "Dialuminum trisulfate"@en ;
-            skos:definition "A inorganic compound with the formula Al2(SO4)3"@en ;
+            skos:definition "An inorganic compound with the formula Al2(SO4)3"@en ;
             skos:prefLabel "Aluminium sulfate"@en .
 
 
@@ -25509,6 +25510,22 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/9154> ,
                          chebi:CHEBI_33083 ;
             skos:prefLabel "Fluoranthene"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002549
+:GMO_002549 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002044 ;
+            :GMO_000110 "Al2(SO4)3 x 18 H2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002549" ;
+            rdfs:label "Aluminium sulfate octadecahydrate"@en ,
+                       "硫酸アルミニウム十八水和物"@ja ;
+            rdfs:seeAlso wikipedia:Aluminium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/22377415> ,
+                         chebi:CHEBI_74779 ;
+            skos:prefLabel "Aluminium sulfate octadecahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
