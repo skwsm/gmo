@@ -5645,7 +5645,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001226
 :GMO_001226 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002340 ;
-            :GMO_000110 "EBIOS* (dried yeast tablets)"@en ,
+            :GMO_000110 "EBIOS"@en ,
+                        "EBIOS* (dried yeast tablets)"@en ,
                         "Ebios (tablets)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001226" ;
