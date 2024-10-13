@@ -19388,12 +19388,15 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002082
 :GMO_002082 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Cr2(SO4)3・xH2O"@en ;
+            :GMO_000110 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        "Cr2(SO4)3・xH2O"@en ;
             :GMO_000112 :GMO_000078 ;
             dcterms:identifier "GMO_002082" ;
             rdfs:label "Chromium(III) sulfate"@en ,
                        "硫酸クロム(III)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ,
                          chebi:CHEBI_53471 ;
             skos:prefLabel "Chromium(III) sulfate"@en .
@@ -25557,6 +25560,20 @@ Final pH ( at 25°C) 7.0"""@en ;
                           :GMO_000049 ,
                           "Sodium succinate hexahydrate"@en ;
             skos:prefLabel "Disodium succinate hexahydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002552
+:GMO_002552 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002082 ;
+            :GMO_000110 "Cr2(SO4)3 x n H2O"@en ,
+                        "Cr2(SO4)3・xH2O"@en ;
+            dcterms:identifier "GMO_002552" ;
+            rdfs:label "Chromium(III) sulfate n-hydrate"@en ,
+                       "硫酸クロム(III) n水和物"@ja ;
+            skos:prefLabel :GMO_000040 ,
+                           :GMO_000046 ,
+                           :GMO_000049 ,
+                           "Chromium(III) sulfate n-hydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
