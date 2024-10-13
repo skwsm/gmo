@@ -16347,6 +16347,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001868
 :GMO_001868 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000012 ;
+            :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000046 ;
             dcterms:identifier "GMO_001868" ;
             rdfs:label "Meat peptone"@en ,
@@ -17066,8 +17067,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001919
 :GMO_001919 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001868 ;
+            rdfs:subClassOf :GMO_002554 ;
             :GMO_000110 "Fish peptone (Fluka)"@en ;
+            :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001919" ;
             rdfs:label "Fluka Fish peptone"@en ,
@@ -25585,6 +25587,17 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/441374> ,
                          chebi:CHEBI_6109 ;
             skos:prefLabel "Kanamycin sulfate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002554
+:GMO_002554 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001868 ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002554" ;
+            rdfs:label "Fish peptone"@en ,
+                       "魚粉ペプトン"@ja ;
+            skos:prefLabel "Fish peptone"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
