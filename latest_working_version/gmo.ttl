@@ -13543,6 +13543,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001679 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Vancomycin HCl solution (10 mg/ml)*"@en ,
+                        "Vancomycin x HCl"@en ,
                         "Vancomycin$¥cdot$HCl solution (10 mg/ml)*"@en ,
                         "Vancomycin&#183;HCl solution (10 mg/ml)*"@en ;
             :GMO_000112 :GMO_000043 ;
