@@ -13342,7 +13342,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001666
 :GMO_001666 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002557 ;
             :GMO_000110 "Trypsin (Sigma--Aldrich)"@en ,
                         "Trypsin (Sigma-Aldrich)"@en ;
             :GMO_000113 :GMO_000047 ;
@@ -13350,9 +13350,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Trypsin (Sigma-Aldrich)"@en ,
                        "トリプシン (Sigma-Aldrich)"@ja ;
             rdfs:seeAlso wikipedia:Trypsin ,
-                         ncit:C84232 ,
-                         <http://purl.bioontology.org/ontology/MSH/D014357> ,
-                         ndf:N0000147325 ;
+                         <http://purl.bioontology.org/ontology/MSH/D014357> ;
             skos:prefLabel "Trypsin (Sigma-Aldrich)"@en .
 
 
@@ -25643,6 +25641,18 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "MEMアルファ変法"@ja ;
             skos:definition "A modification of Eagles's Minimum Essential Medium (MEM)."@en ;
             skos:prefLabel "MEM alpha"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002557
+:GMO_002557 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000049 ;
+            dcterms:identifier "GMO_002557" ;
+            rdfs:label "Trypsin"@en ,
+                       "トリプシン"@ja ;
+            rdfs:seeAlso wikipedia:Trypsin ;
+            skos:definition "A serine protease"@en ;
+            skos:prefLabel "Trypsin"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
