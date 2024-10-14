@@ -11735,13 +11735,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001563 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001867 ;
             :GMO_000110 "Hy--Case Amino (Sigma)"@en ,
+                        "Hy-Case Amino"@en ,
                         "Hy-Case Amino (Sigma)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001563" ;
-            rdfs:label "Hy-case amino (Sigma)"@en ;
+            rdfs:label "Hy-case &reg; amino (Sigma)"@en ;
             rdfs:seeAlso <http://www.sigmaaldrich.com/catalog/product/fluka/c0501> ;
             skos:definition "An acid hydrolysates of casein from bovine milk"@en ;
-            skos:prefLabel "Hy-case amino (Sigma)"@en .
+            skos:prefLabel "Hy-case &reg; amino (Sigma)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001564
