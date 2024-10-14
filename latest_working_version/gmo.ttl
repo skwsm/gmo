@@ -12718,15 +12718,17 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001625
 :GMO_001625 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001520 ;
-            :GMO_000110 "Probumin Universal Grade (Millipore)"@en ;
+            :GMO_000110 "Probumin Universal Grade"@en ,
+                        "Probumin Universal Grade (Millipore)"@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001625" ;
-            rdfs:label "Probumin universal grade (Merck Millipore)"@en ,
-                       "ウシ血清アルブミン Universal grade (Merck Millipore)"@ja ;
-            rdfs:seeAlso <http://www.millipore.com/catalogue/item/81-003-7> ;
+            rdfs:label "Probumin &reg; universal grade (Merck Millipore)"@en ,
+                       "Probumin ウシ血清アルブミン Universal grade (Merck Millipore)"@ja ;
+            rdfs:seeAlso wikipedia:Bovine_serum_albumin ,
+                         <http://www.millipore.com/catalogue/item/81-003-7> ;
             skos:definition "Bovine serum albumin univeral grade powder (Millipore)"@en ;
-            skos:prefLabel "Probumin universal grade (Merck Millipore)"@en .
+            skos:prefLabel "Probumin &reg; universal grade (Merck Millipore)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001626
