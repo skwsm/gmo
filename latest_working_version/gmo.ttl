@@ -13327,6 +13327,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001665 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001160 ;
             :GMO_000110 "Trisodium citrate H2O"@en ,
+                        "Trisodium citrate x H2O"@en ,
                         "Trisodium citrate$¥cdot$H$_2$O"@en ,
                         "Trisodium citrate&#183;H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000038 ;
