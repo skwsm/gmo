@@ -20032,7 +20032,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:references <http://rdf.ncbi.nlm.nih.gov/pubmed/13675766> ;
             rdfs:label "Eagle's minimum essential medium"@en ,
                        "イーグル最少必須培地"@ja ;
-            rdfs:seeAlso wikipedia:s_minimal_essential_medium ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Eagle%27s_minimal_essential_medium> ,
                          <http://mediadive.dsmz.de/ingredients/1377> ;
             skos:altLabel "MEM"@en ;
             skos:prefLabel "Eagle's minimum essential medium"@en .
