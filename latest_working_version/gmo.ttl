@@ -11094,14 +11094,15 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001522
 :GMO_001522 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002558 ;
             :GMO_000110 "Brucella agar (BBL)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001522" ;
             rdfs:label "BBL &trade; Brucella agar"@en ;
             skos:definition "Brucella Agar is a culture medium for the cultivation of Brucella organisms"@en ;
-            skos:prefLabel "BBL &trade; Brucella agar"@en .
+            skos:prefLabel :GMO_000050 ,
+                           "BBL &trade; Brucella agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001523
@@ -25655,6 +25656,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Trypsin ;
             skos:definition "A serine protease"@en ;
             skos:prefLabel "Trypsin"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002558
+:GMO_002558 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002558" ;
+            rdfs:label "Brucella agar"@en ,
+                       "ブルセラ菌用寒天培地"@ja ;
+            skos:prefLabel "Brucella agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
