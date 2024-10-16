@@ -3697,6 +3697,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://mediadive.dsmz.de/ingredients/383> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/10313079> ,
                          chebi:CHEBI_64700 ;
+            skos:altLabel "Trimethylammonium chloride"@en ;
             skos:prefLabel "Trimethylamine hydrochloride"@en .
 
 
