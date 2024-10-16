@@ -13831,6 +13831,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001699 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "$¥alpha$--Lipoic acid"@en ,
+                        "(DL)-alpha-Lipoic acid"@en ,
                         "Lipoic acid"@en ,
                         "Thioctic acid"@en ;
             :GMO_000112 :GMO_000067 ;
@@ -13847,11 +13848,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/368> ,
                          <http://mediadive.dsmz.de/ingredients/535> ,
                          ncit:C61595 ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6112> ,
                          mesh:D008063 ,
                          ndf:N0000010560 ,
-                         snomed: ,
-                         chebi:CHEBI_16494 ,
-                         pubchem: ;
+                         chebi:CHEBI_16494 ;
             skos:altLabel "Thioctic acid"@en ,
                           "alpha Lipoic acid"@en ;
             skos:prefLabel "Lipoic acid"@en .
@@ -19746,12 +19746,14 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002109
 :GMO_002109 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            :GMO_000110 "de Man, Rogosa and Sharpe (MRS) broth"@en ;
+            :GMO_000110 "Lactobacillus MRS broth"@en ,
+                        "de Man, Rogosa and Sharpe (MRS) broth"@en ;
             dcterms:identifier "GMO_002109" ;
             rdfs:label "MRS broth"@en ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1112> ,
                          <http://mediadive.dsmz.de/ingredients/1899> ;
-            skos:altLabel "De Man, Rogosa and Sharpe broth"@en ;
+            skos:altLabel "De Man, Rogosa and Sharpe broth"@en ,
+                          "Lactobacillus MRS broth"@en ;
             skos:prefLabel "MRS broth"@en .
 
 
