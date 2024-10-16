@@ -6430,7 +6430,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001270" ;
             rdfs:label "Iron(II) chloride"@en ,
                        "塩化鉄(II)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
                          <http://mediadive.dsmz.de/ingredients/555> ,
                          <http://mediadive.dsmz.de/ingredients/603> ,
                          <http://mediadive.dsmz.de/ingredients/840> ,
@@ -10435,7 +10435,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001488" ;
             rdfs:label "Iron(II) chloride solution"@en ,
                        "塩化鉄(II)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
                          ncit:Ferrous_Chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24458> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ,
@@ -10472,6 +10472,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Iron(II) chloride hexahydrate solution"@en ,
                        "塩化鉄(II)六水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:_chloride ,
+                         <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/129819097> ,
                          <http://purl.bioontology.org/ontology/MSH/C029451> ;
             skos:altLabel "Iron dichloride hexahydrate solution"@en ;
@@ -11509,6 +11510,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001270 ;
             :GMO_000110 "FeCl$_2$$¥cdot$4H$_2$O"@en ,
                         "FeCl2 4H2O"@en ,
+                        "FeCl2 x 4 H2O"@en ,
                         "FeCl<sub>2</sub>&#183;4H<sub>2</sub>O"@en ,
                         "FeCl<sub>2</sub>&middot;4H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000078 ;
@@ -11518,7 +11520,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001548" ;
             rdfs:label "Iron(II) chloride tetrahydrate"@en ,
                        "塩化鉄(II)四水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16211588> ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/16211588> ;
             skos:altLabel "Iron dichloride tetrahydrate"@en ;
             skos:prefLabel "Iron(II) chloride tetrahydrate"@en .
 
@@ -17739,6 +17742,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Iron(II) dichloride dihydrate"@en ,
                        "塩化鉄(II)二水和物"@ja ;
             rdfs:seeAlso wikipedia:_chloride ,
+                         <http://en.wikipedia.org/wiki/Iron(II)_chloride> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/129694154> ;
             skos:prefLabel "Iron(II) dichloride dihydrate"@en .
 
