@@ -8824,8 +8824,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "キシラン"@ja ;
             rdfs:seeAlso wikipedia:Xylan ,
                          <http://mediadive.dsmz.de/ingredients/508> ,
-                         chebi:CHEBI_37166 ,
-                         pubchem: ;
+                         chebi:CHEBI_37166 ;
             skos:prefLabel "Xylan"@en .
 
 
@@ -25674,6 +25673,16 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Brucella agar"@en ,
                        "ブルセラ菌用寒天培地"@ja ;
             skos:prefLabel "Brucella agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002559
+:GMO_002559 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            dcterms:identifier "GMO_002559" ;
+            rdfs:label "Xylene"@en ;
+            rdfs:seeAlso wikipedia:Xylene ;
+            skos:prefLabel "Xylene"@en ,
+                           "キシレン"@ja .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
