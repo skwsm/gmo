@@ -3739,6 +3739,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001129 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001589 ;
             :GMO_000110 "MnCl$_2$$¥cdot$2H$_2$O"@en ,
+                        "MnCl2 x 2 H2O"@en ,
                         "MnCl<sub>2</sub>&middot;2H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
