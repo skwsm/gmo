@@ -12249,6 +12249,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "Na$_2$B$_4$O$_7$$¥cdot$10H$_2$O {@en}"@en ,
                         "Na$_2$B4O$_7$$¥cdot$10H$_2$O"@en ,
                         "Na2B4O7 10H2O"@en ,
+                        "Na2B4O7 x 10 H2O" ,
                         "Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>&#183;10H<sub>2</sub>O"@en ,
                         "Na<sub>2</sub>B<sub>4</sub>O<sub>7</sub>&middot;10H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000078 ;
