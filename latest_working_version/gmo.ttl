@@ -5737,7 +5737,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001231
 :GMO_001231 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002562 ;
             :GMO_000110 "Sea salts (SIGMA)"@en ,
                         "Sea salts (Sigma)"@en ;
             :GMO_000112 :GMO_000078 ;
