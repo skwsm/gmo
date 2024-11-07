@@ -3536,6 +3536,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "8.5¥% NaHCO$_3$ solution"@en ,
                         "8.5¥% NaHCO$_3$*"@en ,
                         "84 g/L NaHCO$_3$ solution (autoclaved under CO$_2$ atmosphere)"@en ,
+                        "84 g/L NaHCO3 solution"@en ,
                         "84 g/L NaHCO3 solution (autoclaved under CO2 atmosphere)"@en ,
                         "8¥% NaHCO$_3$ solution"@en ,
                         "8¥% NaHCO$_3$ solution*"@en ,
@@ -16130,9 +16131,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001868 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001851" ;
-            rdfs:label "Oxoid Mycological peptone"@en ;
+            rdfs:label "Oxoid $trade; Mycological peptone"@en ;
             skos:definition "A meat pepton whchi is developed specifically for the isolation and diagnosis of pathogenic and non-pathogenic fungi."@en ;
-            skos:prefLabel "Oxoid Mycological peptone"@en .
+            skos:prefLabel "Oxoid $trade; Mycological peptone"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001852
