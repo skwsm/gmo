@@ -25703,6 +25703,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "m-Xylene"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002561
+:GMO_002561 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Anaerobe Basal Broth CM0957"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002561" ;
+            rdfs:label "Oxoid &trade; Anaerobe Basal Broth"@en ;
+            skos:prefLabel "Oxoid &trade; Anaerobe Basal Broth"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
