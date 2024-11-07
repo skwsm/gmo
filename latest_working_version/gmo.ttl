@@ -20068,6 +20068,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Bordet-Gengou agar"@en ,
                        "ボルデー・ジャング培地"@ja ;
             rdfs:seeAlso wikipedia:Bordet-Gengou_agar ;
+            skos:definition "A culture medium for Bordetella pertussis, and is made up of potato exudate, peptone, sodium chloride, agar , glycerin and water."@en ;
             skos:prefLabel "Bordet-Gengou agar"@en .
 
 
