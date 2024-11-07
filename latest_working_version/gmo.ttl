@@ -20063,6 +20063,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002137
 :GMO_002137 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Bordet-Gengou-Agar-Base"@en ;
             dcterms:identifier "GMO_002137" ;
             rdfs:label "Bordet-Gengou agar"@en ,
                        "ボルデー・ジャング培地"@ja ;
