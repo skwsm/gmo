@@ -24708,10 +24708,10 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002489" ;
             rdfs:label "Cresol red"@en ,
                        "クレゾールレッド"@ja ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1436> ,
+            rdfs:seeAlso wikipedia:Cresol_Red ,
+                         <http://mediadive.dsmz.de/ingredients/1436> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/73013> ,
-                         chebi:CHEBI_86218 ,
-                         <https://en.wikipedia.org/wiki/Cresol_Red> ;
+                         chebi:CHEBI_86218 ;
             skos:prefLabel "Cresol red"@en .
 
 
@@ -25726,6 +25726,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Artificial sea salt"@en ,
                        "人工海塩"@ja ;
             skos:prefLabel "Artificial sea salt"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002563
+:GMO_002563 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002489 ;
+            :GMO_000110 "0.05% cresol red solution"@en ;
+            :GMO_000112 :GMO_000052 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002563" ;
+            rdfs:label "Cresol red solution"@en ,
+                       "クレゾールレッド水溶液"@ja ;
+            rdfs:seeAlso wikipedia:Cresol_Red ,
+                         <http://mediadive.dsmz.de/ingredients/1436> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/73013> ,
+                         chebi:CHEBI_86218 ;
+            skos:prefLabel "Cresol red solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
