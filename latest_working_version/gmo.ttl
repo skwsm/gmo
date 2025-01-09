@@ -23817,10 +23817,10 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002432
 :GMO_002432 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            dcterms:identifier :GMO_000041 ,
-                               :GMO_000046 ,
-                               :GMO_000049 ,
-                               "GMO_002432" ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002432" ;
             rdfs:label "2-Chlorobenzoic acid"@en ,
                        "2-クロロ安息香酸"@ja ;
             rdfs:seeAlso wikipedia:Chlorobenzoic_acid ,
