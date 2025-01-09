@@ -2777,7 +2777,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001084
 :GMO_001084 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "C6H14N2O7"@en ,
+            :GMO_000110 "Ammonium Dibasic Citrate"@en ,
+                        "C6H14N2O7"@en ,
                         "Diammonium citrate"@en ,
                         "Diammonium hydrogen citrate"@en ,
                         "Diammonium hydrogencitrate"@en ;
