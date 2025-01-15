@@ -25745,6 +25745,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Cresol red solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002564
+:GMO_002564 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001007 ;
+            :GMO_000110 "bacteriological agar (Oxoid)"@en ;
+            :GMO_000112 :GMO_000048 ;
+            dcterms:identifier "GMO_002564" ;
+            rdfs:label "Oxoid &trade; Agar bacteriological"@en ,
+                       "寒天(細菌用)"@ja ;
+            rdfs:seeAlso wikipedia:Agar ,
+                         <http://mediadive.dsmz.de/ingredients/3> ,
+                         <http://mediadive.dsmz.de/ingredients/991> ,
+                         <http://purl.bioontology.org/ontology/MSH/D000362> ;
+            skos:prefLabel "Oxoid &trade; Agar Bacteriological"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
