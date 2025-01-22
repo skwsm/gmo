@@ -25760,6 +25760,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Oxoid &trade; Agar Bacteriological"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002565
+:GMO_002565 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002100 ;
+            :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002565" ;
+            rdfs:label "Ferric sodium EDTA solution"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/87063917> ;
+            skos:prefLabel "Ferric sodium EDTA solution"@en ,
+                           "エチレンジアミン四酢酸第二鉄ナトリウム溶液"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
