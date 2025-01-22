@@ -25763,6 +25763,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002565
 :GMO_002565 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002100 ;
+            :GMO_000110 "Ferric sodium EDTA (7.5 mM)"@en ;
             :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002565" ;
             rdfs:label "Ferric sodium EDTA solution"@en ;
