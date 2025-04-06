@@ -25800,6 +25800,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Methyl_red ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/10303> ,
                          chebi:CHEBI_49770 ;
+            skos:definition "Methyl red is an azo dye that functions as a pH indicator, exhibiting a color change from red to yellow over the pH range of approximately 4.4 to 6.2, and is widely used in analytical and microbiological applications"@en ;
             skos:prefLabel "Methyl red"@en .
 
 
@@ -25817,7 +25818,37 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:altLabel "Fe(III)-NTA"@en ,
                           "Iron nitrilotriacetic acid"@en ,
                           "Iron(III) nitrilotriacetate"@en ;
+            skos:definition "Ferric nitrilotriacetate is a coordination complex of ferric iron and nitrilotriacetic acid, commonly used as a water-soluble source of iron in biological and chemical applications."@en ;
             skos:prefLabel "Ferric nitrilotriacetate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002569
+:GMO_002569 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000050 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002569" ;
+            rdfs:label "Hoagland solution"@en ,
+                       "ホーグランド溶液"@ja ;
+            rdfs:seeAlso wikipedia:Hoagland_solution ;
+            skos:definition "The Hoagland solution is a widely used hydroponic nutrient solution that provides all essential elements required for normal plant growth across a broad range of species"@en ;
+            skos:prefLabel "Hoagland solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002570
+:GMO_002570 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001317 ;
+            :GMO_000110 "0.5 M KHCO3 Solution"@en ;
+            dcterms:identifier "GMO_002570" ;
+            rdfs:label "Potassium bicarbonate solution"@en ,
+                       "炭酸水素カリウム溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/516893> ,
+                         :GMO_000046 ,
+                         :GMO_000051 ,
+                         chebi:CHEBI_81862 ;
+            skos:definition "Soluction of potassium bicarbonate. Potassium bicarbonate is an inorganic compound that acts as a source of potassium and bicarbonate ions, commonly used as a buffering agent and in various chemical, agricultural, and biological applications"@en ;
+            skos:prefLabel "Potassium bicarbonate solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
