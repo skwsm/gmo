@@ -25772,6 +25772,35 @@ Final pH ( at 25°C) 7.0"""@en ;
                            "エチレンジアミン四酢酸第二鉄ナトリウム溶液"@ja .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002566
+:GMO_002566 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002566" ;
+            rdfs:label "EDDHAキレート鉄"@ja ,
+                       "Iron EDDHA"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/171041222> ;
+            skos:altLabel "Fe-EDDHA"@en ;
+            skos:prefLabel "Iron EDDHA"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002567
+:GMO_002567 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002567" ;
+            rdfs:label "Methyl red"@en ,
+                       "メチルレッド"@ja ;
+            rdfs:seeAlso wikipedia:Methyl_red ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/10303> ,
+                         chebi:CHEBI_49770 ;
+            skos:prefLabel "Methyl red"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
