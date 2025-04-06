@@ -25877,7 +25877,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000048 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002572" ;
-            rdfs:label "Double-washed Agar"@en ,
+            rdfs:label "Double-washed agar"@en ,
                        "寒天（2回洗浄）"@ja ;
             rdfs:seeAlso wikipedia:Agar ;
             skos:definition "Double-washed agar is a purified form of agar that has been washed multiple times, typically twice, to remove ionic and organic impurities, improving its suitability for sensitive microbiological and biochemical applications."@en ;
