@@ -25884,6 +25884,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Double-washed agar"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002573
+:GMO_002573 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001935 ;
+            :GMO_000110 "10% Yeast extract (Oxoid) solution"@en ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002573" ;
+            rdfs:label "Oxoid &trade; Yeast extract solution"@en ,
+                       "Oxoid &trade; 酵母エキス溶液"@ja ;
+            rdfs:seeAlso wikipedia:Yeast_extract ;
+            skos:definition "A water-based preparation in which Oxoid Yeast Extract Powder is dissolved, used as a liquid nutrient source in culture media and biological experiments."@en ;
+            skos:prefLabel "Oxoid &trade; Yeast extract solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
