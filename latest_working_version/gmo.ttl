@@ -16576,6 +16576,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/268> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24497> ,
                          chebi:CHEBI_31346 ;
+            skos:altLabel "Calcium sulphate"@en ;
             skos:prefLabel "Calcium sulfate"@en .
 
 
