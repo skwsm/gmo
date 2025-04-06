@@ -4016,6 +4016,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          ndf:N0000167122 ,
                          chebi:CHEBI_42334 ;
             skos:altLabel "4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid"@en ;
+            skos:definition "HEPES is a zwitterionic organic chemical buffer belonging to the Good's buffers family, widely used in biological and biochemical research to maintain physiological pH in the range of approximately 6.8 to 8.2."@en ;
             skos:prefLabel "HEPES"@en .
 
 
