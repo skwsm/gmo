@@ -17328,6 +17328,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Oxoid &trade; Yeast extract powder"@en ;
             rdfs:seeAlso <https://www.thermofisher.com/order/catalog/product/LP0021B> ;
             skos:altLabel "Oxoid &trade; Yeast Extract Powder"@en ;
+            skos:definition "A water-soluble, spray-dried extract of autolyzed yeast cells, rich in amino acids, peptides, vitamins, and other growth factors, used as a nutrient source in microbiological media."@en ;
             skos:prefLabel "Oxoid &trade; Yeast extract powder"@en .
 
 
