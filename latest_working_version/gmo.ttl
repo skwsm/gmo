@@ -16564,6 +16564,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001882
 :GMO_001882 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "CaSO4"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
