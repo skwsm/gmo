@@ -25871,6 +25871,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "HEPES sodium salt"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002572
+:GMO_002572 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001423 ;
+            :GMO_000112 :GMO_000048 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002572" ;
+            rdfs:label "Double-washed Agar"@en ,
+                       "寒天（2回洗浄）"@ja ;
+            rdfs:seeAlso wikipedia:Agar ;
+            skos:definition "Double-washed agar is a purified form of agar that has been washed multiple times, typically twice, to remove ionic and organic impurities, improving its suitability for sensitive microbiological and biochemical applications."@en ;
+            skos:prefLabel "Double-washed agar"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
