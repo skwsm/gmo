@@ -25852,6 +25852,24 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Potassium bicarbonate solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002571
+:GMO_002571 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na HEPES"@en ;
+            :GMO_000112 :GMO_000038 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002571" ;
+            rdfs:label "HEPES sodium salt"@en ,
+                       "HEPESナトリウム塩"@ja ;
+            rdfs:seeAlso wikipedia:HEPES ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2724248> ,
+                         chebi:CHEBI_46758 ;
+            skos:definition "HEPES Sodium Salt is the monosodium salt form of HEPES, a Good's buffer, used to facilitate pH control in biological and biochemical systems, particularly where a pre-neutralized, water-soluble buffer is preferred"@en ;
+            skos:prefLabel "HEPES sodium salt"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
