@@ -7277,6 +7277,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://purl.bioontology.org/ontology/MSH/C026329> ,
                          ndf:N0000145903 ,
                          chebi:CHEBI_81862 ;
+            skos:definition "Potassium bicarbonate is an inorganic compound that acts as a source of potassium and bicarbonate ions, commonly used as a buffering agent and in various chemical, agricultural, and biological applications"@en ;
             skos:prefLabel "Potassium bicarbonate"@en .
 
 
