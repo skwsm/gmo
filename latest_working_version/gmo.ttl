@@ -11107,8 +11107,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001522" ;
             rdfs:label "BBL &trade; Brucella agar"@en ;
             skos:definition "Brucella Agar is a culture medium for the cultivation of Brucella organisms"@en ;
-            skos:prefLabel :GMO_000050 ,
-                           "BBL &trade; Brucella agar"@en .
+            skos:prefLabel "BBL &trade; Brucella agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001523
