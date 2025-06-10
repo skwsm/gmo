@@ -25317,11 +25317,11 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002532 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002285 ;
             :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002532" ;
             rdfs:label "Bovine calf serum"@en ;
             skos:altLabel "Calf serum"@en ;
-            skos:prefLabel :GMO_000047 ,
-                           "Bovine calf serum"@en ,
+            skos:prefLabel "Bovine calf serum"@en ,
                            "子牛血清"@ja .
 
 
