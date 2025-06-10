@@ -24913,15 +24913,15 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002504 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Na2SO3"@en ;
-            :GMO_000113 wikipedia:Sodium_sulfite ,
-                        :GMO_000040 ,
+            :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
-                        :GMO_000049 ,
-                        chebi:CHEBI_86477 ;
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002504" ;
             rdfs:label "Sodium sulfite"@en ,
                        "亜硫酸ナトリウム"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24437> ;
+            rdfs:seeAlso wikipedia:Sodium_sulfite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24437> ,
+                         chebi:CHEBI_86477 ;
             skos:prefLabel "Sodium sulfite"@en .
 
 
