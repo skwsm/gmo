@@ -18137,8 +18137,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/1258> ,
                          <http://mediadive.dsmz.de/ingredients/880> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/525> ;
-            skos:altLabel "Malate"@en ,
-                          "Malic acid"@en ;
+            skos:altLabel "Malate"@en ;
             skos:prefLabel "DL-Malic acid"@en .
 
 
