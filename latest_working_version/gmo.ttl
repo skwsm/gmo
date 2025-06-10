@@ -24582,6 +24582,9 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002481
 :GMO_002481 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002481" ;
             rdfs:label "Glucuronic acid"@en ,
                        "グルクロン酸"@ja ;
@@ -24589,10 +24592,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://mediadive.dsmz.de/ingredients/1342> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/441478> ,
                          chebi:CHEBI_28860 ;
-            skos:altLabel :GMO_000041 ,
-                          :GMO_000046 ,
-                          :GMO_000049 ,
-                          "D-Glucuronic acid"@en ;
+            skos:altLabel "D-Glucuronic acid"@en ;
             skos:prefLabel "Glucuronic acid"@en .
 
 
