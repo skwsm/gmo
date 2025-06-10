@@ -24928,15 +24928,15 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002505
 :GMO_002505 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000052 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002505" ;
-            dcterms:title :GMO_000041 ,
-                          :GMO_000052 ;
             rdfs:label "Bromocresol purple"@en ,
                        "ブロモクレゾールパープル"@ja ;
             rdfs:seeAlso wikipedia:Bromocresol_purple ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8273> ,
-                         :GMO_000046 ,
-                         :GMO_000049 ,
                          chebi:CHEBI_86154 ;
             skos:prefLabel "Bromocresol purple"@en .
 
