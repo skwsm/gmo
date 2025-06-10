@@ -24772,13 +24772,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002494
 :GMO_002494 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000113 :GMO_000047 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002494" ;
             rdfs:label "Oxgall"@en ,
                        "牛胆汁"@ja ;
             rdfs:seeAlso wikipedia:Ox_gall ,
-                         <http://mediadive.dsmz.de/ingredients/1656> ,
-                         :GMO_000049 ;
+                         <http://mediadive.dsmz.de/ingredients/1656> ;
             skos:prefLabel "Oxgall"@en .
 
 
