@@ -24654,10 +24654,10 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002485" ;
-            rdfs:label <http://pubchem.ncbi.nlm.nih.gov/compound/9532> ,
-                       "Putrescine dihydrochloride"@en ,
+            rdfs:label "Putrescine dihydrochloride"@en ,
                        "プトレシン二塩酸塩"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1352> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/9532> ,
                          chebi:CHEBI_201718 ;
             skos:prefLabel "Putrescine dihydrochloride"@en .
 
