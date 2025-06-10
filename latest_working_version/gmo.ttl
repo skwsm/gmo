@@ -25133,11 +25133,11 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002519 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Na3VO4"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002519" ;
-            rdfs:label :GMO_000040 ,
-                       :GMO_000046 ,
-                       :GMO_000049 ,
-                       "Sodium orthovanadate"@en ,
+            rdfs:label "Sodium orthovanadate"@en ,
                        "オルトバナジン酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_orthovanadate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/61671> ,
