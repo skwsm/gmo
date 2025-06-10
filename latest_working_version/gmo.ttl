@@ -24693,9 +24693,9 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002488
 :GMO_002488 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002488" ;
-            rdfs:label :GMO_000047 ,
-                       "Mucin from porcine stomach Type III"@en ,
+            rdfs:label "Mucin from porcine stomach Type III"@en ,
                        "ムチン ブタ胃由来 Type III"@ja ;
             rdfs:seeAlso wikipedia:Mucin ,
                          <http://mediadive.dsmz.de/ingredients/1433> ;
