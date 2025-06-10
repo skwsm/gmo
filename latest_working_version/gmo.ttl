@@ -25415,11 +25415,11 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002540
 :GMO_002540 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ;
             dcterms:identifier "GMO_002540" ;
             rdfs:label "Cresol"@en ,
                        "クレゾール"@ja ;
-            rdfs:seeAlso wikipedia:Cresol ,
-                         :GMO_000041 ;
+            rdfs:seeAlso wikipedia:Cresol ;
             skos:prefLabel "Cresol"@en .
 
 
