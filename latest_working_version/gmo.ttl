@@ -25842,12 +25842,12 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002570 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001317 ;
             :GMO_000110 "0.5 M KHCO3 Solution"@en ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000051 ;
             dcterms:identifier "GMO_002570" ;
             rdfs:label "Potassium bicarbonate solution"@en ,
                        "炭酸水素カリウム溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/516893> ,
-                         :GMO_000046 ,
-                         :GMO_000051 ,
                          chebi:CHEBI_81862 ;
             skos:definition "Soluction of potassium bicarbonate. Potassium bicarbonate is an inorganic compound that acts as a source of potassium and bicarbonate ions, commonly used as a buffering agent and in various chemical, agricultural, and biological applications"@en ;
             skos:prefLabel "Potassium bicarbonate solution"@en .
