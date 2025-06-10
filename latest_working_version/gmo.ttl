@@ -19435,13 +19435,13 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002084
 :GMO_002084 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001193 ;
-            :GMO_000110 :GMO_000040 ,
-                        :GMO_000046 ,
-                        :GMO_000049 ,
-                        :GMO_000078 ,
-                        "Ca(NO3)2 x 6 H2O"@en ,
+            :GMO_000110 "Ca(NO3)2 x 6 H2O"@en ,
                         "Ca(NO3)2・6H2O"@en ;
             :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        :GMO_000078 ;
             dcterms:identifier "GMO_002084" ;
             rdfs:label "Calcium nitrate hexahydrate"@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129651236> ;
