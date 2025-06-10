@@ -24344,13 +24344,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002465
 :GMO_002465 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002465" ;
             rdfs:label "Cinnamic acid"@en ,
                        "ケイ皮酸"@ja ;
-            rdfs:seeAlso wikipedia:Cinnamic_acid ,
-                         :GMO_000041 ,
-                         :GMO_000046 ,
-                         :GMO_000049 ;
+            rdfs:seeAlso wikipedia:Cinnamic_acid ;
             skos:prefLabel "Cinnamic acid"@en .
 
 
