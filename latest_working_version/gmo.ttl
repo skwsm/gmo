@@ -23975,15 +23975,15 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002442
 :GMO_002442 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002442" ;
             rdfs:label "gamma Aminobutyric acid"@en ,
                        "γ-アミノ酪酸"@ja ;
             rdfs:seeAlso wikipedia:GABA ,
                          <http://mediadive.dsmz.de/ingredients/355> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/119> ,
-                         :GMO_000041 ,
-                         :GMO_000046 ,
-                         :GMO_000049 ,
                          chebi:CHEBI_16865 ;
             skos:altLabel "GABA"@en ;
             skos:prefLabel "gamma Aminobutyric acid"@en .
