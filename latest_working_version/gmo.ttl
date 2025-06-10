@@ -24026,11 +24026,11 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002445
 :GMO_002445 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002445" ;
-            rdfs:label :GMO_000041 ,
-                       :GMO_000046 ,
-                       :GMO_000049 ,
-                       "Butyl vinyl ether"@en ,
+            rdfs:label "Butyl vinyl ether"@en ,
                        "ブチルビニルエーテル"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/391> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/8108> ;
