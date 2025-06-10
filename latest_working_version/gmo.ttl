@@ -21406,8 +21406,6 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Flucloxacillin ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/21319> ,
                          chebi:CHEBI_5098 ;
-            skos:altLabel "Azlocilline"@en ,
-                          "Azlocillinum"@en ;
             skos:prefLabel "Flucloxacillin"@en .
 
 
