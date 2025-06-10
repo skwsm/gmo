@@ -24858,15 +24858,15 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002500
 :GMO_002500 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002500" ;
             rdfs:label "Cerium nitrates"@en ,
                        "硝酸セリウム(III)"@ja ;
             rdfs:seeAlso wikipedia:Cerium_nitrates ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24948> ;
-            skos:altLabel :GMO_000040 ,
-                          :GMO_000046 ,
-                          :GMO_000049 ,
-                          "Cerium trinitrat"@en ;
+            skos:altLabel "Cerium trinitrat"@en ;
             skos:prefLabel "Cerium nitrates"@en .
 
 
