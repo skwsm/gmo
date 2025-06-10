@@ -25637,11 +25637,11 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "CrK(SO4)2 x 12 H2O"@en ,
                         "CrK(SO4)2・12H2O"@en ;
             :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002555" ;
-            rdfs:label :GMO_000040 ,
-                       :GMO_000046 ,
-                       :GMO_000049 ,
-                       "Chromium(III) potassium sulfate dodecahydrate"@en ,
+            rdfs:label "Chromium(III) potassium sulfate dodecahydrate"@en ,
                        "硫酸カリウムクロム(III)十二水和物"@ja ;
             rdfs:seeAlso wikipedia:Chrome_alum ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24596> ;
