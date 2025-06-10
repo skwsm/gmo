@@ -25698,14 +25698,14 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002560
 :GMO_002560 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002559 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002560" ;
             rdfs:label "m-Xylene"@en ,
                        "m-キシレン"@ja ;
             rdfs:seeAlso wikipedia:M-Xylene ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/7929> ,
-                         :GMO_000041 ,
-                         :GMO_000046 ,
-                         :GMO_000049 ,
                          chebi:CHEBI_28488 ;
             skos:prefLabel "m-Xylene"@en .
 
