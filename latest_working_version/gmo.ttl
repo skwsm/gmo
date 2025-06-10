@@ -25596,13 +25596,13 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_002082 ;
             :GMO_000110 "Cr2(SO4)3 x n H2O"@en ,
                         "Cr2(SO4)3・xH2O"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002552" ;
             rdfs:label "Chromium(III) sulfate n-hydrate"@en ,
                        "硫酸クロム(III) n水和物"@ja ;
-            skos:prefLabel :GMO_000040 ,
-                           :GMO_000046 ,
-                           :GMO_000049 ,
-                           "Chromium(III) sulfate n-hydrate"@en .
+            skos:prefLabel "Chromium(III) sulfate n-hydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002553
