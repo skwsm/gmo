@@ -24245,10 +24245,10 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002458" ;
-            rdfs:label wikipedia:Creatinine ,
-                       "Creatinine"@en ,
+            rdfs:label "Creatinine"@en ,
                        "クレアチニン"@ja ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/570> ;
+            rdfs:seeAlso wikipedia:Creatinine ,
+                         <http://mediadive.dsmz.de/ingredients/570> ;
             skos:prefLabel "Creatinine"@en .
 
 
