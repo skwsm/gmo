@@ -3328,6 +3328,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 :GMO_001109 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Sodium citrate"@en ;
+            :GMO_000112 :GMO_000038 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
