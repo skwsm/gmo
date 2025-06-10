@@ -24968,14 +24968,14 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_001974 ;
             :GMO_000110 "Fe(III)PO4 x 4 H2O"@en ;
             :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002508" ;
-            rdfs:label <http://pubchem.ncbi.nlm.nih.gov/compound/16212846> ,
-                       :GMO_000040 ,
-                       :GMO_000046 ,
-                       :GMO_000049 ,
-                       "Iron(III) phosphate tetrahydrate"@en ,
+            rdfs:label "Iron(III) phosphate tetrahydrate"@en ,
                        "リン酸鉄(III)四水和物"@ja ;
-            rdfs:seeAlso chebi:CHEBI_131372 ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/16212846> ,
+                         chebi:CHEBI_131372 ;
             skos:altLabel "Ferric phosphate tetrahydrate"@en ;
             skos:prefLabel "Iron(III) phosphate tetrahydrate"@en .
 
