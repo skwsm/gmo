@@ -25579,15 +25579,15 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002551 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001177 ;
             :GMO_000110 "Disodium succinate x 6 H2O"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002551" ;
             rdfs:label "Disodium succinate hexahydrate"@en ,
                        "コハク酸二ナトリウム六水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/3083938> ,
                          chebi:CHEBI_63686 ;
-            skos:altLabel :GMO_000041 ,
-                          :GMO_000046 ,
-                          :GMO_000049 ,
-                          "Sodium succinate hexahydrate"@en ;
+            skos:altLabel "Sodium succinate hexahydrate"@en ;
             skos:prefLabel "Disodium succinate hexahydrate"@en .
 
 
