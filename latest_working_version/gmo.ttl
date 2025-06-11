@@ -20782,8 +20782,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002197
 :GMO_002197 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002323 ;
-            :GMO_000110 "C56H100N16O17S"@en ,
-                        "C56H98N16O13"@en ;
+            :GMO_000110 "C56H100N16O17S"@en ;
             :GMO_000112 :GMO_000043 ;
             dcterms:identifier "GMO_002197" ;
             rdfs:label "Polymyxin B sulfate"@en ;
