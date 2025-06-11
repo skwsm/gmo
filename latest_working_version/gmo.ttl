@@ -5120,6 +5120,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://mediadive.dsmz.de/ingredients/175> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/61639> ,
                          chebi:CHEBI_132108 ;
+            skos:definition "A hydrated sodium silicate salt with the chemical formula Na₂SiO₃·9H₂O. It is a crystalline solid used as a controlled-release silicate source or as an alkali additive in certain microbial media."@en ;
             skos:prefLabel "Sodium silicate nonahydrate"@en .
 
 
@@ -5870,6 +5871,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/C005691> ,
                          ndf:N0000022768 ,
                          chebi:CHEBI_60720 ;
+            skos:definition "A specific form of sodium silicate with the chemical formula Na₂SiO₃, often used in hydrated form (e.g., pentahydrate) in culture media. It acts as a strongly alkaline agent, a buffering compound, or a dispersing agent, and may provide soluble silicate in defined cultivation systems."@en ;
             skos:prefLabel "Sodium metasilicate"@en .
 
 
@@ -25338,7 +25340,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Sodium silicate"@en ,
                        "ケイ酸ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Sodium_silicate ;
-            skos:definition "A generic chemical compounds with the formula Na2xSiyO2y+x"@en ;
+            skos:definition "A generic chemical compounds with the formula Na2xSiyO2y+x"@en ,
+                            "An inorganic compound composed of sodium and silicate units, used in culture media primarily as a silica source or as a gel-forming agent. Its alkaline nature can also contribute to buffering capacity."@en ;
             skos:prefLabel "Sodium silicate"@en .
 
 
@@ -25353,6 +25356,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Sodium metasilicate pentahydrate"@en ,
                        "ケイ酸ナトリウム五水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/61495> ;
+            skos:definition "A hydrated form of sodium metasilicate with the chemical formula Na₂SiO₃·5H₂O. It is commonly used in culture media for its strong alkalinity, buffering capacity, and silicate supply, particularly in powdered form."@en ;
             skos:prefLabel "Sodium metasilicate pentahydrate"@en .
 
 
