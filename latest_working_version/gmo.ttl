@@ -20781,7 +20781,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002197
 :GMO_002197 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002323 ;
             :GMO_000110 "C56H100N16O17S"@en ,
                         "C56H98N16O13"@en ;
             :GMO_000112 :GMO_000043 ;
@@ -20790,6 +20790,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/5702105> ;
             skos:altLabel "Polymyxin B sulfate"@en ,
                           "ポリミキシンB硫酸塩"@ja ;
+            skos:definition "The sulfate salt form of polymyxin B, commonly used in culture media and pharmaceutical preparations due to its high solubility"@en ;
             skos:prefLabel "Polymyxin B sulfate"@en .
 
 
@@ -22441,6 +22442,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "ポリミキシンB"@ja ;
             rdfs:seeAlso wikipedia:Polymyxin_B ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/5702105> ;
+            skos:definition "A peptide antibiotic derived from Bacillus polymyxa, used for its activity against Gram-negative bacteria"@en ;
             skos:prefLabel "Polymyxin B"@en .
 
 
