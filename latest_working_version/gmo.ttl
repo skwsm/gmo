@@ -2237,7 +2237,6 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Na$¥2$WO$_4$$¥cdot$2H$_2O$"@en ,
                         "Na2WO$_4$$\\cdot$2H$_2$O"@en ,
                         "Na2WO4 2H2O"@en ,
-                        "Na2WO4 x 2 H2O solution (0.1% w/v)"@en ,
                         "Na<sub>2</sub>WO<sub>4</sub>&middot;2H<sub>2</sub>O"@en ,
                         "NaWO$_4$$¥cdot$2H$_2$O"@en ,
                         "NaWO4 2H2O"@en ;
