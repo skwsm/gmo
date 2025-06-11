@@ -2537,7 +2537,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001070
 :GMO_001070 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Sodium succinate"@en ;
+            :GMO_000110 "Disodium succinate"@en ,
+                        "Sodium succinate"@en ;
             :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
@@ -2545,7 +2546,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001070" ;
             rdfs:label "Sodium succinate"@en ,
                        "コハク酸ナトリウム"@ja ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1438> ,
+            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1189> ,
+                         <http://mediadive.dsmz.de/ingredients/1438> ,
                          <http://mediadive.dsmz.de/ingredients/730> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/9020> ,
                          chebi:CHEBI_63675 ;
@@ -4671,7 +4673,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001177
 :GMO_001177 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "Disodium succinate"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
@@ -19095,7 +19097,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002061
 :GMO_002061 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001070 ;
-            :GMO_000110 "Disodium succinate・6H2O"@en ,
+            :GMO_000110 "Disodium succinate x 6 H2O"@en ,
+                        "Disodium succinate・6H2O"@en ,
                         "NaOOCCH2CH2COONa · 6H2O"@en ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002061" ;
@@ -19103,6 +19106,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "コハク酸ナトリウム六水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/3083938> ,
                          chebi:CHEBI_63686 ;
+            skos:altLabel "Disodium succinate hexahydrate"@en ,
+                          "コハク酸二ナトリウム六水和物"@ja ;
             skos:prefLabel "Sodium succinate hexahydrate"@en .
 
 
