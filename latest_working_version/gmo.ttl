@@ -18381,8 +18381,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002008
 :GMO_002008 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001401 ;
-            :GMO_000110 "(C5H8O4)n"@en ,
-                        "xylan (oat spelts)"@en ;
+            :GMO_000110 "xylan (oat spelts)"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002008" ;
