@@ -21583,7 +21583,6 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002255
 :GMO_002255 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002532 ;
-            :GMO_000110 "Bovine serum"@en ;
             :GMO_000112 :GMO_000042 ;
             dcterms:identifier "GMO_002255" ;
             rdfs:label "Bovine calf serum, non-heat inactivated"@en ,
