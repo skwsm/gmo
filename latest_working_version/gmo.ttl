@@ -19412,7 +19412,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002082
 :GMO_002082 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Cr2(SO4)3・xH2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -19423,6 +19422,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24930> ,
                          chebi:CHEBI_53471 ;
+            skos:definition "An inorganic compound with the formula Cr₂(SO₄)₃, composed of trivalent chromium cations and sulfate anions. It is used in culture media, tanning processes, and as a source of chromium in various chemical formulations."@en ;
             skos:prefLabel "Chromium(III) sulfate"@en .
 
 
@@ -25609,6 +25609,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002552" ;
             rdfs:label "Chromium(III) sulfate n-hydrate"@en ,
                        "硫酸クロム(III) n水和物"@ja ;
+            skos:definition "An unspecified hydrated form of chromium(III) sulfate, where the number of water molecules (n) is not defined. It may refer to any of several hydrated forms such as dodecahydrate or hexahydrate, commonly used as a source of trivalent chromium in culture media."@en ,
+                            "Cr2(SO4)3・xH2O"@en ;
             skos:prefLabel "Chromium(III) sulfate n-hydrate"@en .
 
 
