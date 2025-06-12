@@ -16384,7 +16384,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001869" ;
             rdfs:label "Ammonium iron(II) sulfate"@en ,
                        "硫酸アンモニウム鉄(II)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
                          <http://mediadive.dsmz.de/ingredients/106> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
                          chebi:CHEBI_76243 ;
@@ -18873,7 +18873,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002046" ;
             rdfs:label "Ammonium ferrous sulfate"@en ,
                        "硫酸アンモニウム鉄(II)"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ;
             skos:altLabel "Mohr's Salt"@en ,
                           "モール塩"@ja ,
