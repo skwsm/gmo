@@ -14520,7 +14520,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "HEPES buffer"@en ,
                        "HEPES緩衝液"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/461> ;
-            skos:altLabel "4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid"@en ;
+            skos:altLabel "4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid buffer"@en ;
             skos:prefLabel "HEPES buffer"@en .
 
 
@@ -22091,7 +22091,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002296
 :GMO_002296 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             dcterms:identifier "GMO_002296" ;
             rdfs:label "Oxoid &trade; Kanamycin aesculin azide agar base"@en ;
             skos:prefLabel "Oxoid &trade; Kanamycin aesculin azide agar base"@en .
