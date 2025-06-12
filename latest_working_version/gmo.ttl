@@ -23623,6 +23623,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "1 M Mannitol solution"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002418" ;
             rdfs:label "GMO_002418" ,
                        "Mannitol solution"@en ,
                        "マンニトール溶液"@ja ;
