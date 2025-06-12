@@ -18427,11 +18427,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000063 ,
                         :GMO_000068 ;
             dcterms:identifier "GMO_002011" ;
-            rdfs:label "Galatcomannan"@en ,
+            rdfs:label "Galactomannan"@en ,
                        "ガラクトマンナン"@ja ;
             rdfs:seeAlso wikipedia:Galactomannan ;
             skos:definition "A group of polysaccharides consisting of a linear main chain of mannose ( with galactose side groups."@en ;
-            skos:prefLabel "Galatcomannan"@en .
+            skos:prefLabel "Galactomannan"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002012
