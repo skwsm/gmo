@@ -1506,12 +1506,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://mediadive.dsmz.de/ingredients/46> ,
                          <http://mediadive.dsmz.de/ingredients/899> ,
                          ncit:Biotin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/171548> ,
                          <http://purl.bioontology.org/ontology/MSH/D001710> ,
                          ndf:N0000146018 ,
-                         rxnorm: ,
-                         snomed: ,
-                         chebi:CHEBI_15956 ,
-                         pubchem: ;
+                         chebi:CHEBI_15956 ;
             skos:altLabel "Coenzyme R"@en ,
                           "Vitamin B7"@en ,
                           "Vitamin H"@en ;
@@ -23518,7 +23516,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Antifoam SI (Wako)"@en ,
                        "消泡剤SI (Wako)"@ja ;
             rdfs:seeAlso <http://labchem-wako.fujifilm.com/us/product/detail/W01W0101-1743.html> ;
-            skos:definition "A silicone defoaming agent"@en .
+            skos:definition "A silicone defoaming agent"@en ;
+            skos:prefLabel "Antifoam SI (Wako)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002411
@@ -23528,7 +23527,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000050 ;
             dcterms:identifier "GMO_002411" ;
             rdfs:comment "CM0655"@en ;
-            rdfs:label "Oxiod &trade; Legionella CYE Agar Base"@en .
+            rdfs:label "Oxiod &trade; Legionella CYE Agar Base"@en ;
+            skos:prefLabel "Oxiod &trade; Legionella CYE Agar Base"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002412
@@ -23538,7 +23538,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000050 ;
             dcterms:identifier "GMO_002412" ;
             rdfs:label "Apple juice"@en ,
-                       "リンゴジュース"@ja .
+                       "リンゴジュース"@ja ;
+            skos:prefLabel "Apple juice"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002413
@@ -23554,7 +23555,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Aminobenzoic_acid ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/978> ,
                          chebi:CHEBI_30753 ;
-            skos:altLabel "para-aminobenzoic acid solution"@en .
+            skos:altLabel "para-aminobenzoic acid solution"@en ;
+            skos:prefLabel "4-Aminobenzoic acid solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002414
@@ -23567,7 +23569,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000051 ;
             dcterms:identifier "GMO_002414" ;
             rdfs:label "Folic acid solution"@en ,
-                       "葉酸溶液"@ja .
+                       "葉酸溶液"@ja ;
+            skos:prefLabel "Folic acid solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002415
@@ -23581,7 +23584,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002415" ;
             rdfs:label "Pyridoxamine solution"@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/1052> ,
-                         chebi:CHEBI_16410 .
+                         chebi:CHEBI_16410 ;
+            skos:prefLabel "Pyridoxamine solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002416
@@ -23612,7 +23616,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Sodium alpha-Ketoglutarate"@en ,
                        "α-ケトグルタル酸 ナトリウム塩"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1412> ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/23670750> .
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23670750> ;
+            skos:prefLabel "Sodium alpha-Ketoglutarate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002418
@@ -23626,7 +23631,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "Mannitol solution"@en ,
                        "マンニトール溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6251> ,
-                         chebi: .
+                         chebi:CHEBI_29864 ;
+            skos:prefLabel "Mannitol solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002419
@@ -23638,7 +23644,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Biotin solution"@en ,
                        "ビオチン溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/171548> ,
-                         chebi: .
+                         chebi:CHEBI_15956 ;
+            skos:prefLabel "Biotin solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002420
@@ -23649,7 +23656,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000050 ;
             dcterms:identifier "GMO_002420" ;
             rdfs:label "Corn meal agar (Nissui)"@en ,
-                       "コーンミールアガール「ニッスイ」"@ja .
+                       "コーンミールアガール「ニッスイ」"@ja ;
+            skos:prefLabel "Corn meal agar (Nissui)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002421
@@ -23677,11 +23685,11 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002422" ;
-            rdfs:label "Chromium(III) chloride hexahydrate"@en ;
+            rdfs:label "Chromium(III) chloride hexahydrate"@en ,
+                       "塩化クロム(III)六水和物"@ja ;
             rdfs:seeAlso wikipedia:_chloride ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/104957> ;
-            skos:prefLabel "Chromium(III) chloride hexahydrate"@en ,
-                           "塩化クロム(III)六水和物"@ja .
+            skos:prefLabel "Chromium(III) chloride hexahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002423
@@ -23693,8 +23701,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_002423" ;
-            rdfs:label "MOPS (Sigma-Aldrich)"@en ,
-                       "MOPS (Sigma-Aldrich)"@ja ;
+            rdfs:label "MOPS (Sigma-Aldrich)"@en ;
             rdfs:seeAlso wikipedia:MOPS ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/70807> ,
                          chebi:CHEBI_39074 ;
