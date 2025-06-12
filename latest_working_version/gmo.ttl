@@ -2619,7 +2619,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Fe(NH$_4$)$_2$(SO$_4$)$_2$$¥cdot$6H$_2$O"@en ,
                         "Fe(NH4)2(SO4)2 6H2O"@en ,
                         "Fe(NH4)2SO4·6H2O"@en ,
-                        "Fe(NH<sub>4</sub>)<sub>2</sub>(SO<sub>4</sub>)<sub>2</sub>&middot;6H<sub>2</sub>O"@en ;
+                        "Fe(NH<sub>4</sub>)<sub>2</sub>(SO<sub>4</sub>)<sub>2</sub>&middot;6H<sub>2</sub>O"@en ,
+                        "FeSO4(NH4)2SO4.6H2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -2627,9 +2628,11 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001076" ;
             rdfs:label "Ammonium iron(II) sulfate hexahydrate"@en ,
                        "硫酸アンモニウム鉄(II)六水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/15942308> ;
-            skos:altLabel "Ferrous ammonium sulfate hexahydrate"@en ,
+            skos:altLabel "Ammonium ferrous sulfate hexahydrate"@en ,
+                          "Ferrous ammonium sulfate hexahydrate"@en ,
+                          "Iron ammonium sulfate hydrate"@en ,
                           "Iron(II) ammonium sulfate hexahydrate"@en ;
             skos:definition "Ammonium iron(II) sulfate hexahydrate"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate hexahydrate"@en .
@@ -9739,7 +9742,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001455" ;
             rdfs:label "Ammonium iron(II) sulfate hexahydrate solution"@en ,
                        "硫酸アンモニウム鉄(II)六水和物溶液"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/15942308> ;
             skos:definition "Ammonium iron(II) sulfate hexahydrate solution"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate hexahydrate solution"@en .
@@ -13830,7 +13833,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001698" ;
             rdfs:label "Ammonium iron(II) sulfate solution"@en ,
                        "硫酸アンモニウム鉄(II)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Ammonium_iron(II)_sulfate> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
                          chebi:CHEBI_76243 ;
             skos:definition "Ammonium iron(II) sulfate solution"@en ;
@@ -16377,6 +16380,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001869
 :GMO_001869 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Fe2(SO4)3·(NH4)2SO4·24H2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -16388,8 +16392,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/106> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24863> ,
                          chebi:CHEBI_76243 ;
-            skos:altLabel "Ferrous ammonium sulfate"@en ,
-                          "Iron(II) ammonium sulfate"@en ;
+            skos:altLabel "Ammonium ferrous sulfate"@en ,
+                          "Ferrous ammonium sulfate"@en ,
+                          "Iron(II) ammonium sulfate"@en ,
+                          "Mohr's Salt"@en ,
+                          "モール塩"@ja ,
+                          "硫酸第二鉄アンモニウム"@ja ;
             skos:definition "Ammonium iron(II) sulfate"@en ;
             skos:prefLabel "Ammonium iron(II) sulfate"@en .
 
@@ -18867,7 +18875,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002046
 :GMO_002046 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "Fe2(SO4)3·(NH4)2SO4·24H2O"@en ;
             :GMO_000112 :GMO_000062 ;
             dcterms:identifier "GMO_002046" ;
