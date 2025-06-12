@@ -18509,8 +18509,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002018
 :GMO_002018 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002017 ;
-            :GMO_000110 "C18H32O16"@en ,
-                        "laminarin (brown algae)"@en ;
+            :GMO_000110 "laminarin (brown algae)"@en ;
             :GMO_000112 :GMO_000067 ;
             dcterms:identifier "GMO_002018" ;
             rdfs:label "Laminarin from brown algae"@en ,
