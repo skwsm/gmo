@@ -8382,8 +8382,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001376
 :GMO_001376 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002107 ;
-            :GMO_000110 "M17 Broth (OXOID)"@en ,
-                        "M17 medium (Scharlau)"@en ;
+            :GMO_000110 "M17 Broth (OXOID)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001376" ;
             rdfs:label "Oxoid &trade; M17 broth"@en ;
@@ -19750,7 +19749,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002107
 :GMO_002107 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            :GMO_000110 "M17 medium (Scharlau)"@en ;
             dcterms:identifier "GMO_002107" ;
             dcterms:references <http://rdf.ncbi.nlm.nih.gov/pubmed/16350018> ;
             rdfs:label "M17 broth"@en ;
@@ -25911,6 +25909,17 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Yeast_extract ;
             skos:definition "A water-based preparation in which Oxoid Yeast Extract Powder is dissolved, used as a liquid nutrient source in culture media and biological experiments."@en ;
             skos:prefLabel "Oxoid &trade; Yeast extract solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002574
+:GMO_002574 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "M17 medium (Scharlau)"@en ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002574" ;
+            rdfs:label "M17 agar (Scharlau)"@en ;
+            rdfs:seeAlso <http://www.scharlab.com/in/en/microbiology/dehydrated-and-prepared-culture-media/m17_agar_9624> ;
+            skos:prefLabel "M17 agar (Scharlau)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
