@@ -18156,7 +18156,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001994" ;
             rdfs:label "Chromium(III) nitrate nonahydrate"@en ,
                        "硝酸クロム(III)九水和物"@ja ;
-            rdfs:seeAlso wikipedia:_nitrate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_oxide> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/16211167> ;
             skos:altLabel "Chromic nitrate nonahydrate"@en ,
                           "Chromium trinitrate nonahydrate"@en ;
@@ -18173,7 +18173,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001995" ;
             rdfs:label "Chromium(III) nitrate"@en ,
                        "硝酸クロム(III)"@ja ;
-            rdfs:seeAlso wikipedia:_nitrate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_oxide> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24598> ;
             skos:prefLabel "Chromium(III) nitrate"@en .
 
@@ -24846,13 +24846,15 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002498 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001995 ;
             :GMO_000110 "Cr(NO3)3 x 7 H2O"@en ;
+            :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002498" ;
             rdfs:label "Chromium(III) nitrate heptahydrate"@en ,
                        "硝酸クロム(III)七水和物"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/91825725> ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Chromium(III)_oxide> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/91825725> ,
                          chebi:CHEBI_86206 ;
             skos:prefLabel "Chromium(III) nitrate heptahydrate"@en .
 
