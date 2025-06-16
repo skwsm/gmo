@@ -7267,7 +7267,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "KHCO$_3$"@en ,
                         "KHCO<sub>3</sub>"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000038 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -25876,6 +25877,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002570 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001317 ;
             :GMO_000110 "0.5 M KHCO3 Solution"@en ;
+            :GMO_000112 :GMO_000038 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_002570" ;
