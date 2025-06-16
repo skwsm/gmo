@@ -24143,7 +24143,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
-            dcterms:identifier "GMO_002452" ;
+            dcterms:identifier "GMO_002451" ;
             rdfs:label "Tartaric acid"@en ,
                        "酒石酸"@ja ;
             rdfs:seeAlso wikipedia:Tartaric_acid ,
@@ -24159,7 +24159,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
-            dcterms:identifier "GMO_00245" ;
+            dcterms:identifier "GMO_002452" ;
             rdfs:label "L(+)-Tartaric acid"@en ,
                        "L(+)-酒石酸"@ja ;
             rdfs:seeAlso wikipedia:Tartaric_acid ,
@@ -24534,8 +24534,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
-            dcterms:identifier "GMO_002477" ,
-                               "alpha-D-Glucose"@en ;
+            dcterms:identifier "GMO_002477" ;
             rdfs:label "alpha-D-Glucose"@en ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1322> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/79025> ,
@@ -24975,8 +24974,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002507 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001074 ;
             :GMO_000113 :GMO_000047 ;
-            dcterms:identifier "GMO_002507" ,
-                               "Ground beef"@en ;
+            dcterms:identifier "GMO_002507" ;
             rdfs:label "Ground beef"@en ,
                        "牛挽肉"@ja ;
             rdfs:seeAlso wikipedia:Ground_beef ;
