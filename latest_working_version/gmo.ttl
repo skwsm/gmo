@@ -24681,6 +24681,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_001118 ;
             :GMO_000110 "Ferric citrate monohydrate"@en ,
                         "Iron(III) citrate hydrate"@en ;
+            :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
