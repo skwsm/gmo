@@ -24774,6 +24774,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002493
 :GMO_002493 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002019 ;
+            :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002493" ;
             rdfs:label "Colloidal chitin"@en ,
