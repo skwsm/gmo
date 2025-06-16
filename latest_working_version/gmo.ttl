@@ -406,7 +406,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_000018
 :GMO_000018 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000015 ;
+            rdfs:subClassOf :Obsolete_classes ;
             dcterms:identifier "GMO_000018" ;
             rdfs:label "Defined complex components"@en .
 
@@ -12370,7 +12370,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001604
 :GMO_001604 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001341 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -18852,7 +18852,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002045
 :GMO_002045 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002046 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "FeSO4(NH4)2SO4.6H2O"@en ;
             :GMO_000112 :GMO_000062 ;
             :GMO_000113 :GMO_000040 ,
@@ -25607,7 +25607,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002551
 :GMO_002551 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001177 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "Disodium succinate x 6 H2O"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
