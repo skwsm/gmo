@@ -24519,6 +24519,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002476 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001180 ;
             :GMO_000110 "Sigmacell alpha Type 50"@en ;
+            :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002476" ;
             rdfs:label "Sigmacell cellulose type 50"@en ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1281> ;
