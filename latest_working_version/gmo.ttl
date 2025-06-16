@@ -24814,6 +24814,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002496 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001154 ;
             :GMO_000110 "MgCl2 x 4 H2O"@en ;
+            :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
