@@ -25341,6 +25341,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002533
 :GMO_002533 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -25357,6 +25358,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002534 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001236 ;
             :GMO_000110 "Na2SiO3 x 5 H2O"@en ;
+            :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
