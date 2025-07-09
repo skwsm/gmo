@@ -25944,6 +25944,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "M17 agar (Scharlau)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002575
+:GMO_002575 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001001 ;
+            :GMO_000112 :GMO_000044 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002575" ;
+            rdfs:label "Anoxic distilled water"@en ;
+            skos:definition "Distilled water from which dissolved oxygen has been completely removed, often used in anoxic or strictly anaerobic experimental conditions."@en ;
+            skos:prefLabel "Anoxic distilled water"@en ,
+                           "無酸素蒸留水"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
