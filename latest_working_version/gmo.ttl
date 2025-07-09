@@ -919,8 +919,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://mediadive.dsmz.de/ingredients/4> ,
                          ncit:Distilled_Water ,
                          ndf:N0000023397 ,
-                         snomed: ,
-                         pubchem: ;
+                         chebi:CHEBI_15377 ,
+                         <http://www.ncbi.nlm.nih.gov/pccompound/962> ;
+            skos:definition "Highly purified water produced by distillation, commonly used as a base component or solvent in microbiological media."@en ;
             skos:prefLabel "Distilled water"@en .
 
 
