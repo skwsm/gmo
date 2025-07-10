@@ -2817,6 +2817,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/159250> ,
                          chebi:CHEBI_36385 ;
             skos:altLabel "Strontium dichloride hexahydrate"@en ;
+            skos:definition "Strontium chloride hexahydrate is a hydrated form of strontium chloride containing six molecules of water. It is commonly used in laboratory reagents and microbial culture media where hydrated salts are preferred."@en ;
             skos:prefLabel "Strontium chloride hexahydrate"@en .
 
 
@@ -4246,6 +4247,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/61520> ,
                          <http://purl.bioontology.org/ontology/MSH/C025700> ,
                          chebi:CHEBI_36383 ;
+            skos:definition "Strontium chloride (SrCl2) is an inorganic salt composed of strontium and chloride ions. It is used as a source of strontium ions in microbial culture media and other chemical applications."@en ;
             skos:prefLabel "Strontium chloride"@en .
 
 
@@ -17596,6 +17598,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "塩化ストロンチウム溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/61520> ,
                          chebi:CHEBI_36383 ;
+            skos:definition "An aqueous solution of strontium chloride"@en ;
             skos:prefLabel "Strontium chloride solution"@en .
 
 
@@ -17610,6 +17613,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "塩化ストロンチウム六水和物水溶液"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/159250> ,
                          chebi:CHEBI_36385 ;
+            skos:definition "An aqueous solution of strontium chloride hexahydrate. Used in liquid media where strontium is required in a pre-dissolved form."@en ;
             skos:prefLabel "Strontium chloride hexahydrate solution"@en .
 
 
@@ -21456,6 +21460,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             dcterms:identifier "GMO_002244" ;
             rdfs:label "Strontium chloride monohydrate"@en ,
                        "塩化ストロンチウム一水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/163196530> ;
+            skos:definition "A hydrated form of strontium chloride containing one molecule of water. Used in specialized formulations or crystallographic studies."@en ;
             skos:prefLabel "Strontium chloride monohydrate"@en .
 
 
