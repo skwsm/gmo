@@ -2814,7 +2814,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Strontium chloride hexahydrate"@en ,
                        "塩化ストロンチウム六水和物"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/176> ,
-                         pubchem: ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/159250> ,
+                         chebi:CHEBI_36385 ;
+            skos:altLabel "Strontium dichloride hexahydrate"@en ;
             skos:prefLabel "Strontium chloride hexahydrate"@en .
 
 
@@ -17606,6 +17608,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001955" ;
             rdfs:label "Strontium chloride hexahydrate solution"@en ,
                        "塩化ストロンチウム六水和物水溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/159250> ,
+                         chebi:CHEBI_36385 ;
             skos:prefLabel "Strontium chloride hexahydrate solution"@en .
 
 
