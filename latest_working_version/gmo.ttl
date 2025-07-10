@@ -25983,7 +25983,26 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "硫酸クロム(III)十五水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/197887> ;
             skos:altLabel "Chromic sulfate pentadecahydrate"@en ;
+            skos:definition "A hydrated inorganic salt of chromium(III) sulfate, typically used as a trace element or micronutrient in microbial culture media."@en ;
             skos:prefLabel "Chromium(III) sulfate pentahydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002578
+:GMO_002578 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002578" ;
+            rdfs:comment "A powerful oxidizing agent and source of hexavalent chromium, used in chemical synthesis and occasionally as a trace element in microbial studies. Highly toxic."@en ;
+            rdfs:label "Chromium trioxide"@en ,
+                       "三酸化クロム"@ja ;
+            rdfs:seeAlso wikipedia:Chromium_trioxide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14915> ,
+                         chebi:CHEBI_48240 ;
+            skos:definition "Chromium trioxide (CrO₃) is the anhydride of chromic acid and a highly toxic, strongly oxidizing compound. It appears as a dark purple or red solid and is primarily used in chromium plating, metal surface treatment, and organic synthesis. It is also a known source of hexavalent chromium (Cr(VI))."@en ;
+            skos:prefLabel "Chromium trioxide"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
