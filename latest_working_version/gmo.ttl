@@ -22695,11 +22695,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002344
 :GMO_002344 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001250 ;
+            :GMO_000110 "gellan gum (Gelrite, Sigma-Aldrich)"@en ;
             :GMO_000112 :GMO_000048 ;
             :GMO_000113 :GMO_000049 ;
             dcterms:identifier "GMO_002344" ;
             rdfs:label "Gelrite &reg;"@en ,
                        "ゲルライト"@ja ;
+            skos:definition "Gelrite is a high-purity form of gellan gum developed for use in microbial and plant tissue culture. It forms clear, firm gels in the presence of divalent cations and is used as an alternative to agar in defined media."@en ;
             skos:prefLabel "Gelrite &reg;"@en .
 
 
@@ -22709,8 +22711,10 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000048 ;
             :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002345" ;
+            rdfs:comment "This solution forms a gel upon cooling and in the presence of divalent cations. Used as a component of defined media as a substitute for agar"@en ;
             rdfs:label "Gelrite &reg; solution"@en ,
                        "ゲルライト溶液"@ja ;
+            skos:definition "An aqueous solution prepared by dissolving Gelrite (a purified form of gellan gum) in water, typically used as a gelling base in microbiological or plant tissue culture media"@en ;
             skos:prefLabel "Gelrite &reg; solution"@en .
 
 
