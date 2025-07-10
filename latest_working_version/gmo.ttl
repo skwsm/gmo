@@ -13956,7 +13956,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001113 ;
             :GMO_000110 "Bacto Casamino Acids (Difco)"@en ,
                         "Bacto Casamino acid (Difco)"@en ,
-                        "Casamino acids (Difco)"@en ;
+                        "Casamino acids (Difco)"@en ,
+                        "casein hydrolysate (GIBCO)"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001705" ;
             rdfs:label "Bacto &trade; Casamino acids"@en ;
@@ -26100,6 +26101,20 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "無菌アルゴン"@ja ;
             skos:definition "Sterile argon is argon gas that has been filtered or treated to be free of microorganisms, used for anaerobic or contamination-free handling of biological materials."@en ;
             skos:prefLabel "Sterile argon"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002584
+:GMO_002584 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002584" ;
+            rdfs:comment "Used in anaerobic or sulfur-metabolizing microbial media requiring strict sterility."@en ;
+            rdfs:label "Tyndalized precipitated sulphur"@en ,
+                       "チンダル処理済沈殿硫黄"@ja ;
+            skos:definition "Tyndalized precipitated sulphur is precipitated elemental sulfur that has been sterilized using tyndallization to eliminate microbial contamination for use in sterile culture applications."@en ;
+            skos:prefLabel "Tyndalized precipitated sulphur"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
