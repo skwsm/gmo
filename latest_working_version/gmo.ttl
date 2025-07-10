@@ -26067,6 +26067,34 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sulphur, precipitated (Sinopharm Chemical Reagent Co., Ltd.)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002582
+:GMO_002582 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        :GMO_000077 ;
+            dcterms:identifier "GMO_002582"@e ;
+            rdfs:label "Argon gas"@en ;
+            skos:definition "Argon gas (Ar) is a noble gas used in microbiological and chemical procedures to provide an inert and anaerobic environment."@en ;
+            skos:prefLabel "Argon gas"@en ,
+                           "アルゴンガス"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002583
+:GMO_002583 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002582 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        :GMO_000077 ;
+            dcterms:identifier "GMO_002583" ;
+            rdfs:label "Sterile argon"@en ,
+                       "無菌アルゴン"@ja ;
+            skos:definition "Sterile argon is argon gas that has been filtered or treated to be free of microorganisms, used for anaerobic or contamination-free handling of biological materials."@en ;
+            skos:prefLabel "Sterile argon"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
