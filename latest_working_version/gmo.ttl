@@ -26009,6 +26009,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Chromium trioxide"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002579
+:GMO_002579 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "H3BO5"@en ;
+            :GMO_000112 :GMO_000056 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002579" ;
+            rdfs:label "Peroxoboric acid"@en ,
+                       "過ホウ酸"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/15775265> ;
+            skos:altLabel "ペルオキソホウ酸"@ja ;
+            skos:definition "Peroxoboric acid is an inorganic compound composed of boric acid and hydrogen peroxide components, forming a peroxo-boron species with oxidizing properties. It is used in analytical chemistry and as a bleaching agent."@en ;
+            skos:prefLabel "Peroxoboric acid"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
