@@ -8590,7 +8590,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001387 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001711 ;
             :GMO_000110 "15¥% TiCl3 solution"@en ,
-                        "TiCl<sub>3</sub> solution (20%)"@en ;
+                        "TiCl<sub>3</sub> solution (20%)"@en ,
+                        "titanium III chloride (Riedel-de-Haen)"@en ;
             :GMO_000112 :GMO_000064 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
