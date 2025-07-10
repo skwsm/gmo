@@ -7690,7 +7690,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "SnCl$_2$$¥cdot$2H$_2$O"@en ,
                         "SnCl2 2H2O"@en ,
                         "SnCl<sub>2</sub>&middot;2H<sub>2</sub>O"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000064 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -8590,15 +8591,17 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_001711 ;
             :GMO_000110 "15¥% TiCl3 solution"@en ,
                         "TiCl<sub>3</sub> solution (20%)"@en ;
+            :GMO_000112 :GMO_000064 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001387" ;
             rdfs:label "Titanium(III) chloride solution"@en ,
                        "塩化チタン(III)溶液"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(III)_chloride> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62646> ,
                          <http://purl.bioontology.org/ontology/MSH/C039460> ;
+            skos:definition "An aqueous solution of titanium(III) chloride, used as a ready-to-use reducing agent in anaerobic microbiological media."@en ;
             skos:prefLabel "Titanium(III) chloride solution"@en .
 
 
@@ -14055,19 +14058,21 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001711 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Titanium chloride"@en ;
+            :GMO_000112 :GMO_000064 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001711" ;
             rdfs:label "Titanium(III) chloride"@en ,
                        "塩化チタン(III)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(III)_chloride> ,
                          <http://mediadive.dsmz.de/ingredients/1142> ,
                          <http://mediadive.dsmz.de/ingredients/1909> ,
                          <http://mediadive.dsmz.de/ingredients/805> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62646> ,
                          <http://purl.bioontology.org/ontology/MSH/C039460> ;
             skos:altLabel "Titanium chloride"@en ;
+            skos:definition "Titanium(III) chloride is an inorganic salt containing Ti³⁺ ions, used as a strong reducing agent in anaerobic culture media and chemical reactions."@en ;
             skos:prefLabel "Titanium(III) chloride"@en .
 
 
@@ -18768,8 +18773,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_002038" ;
             rdfs:label "Titanium(II) chloride"@en ,
                        "塩化チタン(II)"@ja ;
-            rdfs:seeAlso wikipedia:_chloride ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Titanium(II)_chloride> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/66228> ;
+            skos:definition "Titanium(II) chloride is an unstable, highly reactive compound containing Ti2+ ions, occasionally used in redox chemistry or anaerobic preparations."@en ;
             skos:prefLabel "Titanium(II) chloride"@en .
 
 
