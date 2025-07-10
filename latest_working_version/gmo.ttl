@@ -3942,7 +3942,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001139
 :GMO_001139 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_001237 ;
             :GMO_000110 "EDTA$¥cdot$Fe(III)"@en ,
                         "Fe(III)$\\cdot$EDTA"@en ,
                         "Fe(III)-EDTA"@en ,
