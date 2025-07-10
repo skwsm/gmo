@@ -14831,7 +14831,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001759
 :GMO_001759 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001237 ;
-            :GMO_000110 "EDTA$¥cdot$Na$¥cdot$Fe(III)"@en ;
+            :GMO_000110 "EDTA$¥cdot$Na$¥cdot$Fe(III)"@en ,
+                        "sequestrene NaFe (13% Fe, Ciba-Geigy)"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
