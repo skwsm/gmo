@@ -25971,6 +25971,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Brucella blood agar"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002577
+:GMO_002577 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002082 ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002577" ;
+            rdfs:label "Chromium(III) sulfate pentahydrate"@en ,
+                       "硫酸クロム(III)十五水和物"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/197887> ;
+            skos:altLabel "Chromic sulfate pentadecahydrate"@en ;
+            skos:prefLabel "Chromium(III) sulfate pentahydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
