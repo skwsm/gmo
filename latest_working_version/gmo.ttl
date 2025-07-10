@@ -1265,8 +1265,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "H$_3$BO$_4$"@en ,
                         "H$_3$O$_3$"@en ,
                         "H3BO3"@en ,
+                        "H3BO4"@en ,
                         "H<sub>3</sub>BO<sub>3</sub>"@en ,
-                        "H<sub>3</sub>BO<sub>4</sub>"@en ;
+                        "H<sub>3</sub>BO<sub>4</sub>"@en ,
+                        "HBO3"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -26007,6 +26009,23 @@ Final pH ( at 25°C) 7.0"""@en ;
                          chebi:CHEBI_48240 ;
             skos:definition "Chromium trioxide (CrO₃) is the anhydride of chromic acid and a highly toxic, strongly oxidizing compound. It appears as a dark purple or red solid and is primarily used in chromium plating, metal surface treatment, and organic synthesis. It is also a known source of hexavalent chromium (Cr(VI))."@en ;
             skos:prefLabel "Chromium trioxide"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002579
+:GMO_002579 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001052 ;
+            :GMO_000110 "Na2SO4 ·10H2O"@en ;
+            :GMO_000112 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        :GMO_000078 ;
+            dcterms:identifier "GMO_002579" ;
+            rdfs:label "Sodium sulfate decahydrate"@en ,
+                       "硫酸ナトリウム十水和物"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62649> ,
+                         chebi:CHEBI_32586 ;
+            skos:prefLabel "Sodium sulfate decahydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
