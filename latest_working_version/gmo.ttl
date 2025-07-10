@@ -26028,6 +26028,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium sulfate decahydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002580
+:GMO_002580 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002580" ;
+            rdfs:comment "Precipitated sulfur consists of very fine particles with higher surface area and reactivity. Sometimes used for more efficient sulfur availability in culture media."@en ;
+            rdfs:label "Sulphur, precipitated"@en ,
+                       "沈殿硫黄"@ja ;
+            skos:definition "Precipitated sulfur is a fine, high-surface-area form of elemental sulfur obtained by chemical precipitation. It is more reactive than sulfur powder and used in specific microbial or pharmaceutical applications."@en ;
+            skos:prefLabel "Sulphur, precipitated"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
