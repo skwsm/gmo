@@ -26150,6 +26150,25 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Iron(II) sulfide"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002586
+:GMO_002586 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002585 ;
+            :GMO_000110 "FeS precipitate"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002586" ;
+            rdfs:comment "Used as a solid-phase source of iron and sulfur and as a redox buffer in anaerobic microbial media."@en ;
+            rdfs:label "Iron(II) sulfide, precipitated"@en ,
+                       "硫化鉄(II)沈殿"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_sulfide> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14828> ;
+            skos:altLabel "FeS precipitated"@en ,
+                          "Ferrous sulfide, precipitated"@en ;
+            skos:definition "A form of ferrous sulfide that is generated in situ as a precipitate within culture media by mixing Fe2+ and S2- ions under anaerobic conditions."@en ;
+            skos:prefLabel "Iron(II) sulfide, precipitated"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
