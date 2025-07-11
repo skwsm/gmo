@@ -1307,6 +1307,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62662> ,
                          mesh:C020748 ;
             skos:altLabel "Ferrous sulfate heptahydrate"@en ;
+            skos:definition "A hydrated form of iron(II) sulfate with seven molecules of water. Commonly used in trace element mixes."@en ;
             skos:prefLabel "Iron(II) sulfate heptahydrate"@en .
 
 
@@ -7679,7 +7680,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ndf:N0000146041 ,
                          rxnorm: ,
                          snomed: ,
-                         pubchem: ;
+                         pubchem: ,
+                         "A hydrated form of ferrous sulfate commonly used in microbiological media due to its improved solubility and stability"@en ;
             skos:altLabel "Ferrous sulfate"@en ;
             skos:prefLabel "Iron(II) sulfate"@en .
 
@@ -7969,6 +7971,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://purl.bioontology.org/ontology/MSH/C020748> ,
                          pubchem: ;
             skos:altLabel "Ferrous sulfate heptahydrate solution"@en ;
+            skos:definition "An aqueous solution of iron(II) sulfate heptahydrate, used for convenient dosing in media preparation."@en ;
             skos:prefLabel "Iron(II) sulfate heptahydrate solution"@en .
 
 
@@ -8705,6 +8708,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          snomed: ,
                          pubchem: ;
             skos:altLabel "Ferrous sulfate solution"@en ;
+            skos:definition "A general aqueous solution of ferrous sulfate regardless of hydration state."@en ;
             skos:prefLabel "Iron(II) sulfate solution"@en .
 
 
@@ -9769,6 +9773,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Iron(II) sulfate hexahydrate solution"@en ,
                        "硫酸鉄(II)六水和物溶液"@ja ;
             skos:altLabel "Ferrous sulfate hexahydrate solution"@en ;
+            skos:definition "A solution of iron(II) sulfate hexahydrate used when precise control of water content is required."@en ;
             skos:prefLabel "Iron(II) sulfate hexahydrate solution"@en .
 
 
@@ -11573,6 +11578,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Iron(II) sulfate hexahydrate"@en ,
                        "硫酸鉄(II)六水和物"@ja ;
             skos:altLabel "Ferrous sulfate hexahydrate"@en ;
+            skos:definition "A less common hydrated form of iron(II) sulfate containing six water molecules."@en ;
             skos:prefLabel "Iron(II) sulfate hexahydrate"@en .
 
 
@@ -11591,6 +11597,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "硫酸鉄(II)一水和物"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1735> ;
             skos:altLabel "Ferrous sulfate monohydrate"@en ;
+            skos:definition "A monohydrated form of ferrous sulfate used in research and special media."@en ;
             skos:prefLabel "Iron(II) sulfate monohydrate"@en .
 
 
@@ -13890,6 +13897,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Iron(II) sulfate pentahydrate solution"@en ,
                        "硫酸鉄(II)五水和物溶液"@ja ;
             skos:altLabel "Ferrous sulfate pentahydrate solution"@en ;
+            skos:definition "An aqueous solution of iron(II) sulfate with five water molecules per formula unit. Not commonly used."@en ;
             skos:prefLabel "Iron(II) sulfate pentahydrate solution"@en .
 
 
@@ -19988,6 +19996,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/182426> ;
             skos:altLabel "Ferrous sulfate tetrahydrate"@en ,
                           "Rozenite"@en ;
+            skos:definition "A rare form of hydrated iron(II) sulfate containing four water molecules."@en ;
             skos:prefLabel "Iron(II) sulfate tetrahydrate"@en .
 
 
