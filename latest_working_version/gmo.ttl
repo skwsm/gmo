@@ -9002,9 +9002,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001410" ;
+            rdfs:comment "Used in the cultivation of iron-reducing bacteria and to maintain reducing conditions in anaerobic media."@en ;
             rdfs:label "Iron granule"@en ,
                        "鉄顆粒"@ja ;
             rdfs:seeAlso wikipedia:Iron ;
+            skos:definition "Iron granules are coarse particles of elemental iron, used in microbial media as a solid-phase electron donor or redox buffer under anaerobic conditions."@en ;
             skos:prefLabel "Iron granule"@en .
 
 
@@ -11815,6 +11817,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ncit:Iron ,
                          <http://purl.bioontology.org/ontology/MSH/D007501> ,
                          ndf:N0000146032 ;
+            skos:definition "Iron is a metallic element (Fe) essential for many biological redox reactions and is commonly supplied in media as Fe²⁺ or Fe³⁺ salts."@en ;
             skos:prefLabel "Iron"@en .
 
 
