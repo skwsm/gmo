@@ -26113,6 +26113,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:comment "Used in anaerobic or sulfur-metabolizing microbial media requiring strict sterility."@en ;
             rdfs:label "Tyndalized precipitated sulphur"@en ,
                        "チンダル処理済沈殿硫黄"@ja ;
+            rdfs:seeAlso wikipedia:Sulfer ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5362487> ,
+                         chebi:CHEBI_26833 ;
             skos:definition "Tyndalized precipitated sulphur is precipitated elemental sulfur that has been sterilized using tyndallization to eliminate microbial contamination for use in sterile culture applications."@en ;
             skos:prefLabel "Tyndalized precipitated sulphur"@en .
 
