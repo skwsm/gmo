@@ -26132,6 +26132,24 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Tyndalized precipitated sulphur"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002585
+:GMO_002585 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002585" ;
+            rdfs:comment "Used as a model compound for iron-sulfur interactions or as a component of natural sediments."@en ;
+            rdfs:label "Iron(II) sulfide"@en ,
+                       "硫化鉄(II)"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Iron(II)_sulfide> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/14828> ;
+            skos:altLabel "FeS"@en ,
+                          "Ferrous sulfide"@en ;
+            skos:definition "Ferrous sulfide (FeS) is an inorganic compound composed of iron(II) and sulfide ions. It is an insoluble black solid used in microbiological and geochemical contexts."@en ;
+            skos:prefLabel "Iron(II) sulfide"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
