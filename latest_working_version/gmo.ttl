@@ -5581,6 +5581,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             skos:altLabel "AC1LACDZ"@en ,
                           "Ammonium molybdate tetrahydrate"@en ,
                           "Hexaammonium heptamolybdate tetrahydrate"@en ;
+            skos:definition "The tetrahydrate form of ammonium heptamolybdate, commonly used as a water-soluble molybdenum source in microbial and plant culture media."@en ;
             skos:prefLabel "Hexaammonium heptamolybdate tetrahydrate"@en .
 
 
@@ -18021,6 +18022,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/710> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/71306766> ;
             skos:altLabel "モリブデン酸アンモニウム"@ja ;
+            skos:definition "Ammonium heptamolybdate is an inorganic compound containing Mo6+ in a polyanion form, used as a molybdenum source in biological and chemical applications."@en ;
             skos:prefLabel "Ammonium heptamolybdate"@en .
 
 
