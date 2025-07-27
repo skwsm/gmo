@@ -26172,6 +26172,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Iron(II) sulfide, precipitated"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002587
+:GMO_002587 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002275 ;
+            :GMO_000112 :GMO_000044 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002587" ;
+            rdfs:label "2回ガラス蒸留水"@ja ,
+                       "Double, glass-distilled water"@en ;
+            skos:definition "Water that has been distilled twice using glassware, providing ultra-pure water with minimal trace elements and organic impurities."@en ;
+            skos:prefLabel "Double, glass-distilled water"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
