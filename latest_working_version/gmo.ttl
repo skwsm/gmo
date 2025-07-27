@@ -26190,6 +26190,27 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Double, glass-distilled water"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002588
+:GMO_002588 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "MESNA (sodium-2-mercaptoethansulfonate)"@en ;
+            :GMO_000112 :GMO_000064 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002588" ;
+            rdfs:comment "MESNA is water-soluble, non-volatile, and often used in anaerobic or redox-sensitive microbial media."@en ;
+            rdfs:label "Mesta"@en ,
+                       "メスナ"@ja ;
+            rdfs:seeAlso wikipedia:Mesna ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23662354> ,
+                         chebi:CHEBI_31824 ;
+            skos:altLabel "2-メルカプトエタンスルホン酸ナトリウム"@ja ,
+                          "Sodium 2-mercaptoethanesulfonate"@en ;
+            skos:definition "Sodium 2-mercaptoethanesulfonate (MESNA) is a thiol-containing compound used as a reducing agent and radical scavenger in biological systems. It may be added to culture media to maintain reducing conditions."@en ;
+            skos:prefLabel "Mesna"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
