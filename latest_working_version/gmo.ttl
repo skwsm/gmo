@@ -5561,6 +5561,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "(NH$_4$)$_6$MoO$_2$$_4$$¥cdot$4H$_2$O"@en ,
                         "(NH$_4$)Mo$_7$O$_2$$_4$$¥cdot$4H$_2$O"@en ,
                         "(NH$_4$)Mo$_7$O$_24$$\\cdot$4H$_2$O"@en ,
+                        "(NH4)2Mo2O27"@en ,
                         "(NH4)6Mo7O24 x 4 H2O"@en ,
                         "(NH4)6Mo7O24.4H2O"@en ,
                         "(NH4)Mo7O24 4H2O"@en ,
