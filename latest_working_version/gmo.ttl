@@ -26211,6 +26211,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Mesna"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002589
+:GMO_002589 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001086 ;
+            :GMO_000110 "0.01M Na2WO4 solution"@en ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002589" ;
+            rdfs:comment "Often used in trace element stock solutions for convenience and accurate dosing."@en ;
+            rdfs:label "Sodium tungstate solution"@en ;
+            rdfs:seeAlso wikipedia:Sodium_tungstate ,
+                         chebi:CHEBI_63940 ;
+            skos:definition "An aqueous solution of sodium tungstate used to supply tungstate ions in microbial culture media."@en ;
+            skos:prefLabel "Sodium tungstate solution"@en ,
+                           "タングステン酸ナトリウム溶液"@ja .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
