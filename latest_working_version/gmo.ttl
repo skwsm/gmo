@@ -2253,6 +2253,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/150191> ,
                          <http://purl.bioontology.org/ontology/MSH/C025399> ,
                          chebi:CHEBI_63939 ;
+            skos:definition "Sodium tungstate dihydrate is a water-soluble source of tungsten (as tungstate ions), commonly used in trace element solutions in microbial media."@en ;
             skos:prefLabel "Sodium tungstate dihydrate"@en .
 
 
@@ -2840,6 +2841,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/26052> ,
                          <http://purl.bioontology.org/ontology/MSH/C025399> ,
                          chebi:CHEBI_63940 ;
+            skos:definition "Sodium tungstate is an inorganic salt composed of sodium and tungstate ions, used as a tungsten source in microbial culture media."@en ;
             skos:prefLabel "Sodium tungstate"@en .
 
 
@@ -4890,6 +4892,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Sodium tungstate monohydrate"@en ,
                        "タングステン酸ナトリウム一水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/6096937> ;
+            skos:definition "Sodium tungstate monohydrate is a hydrated form of sodium tungstate used as a tungsten source in defined media formulations."@en ;
             skos:prefLabel "Sodium tungstate monohydrate"@en .
 
 
@@ -21849,6 +21852,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Sodium tungstate dihydrate solution"@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/150191> ,
                          chebi:CHEBI_63939 ;
+            skos:definition "An aqueous solution of sodium tungstate dihydrate used to supply tungstate ions in microbial culture media."@en ;
             skos:prefLabel "Sodium tungstate dihydrate solution"@en .
 
 
