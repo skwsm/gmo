@@ -26235,7 +26235,6 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002590
 :GMO_002590 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "HS-"@en ;
             :GMO_000112 :GMO_000064 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -26248,6 +26247,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:altLabel "NaHS"@en ;
             skos:definition "A strong reducing agent used in anaerobic culture media to maintain low redox potential by releasing hydrosulfide ions."@en ;
             skos:prefLabel "Sodium hydrosulfide"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002591
+:GMO_002591 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002590 ;
+            :GMO_000110 "HS-"@en ;
+            :GMO_000112 :GMO_000064 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002591" ;
+            rdfs:label "Sodium hydrosulfide solution"@en ,
+                       "硫化水素ナトリウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_hydrosulfide ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/28015> ;
+            skos:definition "Aqueous solution of sodium hydrosulfide (NaHS), typically used as a reducing agent in anaerobic microbial culture media."@en ;
+            skos:prefLabel "Sodium hydrosulfide solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
