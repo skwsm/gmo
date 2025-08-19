@@ -26069,6 +26069,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Sodium_sulfate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62649> ,
                          chebi:CHEBI_32586 ;
+            skos:definition "The decahydrate form of sodium sulfate (Na2SO4·10H2O, Glauber’s salt) used as a solid sulfate source; provides sulfate together with crystal water for preparing media or stock solutions."@en ;
             skos:prefLabel "Sodium sulfate decahydrate"@en .
 
 
