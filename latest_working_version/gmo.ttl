@@ -26268,6 +26268,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium hydrosulfide solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002592
+:GMO_002592 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001052 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002592" ;
+            rdfs:label "Sodium sulfate solution"@en ,
+                       "硫酸ナトリウム溶液"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24436> ,
+                         chebi:CHEBI_32149 ;
+            skos:definition "An aqueous preparation of sodium sulfate used to deliver sulfate ions at a defined concentration to culture media (often filter-sterilized and aseptically added as an electron acceptor for SRB)."@en ;
+            skos:prefLabel "Sodium sulfate solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
