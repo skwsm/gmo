@@ -2135,6 +2135,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/C012036> ,
                          ndf:N0000147390 ,
                          chebi:CHEBI_32149 ;
+            skos:altLabel "Sodium sulphate"@en ;
+            skos:definition "An inorganic sodium salt (Na2SO4) that supplies sulfate ions in culture media; commonly used as an electron acceptor for sulfate-reducing bacteria and as a sulfate source."@en ;
             skos:prefLabel "Sodium sulfate"@en .
 
 
