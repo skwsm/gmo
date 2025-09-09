@@ -3596,6 +3596,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/2723810> ,
                          <http://purl.bioontology.org/ontology/MSH/C030544> ,
                          chebi:CHEBI_62965 ;
+            skos:definition "A water-soluble, inorganic salt with the chemical formula HCOONa. It is commonly used as a carbon and electron donor in microbial culture media, and serves as a precursor or reducing agent in various industrial and laboratory applications"@en ;
             skos:prefLabel "Sodium formate"@en .
 
 
@@ -10526,6 +10527,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/2723810> ,
                          <http://purl.bioontology.org/ontology/MSH/C030544> ,
                          chebi:CHEBI_62965 ;
+            skos:definition "An aqueous solution of sodium formate, typically prepared at known molarity for direct use in biochemical experiments, microbial cultures, or analytical procedures. Offers ease of handling and accurate dosing compared to the solid form"@en ;
             skos:prefLabel "Sodium formate solution"@en .
 
 
@@ -21566,6 +21568,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Sodium_formate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/2723810> ,
                          chebi:CHEBI_62965 ;
+            skos:definition "A commercially available product of sodium formate provided by Fuji Film Wako Pure Chemical Corporation, typically supplied as a high-purity reagent-grade powder for use in microbiology, molecular biology, and chemical synthesis."@en ;
             skos:prefLabel "Sodium formate (Fuji Film Wako Pure Chemical Corp.)"@en .
 
 
