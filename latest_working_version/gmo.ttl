@@ -1376,6 +1376,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                           "重曹"@ja ,
                           "重炭酸ソーダ"@ja ,
                           "重炭酸ナトリウム"@ja ;
+            skos:definition "A white crystalline inorganic compound with the formula NaHCO₃, commonly used as a buffer or carbon source in biological media"@en ;
             skos:prefLabel "Sodium bicarbonate"@en .
 
 
@@ -3576,6 +3577,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/D017693> ,
                          ndf:N0000146526 ,
                          chebi:CHEBI_32139 ;
+            skos:definition "An aqueous solution of sodium bicarbonate, typically used as a pH buffer or CO₂ source in anaerobic culture media."@en ;
             skos:prefLabel "Sodium bicarbonate solution"@en .
 
 
@@ -12469,6 +12471,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/516892> ,
                          ndf:N0000146526 ,
                          chebi:CHEBI_32139 ;
+            skos:definition "A commercially available preparation of sodium bicarbonate provided by Sigma-Aldrich, often used in laboratory media due to its high purity and reliability."@en ;
             skos:prefLabel "Sodium bicarbonate (Sigma)"@en .
 
 
