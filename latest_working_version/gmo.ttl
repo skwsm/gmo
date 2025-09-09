@@ -2934,6 +2934,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/D019354> ,
                          ndf:N0000147000 ,
                          chebi:CHEBI_75228 ;
+            skos:definition "The generic name for the sodium salt of lactic acid, without specification of stereochemistry. Used as a carbon source and buffering agent in microbial culture media."@en ;
             skos:prefLabel "Sodium lactate"@en .
 
 
@@ -8149,6 +8150,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/515> ,
                          ncit:Sodium_Lactate_L ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/23664767> ;
+            skos:definition "The sodium salt of L-lactic acid, the naturally occurring enantiomer. Frequently used in physiological and clinical applications, and in microbial culture when enantiomeric specificity is important."@en ;
             skos:prefLabel "Sodium L-lactate"@en .
 
 
@@ -8183,6 +8185,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://purl.bioontology.org/ontology/MSH/D019354> ,
                          ndf:N0000147000 ,
                          chebi:CHEBI_75228 ;
+            skos:definition "An aqueous solution of sodium lactate, typically standardized by molarity or weight percentage, and used for convenient dosing in microbial culture or clinical settings."@en ;
             skos:prefLabel "Sodium lactate solution"@en .
 
 
@@ -13056,6 +13059,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/1086> ,
                          <http://mediadive.dsmz.de/ingredients/242> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/23666456> ;
+            skos:definition "A racemic mixture of the D- and L- enantiomers of sodium lactate. Commonly used in microbiological media when specific stereoisomeric purity is not required."@en ;
             skos:prefLabel "Sodium DL-lactate"@en .
 
 
