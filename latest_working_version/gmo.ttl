@@ -26293,6 +26293,32 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium sulfate solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002593
+:GMO_002593 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002593" ;
+            rdfs:label "Brazier’s agar"@en ,
+                       "Brazier寒天培地"@ja ;
+            skos:altLabel "Brazier agar"@en ,
+                          "Brazier’s CCEY agar"@en ,
+                          "CCEY agar"@en ;
+            skos:definition "A selective and differential agar medium (CCEY) for isolation and presumptive identification of Clostridioides (Clostridium) difficile, typically containing bile salts (e.g., cholic acid/taurocholate) to promote spore germination, p-hydroxyphenylacetic acid to enhance p-cresol production, egg yolk, horse blood, and selective antibiotics (cefoxitin and cycloserine)."@en ;
+            skos:prefLabel "Brazier’s agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002594
+:GMO_002594 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002593 ;
+            :GMO_000110 "Braziers agar (Bioconnections)"@en ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002594" ;
+            rdfs:label "Brazier CCEY 寒天培地 (Bioconnections)"@ja ,
+                       "Brazier’s CCEY Agar (BioConnections)"@en ;
+            skos:definition "The ready-to-use selective and differential agar medium supplied by BioConnections for the isolation of Clostridioides (Clostridium) difficile. It is based on Brazier’s CCEY formulation and contains bile salts (cholic acid/taurocholate), p-hydroxyphenylacetic acid, cefoxitin, cycloserine, egg yolk, and defibrinated horse blood."@en ;
+            skos:prefLabel "Brazier’s CCEY Agar (BioConnections)"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
