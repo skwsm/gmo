@@ -8779,6 +8779,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "Na-acetate&middot;3H<sub>2</sub>O"@en ,
                         "Sodium acetate 3H2O"@en ,
                         "Sodium acetate trihydrate"@en ,
+                        "Sodium acetate x 3 H2O"@en ,
                         "Sodium acetate$¥cdot$3H$_2$O"@en ;
             :GMO_000112 :GMO_000038 ;
             :GMO_000113 :GMO_000041 ,
@@ -26317,6 +26318,12 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "Brazier’s CCEY Agar (BioConnections)"@en ;
             skos:definition "The ready-to-use selective and differential agar medium supplied by BioConnections for the isolation of Clostridioides (Clostridium) difficile. It is based on Brazier’s CCEY formulation and contains bile salts (cholic acid/taurocholate), p-hydroxyphenylacetic acid, cefoxitin, cycloserine, egg yolk, and defibrinated horse blood."@en ;
             skos:prefLabel "Brazier’s CCEY Agar (BioConnections)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002595
+:GMO_002595 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            dcterms:identifier "GMO_002595" .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
