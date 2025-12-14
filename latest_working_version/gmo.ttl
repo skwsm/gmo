@@ -26394,6 +26394,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Complan"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002600
+:GMO_002600 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001868 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002600" ;
+            rdfs:comment "Used as a nitrogen-rich complex nutrient; distinct from liver extract, which is an extract-based growth factor source."@en ;
+            rdfs:label "Liver digest"@en ,
+                       "肝臓消化物"@ja ;
+            skos:definition "Liver digest is a peptone prepared by enzymatic digestion (partial hydrolysis) of animal liver tissue, providing peptides and amino acids as a complex nutrient in culture media."@en ;
+            skos:prefLabel "Liver digest"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
