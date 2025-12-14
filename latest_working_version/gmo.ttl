@@ -4074,8 +4074,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Peptone#Peptide_classes> ,
                          <http://mediadive.dsmz.de/ingredients/316> ,
                          <http://purl.bioontology.org/ontology/MSH/D010461> ,
-                         ndf:N0000005859 ,
-                         rxnorm: ;
+                         ndf:N0000005859 ;
             skos:definition "An enzymatic digest of protein"@en ;
             skos:prefLabel "Bacto &trade; Proteose peptone No. 3"@en .
 
@@ -17491,7 +17490,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000050 ;
             dcterms:identifier "GMO_001943" ;
             rdfs:label "Bacto &trade; Proteose peptone No. 2"@en ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/458> ;
+            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/458> ,
+                         :GMO_000047 ;
             skos:prefLabel "Bacto &trade; Proteose peptone No. 2"@en .
 
 
