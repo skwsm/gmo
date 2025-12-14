@@ -26379,6 +26379,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Czapek-Dox medium"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002599
+:GMO_002599 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002599" ;
+            rdfs:label "Complan"@en ,
+                       "コンプラン"@ja ;
+            rdfs:seeAlso wikipedia:Complan ,
+                         <http://www.ccap.ac.uk/wp-content/uploads/MR_PER.pdf> ;
+            skos:definition "Complan is a proprietary powdered milk-based nutritional drink product used as a complex nutrient supplement in some culture media recipes."@en ;
+            skos:prefLabel "Complan"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
