@@ -23675,6 +23675,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "Na2 alpha-ketoglutarate"@en ,
                         "Sodium alpha-ketoglutamate"@en ,
                         "alpha-Ketoglutaric acid sodium salt"@en ;
+            :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002417" ;
@@ -23682,6 +23683,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "α-ケトグルタル酸 ナトリウム塩"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1412> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/23670750> ;
+            skos:definition "Sodium alpha-ketoglutarate is the sodium salt of alpha-ketoglutarate (2-oxoglutarate), commonly used as a carbon source or metabolic intermediate supplement in defined microbial culture media."@en ;
             skos:prefLabel "Sodium alpha-Ketoglutarate"@en .
 
 
