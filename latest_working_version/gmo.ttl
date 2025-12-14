@@ -26339,6 +26339,44 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "MES hydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002596
+:GMO_002596 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000050 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002596" ;
+            rdfs:label "Czapek solution"@en ,
+                       "チャペック溶液"@ja ;
+            skos:definition "An inorganic-salt base stock solution used to prepare Czapek-type media; it contains the mineral salts (e.g., phosphate, magnesium sulfate, potassium chloride, and trace iron) but does not include the carbon source or nitrate nitrogen source."@en ;
+            skos:prefLabel "Czapek solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002597
+:GMO_002597 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002597" ;
+            rdfs:comment "This is a medium family concept; specific recipes (e.g., Czapek-Dox) are modeled as subclasses."@en ;
+            rdfs:label "Czapek medium"@en ,
+                       "チャペック培地"@ja ;
+            rdfs:seeAlso wikipedia:Czapek_medium ;
+            skos:definition "A family of defined fungal media derived from the Czapek formulation, typically characterized by nitrate as the primary nitrogen source and a defined inorganic salt base."@en ;
+            skos:prefLabel "Czapek medium" .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002598
+:GMO_002598 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002597 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002598" ;
+            rdfs:label "Czapek-Dox medium"@en ,
+                       "チャペック・ドックス培地"@ja ;
+            rdfs:seeAlso wikipedia:Czapek_medium ;
+            skos:definition "A standardized Czapek-type defined medium (Czapek-Dox) in which sucrose is the carbon source and sodium nitrate is the primary nitrogen source, combined with the Czapek inorganic salt base."@en ;
+            skos:prefLabel "Czapek-Dox medium"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
