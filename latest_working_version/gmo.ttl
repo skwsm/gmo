@@ -4993,18 +4993,19 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001191" ;
-            rdfs:comment "MES is one of the Good's buffers"@en ;
+            rdfs:comment "MES is one of the Good's buffers. This class represents MES regardless of hydration state unless a specific hydrate form is explicitly stated."@en ;
             rdfs:label "MES"@en ,
                        "MES"@ja ;
-            rdfs:seeAlso wikipedia: ,
-                         <http://mediadive.dsmz.de/ingredients/766> ,
+            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/766> ,
                          <http://mediadive.dsmz.de/ingredients/824> ,
                          <http://mediadive.dsmz.de/ingredients/835> ,
                          <http://mediadive.dsmz.de/ingredients/973> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/78165> ,
                          <http://purl.bioontology.org/ontology/MSH/C004550> ,
-                         chebi:CHEBI_39005 ;
+                         chebi:CHEBI_39005 ,
+                         <https://en.wikipedia.org/wiki/MES_(buffer)> ;
             skos:altLabel "2-(N-morpholino)ethanesulfonic acid"@en ;
+            skos:definition "MES is a zwitterionic buffering agent (Good's buffer) commonly used to maintain pH around 6.0–6.5 in microbial culture media and biological solutions."@en ;
             skos:prefLabel "MES"@en .
 
 
@@ -14498,8 +14499,10 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "MES solution"@en ,
                        "MES溶液"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1528> ,
+                         <https://en.wikipedia.org/wiki/MES_(buffer)> ,
                          <https://pubchem.ncbi.nlm.nih.gov/compound/78165> ;
             skos:altLabel "MES acids"@en ;
+            skos:definition "An aqueous solution prepared by dissolving MES in water, used as a buffering component or stock solution for culture media preparation."@en ;
             skos:prefLabel "MES solution"@en .
 
 
@@ -26322,8 +26325,18 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002595
 :GMO_002595 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
-            dcterms:identifier "GMO_002595" .
+            rdfs:subClassOf :GMO_001191 ;
+            :GMO_000110 "MES Hydrat"@en ;
+            :GMO_000112 :GMO_000038 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002595" ;
+            rdfs:label "MES hydrate"@en ,
+                       "MES水和物"@ja ;
+            rdfs:seeAlso <https://en.wikipedia.org/wiki/MES_(buffer)> ;
+            skos:definition "MES hydrate is a hydrated solid form of MES containing crystallization water (e.g., MES·H2O). It is functionally equivalent to anhydrous MES as a buffer but differs in molecular weight for weighing."@en ;
+            skos:prefLabel "MES hydrate"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
