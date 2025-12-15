@@ -8950,6 +8950,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001405" ;
+            rdfs:comment "In microbial media, glycerophosphate is often enzymatically hydrolyzed to release inorganic phosphate; the glycerol moiety may be utilized by some organisms."@en ;
             rdfs:label "Sodium glycerophosphate"@en ,
                        "β-グリセロリン酸二ナトリウム"@ja ;
             rdfs:seeAlso wikipedia:Monosodium_glutamate ,
@@ -8961,7 +8962,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ndf:N0000022764 ,
                          chebi:CHEBI_132089 ;
             skos:altLabel "Disodium beta-glycerophosphate"@en ,
-                          "Sodium 2-glycerophosphate"@en ;
+                          "Sodium 2-glycerophosphate"@en ,
+                          "グリセロリン酸二ナトリウム"@ja ;
+            skos:definition "Sodium glycerophosphate is a sodium salt of glycerophosphoric acid, used in culture media primarily as an organic phosphorus source and secondarily as a metabolizable carbon source."@en ;
             skos:prefLabel "Sodium glycerophosphate"@en .
 
 
@@ -18252,6 +18255,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001997 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001405 ;
             :GMO_000110 "C3H7Na2O6P・5H2O"@en ,
+                        "Na2 beta-glycerol PO4 x 5 H2O"@en ,
                         "Na2-\\\\u00df-glycerophosphate x 5 H2O"@en ,
                         "beta-Na2glycerophosphate·5H2O"@en ,
                         "β-Glycerol phosphate disodium salt pentahydrate"@en ,
@@ -18265,6 +18269,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "β-グリセリンリン酸二ナトリウム五水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/2735049> ;
             skos:altLabel "beta-Glycerophosphate, disodium salt, pentahydrate"@en ;
+            skos:definition "Sodium 2-glycerophosphate pentahydrate is the pentahydrated form of sodium glycerophosphate, commonly used as a stable, water-soluble organic phosphate source in microbial and cell culture media."@en ;
             skos:prefLabel "Sodium 2-glycerophosphate pentahydrate"@en .
 
 
