@@ -2780,6 +2780,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          chebi:CHEBI_17522 ;
             skos:altLabel "Glycerin"@en ,
                           "グリセリン"@ja ;
+            skos:definition "Glycerol is a trihydroxy alcohol widely used in culture media as a carbon source, energy source, osmoprotectant, and cryoprotectant."@en ;
             skos:prefLabel "Glycerol"@en .
 
 
@@ -6764,7 +6765,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001287
 :GMO_001287 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            :GMO_000110 "Bacto Tryptic Soy Broth w/o Dextrose (Difco)"@en ;
+            :GMO_000110 "Bacto Tryptic Soy Broth w/o Dextrose (Difco)"@en ,
+                        "tryptic soy broth without dextrose"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001287" ;
@@ -26439,6 +26441,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Wheat ;
             skos:definition "Wheat grains are whole, unprocessed seeds of wheat used in some culture media as a plant-derived, undefined substrate that provides slowly released nutrients and a physical support for microorganisms."@en ;
             skos:prefLabel "Wheat grains"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002603
+:GMO_002603 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001083 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002603" ;
+            rdfs:label "Glycerol (anhydrous)"@en ,
+                       "無水グリセロール"@ja ;
+            rdfs:seeAlso wikipedia:Glycerol ,
+                         <https://pubchem.ncbi.nlm.nih.gov/compound/753> ;
+            skos:definition "Glycerol (anhydrous) is glycerol with a specified very low water content, used when precise concentration control is required in culture media and biological preparations."@en ;
+            skos:prefLabel "Glycerol (anhydrous)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
