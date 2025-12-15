@@ -26428,6 +26428,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Cerophyll"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002602
+:GMO_002602 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002602" ;
+            rdfs:label "Wheat grains"@en ,
+                       "小麦粒"@ja ;
+            rdfs:seeAlso wikipedia:Wheat ;
+            skos:definition "Wheat grains are whole, unprocessed seeds of wheat used in some culture media as a plant-derived, undefined substrate that provides slowly released nutrients and a physical support for microorganisms."@en ;
+            skos:prefLabel "Wheat grains"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
