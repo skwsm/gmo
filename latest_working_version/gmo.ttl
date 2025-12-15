@@ -26406,6 +26406,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Liver digest"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002601
+:GMO_002601 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Cereal leaves"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002601" ;
+            rdfs:label "Cerophyll"@en ,
+                       "セロフィル"@ja ;
+            skos:altLabel "Cereal grass leaves"@en ,
+                          "Cerophyll powder"@en ,
+                          "Cerophyll, cereal grass leaves"@en ;
+            skos:definition "Cerophyll is a complex, plant-derived medium supplement prepared from dried cereal grass leaves (young leaves of cereal plants) and used to support growth of protists, algae, and other microorganisms in non-defined media."@en ;
+            skos:historyNote "Cerophyll originated as a trade name for a dried cereal grass leaves preparation; in culture medium recipes it is often used as a generic ingredient name for this type of plant-derived supplement."@en ;
+            skos:prefLabel "Cerophyll"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
