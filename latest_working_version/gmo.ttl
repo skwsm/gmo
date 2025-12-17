@@ -6511,19 +6511,23 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001273
 :GMO_001273 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Glycerol monostearate"@en ,
+            :GMO_000110 "2,3-Dihydroxyprop-1-yl octadecanoate"@en ,
+                        "C21H42O4"@en ,
+                        "Glycerol monostearate"@en ,
                         "Glycerol stearate"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001273" ;
-            rdfs:label "Glycerol monostearate"@en ;
+            rdfs:label "Glycerol monostearate"@en ,
+                       "モノステアリン酸グリセロール"@ja ;
             rdfs:seeAlso wikipedia:Glycerol_monostearate ,
                          <http://mediadive.dsmz.de/ingredients/1657> ,
                          ncit:Glyceryl_Monostearate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/24699> ,
                          <http://purl.bioontology.org/ontology/MSH/C048159> ,
-                         ndf:N0000022484 ,
-                         pubchem: ;
+                         ndf:N0000022484 ;
+            skos:altLabel "Glyceryl monostearate"@en ;
             skos:prefLabel "Glycerol monostearate"@en .
 
 
@@ -21096,7 +21100,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002215
 :GMO_002215 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :Obsolete_classes ;
             :GMO_000110 "2,3-Dihydroxyprop-1-yl octadecanoate"@en ,
                         "C21H42O4"@en ;
             :GMO_000113 :GMO_000046 ,
