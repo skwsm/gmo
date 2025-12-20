@@ -7028,11 +7028,14 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001302
 :GMO_001302 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000019 ;
-            :GMO_000110 "Bacto Nutrient Agar (Difco)"@en ;
+            :GMO_000110 "Bacto Nutrient Agar (Difco)"@en ,
+                        "Difco 0001"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001302" ;
-            rdfs:label "Difco &trade; Nutrient agar"@en ;
+            rdfs:label "Difco &trade; Nutrient agar"@en ,
+                       "Difco &trade; ニュートリエント寒天培地"@ja ;
+            skos:definition "A manufacturer-specific nutrient agar product supplied by BD"@en ;
             skos:prefLabel "Difco &trade; Nutrient agar"@en .
 
 
@@ -7813,6 +7816,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:subClassOf :GMO_000019 ;
             :GMO_000110 "Bacto Nutrient Broth (Difco)"@en ,
                         "Bacto-Nutrient broth dehydrated"@en ,
+                        "Difco 0003"@en ,
                         "Nutrient Broth (Difco)"@en ,
                         "Nutrient broth"@en ;
             :GMO_000113 :GMO_000047 ,
@@ -7820,6 +7824,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001344" ;
             rdfs:label "Difco &trade; Nutrient broth"@en ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/269> ;
+            skos:definition "A manufacturer-specific nutrient broth product supplied by BD"@en ;
             skos:prefLabel "Difco &trade; Nutrient broth"@en .
 
 
