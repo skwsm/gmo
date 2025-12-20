@@ -26514,6 +26514,40 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Wilkins-Chalgren anaerobe broth"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002608
+:GMO_002608 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Bacto Bitone"@en ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002608" ;
+            rdfs:label "Bitone H plus"@en ;
+            skos:definition "Bitone H Plus is a proprietary complex peptone/enzymatic digest ingredient used as a nutrient source in some BD (Difco/BBL) microbiological media formulations (e.g., Columbia Blood Agar Base EH)."@en ;
+            skos:prefLabel "Bitone H plus"@en ,
+                           "Bitone H plus"@ja .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002609
+:GMO_002609 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002609" ;
+            rdfs:label "Nutrient broth"@en ,
+                       "ニュートリエントブロス"@ja ;
+            skos:definition "Nutrient Broth is a non-selective complex liquid medium used for routine cultivation of a broad range of non-fastidious bacteria, commonly containing peptone and beef (meat) extract."@en ;
+            skos:prefLabel "Nutrient broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002610
+:GMO_002610 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002610" ;
+            rdfs:label "Nutrient agar"@en ,
+                       "ニュートリエント寒天培地"@ja ;
+            skos:definition "Nutrient Agar is the solid form of Nutrient Broth obtained by adding agar as a gelling agent, used for routine cultivation and colony isolation of non-fastidious bacteria."@en ;
+            skos:prefLabel "Nutrient agar"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
