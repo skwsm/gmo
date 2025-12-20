@@ -26501,6 +26501,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "L-15 powder"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002607
+:GMO_002607 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Wilkins Chalgrene Anaerobe Broth"@en ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002607" ;
+            dcterms:references <http://rdf.ncbi.nlm.nih.gov/pubmed/1008552> ;
+            rdfs:label "Wilkins-Chalgren anaerobe broth"@en ,
+                       "ウィルキンス・チャルグレン嫌気ブロス"@ja ;
+            skos:definition "A complex, non-selective liquid medium used for growth of anaerobic bacteria and as a basal medium for anaerobe susceptibility testing (e.g., broth microdilution), corresponding to the Wilkins-Chalgren formulation without agar."@en ;
+            skos:prefLabel "Wilkins-Chalgren anaerobe broth"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
