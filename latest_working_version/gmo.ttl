@@ -14614,11 +14614,16 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001741" ;
+            rdfs:comment "Often used for mammalian cell culture without CO2 buffering; supplements (e.g., serum, antibiotics) may be added depending on protocol."@en ;
             rdfs:label "Leibovitz's L-15 medium"@en ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1941> ,
                          <http://www.atcc.org/products/all/30-2008.aspx> ,
                          <http://www.atcc.org/~/media/Attachments/E/8/2/D/6661.ashx> ,
                          <http://www.lifetechnologies.com/jp/ja/home/technical-resources/media-formulation.80.html> ;
+            skos:altLabel "L-15 Medium (Leibovitz)"@en ,
+                          "L-15 medium"@en ,
+                          "L-15培地（Leibovitz）"@ja ;
+            skos:definition "Leibovitz's L-15 medium is a defined cell culture medium formulated for CO2-free incubation, supplied as a prepared liquid medium after dissolution, pH adjustment, and sterilization."@en ;
             skos:prefLabel "Leibovitz's L-15 medium"@en .
 
 
@@ -26482,6 +26487,18 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "トリプトース・リン酸ブロス"@ja ;
             skos:definition "Tryptose-phosphate broth is a complex, non-selective liquid medium based on tryptose (protein digest) and phosphate buffer, used for robust growth of bacteria and as a basal medium for carbohydrate fermentation or toxin production assays."@en ;
             skos:prefLabel "Tryptose phosphate broth"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002606
+:GMO_002606 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002606" ;
+            rdfs:comment "Not directly usable as a culture medium until reconstituted; composition corresponds to the L-15 formulation but final properties depend on preparation (water quality, pH, sterilization)."@en ;
+            rdfs:label "L-15 powder"@en ,
+                       "L-15粉末"@ja ;
+            skos:definition "L-15 powder is the dehydrated powdered formulation corresponding to L-15 Medium (Leibovitz), intended to be dissolved in water and subsequently pH-adjusted and sterilized to prepare the final liquid medium."@en ;
+            skos:prefLabel "L-15 powder"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
