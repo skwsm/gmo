@@ -26461,6 +26461,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Glycerol (anhydrous)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002604
+:GMO_002604 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Dichloran-Glycerol-agar base"@en ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002604" ;
+            rdfs:label "Dichloran glycerol agar base"@en ,
+                       "ジクロラン-グリセロール寒天ベース"@ja ;
+            skos:definition "Dichloran glycerol agar base (DG18 agar base) is a solid culture medium base used for isolation and enumeration of xerophilic and other fungi from low-water-activity samples. It contains glycerol to reduce water activity and dichloran to restrict spreading colony growth."@en ;
+            skos:prefLabel "Dichloran glycerol agar base"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
