@@ -8910,6 +8910,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "0.25¥% Resazurin solution"@en ,
                         "1% Resazurin solution"@en ,
                         "1¥% Resazurin solution"@en ,
+                        "Resazurin (1 mg/L)"@en ,
                         "Resazurin solution (0.02%)"@en ,
                         "Resazurin solution (0.02¥%)"@en ,
                         "Resazurin solution (1%)"@en ,
