@@ -1006,6 +1006,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "CaCl$_2$2H$_2$O"@en ,
                         "CaCl$¥cdot$2H$_2$O"@en ,
                         "CaCl2$¥cdot$2H$_2$O"@en ,
+                        "CaCl2·2H2O"@en ,
                         "CaCl<sub>2</sub>&middot;2 H<sub>2</sub>O"@en ,
                         "CaCl<sub>2</sub>&middot;2H<sub>2</sub>0"@en ,
                         "CaCl<sub>2</sub>&middot;2H<sub>2</sub>O"@en ;
