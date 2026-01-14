@@ -9741,7 +9741,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "0.1% (w/v) resazurin-Na"@en ,
                         "0.1¥% (w/v) Sodium resazurin solution"@en ,
                         "0.1¥% (w/v) resazurin-Na"@en ,
-                        "Na-resazurin solution"@en ;
+                        "Na-resazurin solution"@en ,
+                        "Sodium resazurin (0.1% w/v)"@en ;
             :GMO_000112 :GMO_000055 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
