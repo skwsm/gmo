@@ -1240,6 +1240,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001323 ;
             :GMO_000110 "Na$_2$S$¥cdot$9H$_2$O"@en ,
                         "Na2S 9H2O"@en ,
+                        "Na2S x 9 H2O"@en ,
                         "Na<sub>2</sub>S&middot;9 H<sub>2</sub>O"@en ,
                         "Na<sub>2</sub>S&middot;9H<sub>2</sub>O"@en ,
                         "NaS$_2$$¥cdot$9H$_2$O"@en ;
