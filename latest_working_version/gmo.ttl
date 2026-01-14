@@ -1339,6 +1339,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Bacto Yeast Extract (Difco)"@en ,
                         "Bacto yeast extract (Difco)"@en ,
                         "Bacto-Yeast extract"@en ,
+                        "Yeast Extract(Difco)"@en ,
                         "Yeast extract (BBL)"@en ,
                         "Yeast extract (BD)"@en ,
                         "Yeast extract (Difco)"@en ;
