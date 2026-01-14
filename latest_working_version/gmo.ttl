@@ -14235,7 +14235,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001718 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001011 ;
             :GMO_000110 "Na$_2$MoO$_4$$¥cdot$2H$_2$O (12 g/L)"@en ,
-                        "Na2MoO4 2H2O (12 g/L)"@en ;
+                        "Na2MoO4 2H2O (12 g/L)"@en ,
+                        "Na2MoO4 x 2 H2O (0.1% w/v)"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
