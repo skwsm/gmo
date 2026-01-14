@@ -935,6 +935,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "MgSO$_4$$¥cdot$7H2O"@en ,
                         "MgSO$_4$7H$_2$O"@en ,
                         "MgSO4 7H2O"@en ,
+                        "MgSO4 x 7 H2O"@en ,
                         "MgSO4 ·7H2O"@en ,
                         "MgSO4&middot;7H2O"@en ,
                         "MgSO47H2O"@en ,
