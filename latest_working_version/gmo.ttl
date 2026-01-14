@@ -11911,6 +11911,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001569 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "L--Cystine$¥cdot$HCl$¥cdot$H$_2$O"@en ,
+                        "L-Cysteine HCl x H2O"@en ,
                         "L-Cystine HCl H2O"@en ,
                         "L-Cystine&#183;HCl&#183;H<sub>2</sub>O"@en ;
             :GMO_000112 :GMO_000064 ;
