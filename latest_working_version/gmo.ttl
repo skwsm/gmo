@@ -3567,6 +3567,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "8¥% NaHCO3 solution*"@en ,
                         "NaHCO$_3$ (10¥%, w/v)"@en ,
                         "NaHCO$_3$ solution (10¥%, w/v)"@en ,
+                        "NaHCO3 (10% aq.)"@en ,
+                        "NaHCO3 (10% aq.)***"@en ,
                         "NaHCO3 (10%, w/v)"@en ,
                         "NaHCO3 solution (10%, w/v)"@en ,
                         "NaHCO<sub>3</sub> (10% (w/v))"@en ;
