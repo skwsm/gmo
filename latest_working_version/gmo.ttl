@@ -26561,6 +26561,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Nutrient agar"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002611
+:GMO_002611 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001046 ;
+            :GMO_000110 "Na2SeO3 x 5 H2O (0.1% w/v)"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002611" ;
+            rdfs:label "Sodium selenite pentahydrate solution"@en ,
+                       "亜セレン酸ナトリウム五水和物溶液"@ja ;
+            rdfs:seeAlso wikipedia:Sodium_selenite ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/134930> ;
+            skos:prefLabel "Sodium selenite pentahydrate solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
