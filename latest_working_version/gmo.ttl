@@ -9938,7 +9938,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "0.5% MgSO4 7H2O solution"@en ,
                         "0.5% MgSO<sub>4</sub>&#183;7H<sub>2</sub>O solution"@en ,
                         "0.5¥% MgSO$_4$$¥cdot$7H$_2$O solution"@en ,
-                        "10¥% MgSO$_4$$¥cdot$7H$_2$O"@en ;
+                        "10¥% MgSO$_4$$¥cdot$7H$_2$O"@en ,
+                        "MgSO4･7H2O (20% aq.)"@en ,
+                        "MgSO4･7H2O (20% aq.)***"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
