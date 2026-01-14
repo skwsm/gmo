@@ -5714,6 +5714,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "CaCl$_2$$¥cdot$2H$_2$O solution (68 mM)"@en ,
                         "CaCl2 2H2O"@en ,
                         "CaCl2 2H2O solution (68 mM)"@en ,
+                        "CaCl2･2H2O (1% aq.)"@en ,
+                        "CaCl2･2H2O (1% aq.)***"@en ,
                         "CaCl<sub>2</sub>&middot;2H<sub>2</sub>O (1% solution)"@en ,
                         "CaCl<sub>2</sub>&middot;2H<sub>2</sub>O solution (68 mM)"@en ;
             :GMO_000112 :GMO_000078 ;
