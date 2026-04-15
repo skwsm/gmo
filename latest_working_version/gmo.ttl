@@ -7707,9 +7707,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          ncit:Ferrous_Sulfate ,
                          <http://purl.bioontology.org/ontology/MSH/C020748> ,
                          ndf:N0000146041 ,
-                         rxnorm: ,
-                         snomed: ,
-                         pubchem: ,
                          "A hydrated form of ferrous sulfate commonly used in microbiological media due to its improved solubility and stability"@en ;
             skos:altLabel "Ferrous sulfate"@en ;
             skos:prefLabel "Iron(II) sulfate"@en .
@@ -13072,8 +13069,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001643" ;
             rdfs:label "Skim milk (Difco)"@en ;
             rdfs:seeAlso wikipedia:Skimmed_milk ,
-                         ndf:N0000023323 ,
-                         snomed: ;
+                         ndf:N0000023323 ;
             skos:prefLabel "Skim milk (Difco)"@en .
 
 
