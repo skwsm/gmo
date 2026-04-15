@@ -26397,7 +26397,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "チャペック培地"@ja ;
             rdfs:seeAlso wikipedia:Czapek_medium ;
             skos:definition "A family of defined fungal media derived from the Czapek formulation, typically characterized by nitrate as the primary nitrogen source and a defined inorganic salt base."@en ;
-            skos:prefLabel "Czapek medium" .
+            skos:prefLabel "Czapek medium"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002598
