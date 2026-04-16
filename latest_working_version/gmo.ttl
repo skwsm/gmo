@@ -1986,7 +1986,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Na<sub>2</sub>SeO<sub>3</sub>&middot;5 H2O"@en ,
                         "Na<sub>2</sub>SeO<sub>3</sub>&middot;5H<sub>2</sub>O"@en ,
                         "NaSeO3·5H2O"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000056 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -2995,7 +2996,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Na2SeO3"@en ,
                         "Na<sub>2</sub>SeO<sub>3</sub>"@en ,
                         "NaSeO$_3$"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000056 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -26573,6 +26575,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002611 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001046 ;
             :GMO_000110 "Na2SeO3 x 5 H2O (0.1% w/v)"@en ;
+            :GMO_000112 :GMO_000056 ,
+                        :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000051 ;
