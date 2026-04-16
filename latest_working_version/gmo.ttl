@@ -4688,7 +4688,9 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001176" ;
-            rdfs:label "Oxoid &trade; Nutrient broth"@en ;
+            rdfs:label "Oxoid &trade; Nutrient broth"@en ,
+                       "Oxoid &trade; ニュートリエントブロス"@ja ;
+            skos:definition "A manufacturer-specific nutrient broth product supplied by Thermo Fisher Scientific"@en ;
             skos:prefLabel "Oxoid &trade; Nutrient broth"@en .
 
 
@@ -7827,7 +7829,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001344" ;
-            rdfs:label "Difco &trade; Nutrient broth"@en ;
+            rdfs:label "Difco &trade; Nutrient broth"@en ,
+                       "Difco &trade; ニュートリエントブロス"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/269> ;
             skos:definition "A manufacturer-specific nutrient broth product supplied by BD"@en ;
             skos:prefLabel "Difco &trade; Nutrient broth"@en .
