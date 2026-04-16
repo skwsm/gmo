@@ -26479,6 +26479,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002603
 :GMO_002603 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001083 ;
+            :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002603" ;
