@@ -7711,9 +7711,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://mediadive.dsmz.de/ingredients/595> ,
                          ncit:Ferrous_Sulfate ,
                          <http://purl.bioontology.org/ontology/MSH/C020748> ,
-                         ndf:N0000146041 ,
-                         "A hydrated form of ferrous sulfate commonly used in microbiological media due to its improved solubility and stability"@en ;
+                         ndf:N0000146041 ;
             skos:altLabel "Ferrous sulfate"@en ;
+            skos:definition "A hydrated form of ferrous sulfate commonly used in microbiological media due to its improved solubility and stability"@en ;
             skos:prefLabel "Iron(II) sulfate"@en .
 
 
