@@ -5881,8 +5881,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Na-meta silicate"@en ,
                         "Na2SiO3"@en ,
                         "Na<sub>2</sub>SiO<sub>3</sub>"@en ,
-                        "Sodium metasilicate"@en ,
-                        "Sodium silicate"@en ;
+                        "Sodium metasilicate"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
