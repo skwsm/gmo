@@ -4682,7 +4682,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001176
 :GMO_001176 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002609 ;
             :GMO_000110 "Nutrient Broth (OXOID)"@en ,
                         "Nutrient Broth (Oxoid)"@en ;
             :GMO_000113 :GMO_000047 ,
@@ -7036,7 +7036,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001302
 :GMO_001302 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002610 ;
             :GMO_000110 "Bacto Nutrient Agar (Difco)"@en ,
                         "Difco 0001"@en ;
             :GMO_000113 :GMO_000047 ,
@@ -7819,12 +7819,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001344
 :GMO_001344 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000019 ;
+            rdfs:subClassOf :GMO_002609 ;
             :GMO_000110 "Bacto Nutrient Broth (Difco)"@en ,
                         "Bacto-Nutrient broth dehydrated"@en ,
                         "Difco 0003"@en ,
-                        "Nutrient Broth (Difco)"@en ,
-                        "Nutrient broth"@en ;
+                        "Nutrient Broth (Difco)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_001344" ;
