@@ -26163,7 +26163,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ,
                         :GMO_000077 ;
-            dcterms:identifier "GMO_002582"@e ;
+            dcterms:identifier "GMO_002582" ;
             rdfs:label "Argon gas"@en ;
             skos:definition "Argon gas (Ar) is a noble gas used in microbiological and chemical procedures to provide an inert and anaerobic environment."@en ;
             skos:prefLabel "Argon gas"@en ,
