@@ -6508,13 +6508,15 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001272" ;
-            rdfs:label "Rhamnose"@en ;
+            rdfs:label "Rhamnose"@en ,
+                       "ラムノース"@ja ;
             rdfs:seeAlso wikipedia:Rhamnose ,
                          ncit:Rhamnose ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/25310> ,
                          <http://purl.bioontology.org/ontology/MSH/D012210> ,
                          ndf:N0000168560 ,
                          chebi:CHEBI_26546 ;
+            skos:definition "A 6-deoxy-hexose monosaccharide, commonly occurring as L-rhamnose."@en ;
             skos:prefLabel "Rhamnose"@en .
 
 
