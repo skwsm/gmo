@@ -18405,7 +18405,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002004
 :GMO_002004 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001272 ;
-            :GMO_000110 "C6H12O5"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
@@ -19646,8 +19645,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002092
 :GMO_002092 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002091 ;
-            :GMO_000110 "5% Fucose solution"@en ,
-                        "C6H12O5"@en ;
+            :GMO_000110 "5% Fucose solution"@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002092" ;
             rdfs:label "Fucose solution"@en ;
