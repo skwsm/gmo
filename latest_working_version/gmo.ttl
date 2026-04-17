@@ -18775,7 +18775,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002033
 :GMO_002033 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "C16H34"@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002033" ;
             rdfs:label "Hexadecane"@en ,
@@ -19724,7 +19723,6 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002098
 :GMO_002098 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "C16H34"@en ;
             :GMO_000112 :GMO_000044 ;
             dcterms:identifier "GMO_002098" ;
             rdfs:label "Isocetane"@en ,
