@@ -25530,7 +25530,10 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002538" ;
-            rdfs:label "Middlebrook OADC enrichment"@en ;
+            rdfs:comment "OADC is commonly added to Middlebrook 7H9, 7H10, or 7H11 media for the isolation and cultivation of mycobacteria."@en ;
+            rdfs:label "Middlebrook OADC enrichment"@en ,
+                       "Middlebrook OADC 増菌添加剤"@ja ;
+            skos:definition "Middlebrook OADC enrichment is a supplement for Middlebrook mycobacterial media, consisting of oleic acid, albumin, dextrose, and catalase. As a culture medium component, it is used to support the growth of mycobacteria by providing fatty acid and carbohydrate nutrients, binding inhibitory substances through albumin, and reducing oxidative stress through catalase."@en ;
             skos:prefLabel "Middlebrook OADC enrichment"@en .
 
 
@@ -25540,7 +25543,9 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002539" ;
-            rdfs:label "BBL &trade; Middlebrook OADC enrichment"@en ;
+            rdfs:label "BBL &trade; Middlebrook OADC enrichment"@en ,
+                       "BBL &trade; Middlebrook OADC 増菌添加剤"@ja ;
+            skos:definition "BBL Middlebrook OADC enrichment is a manufacturer-specific BD BBL product formulation of Middlebrook OADC enrichment used as a supplement for Middlebrook media for mycobacterial cultivation"@en ;
             skos:prefLabel "BBL &trade; Middlebrook OADC enrichment"@en .
 
 
