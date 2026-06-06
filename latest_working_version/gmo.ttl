@@ -26602,6 +26602,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Powdered milk"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002613
+:GMO_002613 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001172 ;
+            :GMO_000110 "10% Powdered milk solution"@en ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000051 ;
+            dcterms:identifier "GMO_002613" ;
+            rdfs:label "Skim milk solution"@en ,
+                       "スキムミルク溶液"@ja ;
+            skos:definition "Skim milk solution is a solution or suspension prepared by dissolving powdered skim milk in water, used as a complex nutrient or proteinaceous supplement in culture media."@en ;
+            skos:prefLabel "Skim milk solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
