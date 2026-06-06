@@ -4625,6 +4625,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:seeAlso wikipedia:Skimmed_milk ,
                          <http://mediadive.dsmz.de/ingredients/262> ,
                          ndf:N0000023323 ;
+            skos:altLabel "脱脂粉乳"@ja ;
+            skos:definition "Skim milk is milk from which most or all milk fat has been removed while retaining proteins, lactose, minerals, and other water-soluble components. As a component of culture media, skim milk is used as a complex nutrient source and a source of casein, and is commonly employed in media for microbial cultivation and for the detection of proteolytic activity."@en ;
             skos:prefLabel "Skim milk"@en .
 
 
