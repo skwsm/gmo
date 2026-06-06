@@ -4615,7 +4615,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001172
 :GMO_001172 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002612 ;
             :GMO_000110 "Skim milk"@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
@@ -26584,6 +26584,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso wikipedia:Sodium_selenite ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/134930> ;
             skos:prefLabel "Sodium selenite pentahydrate solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002612
+:GMO_002612 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002612" ;
+            rdfs:label "Powdered milk"@en ,
+                       "粉ミルク"@ja ;
+            rdfs:seeAlso wikipedia:Powdered_milk ;
+            skos:definition "Powdered milk is a generic class for dried milk products, including skim milk powder, whole milk powder, and partially skimmed milk powder."@en ;
+            skos:prefLabel "Powdered milk"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
