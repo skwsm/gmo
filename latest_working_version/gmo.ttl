@@ -13074,10 +13074,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001643" ;
-            rdfs:label "Skim milk (Difco)"@en ;
+            rdfs:label "Difco &trade; Skim milk"@en ;
             rdfs:seeAlso wikipedia:Skimmed_milk ,
                          ndf:N0000023323 ;
-            skos:prefLabel "Skim milk (Difco)"@en .
+            skos:definition "Skim milk (Difco) is a manufacturer-specific dehydrated skim milk powder product used as a culture medium ingredient."@en ;
+            skos:prefLabel "Difco &trade; Skim milk"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_001644
