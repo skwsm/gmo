@@ -26630,11 +26630,11 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "0.1M L-arginine"@en ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
+                        :GMO_000050 ,
+                        :GMO_000051 ,
                         :GMO_000062 ;
             dcterms:identifier "GMO_002614" ;
-            rdfs:label :GMO_000050 ,
-                       :GMO_000051 ,
-                       "L-Arginine solution"@en ,
+            rdfs:label "L-Arginine solution"@en ,
                        "L-アルギニン溶液"@ja ;
             rdfs:seeAlso wikipedia:Arginine ;
             skos:definition "L-Arginine solution is an aqueous solution prepared by dissolving L-arginine in water, used as a stock solution or liquid supplement for culture media."@en ;
