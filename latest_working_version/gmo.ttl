@@ -5237,7 +5237,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/D001120> ,
                          ndf:N0000146979 ,
                          chebi:CHEBI_29016 ;
-            skos:definition "Arginine, an alpha-amino acid"@en ;
+            skos:definition "Arginine is a basic amino acid containing a guanidino group. As a component of culture media, it is used as a nitrogen source, amino acid supplement, and, in some organisms, as an energy-yielding substrate through arginine metabolism."@en ,
+                            "Arginine, an alpha-amino acid"@en ;
             skos:prefLabel "Arginine"@en .
 
 
@@ -15051,11 +15052,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001767" ;
-            rdfs:label "L-Arginine"@en ;
-            rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1327> ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/6322> ,
-                         <https://en.wikipedia.org/wiki/Arginine> ;
-            skos:definition "L-Arginine, L-isomer of arginine which is an alphan amino acid"@en ;
+            rdfs:label "L-Arginine"@en ,
+                       "L-アルギニン"@ja ;
+            rdfs:seeAlso wikipedia:Arginine ,
+                         <http://mediadive.dsmz.de/ingredients/1327> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6322> ;
+            skos:definition "As a culture medium component, it is used as an amino acid supplement, nitrogen source, and metabolic substrate for organisms capable of arginine utilization."@en ;
             skos:prefLabel "L-Arginine"@en .
 
 
@@ -26620,6 +26622,23 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "スキムミルク溶液"@ja ;
             skos:definition "Skim milk solution is a solution or suspension prepared by dissolving powdered skim milk in water, used as a complex nutrient or proteinaceous supplement in culture media."@en ;
             skos:prefLabel "Skim milk solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002614
+:GMO_002614 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001767 ;
+            :GMO_000110 "0.1M L-arginine"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000062 ;
+            dcterms:identifier "GMO_002614" ;
+            rdfs:label :GMO_000050 ,
+                       :GMO_000051 ,
+                       "L-Arginine solution"@en ,
+                       "L-アルギニン溶液"@ja ;
+            rdfs:seeAlso wikipedia:Arginine ;
+            skos:definition "L-Arginine solution is an aqueous solution prepared by dissolving L-arginine in water, used as a stock solution or liquid supplement for culture media."@en ;
+            skos:prefLabel "L-Arginine solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
