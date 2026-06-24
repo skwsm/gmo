@@ -25540,6 +25540,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002539
 :GMO_002539 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002538 ;
+            :GMO_000110 "Middlebrook OADC Enrichment (BD-BBL)"@en ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
             dcterms:identifier "GMO_002539" ;
