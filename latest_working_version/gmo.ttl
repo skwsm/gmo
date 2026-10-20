@@ -26659,6 +26659,36 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Phosphorous acid"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002616
+:GMO_002616 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000043 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002616" ;
+            rdfs:label "Clarithromycin"@en ,
+                       "クラリスロマイシン"@ja ;
+            rdfs:seeAlso wikipedia:Clarithromycin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/84029> ,
+                         chebi:CHEBI_3732 ;
+            skos:definition "A semisynthetic macrolide antibiotic, the 6-O-methyl derivative of erythromycin A, that inhibits bacterial protein synthesis. In culture media it is used as an antimicrobial supplement, including susceptibility testing and suppression of susceptible organisms."@en ;
+            skos:prefLabel "Clarithromycin"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002617
+:GMO_002617 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000057 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002617" ;
+            rdfs:label "Antifoam 204 (Sigma-Aldrich)"@en ,
+                       "アンチフォーム204（Sigma-Aldrich）"@ja ;
+            rdfs:seeAlso <https://www.sigmaaldrich.com/product/sigma/a6426> ;
+            skos:definition "A proprietary nonsilicone antifoaming preparation sold as Antifoam 204, comprising polypropylene-based organic polyether dispersions. It is added to culture media to suppress foam during cultivation and fermentation."@en ;
+            skos:prefLabel "Antifoam 204 (Sigma-Aldrich)"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
