@@ -26779,6 +26779,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Ammonium sulfate solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002622
+:GMO_002622 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001309 ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002622" ;
+            rdfs:label "Cobalt dichloride dihydrate"@en ,
+                       "塩化コバルト(II)二水和物"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Cobalt(II)_chloride> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/129656378> ;
+            skos:altLabel "Cobalt(II) chloride dihydrate"@en ;
+            skos:definition "The dihydrate of cobalt(II) chloride, CoCl2·2H2O. It can supply cobalt as a trace mineral in culture media; the hydration state must be retained for mass-to-mole conversion."@en ;
+            skos:prefLabel "Cobalt dichloride dihydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
