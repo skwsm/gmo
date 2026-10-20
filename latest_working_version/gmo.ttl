@@ -26739,6 +26739,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Potassium citrate monohydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002620
+:GMO_002620 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001180 ;
+            :GMO_000110 "Avicel (PH-101, Sigma-Aldrich LLC.)"@en ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000041 ;
+            dcterms:identifier "GMO_002620" ;
+            rdfs:label "Avicel &reg; PH-101"@en ,
+                       "アビセルPH-101"@ja ;
+            rdfs:seeAlso wikipedia:Microcrystalline_cellulose ;
+            skos:altLabel "Avicel PH-101"@en ;
+            skos:definition ""@en ,
+                            "A named grade of microcrystalline cellulose sold as Avicel PH-101. In microbial media it can serve as a particulate cellulose substrate and carbon source for organisms capable of degrading crystalline cellulose."@en ;
+            skos:prefLabel "Avicel &reg; PH-101"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
