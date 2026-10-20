@@ -1428,6 +1428,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24643> ,
                          chebi:CHEBI_53503 ;
             skos:altLabel "Cobalt(II) chloride hexahydrate"@en ;
+            skos:definition "The hexahydrate of cobalt(II) chloride, with the formula CoCl₂·6H₂O. It is used in culture media as a source of cobalt, a trace element required by certain microorganisms for the synthesis and function of cobalt-containing cofactors."@en ;
             skos:prefLabel "Cobalt dichloride hexahydrate"@en .
 
 
@@ -7196,6 +7197,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/C018021> ,
                          chebi:CHEBI_35696 ;
             skos:altLabel "Cobalt(II) chloride"@en ;
+            skos:definition "An inorganic salt of divalent cobalt and chloride, with the formula CoCl₂, also known as cobalt(II) chloride. In culture media, it supplies cobalt as a trace element for microorganisms that require it, including those capable of synthesizing cobalt-containing cofactors such as cobalamin."@en ;
             skos:prefLabel "Cobalt dichloride"@en .
 
 
@@ -11363,6 +11365,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/3032536> ,
                          chebi:CHEBI_35696 ;
             skos:altLabel "Cobalt(II) chloride solution"@en ;
+            skos:definition "An aqueous preparation of cobalt(II) chloride used to supply cobalt as a trace element to culture media. The name does not specify the hydration state of the starting reagent or the concentration of the solution."@en ;
             skos:prefLabel "Cobalt dichloride solution"@en .
 
 
@@ -14703,7 +14706,9 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001745" ;
-            rdfs:label "Cobalt dichloride monohydrate"@en ;
+            rdfs:label "Cobalt dichloride monohydrate"@en ,
+                       "塩化コバルト一水和物"@ja ;
+            skos:definition "The monohydrate of cobalt(II) chloride, with the formula CoCl₂·H₂O. In culture media, it supplies cobalt as a trace element for microorganisms that require cobalt-containing cofactors."@en ;
             skos:prefLabel "Cobalt dichloride monohydrate"@en .
 
 
@@ -17232,10 +17237,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000113 :GMO_000046 ,
                         :GMO_000051 ;
             dcterms:identifier "GMO_001922" ;
-            rdfs:label "Cobalt dichloride hexahydrate solution "@en ;
+            rdfs:label "Cobalt dichloride hexahydrate solution "@en ,
+                       "塩化コバルト六水和物溶液"@ja ;
             rdfs:seeAlso wikipedia:Cobalt_chloride_hexahydrate ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/24643> ,
                          chebi:CHEBI_53503 ;
+            skos:definition "An aqueous preparation made by dissolving cobalt(II) chloride hexahydrate (CoCl₂·6H₂O). It is used as a liquid supplement to supply cobalt to culture media. The hydrate designation identifies the starting reagent used to prepare the solution."@en ;
             skos:prefLabel "Cobalt dichloride hexahydrate solution "@en .
 
 
