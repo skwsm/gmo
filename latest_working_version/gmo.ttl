@@ -23536,11 +23536,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002403
 :GMO_002403 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000057 ;
             dcterms:identifier "GMO_002403" ;
             rdfs:label "Silicone antifoam"@en ,
                        "シリコーン消泡剤"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Silicone#Defoaming> ;
             skos:altLabel "Silicone defoamer"@en ;
+            skos:definition "A silicone-based preparation used to prevent or reduce foam formation in culture media during cultivation or fermentation. It contains silicone as a foam-control ingredient and may also contain other ingredients, such as emulsifiers, carriers, or non-silicone foam-control agents."@en ;
             skos:prefLabel "Silicone antifoam"@en .
 
 
@@ -23548,8 +23550,12 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002404 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002403 ;
             :GMO_000110 "Antiform C"@en ;
+            :GMO_000112 :GMO_000057 ;
+            :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002404" ;
-            rdfs:label "Antifoam C emulsion"@en ;
+            rdfs:label "Antifoam C emulsion (Sigma-Aldrich)"@en ,
+                       "アンチフォーム C エマルジョン (Sigma-Aldrich)"@ja ;
+            skos:definition "A silicone-based antifoaming preparation marketed by Sigma-Aldrich as Antifoam C Emulsion (A8011). It is an aqueous emulsion containing 30% active silicone and nonionic emulsifiers, used to prevent or reduce foam formation in culture media during cultivation or fermentation."@en ;
             skos:prefLabel "Antifoam C emulsion"@en .
 
 
