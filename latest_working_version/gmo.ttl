@@ -6722,7 +6722,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001284
 :GMO_001284 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001180 ;
+            rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "CM-Cellulose"@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000041 ,
