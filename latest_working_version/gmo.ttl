@@ -26720,6 +26720,25 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "MOPS sodium salt"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002619
+:GMO_002619 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002619" ;
+            rdfs:label "Potassium citrate monohydrate"@en ,
+                       "クエン酸三カリウム一水和物"@ja ;
+            rdfs:seeAlso wikipedia:Potassium_citrate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/2735208> ,
+                         chebi:CHEBI_64746 ;
+            skos:altLabel "Potassium citrate tribasic monohydrate"@en ,
+                          "Tripotassium citrate monohydrate"@en ;
+            skos:definition "The monohydrate of tripotassium citrate, K3C6H5O7·H2O. In culture media it supplies potassium and citrate; citrate can contribute to buffering, metal complexation or carbon nutrition depending on the formulation and organism."@en ;
+            skos:prefLabel "Potassium citrate monohydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
