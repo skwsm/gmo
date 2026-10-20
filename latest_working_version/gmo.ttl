@@ -16099,8 +16099,11 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             :GMO_000110 "Bubble Absorbing Agent (Silicon)"@en ;
             :GMO_000112 :GMO_000057 ;
             dcterms:identifier "GMO_001840" ;
-            rdfs:label "Silicone based defoamers"@en ;
+            rdfs:label "Silicone based defoamers"@en ,
+                       "シリコーン消泡剤"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Defoamer#Silicone_based_defoamers> ;
+            skos:altLabel "Silicone antifoam"@en ;
+            skos:definition "A silicone-based preparation used to prevent or reduce foam formation in culture media during cultivation or fermentation. It contains silicone as a foam-control ingredient and may also contain other ingredients, such as emulsifiers, carriers, or non-silicone foam-control agents."@en ;
             skos:prefLabel "Silicone based defoamers"@en .
 
 
@@ -22978,7 +22981,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002359
 :GMO_002359 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002403 ;
+            rdfs:subClassOf :GMO_001840 ;
             :GMO_000112 :GMO_000057 ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000049 ;
@@ -23549,7 +23552,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002404
 :GMO_002404 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002403 ;
+            rdfs:subClassOf :GMO_001840 ;
             :GMO_000110 "Antiform C"@en ;
             :GMO_000112 :GMO_000057 ;
             :GMO_000113 :GMO_000047 ;
@@ -23620,7 +23623,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002410
 :GMO_002410 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_002403 ;
+            rdfs:subClassOf :GMO_001840 ;
             :GMO_000110 "Antifoam SI (Wako)"@en ;
             :GMO_000112 :GMO_000057 ;
             :GMO_000113 :GMO_000047 ;
