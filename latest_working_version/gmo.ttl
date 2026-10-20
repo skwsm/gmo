@@ -22978,12 +22978,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002359
 :GMO_002359 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002403 ;
             :GMO_000112 :GMO_000057 ;
-            :GMO_000113 :GMO_000046 ,
+            :GMO_000113 :GMO_000047 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_002359" ;
             rdfs:label "SAG &trade; 471 antifoam concentrate"@en ;
+            skos:definition "A silicone-containing antifoaming preparation marketed by Momentive as SAG 471 Antifoam Concentrate. It is a hybrid formulation with 100% active ingredients that disperses in water and is used to prevent or reduce foam formation during fermentation, including aerobic fermentation."@en ;
             skos:prefLabel "SAG &trade; 471 antifoam concentrate"@en .
 
 
@@ -23619,15 +23620,16 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002410
 :GMO_002410 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_000002 ;
+            rdfs:subClassOf :GMO_002403 ;
             :GMO_000110 "Antifoam SI (Wako)"@en ;
             :GMO_000112 :GMO_000057 ;
-            :GMO_000113 :GMO_000046 ;
+            :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002410" ;
             rdfs:label "Antifoam SI (Wako)"@en ,
                        "消泡剤SI (Wako)"@ja ;
             rdfs:seeAlso <http://labchem-wako.fujifilm.com/us/product/detail/W01W0101-1743.html> ;
-            skos:definition "A silicone defoaming agent"@en ;
+            skos:definition "A silicone defoaming agent"@en ,
+                            "A silicone-based antifoaming preparation marketed by FUJIFILM Wako Pure Chemical Corporation as Antifoam SI. It is used to prevent or reduce foam formation in bacterial and cell culture media, with minimal turbidity upon addition."@en ;
             skos:prefLabel "Antifoam SI (Wako)"@en .
 
 
