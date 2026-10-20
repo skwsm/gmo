@@ -1666,7 +1666,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/D000645> ,
                          ndf:N0000166204 ,
                          chebi:CHEBI_62946 ;
-            skos:definition "Ammonium sulfate"@en ;
+            skos:definition "Ammonium sulfate"@en ,
+                            "An inorganic salt with the formula (NH₄)₂SO₄. In culture media, it supplies ammonium as an inorganic nitrogen source and sulfate as a sulfur source for microorganisms capable of assimilating these ions."@en ;
             skos:prefLabel "Ammonium sulfate"@en .
 
 
@@ -5357,7 +5358,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Ammonium sulfate heptahydrate"@en ,
                        "硫酸アンモニウム七水和物"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/129680374> ;
-            skos:definition "Ammonium sulfate heptahydrate"@en ;
+            skos:definition "A hydrated form of ammonium sulfate represented by the formula (NH₄)₂SO₄·7H₂O. When used as a culture-medium ingredient, it supplies ammonium and sulfate as potential nitrogen and sulfur sources, respectively."@en ,
+                            "Ammonium sulfate heptahydrate"@en ;
             skos:prefLabel "Ammonium sulfate heptahydrate"@en .
 
 
@@ -26764,6 +26766,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002621
 :GMO_002621 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001030 ;
+            :GMO_000110 "1 M (NH4)2SO4"@en ;
             :GMO_000112 :GMO_000062 ,
                         :GMO_000078 ;
             :GMO_000113 :GMO_000046 ,
