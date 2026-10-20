@@ -23553,7 +23553,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002404
 :GMO_002404 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001840 ;
-            :GMO_000110 "Antiform C"@en ;
+            :GMO_000110 "100 × diluted antifoam 204 (Sigma Aldrich, St. Louis, MO)"@en ,
+                        "Antiform C"@en ;
             :GMO_000112 :GMO_000057 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002404" ;
@@ -23624,8 +23625,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002410
 :GMO_002410 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001840 ;
-            :GMO_000110 "100 × diluted antifoam 204 (Sigma Aldrich, St. Louis, MO)"@en ,
-                        "Antifoam SI (Wako)"@en ;
+            :GMO_000110 "Antifoam SI (Wako)"@en ;
             :GMO_000112 :GMO_000057 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002410" ;
