@@ -4783,6 +4783,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/D002482> ,
                          ndf:N0000147309 ,
                          chebi:CHEBI_167997 ;
+            skos:definition "A linear polysaccharide composed of β-D-glucose units linked by β-(1→4) glycosidic bonds and a major structural constituent of plant cell walls. In culture media, it serves as an insoluble carbon source for cellulolytic microorganisms and as a substrate for investigating cellulose degradation."@en ;
             skos:prefLabel "Cellulose"@en .
 
 
@@ -5625,6 +5626,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             rdfs:label "Cellulose (MN 300)"@en ,
                        "セルロース (MN 300)"@ja ;
             rdfs:seeAlso wikipedia:Cellulose ;
+            skos:definition "A grade of native fibrous cellulose supplied by MACHEREY-NAGEL under the designation MN 300. In culture media, it provides an insoluble cellulose substrate and can serve as a carbon source for cellulolytic microorganisms."@en ;
             skos:prefLabel "Cellulose (MN 300)"@en .
 
 
@@ -6739,6 +6741,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                           "Carmellose"@en ,
                           "Croscarmellose"@en ,
                           "カルメロース"@ja ;
+            skos:definition "A cellulose derivative in which some hydroxyl groups are substituted with carboxymethyl groups. Its properties depend on the degree of substitution and polymer chain length. In culture media, it can serve as a substrate for microorganisms capable of degrading carboxymethyl cellulose and for detecting extracellular cellulase activity."@en ;
             skos:prefLabel "Carboxymethyl cellulose"@en .
 
 
@@ -19532,6 +19535,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                        "カルボキシメチルセルロース ナトリウム塩"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23706213> ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/6328154> ;
+            skos:definition "The sodium salt of carboxymethyl cellulose, a cellulose derivative bearing carboxymethyl groups with sodium counterions. It typically forms viscous aqueous solutions, with properties depending on the degree of substitution and polymer chain length. In culture media, it is used as a substrate for detecting cellulase activity and as a carbon source for microorganisms capable of utilizing it."@en ;
             skos:prefLabel "Carboxymethyl cellulose, sodium salt"@en .
 
 
@@ -24641,8 +24645,10 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000110 "Sigmacell alpha Type 50"@en ;
             :GMO_000112 :GMO_000063 ;
             dcterms:identifier "GMO_002476" ;
-            rdfs:label "Sigmacell cellulose type 50"@en ;
+            rdfs:label "Sigmacell cellulose type 50"@en ,
+                       "Sigmacell セルロース タイプ50"@ja ;
             rdfs:seeAlso <http://mediadive.dsmz.de/ingredients/1281> ;
+            skos:definition "A high-purity cellulose powder marketed by Sigma-Aldrich as Sigmacell Cellulose Type 50, with a nominal particle size of 50 μm. In culture media, it provides an insoluble cellulose substrate for cultivating cellulolytic microorganisms and investigating cellulose degradation."@en ;
             skos:prefLabel "Sigmacell cellulose type 50"@en .
 
 
