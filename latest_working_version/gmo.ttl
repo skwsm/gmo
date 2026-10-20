@@ -26818,6 +26818,26 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Technical grade agar"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002624
+:GMO_002624 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002624" ;
+            rdfs:label "DL-3-ヒドロキシ酪酸ナトリウム"@ja ,
+                       "Sodium DL-3-hydroxybutyrate"@en ;
+            rdfs:seeAlso wikipedia:Beta-Hydroxybutyric_acid ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/23676771> ,
+                         chebi:CHEBI_113373 ;
+            skos:altLabel "DL-3-Hydroxybutyric acid sodium salt"@en ,
+                          "Sodium 3-hydroxybutyrate"@en ,
+                          "Sodium DL-beta-hydroxybutyrate"@en ;
+            skos:definition "The sodium salt of racemic 3-hydroxybutyric acid. It can be used in culture media as an organic carbon and energy substrate for organisms able to metabolize 3-hydroxybutyrate; utilization of the two enantiomers can differ."@en ;
+            skos:prefLabel "Sodium DL-3-hydroxybutyrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
