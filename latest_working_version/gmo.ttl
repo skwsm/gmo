@@ -1064,6 +1064,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         "Agar* (if needed)"@en ,
                         "Agarose"@en ;
             :GMO_000112 :GMO_000048 ;
+            :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001007" ;
             rdfs:label "Agar"@en ,
                        "寒天"@ja ;
@@ -26801,6 +26802,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:altLabel "Cobalt(II) chloride dihydrate"@en ;
             skos:definition "The dihydrate of cobalt(II) chloride, CoCl2·2H2O. It can supply cobalt as a trace mineral in culture media; the hydration state must be retained for mass-to-mole conversion."@en ;
             skos:prefLabel "Cobalt dichloride dihydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002623
+:GMO_002623 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001007 ;
+            :GMO_000112 :GMO_000048 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002623" ;
+            rdfs:label "Technical grade agar"@en ,
+                       "テクニカルグレード寒天"@ja ;
+            rdfs:seeAlso wikipedia:Agar ;
+            skos:altLabel "Agar, technical grade"@en ;
+            skos:definition "Agar supplied at a technical grade rather than as a highly purified grade. It is used as a solidifying material for culture media; impurity content and gel properties depend on the product."@en ;
+            skos:prefLabel "Technical grade agar"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
