@@ -26701,6 +26701,25 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Antifoam 204 (Sigma-Aldrich)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002618
+:GMO_002618 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000038 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002618" ,
+                               "MOPS sodium salt"@en ;
+            rdfs:label "MOPS sodium salt"@en ,
+                       "MOPSナトリウム塩"@ja ;
+            rdfs:seeAlso wikipedia:MOPS ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/3859613> ;
+            skos:altLabel "MOPS-Na"@en ,
+                          "Sodium 3-morpholinopropanesulfonate"@en ;
+            skos:definition "The sodium salt of 3-(N-morpholino)propanesulfonic acid. It is used with the corresponding acid form or pH adjustment to prepare MOPS-buffered culture media around neutral pH."@en ;
+            skos:prefLabel "MOPS sodium salt"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
