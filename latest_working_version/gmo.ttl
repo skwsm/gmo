@@ -3920,10 +3920,10 @@ UnitsOntology:milligram rdf:type owl:Class ;
             dcterms:identifier "GMO_001136" ;
             rdfs:label "Nickel(II) sulfate hexahydrate"@en ,
                        "硫酸ニッケル(II)六水和物"@ja ;
-            rdfs:seeAlso wikipedia:_sulfate ,
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Nickel(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5284429> ,
                          <http://purl.bioontology.org/ontology/MSH/C029938> ,
-                         chebi:CHEBI_53437 ,
-                         pubchem: ;
+                         chebi:CHEBI_53437 ;
             skos:prefLabel "Nickel(II) sulfate hexahydrate"@en .
 
 
@@ -26958,6 +26958,22 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "Difco &trade; ユーゴン寒天培地"@ja ;
             skos:definition "A dehydrated complex agar-medium formulation sold as Difco Eugon Agar. After preparation it supports the cultivation of a variety of microorganisms and may also be used as a basal formulation in supplemented media."@en ;
             skos:prefLabel "Difco &trade; Eugon agar"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002633
+:GMO_002633 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001136 ;
+            :GMO_000110 "NiSO4･6H2O aq. (0.6 g/L)"@en ;
+            :GMO_000113 :GMO_000051 ,
+                        :GMO_000078 ;
+            dcterms:identifier "GMO_002633" ;
+            rdfs:label "Nickel(II) sulfate hexahydrate solution"@en ,
+                       "硫酸ニッケル(II)六水和物溶液"@ja ;
+            rdfs:seeAlso <http://en.wikipedia.org/wiki/Nickel(II)_sulfate> ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/5284429> ,
+                         chebi:CHEBI_53437 ;
+            skos:definition "An aqueous stock prepared using nickel(II) sulfate hexahydrate. It supplies nickel and sulfate to culture media."@en ;
+            skos:prefLabel "Nickel(II) sulfate hexahydrate solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
