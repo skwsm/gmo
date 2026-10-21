@@ -27051,6 +27051,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Copper(II) nitrate trihydrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002639
+:GMO_002639 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001847 ;
+            :GMO_000110 "POREMEDIA B-CYEα AGAR MEDIUM (Eiken Chemical Co., Ltd.)"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002639" ;
+            rdfs:label "POREMEDIA B-CYEα agar medium (Eiken)"@en ,
+                       "ポアメディアB-CYEα寒天培地（栄研化学）"@ja ;
+            skos:definition "A prepared B-CYEα agar medium supplied by Eiken under the POREMEDIA name for isolation of Legionella."@en ;
+            skos:prefLabel "POREMEDIA B-CYEα agar medium (Eiken)"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
