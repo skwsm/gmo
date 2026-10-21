@@ -26917,6 +26917,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium (R)-pantoate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002630
+:GMO_002630 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "4% Glycogen solution"@en ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002630" ;
+            rdfs:label "Glycogen solution"@en ,
+                       "グリコーゲン溶液"@ja ;
+            rdfs:seeAlso wikipedia:Glycogen ,
+                         chebi:CHEBI_28087 ;
+            skos:definition "An aqueous preparation of glycogen, a branched glucose polymer with a distribution of chain lengths. It can be used as a liquid carbohydrate substrate in media for organisms able to degrade glycogen."@en ;
+            skos:prefLabel "Glycogen solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
