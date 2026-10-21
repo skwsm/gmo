@@ -27064,6 +27064,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "POREMEDIA B-CYEα agar medium (Eiken)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002640
+:GMO_002640 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002609 ;
+            :GMO_000110 "Nutrient Broth Powder (Kyokuto*)"@en ;
+            :GMO_000113 :GMO_000050 ;
+            dcterms:identifier "GMO_002640" ;
+            rdfs:label "Premedia nutrient broth powder (Kyokuto)"@en ,
+                       "プレメディア普通ブイヨン培地（極東）"@ja ;
+            skos:definition "A dehydrated nutrient-broth formulation supplied by Kyokuto as Premedia nutrient broth. It is a complex nutrient preparation used after reconstitution for cultivation of general bacteria or as the basal ingredient of supplemented media."@en ;
+            skos:prefLabel "Nutrient broth powder (Kyokuto)"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
