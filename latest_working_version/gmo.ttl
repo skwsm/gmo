@@ -26869,6 +26869,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sublimed sulfur"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002627
+:GMO_002627 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000062 ;
+            dcterms:identifier "GMO_002627" ;
+            rdfs:label "L-Leucine hydrochloride"@en ,
+                       "L-ロイシン塩酸塩"@ja ;
+            rdfs:seeAlso wikipedia:Leucine ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/102479> ;
+            skos:altLabel "L-leucine HCl"@en ;
+            skos:definition "The hydrochloride salt of L-leucine."@en ;
+            skos:prefLabel "L-Leucine hydrochloride"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
