@@ -26976,6 +26976,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Nickel(II) sulfate hexahydrate solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002634
+:GMO_002634 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001268 ;
+            :GMO_000110 "Dextrin hydrate solution"@en ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002634" ;
+            rdfs:label "An aqueous preparation of dextrin, a mixture of glucose polymers obtained from starch or related glucans. It can supply carbohydrate to culture media for organisms capable of utilizing dextrin."@en ,
+                       "Dextrin solution"@en ,
+                       "デキストリン溶液"@ja ;
+            rdfs:seeAlso wikipedia:Dextrin ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/62698> ,
+                         chebi:CHEBI_28675 ;
+            skos:prefLabel "Dextrin solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
