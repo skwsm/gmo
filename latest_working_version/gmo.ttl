@@ -2363,7 +2363,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "Elemental sulfer"@en ,
                         "Sulfur"@en ,
                         "Sulfur (powder)"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -26984,12 +26984,12 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000051 ;
             dcterms:identifier "GMO_002634" ;
-            rdfs:label "An aqueous preparation of dextrin, a mixture of glucose polymers obtained from starch or related glucans. It can supply carbohydrate to culture media for organisms capable of utilizing dextrin."@en ,
-                       "Dextrin solution"@en ,
+            rdfs:label "Dextrin solution"@en ,
                        "デキストリン溶液"@ja ;
             rdfs:seeAlso wikipedia:Dextrin ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62698> ,
                          chebi:CHEBI_28675 ;
+            skos:definition "An aqueous preparation of dextrin, a mixture of glucose polymers obtained from starch or related glucans. It can supply carbohydrate to culture media for organisms capable of utilizing dextrin."@en ;
             skos:prefLabel "Dextrin solution"@en .
 
 
