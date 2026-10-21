@@ -26852,6 +26852,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Cellulose nanocrystal powder"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002626
+:GMO_002626 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001062 ;
+            :GMO_000110 "Sublimed sulfur (TianJing Hengxing Chemical Reagent Co. Ltd)"@en ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002626" ;
+            rdfs:label "Sublimed sulfur"@en ,
+                       "昇華硫黄"@ja ;
+            rdfs:seeAlso wikipedia:Sulfur ;
+            skos:altLabel "Flowers of sulfur"@en ,
+                          "Sublimed sulphur"@en ;
+            skos:definition "Elemental sulfur prepared by sublimation, commonly called flowers of sulfur. In microbial culture it can provide an insoluble sulfur substrate for organisms that oxidize or reduce elemental sulfur, depending on the organism and medium."@en ;
+            skos:prefLabel "Sublimed sulfur"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
