@@ -27005,6 +27005,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Inulin solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002636
+:GMO_002636 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001879 ;
+            :GMO_000112 :GMO_000042 ,
+                        :GMO_000067 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002636" ;
+            rdfs:label "PPLO serum fraction"@en ,
+                       "PPLO血清画分"@ja ;
+            skos:definition "A serum-derived fraction used as an enrichment supplement for pleuropneumonia-like organisms, including mycoplasmas. It supplies serum-associated growth-supporting substances, including lipids, and is distinct from whole serum and PPLO broth base."@en ;
+            skos:prefLabel "PPLO serum fraction"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
