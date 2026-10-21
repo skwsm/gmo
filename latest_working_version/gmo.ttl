@@ -26838,6 +26838,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium DL-3-hydroxybutyrate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002625
+:GMO_002625 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001180 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000041 ;
+            dcterms:identifier "GMO_002625" ;
+            rdfs:label "Cellulose nanocrystal powder"@en ,
+                       "セルロースナノクリスタル粉末"@ja ;
+            rdfs:seeAlso wikipedia:Nanocellulose ;
+            skos:altLabel "CNC powder"@en ;
+            skos:definition "A dry preparation of nanoscale crystalline cellulose particles. It is a physically distinct cellulose material that can be supplied as a particulate substrate in studies of cellulose utilization; surface chemistry and particle dimensions depend on its preparation."@en ;
+            skos:prefLabel "Cellulose nanocrystal powder"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
