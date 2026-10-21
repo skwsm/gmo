@@ -26900,6 +26900,23 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "L-Isoleucine hydrochloride"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002629
+:GMO_002629 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000067 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002629" ;
+            rdfs:label "(R)-パント酸ナトリウム"@ja ,
+                       "Sodium (R)-pantoate"@en ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/23716478> ;
+            skos:altLabel "(R)-Pantoic acid sodium salt"@en ,
+                          "Sodium D-pantoate"@en ;
+            skos:definition "The sodium salt of (R)-pantoic acid, a hydroxy acid used in pantothenate biosynthesis. It can serve as a precursor supplement for organisms able to convert pantoate to pantothenate."@en ;
+            skos:prefLabel "Sodium (R)-pantoate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
