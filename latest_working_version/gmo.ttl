@@ -26946,6 +26946,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Casein peptone solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002632
+:GMO_002632 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Eugon agar (BD-Difco)"@en ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002632" ;
+            rdfs:label "Difco &trade; Eugon agar"@en ,
+                       "Difco &trade; ユーゴン寒天培地"@ja ;
+            skos:definition "A dehydrated complex agar-medium formulation sold as Difco Eugon Agar. After preparation it supports the cultivation of a variety of microorganisms and may also be used as a basal formulation in supplemented media."@en ;
+            skos:prefLabel "Difco &trade; Eugon agar"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
