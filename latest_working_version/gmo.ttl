@@ -18910,6 +18910,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:label "Inulin"@en ;
             rdfs:seeAlso wikipedia:Inulin ,
                          <http://mediadive.dsmz.de/ingredients/516> ;
+            skos:definition "A plant-derived fructan composed mainly of β-(2→1)-linked fructose units, typically with a terminal glucose residue. In culture media, inulin serves as a carbon and energy source for microorganisms capable of degrading it and as a substrate for assessing inulin utilization or fermentation."@en ;
             skos:prefLabel "Inulin"@en ,
                            "イヌリン"@ja .
 
@@ -26990,6 +26991,18 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://pubchem.ncbi.nlm.nih.gov/compound/62698> ,
                          chebi:CHEBI_28675 ;
             skos:prefLabel "Dextrin solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002635
+:GMO_002635 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002041 ;
+            :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002635" ;
+            rdfs:label "Inulin solution"@en ,
+                       "イヌリン溶液"@ja ;
+            rdfs:seeAlso wikipedia:Inulin ;
+            skos:definition "An aqueous preparation of inulin, a fructan material with a distribution of chain lengths. It is used as a carbohydrate supplement or test substrate in media for organisms able to utilize inulin."@en ;
+            skos:prefLabel "Inulin solution"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
