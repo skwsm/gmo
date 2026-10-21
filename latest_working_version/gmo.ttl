@@ -27020,6 +27020,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "PPLO serum fraction"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002637
+:GMO_002637 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "100 mM NaHCO3/100 mM Na2CO3 buffer (pH 10)"@en ;
+            :GMO_000112 :GMO_000038 ;
+            :GMO_000113 :GMO_000046 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002637" ;
+            rdfs:label "Sodium bicarbonate–sodium carbonate buffer"@en ,
+                       "炭酸水素ナトリウム・炭酸ナトリウム緩衝液"@ja ;
+            skos:definition "An aqueous buffer prepared from sodium bicarbonate and sodium carbonate. It is used to control alkaline pH in culture media. Stock concentrations, mixing ratio and any final pH adjustment are properties of the individual preparation."@en ;
+            skos:prefLabel "Sodium bicarbonate–sodium carbonate buffer"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
