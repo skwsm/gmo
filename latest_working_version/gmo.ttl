@@ -27045,8 +27045,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Copper(II) nitrate trihydrate"@en ,
                        "硝酸銅(II)三水和物"@ja ;
             rdfs:seeAlso <http://en.wikipedia.org/wiki/Copper(II)_nitrate> ,
-                         <http://pubchem.ncbi.nlm.nih.gov/compound/9837674> ,
-                         "Cupric nitrate trihydrate"@en ;
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/9837674> ;
+            skos:altLabel "Cupric nitrate trihydrate"@en ;
             skos:definition "The trihydrate of copper(II) nitrate, Cu(NO3)2·3H2O. It can be used as a copper-containing mineral supplement in culture media, with nitrate supplied as its counterion."@en ;
             skos:prefLabel "Copper(II) nitrate trihydrate"@en .
 
