@@ -3523,7 +3523,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001118" ;
-            rdfs:label "Iron(III) citrate"@en ,
+            rdfs:label "An iron(III) complex of citric acid, also known as ferric citrate. In culture media, it serves as an iron source for microorganisms capable of utilizing it; citrate helps maintain iron in a soluble complexed form."@en ,
+                       "Iron(III) citrate"@en ,
                        "クエン酸酸化鉄"@ja ;
             rdfs:seeAlso wikipedia:_citrate ,
                          <http://mediadive.dsmz.de/ingredients/1885> ,
@@ -27074,6 +27075,21 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "プレメディア普通ブイヨン培地（極東）"@ja ;
             skos:definition "A dehydrated nutrient-broth formulation supplied by Kyokuto as Premedia nutrient broth. It is a complex nutrient preparation used after reconstitution for cultivation of general bacteria or as the basal ingredient of supplemented media."@en ;
             skos:prefLabel "Nutrient broth powder (Kyokuto)"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002641
+:GMO_002641 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001118 ;
+            :GMO_000110 "Ferric Citrate (Sigma F-6129)"@en ;
+            :GMO_000112 :GMO_000078 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002641" ;
+            rdfs:label "Iron(III) citrate (Sigma)"@en ,
+                       "クエン酸酸化鉄 (Sigma)"@ja ;
+            skos:definition "A commercial preparation of iron(III) citrate (ferric citrate) supplied by Sigma. In culture media, it serves as an iron source for microorganisms capable of utilizing it; citrate helps maintain iron in a soluble complexed form. The specific formulation and hydration state depend on the product."@en ;
+            skos:prefLabel "Iron(III) citrate (Sigma)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
