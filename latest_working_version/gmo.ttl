@@ -27254,7 +27254,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000113 :GMO_000047 ,
                         :GMO_000050 ;
-            dcterms:identifier "GMO_002652"@ja ;
+            dcterms:identifier "GMO_002652" ;
             rdfs:label "Hoagland′s No. 2 Basal Salt Mixture (Sigma-Aldrich)"@en ,
                        "Hoagland′s No. 2 基礎塩混合物 (Sigma-Aldrich)"@ja ;
             skos:prefLabel "Hoagland′s No. 2 Basal Salt Mixture (Sigma-Aldrich)"@en .
@@ -27266,8 +27266,8 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002653" ;
             rdfs:label "Alkaline-pretreated corn stover lignin solution"@en ,
-                       "An aqueous preparation containing soluble lignin fragments and lignin-derived aromatic compounds obtained by alkaline pretreatment of corn stover, followed by neutralization and removal of insoluble material. In culture media, it serves as a heterogeneous substrate for microbial conversion of lignin-derived compounds into value-added products."@en ,
                        "アルカリ前処理トウモロコシ収穫残渣由来リグニン溶液"@ja ;
+            skos:definition "An aqueous preparation containing soluble lignin fragments and lignin-derived aromatic compounds obtained by alkaline pretreatment of corn stover, followed by neutralization and removal of insoluble material. In culture media, it serves as a heterogeneous substrate for microbial conversion of lignin-derived compounds into value-added products."@en ;
             skos:prefLabel "Alkaline-pretreated corn stover lignin solution"@en .
 
 
