@@ -27207,6 +27207,22 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sodium 2-glycerophosphate pentahydrate (Merck)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002649
+:GMO_002649 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001180 ;
+            :GMO_000110 "Cellulose (Avicel or MN 301) (optional)"@en ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        :GMO_000063 ;
+            dcterms:identifier "GMO_002649" ;
+            rdfs:label "Cellulose (MN 301)"@en ,
+                       "セルロース (MN 300)"@ja ;
+            rdfs:seeAlso wikipedia:Cellulose ;
+            skos:definition "A grade of native fibrous cellulose supplied by MACHEREY-NAGEL under the designation MN 301. In culture media, it provides an insoluble cellulose substrate and can serve as a carbon source for cellulolytic microorganisms."@en ;
+            skos:prefLabel "Cellulose (MN 301)"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
