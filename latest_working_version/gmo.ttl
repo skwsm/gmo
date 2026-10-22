@@ -25935,7 +25935,8 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002564
 :GMO_002564 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001007 ;
-            :GMO_000110 "bacteriological agar (Oxoid)"@en ;
+            :GMO_000110 "Bacteriological agar (oxoid, pH 5.8)"@en ,
+                        "bacteriological agar (Oxoid)"@en ;
             :GMO_000112 :GMO_000048 ;
             dcterms:identifier "GMO_002564" ;
             rdfs:label "Oxoid &trade; Agar bacteriological"@en ,
@@ -25944,7 +25945,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                          <http://mediadive.dsmz.de/ingredients/3> ,
                          <http://mediadive.dsmz.de/ingredients/991> ,
                          <http://purl.bioontology.org/ontology/MSH/D000362> ;
-            skos:prefLabel "Oxoid &trade; Agar Bacteriological"@en .
+            skos:prefLabel "Oxoid &trade; Agar bacteriological"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/GMO_002565
