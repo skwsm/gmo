@@ -27092,6 +27092,20 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Iron(III) citrate (Sigma)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002642
+:GMO_002642 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Na-arsinate"@en ;
+            dcterms:identifier "GMO_002642" ;
+            rdfs:label :GMO_000040 ,
+                       :GMO_000046 ,
+                       :GMO_000049 ,
+                       "Sodium arsenate, dibasic"@en ,
+                       "ひ酸水素二ナトリウム"@ja ;
+            skos:definition "The anhydrous disodium salt of arsenic acid, with the formula Na₂HAsO₄. In culture media, it supplies arsenate for studies of microbial arsenic metabolism and resistance, and can serve as an electron acceptor for microorganisms capable of arsenate respiration."@en ;
+            skos:prefLabel "Sodium arsenate, dibasic"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
