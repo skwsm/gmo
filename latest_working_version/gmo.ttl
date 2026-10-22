@@ -9283,6 +9283,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001423" ;
             rdfs:label "Purified agar"@en ;
             rdfs:seeAlso wikipedia:Agar ;
+            skos:definition "Agar that has undergone purification to reduce impurities such as salts, pigments and other extraneous substances. It is used as a solidifying agent in culture media where impurities in less refined agar may affect microbial growth or experimental results."@en ;
             skos:prefLabel "Purified agar"@en .
 
 
@@ -10983,7 +10984,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_001510
 :GMO_001510 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001007 ;
+            rdfs:subClassOf :GMO_002655 ;
             :GMO_000110 "Agar Noble (if required)"@en ,
                         "Agar noble (Difco)"@en ,
                         "Agar, Noble (Difco)"@en ;
@@ -10994,6 +10995,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             rdfs:seeAlso wikipedia:Agar ,
                          <http://purl.bioontology.org/ontology/MSH/D000362> ,
                          ndf:N0000148065 ;
+            skos:definition "A commercial preparation of Noble agar supplied by BD. It is extensively washed and bleached and is used as a solidifying agent in culture media and other applications requiring high clarity and purity."@en ;
             skos:prefLabel "Difco &trade; Agar, noble"@en .
 
 
@@ -26064,7 +26066,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 
 ###  http://purl.jp/bio/10/gmo/GMO_002572
 :GMO_002572 rdf:type owl:Class ;
-            rdfs:subClassOf :GMO_001423 ;
+            rdfs:subClassOf :GMO_001007 ;
             :GMO_000112 :GMO_000048 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002572" ;
@@ -26831,7 +26833,8 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "テクニカルグレード寒天"@ja ;
             rdfs:seeAlso wikipedia:Agar ;
             skos:altLabel "Agar, technical grade"@en ;
-            skos:definition "Agar supplied at a technical grade rather than as a highly purified grade. It is used as a solidifying material for culture media; impurity content and gel properties depend on the product."@en ;
+            skos:definition "A technical grade of agar used as a solidifying agent for general microbiological culture applications that do not require highly purified agar. Its purity and physical properties depend on the manufacturer's specifications."@en ,
+                            "Agar supplied at a technical grade rather than as a highly purified grade. It is used as a solidifying material for culture media; impurity content and gel properties depend on the product."@en ;
             skos:prefLabel "Technical grade agar"@en .
 
 
