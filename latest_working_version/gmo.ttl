@@ -7551,6 +7551,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                          <http://purl.bioontology.org/ontology/MSH/D005978> ,
                          ndf:N0000148266 ,
                          chebi:CHEBI_16856 ;
+            skos:altLabel "L-Glutathione (reduced)"@en ;
             skos:prefLabel "Glutathione"@en .
 
 
@@ -8981,7 +8982,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "Sodium $¥beta$--glycerophosphate"@en ,
                         "Sodium glycerophosphate"@en ,
                         "β-glycerophosphate-2Na"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -18321,7 +18322,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
                         "beta-Na2glycerophosphate·5H2O"@en ,
                         "β-Glycerol phosphate disodium salt pentahydrate"@en ,
                         "β-Na2glycerophosphate· 5H2O"@en ;
-            :GMO_000112 :GMO_000078 ;
+            :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -27189,6 +27190,21 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24748> ;
             skos:definition "An aqueous preparation of carboxymethyl cellulose, a cellulose derivative bearing carboxymethyl groups. In culture media, it serves as a substrate for assessing cellulolytic activity and can provide a carbon source for microorganisms capable of degrading and utilizing it. The salt form and concentration are specified in the individual medium recipe, when available."@en ;
             skos:prefLabel "Carboxymethyl cellulose solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002648
+:GMO_002648 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001997 ;
+            :GMO_000110 "Na2-_-glycerophosphate x 5 H2O (MERCK 35675)"@en ;
+            :GMO_000112 :GMO_000042 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002648" ;
+            rdfs:label "Sodium 2-glycerophosphate pentahydrate (Merck)"@en ,
+                       "β-グリセリンリン酸二ナトリウム五水和物"@ja ;
+            skos:definition "A commercial preparation of sodium 2-glycerophosphate pentahydrate supplied by Merck. In culture media, it serves as a water-soluble organic phosphate source for organisms capable of utilizing glycerophosphate."@en ;
+            skos:prefLabel "Sodium 2-glycerophosphate pentahydrate (Merck)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
