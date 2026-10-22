@@ -26209,13 +26209,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002582
 :GMO_002582 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Argon"@en ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
                         :GMO_000049 ,
                         :GMO_000077 ;
             dcterms:identifier "GMO_002582" ;
             rdfs:label "Argon gas"@en ;
+            skos:altLabel "Argon"@en ;
             skos:definition "Argon gas (Ar) is a noble gas used in microbiological and chemical procedures to provide an inert and anaerobic environment."@en ;
             skos:prefLabel "Argon gas"@en ,
                            "アルゴンガス"@ja .
@@ -27285,6 +27285,18 @@ Final pH ( at 25°C) 7.0"""@en ;
             rdfs:label "Sodium sulfide monohydrate"@en ,
                        "硫化ナトリウム一水和物"@ja ;
             skos:prefLabel "Sodium sulfide monohydrate"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002655
+:GMO_002655 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001423 ;
+            :GMO_000112 :GMO_000048 ;
+            dcterms:identifier "GMO_002655" ;
+            rdfs:label "Agar noble"@en ,
+                       "ノーブル寒天"@ja ;
+            skos:altLabel "Noble agar"@en ;
+            skos:definition "A highly purified grade of agar produced by extensive washing and bleaching to achieve high clarity and low impurity levels. It is used as a solidifying agent in culture media requiring high purity and minimal interference from agar-associated impurities."@en ;
+            skos:prefLabel "Agar noble"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
