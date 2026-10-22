@@ -14704,7 +14704,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001745
 :GMO_001745 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001309 ;
-            :GMO_000110 "CoCl$_2$$¥cdot$H$_2$O"@en ;
+            :GMO_000110 "CoCl$_2$$¥cdot$H$_2$O"@en ,
+                        "CoCl2 _ H2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -16044,6 +16045,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001835
 :GMO_001835 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001251 ;
+            :GMO_000110 "Papaic digest of soybean meal"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001835" ;
             rdfs:label "Papaic digest of soybean"@en ;
