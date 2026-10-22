@@ -3523,8 +3523,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                         :GMO_000046 ,
                         :GMO_000049 ;
             dcterms:identifier "GMO_001118" ;
-            rdfs:label "An iron(III) complex of citric acid, also known as ferric citrate. In culture media, it serves as an iron source for microorganisms capable of utilizing it; citrate helps maintain iron in a soluble complexed form."@en ,
-                       "Iron(III) citrate"@en ,
+            rdfs:label "Iron(III) citrate"@en ,
                        "クエン酸酸化鉄"@ja ;
             rdfs:seeAlso wikipedia:_citrate ,
                          <http://mediadive.dsmz.de/ingredients/1885> ,
@@ -3534,6 +3533,7 @@ UnitsOntology:milligram rdf:type owl:Class ;
                          <http://purl.bioontology.org/ontology/MSH/C025314> ,
                          chebi:CHEBI_144421 ;
             skos:altLabel "Ferric citrate"@en ;
+            skos:definition "An iron(III) complex of citric acid, also known as ferric citrate. In culture media, it serves as an iron source for microorganisms capable of utilizing it; citrate helps maintain iron in a soluble complexed form."@en ;
             skos:prefLabel "Iron(III) citrate"@en .
 
 
@@ -27098,11 +27098,11 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002642 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
             :GMO_000110 "Na-arsinate"@en ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002642" ;
-            rdfs:label :GMO_000040 ,
-                       :GMO_000046 ,
-                       :GMO_000049 ,
-                       "Sodium arsenate, dibasic"@en ,
+            rdfs:label "Sodium arsenate, dibasic"@en ,
                        "ひ酸水素二ナトリウム"@ja ;
             skos:definition "The anhydrous disodium salt of arsenic acid, with the formula Na₂HAsO₄. In culture media, it supplies arsenate for studies of microbial arsenic metabolism and resistance, and can serve as an electron acceptor for microorganisms capable of arsenate respiration."@en ;
             skos:prefLabel "Sodium arsenate, dibasic"@en .
@@ -27122,13 +27122,13 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002644 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002480 ;
             :GMO_000112 :GMO_000067 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002644" ;
             rdfs:label "N-Acetylmuramic acid (Sigma)"@en ,
                        "N-アセチルムラミン酸 (Sigma)"@ja ;
             rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/5462244> ,
-                         :GMO_000041 ,
-                         :GMO_000046 ,
-                         :GMO_000049 ,
                          chebi:CHEBI_21615 ;
             skos:definition "A commercial preparation of N-acetylmuramic acid supplied by Sigma. In culture media, it provides a precursor for peptidoglycan synthesis and serves as a growth factor for microorganisms requiring exogenous N-acetylmuramic acid, such as Tannerella forsythia."@en ;
             skos:prefLabel "N-Acetylmuramic acid (Sigma)"@en .
