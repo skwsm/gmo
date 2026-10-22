@@ -26307,7 +26307,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000049 ;
             dcterms:identifier "GMO_002588" ;
             rdfs:comment "MESNA is water-soluble, non-volatile, and often used in anaerobic or redox-sensitive microbial media."@en ;
-            rdfs:label "Mesta"@en ,
+            rdfs:label "Mesna"@en ,
                        "メスナ"@ja ;
             rdfs:seeAlso wikipedia:Mesna ,
                          <http://pubchem.ncbi.nlm.nih.gov/compound/23662354> ,
