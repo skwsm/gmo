@@ -27172,6 +27172,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Sorbose solution"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002647
+:GMO_002647 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001284 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000051 ;
+            dcterms:identifier "GMO_002647" ;
+            rdfs:label "Carboxymethyl cellulose solution"@en ,
+                       "カルボキシメチルセルロース溶液"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/24748> ;
+            skos:definition "An aqueous preparation of carboxymethyl cellulose, a cellulose derivative bearing carboxymethyl groups. In culture media, it serves as a substrate for assessing cellulolytic activity and can provide a carbon source for microorganisms capable of degrading and utilizing it. The salt form and concentration are specified in the individual medium recipe, when available."@en ;
+            skos:prefLabel "Carboxymethyl cellulose solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
