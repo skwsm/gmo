@@ -27213,10 +27213,10 @@ Final pH ( at 25°C) 7.0"""@en ;
 :GMO_002649 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001180 ;
             :GMO_000110 "Cellulose (Avicel or MN 301) (optional)"@en ;
+            :GMO_000112 :GMO_000063 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
-                        :GMO_000049 ,
-                        :GMO_000063 ;
+                        :GMO_000049 ;
             dcterms:identifier "GMO_002649" ;
             rdfs:label "Cellulose (MN 301)"@en ,
                        "セルロース (MN 300)"@ja ;
@@ -27231,7 +27231,7 @@ Final pH ( at 25°C) 7.0"""@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002650" ;
             rdfs:label "Landfill leachate"@en ,
-                       "埋立地抽出液"@en ;
+                       "埋立地抽出液"@ja ;
             skos:definition "A liquid formed by the percolation of water through waste in a landfill, containing a variable mixture of dissolved and suspended organic and inorganic substances. In culture media, it supplies organic substrates, ammonium and other constituents for cultivating microorganisms involved in leachate treatment and evaluating their pollutant removal capabilities."@en ;
             skos:prefLabel "Landfill leachate"@en .
 
