@@ -27244,9 +27244,20 @@ Final pH ( at 25°C) 7.0"""@en ;
                         :GMO_000050 ;
             dcterms:identifier "GMO_002651" ;
             rdfs:label "Difco &trade; Minimal broth Davis without dextrose"@en ,
-                       "Difco &trade; 最小培地デイビス　デキストロース除去"@ja ;
+                       "Difco &trade; デイビス最小培地　デキストロース除去"@ja ;
             skos:definition "A dehydrated basal medium supplied by Difco, based on the Davis minimal medium formulation and containing phosphates, sodium citrate, magnesium sulfate and ammonium sulfate, without dextrose or agar. It is used for the cultivation and characterization of bacterial nutritional mutants and can be supplemented with selected carbon sources and growth factors according to experimental requirements."@en ;
             skos:prefLabel "Difco &trade; Minimal broth Davis without dextrose"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002652
+:GMO_002652 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002652"@ja ;
+            rdfs:label "Hoagland′s No. 2 Basal Salt Mixture (Sigma-Aldrich)"@en ,
+                       "Hoagland′s No. 2 基礎塩混合物 (Sigma-Aldrich)"@ja ;
+            skos:prefLabel "Hoagland′s No. 2 Basal Salt Mixture (Sigma-Aldrich)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
