@@ -22115,6 +22115,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002288
 :GMO_002288 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_002236 ;
+            :GMO_000110 "inactivated sterile rabbit serum"@en ;
             :GMO_000112 :GMO_000042 ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002288" ;
