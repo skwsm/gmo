@@ -27236,6 +27236,19 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Landfill leachate"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002651
+:GMO_002651 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000019 ;
+            :GMO_000110 "Davis Minimal Medium (DMM) (Difco, USA)"@en ;
+            :GMO_000113 :GMO_000047 ,
+                        :GMO_000050 ;
+            dcterms:identifier "GMO_002651" ;
+            rdfs:label "Difco &trade; Minimal broth Davis without dextrose"@en ,
+                       "Difco &trade; 最小培地デイビス　デキストロース除去"@ja ;
+            skos:definition "A dehydrated basal medium supplied by Difco, based on the Davis minimal medium formulation and containing phosphates, sodium citrate, magnesium sulfate and ammonium sulfate, without dextrose or agar. It is used for the cultivation and characterization of bacterial nutritional mutants and can be supplemented with selected carbon sources and growth factors according to experimental requirements."@en ;
+            skos:prefLabel "Difco &trade; Minimal broth Davis without dextrose"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
