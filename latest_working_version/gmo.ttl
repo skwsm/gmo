@@ -16844,6 +16844,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_001894
 :GMO_001894 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "VOSO4"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
@@ -16851,10 +16852,12 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
             dcterms:identifier "GMO_001894" ;
             rdfs:label "Vanadyl sulfate"@en ,
                        "硫酸バナジル"@ja ;
-            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/34007> ,
+            rdfs:seeAlso wikipedia:Vanadyl_sulfate ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/34007> ,
                          chebi:CHEBI_33146 ;
             skos:altLabel "Vanadium oxysulfate"@en ,
                           "オキシ硫酸バナジウム"@ja ;
+            skos:definition "An inorganic salt containing the vanadyl cation (VO2+), in which vanadium has an oxidation state of +4, and sulfate, with the formula VOSO4 for the anhydrous form. In culture media, it is used as a source of vanadium, including in trace element supplements."@en ;
             skos:prefLabel "Vanadyl sulfate"@en .
 
 
