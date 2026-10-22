@@ -24715,6 +24715,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002480
 :GMO_002480 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000067 ;
             :GMO_000113 :GMO_000041 ,
                         :GMO_000046 ,
                         :GMO_000049 ;
@@ -24727,6 +24728,7 @@ Final pH ( at 25°C) 7.0"""@en ;
                          chebi:CHEBI_21615 ;
             skos:altLabel "MurNAc"@en ,
                           "NAM"@en ;
+            skos:definition "An amino sugar that forms part of the glycan backbone of bacterial peptidoglycan. In culture media, it serves as a growth factor for microorganisms that require an external supply for cell wall synthesis, such as Tannerella forsythia."@en ;
             skos:prefLabel "N-Acetylmuramic acid"@en .
 
 
@@ -27104,6 +27106,32 @@ Final pH ( at 25°C) 7.0"""@en ;
                        "ひ酸水素二ナトリウム"@ja ;
             skos:definition "The anhydrous disodium salt of arsenic acid, with the formula Na₂HAsO₄. In culture media, it supplies arsenate for studies of microbial arsenic metabolism and resistance, and can serve as an electron acceptor for microorganisms capable of arsenate respiration."@en ;
             skos:prefLabel "Sodium arsenate, dibasic"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002643
+:GMO_002643 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002643" ;
+            rdfs:label "Terminal pig colon"@en ,
+                       "ブタ結腸の末端"@ja ;
+            skos:prefLabel "Terminal pig colon"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002644
+:GMO_002644 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002480 ;
+            :GMO_000112 :GMO_000067 ;
+            dcterms:identifier "GMO_002644" ;
+            rdfs:label "N-Acetylmuramic acid (Sigma)"@en ,
+                       "N-アセチルムラミン酸 (Sigma)"@ja ;
+            rdfs:seeAlso <http://pubchem.ncbi.nlm.nih.gov/compound/5462244> ,
+                         :GMO_000041 ,
+                         :GMO_000046 ,
+                         :GMO_000049 ,
+                         chebi:CHEBI_21615 ;
+            skos:definition "A commercial preparation of N-acetylmuramic acid supplied by Sigma. In culture media, it provides a precursor for peptidoglycan synthesis and serves as a growth factor for microorganisms requiring exogenous N-acetylmuramic acid, such as Tannerella forsythia."@en ;
+            skos:prefLabel "N-Acetylmuramic acid (Sigma)"@en .
 
 
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
