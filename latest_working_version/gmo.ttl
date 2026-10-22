@@ -3195,7 +3195,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
             :GMO_000110 "(NH$_4$)$_2$Ni(SO$_4$)$_2$$¥cdot$6H$_2$O"@en ,
                         "(NH$_4$)$_2$Ni(SO$_4$)$¥cdot$6H$_2$O"@en ,
                         "(NH4)2Ni(SO4) 6H2O"@en ,
-                        "(NH<sub>4</sub>)<sub>2</sub>Ni(SO<sub>4</sub>)<sub>2</sub>&middot;6H<sub>2</sub>O"@en ;
+                        "(NH<sub>4</sub>)<sub>2</sub>Ni(SO<sub>4</sub>)<sub>2</sub>&middot;6H<sub>2</sub>O"@en ,
+                        "Ni(NH4)2(SO4)2_6H2O"@en ;
             :GMO_000112 :GMO_000078 ;
             :GMO_000113 :GMO_000040 ,
                         :GMO_000046 ,
