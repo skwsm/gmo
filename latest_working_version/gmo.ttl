@@ -27135,6 +27135,43 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "N-Acetylmuramic acid (Sigma)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002645
+:GMO_002645 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002645" ;
+            rdfs:label "Sorbose"@en ,
+                       "ソルボース"@ja ;
+            rdfs:seeAlso wikipedia:Sorbose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6904> ,
+                         chebi:CHEBI_17266 ;
+            skos:altLabel "L-Sorbose"@en ;
+            skos:definition "The L-enantiomer of sorbose, a ketohexose monosaccharide with the molecular formula C₆H₁₂O₆. In culture media, it can serve as a carbon and energy source for microorganisms capable of metabolizing it."@en ;
+            skos:prefLabel "Sorbose"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002646
+:GMO_002646 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_002645 ;
+            :GMO_000112 :GMO_000063 ;
+            :GMO_000113 :GMO_000041 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ;
+            dcterms:identifier "GMO_002646" ;
+            rdfs:label "Sorbose solution"@en ,
+                       "ソルボース溶液"@ja ;
+            rdfs:seeAlso wikipedia:Sorbose ,
+                         <http://pubchem.ncbi.nlm.nih.gov/compound/6904> ,
+                         chebi:CHEBI_17266 ;
+            skos:altLabel "L-Sorbose solution"@en ,
+                          "L-ソルボース溶液"@ja ;
+            skos:definition "An aqueous solution of L-sorbose used to supplement culture media with a carbon and energy source for microorganisms capable of metabolizing this sugar. The concentration is specified in the individual medium recipe."@en ;
+            skos:prefLabel "Sorbose solution"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
