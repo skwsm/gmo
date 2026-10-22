@@ -3443,7 +3443,8 @@ UnitsOntology:milligram rdf:type owl:Class ;
 ###  http://purl.jp/bio/10/gmo/GMO_001114
 :GMO_001114 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
-            :GMO_000110 "Absolute ethanol"@en ,
+            :GMO_000110 "95% Ethanol"@en ,
+                        "Absolute ethanol"@en ,
                         "Ethanol"@en ,
                         "Ethyl alcohol"@en ,
                         "Ethyl alcohol (99.5%)"@en ;
