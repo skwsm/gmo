@@ -14824,6 +14824,7 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001753 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001160 ;
             :GMO_000110 "Na3-citrate x 2 H2O"@en ,
+                        "Na3C6HO7_2H2O"@en ,
                         "Sodium citrate$¥cdot$2H$_2$O"@en ,
                         "Trisodium citrate 2H2O"@en ,
                         "Trisodium citrate&middot;2H<sub>2</sub>O"@en ;
