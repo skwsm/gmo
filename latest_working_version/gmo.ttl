@@ -27260,6 +27260,30 @@ Final pH ( at 25°C) 7.0"""@en ;
             skos:prefLabel "Hoagland′s No. 2 Basal Salt Mixture (Sigma-Aldrich)"@en .
 
 
+###  http://purl.jp/bio/10/gmo/GMO_002653
+:GMO_002653 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_000002 ;
+            :GMO_000113 :GMO_000047 ;
+            dcterms:identifier "GMO_002653" ;
+            rdfs:label "Alkaline-pretreated corn stover lignin solution"@en ,
+                       "An aqueous preparation containing soluble lignin fragments and lignin-derived aromatic compounds obtained by alkaline pretreatment of corn stover, followed by neutralization and removal of insoluble material. In culture media, it serves as a heterogeneous substrate for microbial conversion of lignin-derived compounds into value-added products."@en ,
+                       "アルカリ前処理トウモロコシ収穫残渣由来リグニン溶液"@ja ;
+            skos:prefLabel "Alkaline-pretreated corn stover lignin solution"@en .
+
+
+###  http://purl.jp/bio/10/gmo/GMO_002654
+:GMO_002654 rdf:type owl:Class ;
+            rdfs:subClassOf :GMO_001323 ;
+            :GMO_000113 :GMO_000040 ,
+                        :GMO_000046 ,
+                        :GMO_000049 ,
+                        :GMO_000064 ;
+            dcterms:identifier "GMO_002654" ;
+            rdfs:label "Sodium sulfide monohydrate"@en ,
+                       "硫化ナトリウム一水和物"@ja ;
+            skos:prefLabel "Sodium sulfide monohydrate"@en .
+
+
 ###  http://purl.jp/bio/10/gmo/Obsolete_classes
 :Obsolete_classes rdf:type owl:Class ;
                   rdfs:label "Obsolete_classes"@en ;
