@@ -12742,7 +12742,8 @@ Physiologia Plantarum, Volume 15, Issue 3, pages 473-497, July 1962"""@en ;
 :GMO_001619 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_001868 ;
             :GMO_000110 "Peptamin *(Peptone)"@en ,
-                        "Peptic digest of animal tissue"@en ;
+                        "Peptic digest of animal tissue"@en ,
+                        "Peptic digest of meat"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_001619" ;
             rdfs:label "Peptic digest of animal tissue"@en ;
