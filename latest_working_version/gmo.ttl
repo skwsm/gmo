@@ -27271,6 +27271,7 @@ Final pH ( at 25°C) 7.0"""@en ;
 ###  http://purl.jp/bio/10/gmo/GMO_002653
 :GMO_002653 rdf:type owl:Class ;
             rdfs:subClassOf :GMO_000002 ;
+            :GMO_000110 "Alkaline-pretreated lignin solution"@en ;
             :GMO_000113 :GMO_000047 ;
             dcterms:identifier "GMO_002653" ;
             rdfs:label "Alkaline-pretreated corn stover lignin solution"@en ,
